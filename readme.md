@@ -1,5 +1,7 @@
 # Git Command Reference
 
+This file is a handy reference for various Git commands. It helps in remembering useful Git commands for future use. I wrote this content mainly for my own reference.
+
 ## Display Commit History
 
 To display the commit history in a compact format, use the following command:
