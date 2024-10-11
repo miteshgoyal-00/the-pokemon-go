@@ -139,10 +139,28 @@ const trainee_schema = new Schema({
         type: Number,
         default: 0,
     },
+    stardust: {
+        type: Number,
+        default: 0,
+    },
     pokemons: [
         {
-            type: Schema.Types.ObjectId,
-            ref: "Pokemon",
+            specy: {
+                type: Schema.Types.ObjectId,
+                ref: "Pokemon",
+            },
+            candies: {
+                type: Number,
+                default: 0,
+            },
+            xlCandies: {
+                type: Number,
+                default: 0,
+            },
+            isFavourite: {
+                type: Boolean,
+                default: false,
+            },
         },
     ],
     buddyHistory: [

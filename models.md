@@ -15,9 +15,13 @@
 > totalXp (number) (lifetime)
 > team (Mystic, Valor, Instinct)
 > pokecoins (number)
+> stardust (number)
 
 > pokemons (array with objects)
-  * ref Pokemon
+  * specy (ref Pokemon)
+  * candies (number)
+  * xlCandies (number)
+  * isFavourite (Boolean)
 
 > buddyHistory
   * ref Pokemon
