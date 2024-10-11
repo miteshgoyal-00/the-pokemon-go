@@ -58,6 +58,10 @@ const trainee_schema = new Schema({
             return this.level >= 10;
         },
     },
+    pokecoins: {
+        type: Number,
+        default: 0,
+    },
     pokemons: [
         {
             type: Schema.Types.ObjectId,
@@ -113,10 +117,6 @@ const trainee_schema = new Schema({
             },
         },
     ],
-    coins: {
-        type: Number,
-        default: 0,
-    },
     inventory: [
         {
             item: {

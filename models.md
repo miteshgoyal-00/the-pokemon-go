@@ -12,7 +12,7 @@
 > xp (number) (to reach next level)
 > totalXp (number) (lifetime)
 > team (Mystic, Valor, Instinct)
-> coins (number)
+> pokecoins (number)
 
 > pokemons (array with objects)
   * ref Pokemon
