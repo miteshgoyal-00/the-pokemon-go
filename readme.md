@@ -1,10 +1,25 @@
-## Basic Github Commands While Production
+# Git Command Reference
 
-Displays the commit history in a compact format.
-> git log --oneline
+## Display Commit History
 
-Resets the current branch to the specified commit, discarding all changes.
-> git reset --hard commit-hash
+To display the commit history in a compact format, use the following command:
 
-Forces the push of the current branch to the remote repository, overwriting history.
-> git push origin HEAD --force
+```sh
+git log --oneline
+```
+
+## Reset Current Branch
+
+To reset the current branch to a specified commit and discard all changes, use:
+
+```sh
+git reset --hard <commit-hash>
+```
+
+## Force Push to Remote Repository
+
+To force push the current branch to the remote repository, overwriting history, use:
+
+```sh
+git push origin HEAD --force
+```
