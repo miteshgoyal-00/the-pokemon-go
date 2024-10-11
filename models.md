@@ -78,3 +78,30 @@
 > FN - updateBuddyStatus()
 > FN - calculateLevel(this.xp)
 ```
+
+## Pokemon Model
+
+```markdown
+> specy
+> type (array with enum strings)
+> level (number)
+> cp (number)
+> weight
+> height
+
+> iv (object)
+  * attack (1 - 15)
+  * defense (1 - 15)
+  * hp (1 - 15)
+
+> gender (String with Enums) - "Male", "Female", "Null"
+
+> fastTM (object)
+  * name
+  * power (number)
+
+> chargedTMs (object with subobjects)
+  * ctm1 {name, power}
+  * ctm2 {name, power}
+  * total (number with enums 1 or 2),
+```
