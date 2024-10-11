@@ -28,6 +28,83 @@ const linked_platforms = {
     },
 };
 
+const buddy_commons = {
+    walkDistance: {
+        type: Number,
+        default: 0,
+    },
+    treatsFed: {
+        type: Number,
+        default: 0,
+    },
+    playedTogether: {
+        type: Number,
+        default: 0,
+    },
+    battlesTogether: {
+        type: Number,
+        default: 0,
+    },
+    snapshotsTaken: {
+        type: Number,
+        default: 0,
+    },
+    newPlacesVisited: {
+        type: Number,
+        default: 0,
+    },
+    routesFollowedTogether: {
+        type: Number,
+        default: 0,
+    },
+};
+
+const buddy_history = {
+    pokemon: {
+        type: Schema.Types.ObjectId,
+        ref: "Pokemon",
+    },
+    // Last time together fields
+    chosenDate: {
+        type: Date,
+        required: true,
+    },
+    swapDate: {
+        type: Date,
+        required: true,
+    },
+    totalDaysTogether: {
+        type: Number,
+        get: function () {
+            const timeDifference =
+                new Date(this.swapDate) - new Date(this.chosenDate);
+            return Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+        },
+    },
+};
+
+const current_buddy = {
+    pokemon: {
+        type: Schema.Types.ObjectId,
+        ref: "Pokemon",
+    },
+    hearts: {
+        type: Number,
+        required: true,
+        default: 0,
+        max: 300,
+    },
+    status: {
+        type: String,
+        enum: ["Good Buddy", "Great Buddy", "Ultra Buddy", "Best Buddy"],
+        default: "Good Buddy",
+    },
+    bonuses: {
+        type: [String],
+        default: ["Adventuring Buddy", "Readable Mood"],
+    },
+};
+
 const trainee_schema = new Schema({
     name: {
         type: String,
@@ -68,15 +145,15 @@ const trainee_schema = new Schema({
             ref: "Pokemon",
         },
     ],
+    buddyHistory: [
+        {
+            ...buddy_history,
+            ...buddy_commons,
+        },
+    ],
     buddy: {
-        pokemon: {
-            type: Schema.Types.ObjectId,
-            ref: "Pokemon",
-        },
-        level: {
-            type: Number,
-            required: true,
-        },
+        ...current_buddy,
+        ...buddy_commons,
     },
     badges: [
         {
@@ -148,8 +225,39 @@ trainee_schema.pre("save", function (next) {
     if (this.isModified("xp")) {
         this.calculateLevel(this.xp);
     }
+    if (this.isModified("buddy.hearts")) {
+        this.updateBuddyStatus();
+    }
     next();
 });
+
+trainee_schema.methods.updateBuddyStatus = function () {
+    const buddy = this.buddy;
+    const bonusesEnum = [
+        "Adventuring Buddy",
+        "Readable Mood",
+        "Catch Assist",
+        "Find Presents",
+        "Find Locations",
+        "Find Souvenirs",
+        "CP Boost",
+        "Best Buddy Ribbon",
+    ];
+
+    if (buddy.hearts >= 300) {
+        buddy.status = "Best Buddy";
+        buddy.bonuses = bonusesEnum.slice(0, 8);
+    } else if (buddy.hearts >= 140) {
+        buddy.status = "Ultra Buddy";
+        buddy.bonuses = bonusesEnum.slice(0, 6);
+    } else if (buddy.hearts >= 60) {
+        buddy.status = "Great Buddy";
+        buddy.bonuses = bonusesEnum.slice(0, 4);
+    } else {
+        buddy.status = "Good Buddy";
+        buddy.bonuses = bonusesEnum.slice(0, 2);
+    }
+};
 
 trainee_schema.methods.calculateLevel = function (xp) {
     const checkpoints = [

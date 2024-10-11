@@ -17,9 +17,35 @@
 > pokemons (array with objects)
   * ref Pokemon
 
+> buddyHistory
+  * ref Pokemon
+  * chosenDate
+  * swapDate
+  * totalDaysTogether
+  * walkDistance
+  * treatsFed
+  * playedTogether
+  * battlesTogether
+  * snapshotsTaken
+  * newPlacesVisited
+  * routesFollowedTogether
+
 > buddy
   * ref Pokemon
-  * level
+  * hearts (0 - 30)
+  * status (string)
+    - enum["Good Buddy", "Great Buddy", "Ultra Buddy", "Best Buddy"]
+  * bonuses (array of strings)
+    - enum["Adventuring Buddy", "Readable Mood", "Catch Assist",
+            "Find Presents", "Find Locations", "Find Souvenirs",
+            "CP Boost", "Best Buddy Ribbon"]
+  * walkDistance
+  * treatsFed
+  * playedTogether
+  * battlesTogether
+  * snapshotsTaken
+  * newPlacesVisited
+  * routesFollowedTogether
 
 > badges (array with objects)
   * name
@@ -43,5 +69,6 @@
   * status (enum - Not Started, In Progress, Completed)
 
 > this.pre('save')
+> FN - updateBuddyStatus()
 > FN - calculateLevel(this.xp)
 ```
