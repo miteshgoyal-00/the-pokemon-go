@@ -1,4 +1,4 @@
-import { Schema, model } from mongoose;
+import { Schema, model } from "mongoose";
 
 const badge_schema = Schema({
     name: { type: String, required: true },

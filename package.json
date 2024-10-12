@@ -5,7 +5,8 @@
     "main": "index.js",
     "type": "module",
     "scripts": {
-        "server": "npx nodemon index.js"
+        "server": "npx nodemon index.js",
+        "format": "prettier --config ./.prettierrc --ignore-path ./config/.prettierignore --write ."
     },
     "author": "Mitesh",
     "license": "ISC",

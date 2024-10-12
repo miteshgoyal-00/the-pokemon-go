@@ -24,6 +24,6 @@ console.log = function (...args) {
         lineNumber = match[2];
     }
 
-    originalConsoleLog('-------------------------');
+    originalConsoleLog("-------------------------");
     originalConsoleLog(`[${fileName}] (${lineNumber})`, ...args);
 };
