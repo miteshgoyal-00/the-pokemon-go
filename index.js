@@ -1,6 +1,7 @@
 import dotenv from "dotenv";
 import app from "./src/app.js";
 import db_connection from "./src/db/config.db.js";
+import "./src/utils/console.util.js";
 
 dotenv.config({
     src: "./.env",
