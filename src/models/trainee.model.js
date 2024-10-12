@@ -28,72 +28,9 @@ const linked_platforms = {
     },
 };
 
-const buddy_commons = {
-    walkDistance: {
-        type: Number,
-        default: 0,
-    },
-    treatsFed: {
-        type: Number,
-        default: 0,
-    },
-    playedTogether: {
-        type: Number,
-        default: 0,
-    },
-    battlesTogether: {
-        type: Number,
-        default: 0,
-    },
-    snapshotsTaken: {
-        type: Number,
-        default: 0,
-    },
-    newPlacesVisited: {
-        type: Number,
-        default: 0,
-    },
-    routesFollowedTogether: {
-        type: Number,
-        default: 0,
-    },
-};
-
-const buddy_history = {
-    pokemon: {
-        type: Schema.Types.ObjectId,
-        ref: "Pokemon",
-    },
-    // Last time together fields
-    chosenDate: {
-        type: Date,
-        required: true,
-    },
-    swapDate: {
-        type: Date,
-        required: true,
-    },
-    totalDaysTogether: {
-        type: Number,
-        get: function () {
-            const timeDifference =
-                new Date(this.swapDate) - new Date(this.chosenDate);
-            return Math.floor(timeDifference / (1000 * 60 * 60 * 24));
-        },
-    },
-};
-
 const current_buddy = {
-    pokemon: {
-        type: Schema.Types.ObjectId,
-        ref: "Pokemon",
-    },
-    hearts: {
-        type: Number,
-        required: true,
-        default: 0,
-        max: 300,
-    },
+    pokemon: { type: Schema.Types.ObjectId, ref: "InstancePokemon" },
+    hearts: { type: Number, required: true, default: 0, max: 300 },
     status: {
         type: String,
         enum: ["Good Buddy", "Great Buddy", "Ultra Buddy", "Best Buddy"],
@@ -103,31 +40,21 @@ const current_buddy = {
         type: [String],
         default: ["Adventuring Buddy", "Readable Mood"],
     },
+    walkDistance: { type: Number, default: 0 },
+    treatsFed: { type: Number, default: 0 },
+    playedTogether: { type: Number, default: 0 },
+    battlesTogether: { type: Number, default: 0 },
+    snapshotsTaken: { type: Number, default: 0 },
+    newPlacesVisited: { type: Number, default: 0 },
+    routesFollowedTogether: { type: Number, default: 0 },
 };
 
 const trainee_schema = new Schema({
-    name: {
-        type: String,
-        required: true,
-        unique: true,
-    },
-    linkedPlatforms: linked_platforms,
-    // xp to reach next level
-    xp: {
-        type: Number,
-        default: 0,
-    },
-    // lifetime xp earned
-    totalXp: {
-        type: Number,
-        default: 0,
-    },
-    level: {
-        type: Number,
-        default: 1,
-        min: 1,
-        max: 50,
-    },
+    name: { type: String, required: true, unique: true },
+    linkedPlatforms: { ...linked_platforms },
+    xp: { type: Number, default: 0 },
+    totalXp: { type: Number, default: 0 },
+    level: { type: Number, default: 1, min: 1, max: 50 },
     team: {
         type: String,
         enum: ["Mystic", "Valor", "Instinct"],
@@ -135,101 +62,40 @@ const trainee_schema = new Schema({
             return this.level >= 10;
         },
     },
-    pokecoins: {
-        type: Number,
-        default: 0,
-    },
-    stardust: {
-        type: Number,
-        default: 0,
-    },
+    pokecoins: { type: Number, default: 0 },
+    stardust: { type: Number, default: 0 },
     pokemons: [
         {
-            specy: {
-                type: Schema.Types.ObjectId,
-                ref: "Pokemon",
-            },
-            candies: {
-                type: Number,
-                default: 0,
-            },
-            xlCandies: {
-                type: Number,
-                default: 0,
-            },
-            isFavourite: {
-                type: Boolean,
-                default: false,
-            },
+            instanceSpecyId: { type: Schema.Types.ObjectId, ref: "InstancePokemon" },
+            candies: { type: Number, default: 0 },
+            xlCandies: { type: Number, default: 0 },
+            isFavourite: { type: Boolean, default: false },
+            isBuddy: { type: Boolean, default: false },
         },
     ],
     buddyHistory: [
-        {
-            ...buddy_history,
-            ...buddy_commons,
-        },
+        { type: mongoose.Schema.Types.ObjectId, ref: "BuddyHistory" },
     ],
-    buddy: {
-        ...current_buddy,
-        ...buddy_commons,
-    },
-    badges: [
-        {
-            name: {
-                type: String,
-                required: true,
-            },
-            dateEarned: {
-                type: Date,
-                default: Date.now,
-            },
-        },
-    ],
+    buddy: { ...current_buddy },
+    badges: [{ type: mongoose.Schema.Types.ObjectId, ref: "Badge" }],
     friends: [
         {
-            name: {
-                type: Schema.Types.ObjectId,
-                ref: "Trainee",
-            },
-            level: {
-                type: Number,
-                required: true,
-            },
+            traineeId: { type: Schema.Types.ObjectId, ref: "Trainee" },
+            level: { type: Number, required: true },
         },
     ],
     achievements: [
-        {
-            title: {
-                type: String,
-                required: true,
-            },
-            description: {
-                type: String,
-            },
-            dateAchieved: {
-                type: Date,
-                default: Date.now,
-            },
-        },
+        { type: mongoose.Schema.Types.ObjectId, ref: "Achievement" },
     ],
     inventory: [
         {
-            item: {
-                type: Schema.Types.ObjectId,
-                ref: "InventoryItem",
-            },
-            quantity: {
-                type: Number,
-                default: 0,
-            },
+            itemId: { type: Schema.Types.ObjectId, ref: "InventoryItem" },
+            quantity: { type: Number, default: 0 },
         },
     ],
     quests: [
         {
-            questId: {
-                type: Schema.Types.ObjectId,
-                ref: "Quest",
-            },
+            questId: { type: Schema.Types.ObjectId, ref: "Quest" },
             status: {
                 type: String,
                 enum: ["Not Started", "In Progress", "Completed"],
