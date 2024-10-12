@@ -41,7 +41,6 @@
 > height
 
 > iv (object)
-
   * attack (1 - 15)
   * defense (1 - 15)
   * hp (1 - 15)
@@ -49,12 +48,10 @@
 > gender (String with Enums) - "Male", "Female", "Null"
 
 > fastTM (object)
-
   * name
   * power (number)
 
 > chargedTMs (object with subobjects)
-
   * ctm1 {name, power}
   * ctm2 {name, power}
   * total (number with enums 1 or 2)
@@ -69,7 +66,6 @@
 > name
 > description
 > category (string)
-
   * enum: "Medicine", "Pokeballs", "Berries", "Gifts",
     "Trainer Boosts", "Other Items", "Passes",
     "Lures", "Key Items", "Evolution Items"
@@ -99,7 +95,6 @@
 > name (unique)
 
 > linkedPlatforms
-
   * platforms (array - Google, Facebook)
   * googleId (string)
   * facebookId (string)
@@ -116,7 +111,6 @@
 > startDate
 
 > pokemons (array with objects)
-
   * specy (ref InstancePokemon)
   * candies (number)
   * xlCandies (number)
@@ -124,11 +118,9 @@
   * isBuddy (Boolean)
 
 > buddyHistory (array with ref objects)
-
   * ref BuddyHistory
 
 > buddy
-
   * ref InstancePokemon
   * hearts (0 - 30)
   * status (string)
@@ -146,25 +138,20 @@
   * routesFollowedTogether
 
 > badges (array with ref objects)
-
   * ref Badge
 
 > friends (array with objects)
-
   * ref Trainee
   * level
 
 > achievements (array with objects)
-
   * ref Achievement
 
 > inventory (array with objects)
-
   * item (ref InventoryItem Model)
   * quantity
 
 > quests (array with objects)
-
   * questId (ref Quest)
   * status (enum - Not Started, In Progress, Completed)
 
