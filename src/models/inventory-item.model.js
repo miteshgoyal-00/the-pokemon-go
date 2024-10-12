@@ -1,7 +1,20 @@
 import { Schema, model } from "mongoose";
 
-const item_schema = new Schema({});
+const inventory_item_schema = new Schema({
+    name: {
+        type: String,
+        required: true,
+    },
+    description: {
+        type: String,
+        required: true,
+    },
+    category: {
+        type: String,
+        required: true,
+    },
+});
 
-const item_model = model("InventoryItem", item_schema);
+const inventory_item_model = model("InventoryItem", inventory_item_schema);
 
-export default item_model;
+export default inventory_item_model;
