@@ -105,3 +105,11 @@
   * ctm2 {name, power}
   * total (number with enums 1 or 2),
 ```
+
+## Invetory Item Model
+
+```markdown
+> name
+> category
+> description
+```
