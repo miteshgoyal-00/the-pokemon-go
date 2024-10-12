@@ -110,6 +110,24 @@
 
 ```markdown
 > name
-> category
 > description
+> category (string)
+  * enum: "Medicine", "Pokeballs", "Berries", "Gifts",
+            "Trainer Boosts", "Other Items", "Passes",
+            "Lures", "Key Items", "Evolution Items"
+```
+
+## Achievement Model
+
+```markdown
+> title
+> description
+> dateAchieved
+```
+
+# Badge Model
+
+```markdown
+> name
+> dateEarned
 ```
