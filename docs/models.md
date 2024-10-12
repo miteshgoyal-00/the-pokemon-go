@@ -42,22 +42,22 @@
 
 > iv (object)
 
--   attack (1 - 15)
--   defense (1 - 15)
--   hp (1 - 15)
+  * attack (1 - 15)
+  * defense (1 - 15)
+  * hp (1 - 15)
 
 > gender (String with Enums) - "Male", "Female", "Null"
 
 > fastTM (object)
 
--   name
--   power (number)
+  * name
+  * power (number)
 
 > chargedTMs (object with subobjects)
 
--   ctm1 {name, power}
--   ctm2 {name, power}
--   total (number with enums 1 or 2)
+  * ctm1 {name, power}
+  * ctm2 {name, power}
+  * total (number with enums 1 or 2)
 
 > spawnedAt (string)
 > owner (ref Trainee)
@@ -70,7 +70,7 @@
 > description
 > category (string)
 
--   enum: "Medicine", "Pokeballs", "Berries", "Gifts",
+  * enum: "Medicine", "Pokeballs", "Berries", "Gifts",
     "Trainer Boosts", "Other Items", "Passes",
     "Lures", "Key Items", "Evolution Items"
 ```
@@ -100,9 +100,9 @@
 
 > linkedPlatforms
 
--   platforms (array - Google, Facebook)
--   googleId (string)
--   facebookId (string)
+  * platforms (array - Google, Facebook)
+  * googleId (string)
+  * facebookId (string)
 
 > level (number 1-50)
 > xp (number) (to reach next level)
@@ -117,56 +117,56 @@
 
 > pokemons (array with objects)
 
--   specy (ref InstancePokemon)
--   candies (number)
--   xlCandies (number)
--   isFavourite (Boolean)
--   isBuddy (Boolean)
+  * specy (ref InstancePokemon)
+  * candies (number)
+  * xlCandies (number)
+  * isFavourite (Boolean)
+  * isBuddy (Boolean)
 
 > buddyHistory (array with ref objects)
 
--   ref BuddyHistory
+  * ref BuddyHistory
 
 > buddy
 
--   ref InstancePokemon
--   hearts (0 - 30)
--   status (string)
-    -   enum["Good Buddy", "Great Buddy", "Ultra Buddy", "Best Buddy"]
--   bonuses (array of strings)
-    -   enum["Adventuring Buddy", "Readable Mood", "Catch Assist",
+  * ref InstancePokemon
+  * hearts (0 - 30)
+  * status (string)
+    - enum["Good Buddy", "Great Buddy", "Ultra Buddy", "Best Buddy"]
+  * bonuses (array of strings)
+    - enum["Adventuring Buddy", "Readable Mood", "Catch Assist",
         "Find Presents", "Find Locations", "Find Souvenirs",
         "CP Boost", "Best Buddy Ribbon"]
--   walkDistance
--   treatsFed
--   playedTogether
--   battlesTogether
--   snapshotsTaken
--   newPlacesVisited
--   routesFollowedTogether
+  * walkDistance
+  * treatsFed
+  * playedTogether
+  * battlesTogether
+  * snapshotsTaken
+  * newPlacesVisited
+  * routesFollowedTogether
 
 > badges (array with ref objects)
 
--   ref Badge
+  * ref Badge
 
 > friends (array with objects)
 
--   ref Trainee
--   level
+  * ref Trainee
+  * level
 
 > achievements (array with objects)
 
--   ref Achievement
+  * ref Achievement
 
 > inventory (array with objects)
 
--   item (ref InventoryItem Model)
--   quantity
+  * item (ref InventoryItem Model)
+  * quantity
 
 > quests (array with objects)
 
--   questId (ref Quest)
--   status (enum - Not Started, In Progress, Completed)
+  * questId (ref Quest)
+  * status (enum - Not Started, In Progress, Completed)
 
 > createdAt
 > updatedAt
