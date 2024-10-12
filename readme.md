@@ -1,4 +1,4 @@
-# The Pokemon Go Project
+# The Pokémon Go Project
 
 This project draws inspiration from Niantic's renowned game, Pokémon Go. It is crafted to provide an engaging experience while enhancing your logic-building skills.
 
