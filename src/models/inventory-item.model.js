@@ -11,6 +11,18 @@ const inventory_item_schema = new Schema({
     },
     category: {
         type: String,
+        enum: [
+            "Medicine",
+            "Pokeballs",
+            "Berries",
+            "Gifts",
+            "Trainer Boosts",
+            "Other Items",
+            "Passes",
+            "Lures",
+            "Key Items",
+            "Evolution Items",
+        ],
         required: true,
     },
 });
