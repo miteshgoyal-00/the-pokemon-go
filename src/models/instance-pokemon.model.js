@@ -1,29 +1,9 @@
 import { Schema, model } from "mongoose";
 
 const instance_pokemon_schema = new Schema({
-    pokedexSpecyId: { type: Schema.Types.ObjectId, ref: "Pokedex", required: true },
-    type: {
-        type: [String],
-        enum: [
-            "Normal",
-            "Fire",
-            "Water",
-            "Electric",
-            "Grass",
-            "Ice",
-            "Fighting",
-            "Poison",
-            "Ground",
-            "Flying",
-            "Psychic",
-            "Bug",
-            "Rock",
-            "Ghost",
-            "Dragon",
-            "Dark",
-            "Steel",
-            "Fairy",
-        ],
+    pokedexSpecyId: {
+        type: Schema.Types.ObjectId,
+        ref: "Pokedex",
         required: true,
     },
     level: { type: Number, min: 0, max: 40, required: true },
@@ -61,6 +41,7 @@ const instance_pokemon_schema = new Schema({
         },
         total: { type: Number, enum: [1, 2], default: 1 },
     },
+    spawnedAt: { type: String, required: true },
     owner: {
         type: Schema.Types.ObjectId,
         ref: "Trainee",
@@ -68,6 +49,9 @@ const instance_pokemon_schema = new Schema({
     },
 });
 
-const instance_pokemon_model = model("InstancePokemon", instance_pokemon_schema);
+const instance_pokemon_model = model(
+    "InstancePokemon",
+    instance_pokemon_schema
+);
 
 export default instance_pokemon_model;
