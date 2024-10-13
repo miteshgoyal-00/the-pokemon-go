@@ -25,7 +25,7 @@ const is_logged_in = async_handler(async (req, res, next) => {
             .select("-refreshToken");
         if (!trainee) throw new Error("Access Token Found Comes to be Invalid");
 
-        req.user = trainee;
+        req.trainee = trainee;
         next();
     } catch (error) {
         console.log("ERROR CAUGHT: ", error.message);
