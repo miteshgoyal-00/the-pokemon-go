@@ -161,4 +161,5 @@
 > this.pre('save')
 > FN - updateBuddyStatus()
 > FN - calculateLevel(this.xp)
+> FN - genToken(type)
 ```
