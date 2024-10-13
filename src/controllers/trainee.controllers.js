@@ -58,4 +58,36 @@ const register_trainee = async_handler(async (req, res) => {
     }
 });
 
-export { register_trainee };
+const login_trainee = async_handler(async (req, res) => {
+    try {
+        const { login_with, id } = req.body;
+
+        if (
+            [login_with, id].some((field) => {
+                typeof filed !== "string" || field.trim() === "";
+            })
+        )
+            throw new Error("All fields are required to login");
+
+        const existing_trainee = await trainee_model.findOne({
+            $or: [
+                { "linkedPlatforms.googleId": id },
+                { "linkedPlatforms.facebookId": id },
+            ],
+        });
+
+        if (!existing_trainee)
+            throw new Error("No Trainee Exists with given credentials");
+
+        res.status(200).json({
+            success: true,
+            login: "successful",
+            trainee: existing_trainee,
+        });
+    } catch (error) {
+        console.log("ERROR CAUGHT: ", error.message);
+        res.status(400).json({ error: error.message });
+    }
+});
+
+export { register_trainee, login_trainee };
