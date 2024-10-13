@@ -1,6 +1,7 @@
 import express from "express";
 import cookieParser from "cookie-parser";
 import cors from "cors";
+import traineeRouter from "./routes/trainee.routes.js";
 
 const app = express();
 
@@ -13,5 +14,7 @@ app.use(
         credentials: true,
     })
 );
+
+app.use("/trainee", traineeRouter);
 
 export default app;
