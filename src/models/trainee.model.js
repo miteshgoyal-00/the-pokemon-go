@@ -1,5 +1,6 @@
 import { Schema, model } from "mongoose";
 import { trainee_level_checkpoints } from "../constants.js";
+import jwt from "jsonwebtoken";
 
 const linked_platforms = {
     googleId: {
@@ -110,7 +111,7 @@ const trainee_schema = new Schema(
                 },
             },
         ],
-        refreshToken: { type: String, default: null },
+        refreshToken: { type: String },
     },
     { timestamps: true }
 );
