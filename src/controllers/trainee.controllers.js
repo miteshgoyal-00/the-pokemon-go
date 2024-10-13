@@ -129,4 +129,31 @@ const login_trainee = async_handler(async (req, res) => {
     }
 });
 
-export { register_trainee, login_trainee };
+const logout_trainee = async_handler(async (req, res, next) => {
+    const trainee = await trainee_model.findOneAndUpdate(
+        req.trainee._id,
+        {
+            $set: {
+                refreshToken: undefined,
+            },
+        },
+        {
+            new: true,
+        }
+    );
+
+    res.status(200)
+        .clearCookie("access_token", cookie_options)
+        .clearCookie("refresh_token", cookie_options)
+        .json({
+            success: true,
+            logout: "successful",
+            linkedIds: [
+                trainee.linkedPlatforms.googleId,
+                trainee.linkedPlatforms.facebookId,
+            ],
+            name: trainee.name,
+        });
+});
+
+export { register_trainee, login_trainee, logout_trainee };
