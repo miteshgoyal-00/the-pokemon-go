@@ -1,6 +1,27 @@
 import async_handler from "../utils/async-handler.util.js";
 import trainee_model from "../models/trainee.model.js";
 
+const cookie_options = {
+    httpOnly: true,
+    secure: true,
+};
+
+const gen_access_and_refresh_tokens = async (trainee_id) => {
+    const trainee = await trainee_model.findById(trainee_id);
+
+    const access_token = trainee.genToken("access");
+    const refresh_token = trainee.genToken("refresh");
+
+    // console.log(access_token, refresh_token);
+
+    if (!trainee.refreshToken) {
+        trainee.refreshToken = refresh_token;
+        await trainee.save();
+    }
+
+    return { access_token, refresh_token };
+};
+
 const register_trainee = async_handler(async (req, res) => {
     try {
         // console.log(req.body);
@@ -49,13 +70,19 @@ const register_trainee = async_handler(async (req, res) => {
             linkedPlatforms: linkedPlatforms,
         });
 
+        const { access_token, refresh_token } =
+            await gen_access_and_refresh_tokens(new_trainee._id);
+
         const created_trainee = await trainee_model.findById(new_trainee._id);
 
-        res.status(200).json({
-            success: true,
-            registeration: "successful",
-            trainee: created_trainee,
-        });
+        res.status(200)
+            .cookie("access_token", access_token, cookie_options)
+            .cookie("refresh_token", refresh_token, cookie_options)
+            .json({
+                success: true,
+                registeration: "successful",
+                trainee: created_trainee,
+            });
     } catch (error) {
         console.log("ERROR CAUGHT: ", error.message);
         res.status(400).json({ error: error.message });
@@ -68,7 +95,7 @@ const login_trainee = async_handler(async (req, res) => {
 
         if (
             [login_with, id].some((field) => {
-                typeof filed !== "string" || field.trim() === "";
+                typeof field !== "string" || field.trim() === "";
             })
         )
             throw new Error("All fields are required to login");
@@ -83,11 +110,19 @@ const login_trainee = async_handler(async (req, res) => {
         if (!existing_trainee)
             throw new Error("No Trainee Exists with given credentials");
 
-        res.status(200).json({
-            success: true,
-            login: "successful",
-            trainee: existing_trainee,
-        });
+        const { access_token, refresh_token } =
+            await gen_access_and_refresh_tokens(existing_trainee._id);
+
+        // console.log(access_token, refresh_token);
+
+        res.status(200)
+            .cookie("access_token", access_token, cookie_options)
+            .cookie("refresh_token", refresh_token, cookie_options)
+            .json({
+                success: true,
+                login: "successful",
+                trainee: existing_trainee,
+            });
     } catch (error) {
         console.log("ERROR CAUGHT: ", error.message);
         res.status(400).json({ error: error.message });
