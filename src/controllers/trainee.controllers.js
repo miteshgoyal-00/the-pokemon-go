@@ -51,7 +51,11 @@ const register_trainee = async_handler(async (req, res) => {
 
         const created_trainee = await trainee_model.findById(new_trainee._id);
 
-        res.status(200).json(created_trainee);
+        res.status(200).json({
+            success: true,
+            registeration: "successful",
+            trainee: created_trainee,
+        });
     } catch (error) {
         console.log("ERROR CAUGHT: ", error.message);
         res.status(400).json({ error: error.message });
