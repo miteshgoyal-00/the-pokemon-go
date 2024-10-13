@@ -26,11 +26,8 @@ Pokémon Go is an augmented reality (AR) mobile game developed by Niantic. It al
 
 Visit these links to download **Pokémon GO**:
 
-- Google Play Store (Android):
-    [Play Store](https://play.google.com/store/apps/details?id=com.nianticlabs.pokemongo)
-
-- Apple App Store (iOS):
-    [App Store](https://apps.apple.com/app/id1094591345)
+- Google Play Store (Android): [Play Store](https://play.google.com/store/apps/details?id=com.nianticlabs.pokemongo)
+- Apple App Store (iOS): [App Store](https://apps.apple.com/app/id1094591345)
 
 <!-- ## Features
 
