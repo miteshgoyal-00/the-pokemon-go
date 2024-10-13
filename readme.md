@@ -11,7 +11,8 @@ This project draws inspiration from Niantic's renowned game, Pokémon Go. It is 
 
 - **Variable and Function Names**: Utilize underscores `_` for multi-word identifiers (e.g., `variable_name`).
 - **File Names**: Employ hyphens `-` for multi-word filenames (e.g., `file-name.js`).
-- **MongoDB Model Properties**: Adopt camelCase notation (e.g., `propertyName`).
+- **MongoDB Model Properties**: Adopt `camelCase` notation (e.g., `propertyName`).
+- **Default Imports**: Adopt `camelCase` notation.
 
 ## Purpose
 
