@@ -84,9 +84,7 @@ const trainee_schema = new Schema(
                 isBuddy: { type: Boolean, default: false },
             },
         ],
-        buddyHistory: [
-            { type: Schema.Types.ObjectId, ref: "BuddyHistory" },
-        ],
+        buddyHistory: [{ type: Schema.Types.ObjectId, ref: "BuddyHistory" }],
         buddy: { ...current_buddy },
         badges: [{ type: Schema.Types.ObjectId, ref: "Badge" }],
         friends: [
@@ -95,9 +93,7 @@ const trainee_schema = new Schema(
                 level: { type: Number, required: true },
             },
         ],
-        achievements: [
-            { type: Schema.Types.ObjectId, ref: "Achievement" },
-        ],
+        achievements: [{ type: Schema.Types.ObjectId, ref: "Achievement" }],
         inventory: [
             {
                 itemId: { type: Schema.Types.ObjectId, ref: "InventoryItem" },
@@ -114,6 +110,7 @@ const trainee_schema = new Schema(
                 },
             },
         ],
+        refreshToken: { type: String, default: null },
     },
     { timestamps: true }
 );
@@ -170,6 +167,33 @@ trainee_schema.methods.calculateLevel = function (xp) {
             break;
         }
     }
+};
+
+trainee_schema.methods.genToken = function (type) {
+    const payload = {
+        _id: this._id,
+        ...(type === "access" && {
+            name: this.name,
+            cp: this.cp,
+            level: this.level,
+            xp: this.xp,
+            linkedPlatforms: this.linkedPlatforms,
+        }),
+    };
+
+    const secret =
+        type === "access"
+            ? process.env.ACCESS_TOKEN_SECRET
+            : process.env.REFRESH_TOKEN_SECRET;
+
+    const expiry =
+        type === "access"
+            ? process.env.ACCESS_TOKEN_EXPIRY
+            : process.env.REFRESH_TOKEN_EXPIRY;
+
+    return jwt.sign(payload, secret, {
+        expiresIn: expiry,
+    });
 };
 
 const trainee_model = model("Trainee", trainee_schema);
