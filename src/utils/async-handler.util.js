@@ -1,7 +1,7 @@
 const async_handler = (fn) => {
     return (req, res, next) => {
         Promise.resolve(fn(req, res, next)).catch((err) => {
-            console.log("New Error Caught: ", err.message);
+            console.log("ERROR CAUGHT: ", err.message);
             next(err);
         });
     };

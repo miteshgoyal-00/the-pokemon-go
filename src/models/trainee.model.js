@@ -1,26 +1,28 @@
 import { Schema, model } from "mongoose";
-import { trainee_level_checkpoints } from "../constants";
+import { trainee_level_checkpoints } from "../constants.js";
 
 const linked_platforms = {
     googleId: {
         type: String,
+        unique: true,
+        sparse: true, // This ensures that the unique index allows multiple null values
         required: function () {
             return (
                 this.connections &&
                 this.connections.platforms.includes("Google")
             );
         },
-        unique: true,
     },
     facebookId: {
         type: String,
+        unique: true,
+        sparse: true, // This ensures that the unique index allows multiple null values
         required: function () {
             return (
                 this.connections &&
                 this.connections.platforms.includes("Facebook")
             );
         },
-        unique: true,
     },
     platforms: {
         type: [String],
@@ -83,10 +85,10 @@ const trainee_schema = new Schema(
             },
         ],
         buddyHistory: [
-            { type: mongoose.Schema.Types.ObjectId, ref: "BuddyHistory" },
+            { type: Schema.Types.ObjectId, ref: "BuddyHistory" },
         ],
         buddy: { ...current_buddy },
-        badges: [{ type: mongoose.Schema.Types.ObjectId, ref: "Badge" }],
+        badges: [{ type: Schema.Types.ObjectId, ref: "Badge" }],
         friends: [
             {
                 traineeId: { type: Schema.Types.ObjectId, ref: "Trainee" },
@@ -94,7 +96,7 @@ const trainee_schema = new Schema(
             },
         ],
         achievements: [
-            { type: mongoose.Schema.Types.ObjectId, ref: "Achievement" },
+            { type: Schema.Types.ObjectId, ref: "Achievement" },
         ],
         inventory: [
             {
