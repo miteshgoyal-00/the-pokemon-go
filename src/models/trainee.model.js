@@ -5,7 +5,7 @@ const linked_platforms = {
     googleId: {
         type: String,
         unique: true,
-        sparse: true, // This ensures that the unique index allows multiple null values
+        sparse: true,
         required: function () {
             return (
                 this.connections &&
@@ -16,7 +16,7 @@ const linked_platforms = {
     facebookId: {
         type: String,
         unique: true,
-        sparse: true, // This ensures that the unique index allows multiple null values
+        sparse: true,
         required: function () {
             return (
                 this.connections &&
@@ -162,7 +162,7 @@ trainee_schema.methods.updateBuddyStatus = function () {
 trainee_schema.methods.calculateLevel = function (xp) {
     const checkpoints = trainee_level_checkpoints;
 
-    for (let i = checkpoints.length - 1; i >= checkpoints[i]; i--) {
+    for (let i = checkpoints.length - 1; i >= 0; i--) {
         if (xp >= checkpoints[i]) {
             this.level = i + 1;
             this.totalXp += xp;
