@@ -7,8 +7,8 @@ router.route("/trainees").get(async (req, res, next) => {
     await trainee_model.deleteMany();
     res.json({
         success: true,
-        deleteAll: true,
-        fromModel: req.path.split("/").pop(),
+        delete_all: true,
+        from_model: req.path.split("/").pop(),
     });
 });
 
