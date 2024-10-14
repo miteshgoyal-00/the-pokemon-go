@@ -98,7 +98,7 @@ const default_inventory_items = [
 
     // Pokeballs
     {
-        name: "Poké Ball",
+        name: "Pokeball",
         description:
             "The standard device for catching wild Pokémon, offering a basic capture rate for most encounters.",
         category: "Pokeballs",
