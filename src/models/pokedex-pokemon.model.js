@@ -47,7 +47,7 @@ const pokedex_pokemon_schema = Schema({
         },
     },
     evolutionStage: { type: Number, default: 1 },
-    evolutions: [{ type: Schema.Types.ObjectId, ref: "PokedexPokemon" }],
+    evolutions: [String],
 });
 
 const pokedex_pokemon_model = model("PokedexPokemon", pokedex_pokemon_schema);
