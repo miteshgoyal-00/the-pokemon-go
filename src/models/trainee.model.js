@@ -85,6 +85,7 @@ const trainee_schema = new Schema(
                 isBuddy: { type: Boolean, default: false },
             },
         ],
+        pokemonStorageCapacity: { type: Number, default: 300 },
         buddyHistory: [{ type: Schema.Types.ObjectId, ref: "BuddyHistory" }],
         buddy: { ...current_buddy },
         badges: [{ type: Schema.Types.ObjectId, ref: "Badge" }],
@@ -101,6 +102,7 @@ const trainee_schema = new Schema(
                 quantity: { type: Number, default: 0 },
             },
         ],
+        inventoryStorageCapacity: { type: Number, default: 350 },
         quests: [
             {
                 questId: { type: Schema.Types.ObjectId, ref: "Quest" },

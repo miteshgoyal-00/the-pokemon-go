@@ -119,6 +119,8 @@
   * isFavourite (Boolean)
   * isBuddy (Boolean)
 
+> pokemonStorageCapacity (number, default 300)
+
 > buddyHistory (array with ref objects)
   * ref BuddyHistory
 
@@ -152,6 +154,8 @@
 > inventory (array with objects)
   * item (ref InventoryItem Model)
   * quantity
+
+> inventoryStorageCapacity (number, default 350)
 
 > quests (array with objects)
   * questId (ref Quest)
