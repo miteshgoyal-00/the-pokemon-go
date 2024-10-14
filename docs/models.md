@@ -78,6 +78,8 @@
 > type (array with enum strings)
 > weight
 > height
+> candiesHolded (number)
+> evolutionStage (number)
 > evolutions (ref PokedexPokemon)
 ```
 
