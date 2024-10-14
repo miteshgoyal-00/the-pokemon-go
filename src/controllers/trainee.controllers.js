@@ -1,9 +1,66 @@
 import async_handler from "../utils/async-handler.util.js";
 import trainee_model from "../models/trainee.model.js";
+import inventory_item_model from "../models/inventory-item.model.js";
 
 const cookie_options = {
     httpOnly: true,
     secure: true,
+};
+
+const provide_necessary_inventory_items = async (trainee_id) => {
+    const itemNames = [
+        "Pokeball",
+        "Potion",
+        "Revive",
+        "Incense",
+        "Razz Berry",
+        "Nanab Berry",
+        "Egg Incubator (Unlimited Use)",
+    ];
+
+    const inventoryItems = await inventory_item_model.find(
+        { name: { $in: itemNames } },
+        { _id: 1, name: 1 }
+    );
+
+    // console.log(
+    //     "Inventory Items while Registeration Fetched: ",
+    //     inventoryItems
+    // );
+
+    if (inventoryItems.length !== itemNames.length) {
+        const missingItems = itemNames.filter(
+            (itemName) => !inventoryItems.some((item) => item.name === itemName)
+        );
+        throw new Error(
+            `The following items are not present in InventoryItems: ${missingItems.join(", ")}`
+        );
+    }
+
+    const trainee = await trainee_model.findOne({ _id: trainee_id });
+
+    trainee.inventory = inventoryItems.map((item) => ({
+        itemId: item._id,
+        quantity: 3,
+    }));
+
+    // inventoryItems.forEach((item) => {
+    //     const existingItem = trainee.inventory.find(
+    //         (inventoryItem) =>
+    //             inventoryItem.itemId.toString() === item._id.toString()
+    //     );
+
+    //     if (existingItem) {
+    //         existingItem.quantity += 3;
+    //     } else {
+    //         trainee.inventory.push({
+    //             itemId: item._id,
+    //             quantity: 3,
+    //         });
+    //     }
+    // });
+
+    await trainee.save();
 };
 
 const gen_access_and_refresh_tokens = async (trainee_id) => {
@@ -69,6 +126,8 @@ const register_trainee = async_handler(async (req, res) => {
             name: name,
             linkedPlatforms: linkedPlatforms,
         });
+
+        await provide_necessary_inventory_items(new_trainee._id);
 
         const { access_token, refresh_token } =
             await gen_access_and_refresh_tokens(new_trainee._id);
