@@ -8,29 +8,27 @@ const cookie_options = {
 };
 
 const provide_necessary_inventory_items = async (trainee_id) => {
-    const itemNames = [
-        "Pokeball",
-        "Potion",
-        "Revive",
-        "Incense",
-        "Razz Berry",
-        "Nanab Berry",
-        "Egg Incubator (Unlimited Use)",
+    const providable_items = [
+        { name: "Pokeball", quantity: 3 },
+        { name: "Potion", quantity: 3 },
+        { name: "Revive", quantity: 2 },
+        { name: "Incense", quantity: 2 },
+        { name: "Razz Berry", quantity: 3 },
+        { name: "Nanab Berry", quantity: 2 },
+        { name: "Egg Incubator (Unlimited Use)", quantity: 1 },
     ];
+
+    const itemNames = providable_items.map((item) => item.name);
 
     const inventoryItems = await inventory_item_model.find(
         { name: { $in: itemNames } },
         { _id: 1, name: 1 }
     );
 
-    // console.log(
-    //     "Inventory Items while Registeration Fetched: ",
-    //     inventoryItems
-    // );
-
     if (inventoryItems.length !== itemNames.length) {
         const missingItems = itemNames.filter(
-            (itemName) => !inventoryItems.some((item) => item.name === itemName)
+            (item_to_provide) =>
+                !inventoryItems.some((item) => item.name === item_to_provide)
         );
         throw new Error(
             `The following items are not present in InventoryItems: ${missingItems.join(", ")}`
@@ -41,24 +39,10 @@ const provide_necessary_inventory_items = async (trainee_id) => {
 
     trainee.inventory = inventoryItems.map((item) => ({
         itemId: item._id,
-        quantity: 3,
+        quantity: providable_items.find(
+            (providable_item) => providable_item.name === item.name
+        ).quantity,
     }));
-
-    // inventoryItems.forEach((item) => {
-    //     const existingItem = trainee.inventory.find(
-    //         (inventoryItem) =>
-    //             inventoryItem.itemId.toString() === item._id.toString()
-    //     );
-
-    //     if (existingItem) {
-    //         existingItem.quantity += 3;
-    //     } else {
-    //         trainee.inventory.push({
-    //             itemId: item._id,
-    //             quantity: 3,
-    //         });
-    //     }
-    // });
 
     await trainee.save();
 };
