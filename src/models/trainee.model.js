@@ -75,7 +75,7 @@ const trainee_schema = new Schema(
         startDate: { type: Date },
         pokemons: [
             {
-                instanceSpecyId: {
+                instancePokemonId: {
                     type: Schema.Types.ObjectId,
                     ref: "InstancePokemon",
                 },

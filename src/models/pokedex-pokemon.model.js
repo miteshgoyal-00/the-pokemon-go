@@ -1,7 +1,8 @@
 import { Schema, model } from "mongoose";
 
 const pokedex_pokemon_schema = Schema({
-    specy: { type: String, required: true, unique: true },
+    name: { type: String, required: true, unique: true },
+    species: { type: String, required: true },
     types: [
         {
             type: [String],

@@ -1,7 +1,7 @@
 import { Schema, model } from "mongoose";
 
 const instance_pokemon_schema = new Schema({
-    pokedexSpecyId: {
+    pokedexPokemonId: {
         type: Schema.Types.ObjectId,
         ref: "Pokedex",
         required: true,

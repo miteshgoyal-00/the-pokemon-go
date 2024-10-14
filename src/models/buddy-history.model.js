@@ -1,7 +1,7 @@
 import { Schema, model } from "mongoose";
 
 const buddy_history_schema = Schema({
-    specy: {
+    name: {
         type: mongoose.Schema.Types.ObjectId,
         ref: "InstancePokemon",
         required: true,

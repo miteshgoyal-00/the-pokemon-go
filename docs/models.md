@@ -18,7 +18,7 @@
 ## Buddy History Model
 
 ```markdown
-> specy (ref InstancePokemon)
+> name (ref InstancePokemon)
 > chosenDate
 > swapDate
 > totalDaysTogether (number)
@@ -34,7 +34,7 @@
 ## Instance Pokemon Model
 
 ```markdown
-> pokedexSpecyId (ref Pokedex)
+> pokedexPokemonId (ref Pokedex)
 > level (number)
 > cp (number)
 > weight
@@ -74,7 +74,8 @@
 ## Pokedex Pokemon Model
 
 ```markdown
-> specy (string)
+> name (string)
+> species (string)
 > type (array with enum strings)
 > weight
 > height
@@ -113,7 +114,7 @@
 > startDate
 
 > pokemons (array with objects)
-  * specy (ref InstancePokemon)
+  * instancePokemonId (ref InstancePokemon)
   * candies (number)
   * xlCandies (number)
   * isFavourite (Boolean)
