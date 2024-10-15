@@ -24,7 +24,6 @@ async function getPokemonSpecies(generationUrl) {
         const sortedSpecies = response.data.pokemon_species.sort((a, b) =>
             a.name.localeCompare(b.name)
         );
-        console.log("Sorted Species of this generatino are: ", sortedSpecies);
         return sortedSpecies.map((species) => species.name);
     } catch (error) {
         console.error(
@@ -169,44 +168,7 @@ function getEnglishSpecies(genera) {
 // Function to process all generations and gather Pokémon data
 async function processGenerations() {
     // let generations = await getGenerations();
-    let generations = [
-        {
-            name: "generation-i",
-            url: "https://pokeapi.co/api/v2/generation/1/",
-        },
-        {
-            name: "generation-ii",
-            url: "https://pokeapi.co/api/v2/generation/2/",
-        },
-        {
-            name: "generation-iii",
-            url: "https://pokeapi.co/api/v2/generation/3/",
-        },
-        {
-            name: "generation-iv",
-            url: "https://pokeapi.co/api/v2/generation/4/",
-        },
-        {
-            name: "generation-v",
-            url: "https://pokeapi.co/api/v2/generation/5/",
-        },
-        {
-            name: "generation-vi",
-            url: "https://pokeapi.co/api/v2/generation/6/",
-        },
-        {
-            name: "generation-vii",
-            url: "https://pokeapi.co/api/v2/generation/7/",
-        },
-        {
-            name: "generation-viii",
-            url: "https://pokeapi.co/api/v2/generation/8/",
-        },
-        {
-            name: "generation-ix",
-            url: "https://pokeapi.co/api/v2/generation/9/",
-        },
-    ];
+    let generations = get_generations_to_fetch_data();
 
     const allData = {};
 
@@ -215,8 +177,6 @@ async function processGenerations() {
         const speciesList = await getPokemonSpecies(
             `${BASE_URL}/generation/${generation.name}/`
         );
-
-        console.log("Species List of this generation is: ", speciesList);
 
         allData[generation.name] = [];
 
@@ -248,12 +208,72 @@ async function processGenerations() {
     return allData;
 }
 
+// Function to get the region name based on generation
+function getRegionName(generation) {
+    const regions = {
+        "generation-i": "Kanto",
+        "generation-ii": "Johto",
+        "generation-iii": "Hoenn",
+        "generation-iv": "Sinnoh",
+        "generation-v": "Unova",
+        "generation-vi": "Kalos",
+        "generation-vii": "Alola",
+        "generation-viii": "Galar",
+        "generation-ix": "Paldea",
+    };
+
+    return regions[generation].toLowerCase() || "unknown";
+}
+
+function get_generations_to_fetch_data() {
+    return [
+        // {
+        //     name: "generation-i",
+        //     url: "https://pokeapi.co/api/v2/generation/1/",
+        // },
+        // {
+        //     name: "generation-ii",
+        //     url: "https://pokeapi.co/api/v2/generation/2/",
+        // },
+        // {
+        //     name: "generation-iii",
+        //     url: "https://pokeapi.co/api/v2/generation/3/",
+        // },
+        // {
+        //     name: "generation-iv",
+        //     url: "https://pokeapi.co/api/v2/generation/4/",
+        // },
+        {
+            name: "generation-v",
+            url: "https://pokeapi.co/api/v2/generation/5/",
+        },
+        {
+            name: "generation-vi",
+            url: "https://pokeapi.co/api/v2/generation/6/",
+        },
+        {
+            name: "generation-vii",
+            url: "https://pokeapi.co/api/v2/generation/7/",
+        },
+        {
+            name: "generation-viii",
+            url: "https://pokeapi.co/api/v2/generation/8/",
+        },
+        {
+            name: "generation-ix",
+            url: "https://pokeapi.co/api/v2/generation/9/",
+        },
+    ];
+}
+
 async function add_to_pokemons_data_file(name, content) {
     try {
         const filePath = "./api/fetched-pokemons-data.js";
-        const fileContent = `const ${name.split("-").pop()} = ${JSON.stringify(content, null, 2)};\n\n`;
+        const fileContent = `const ${getRegionName(name)}_region_pokemons = ${JSON.stringify(content, null, 2)};\n\n`;
         await fs.appendFile(filePath, fileContent);
-        console.log(`Data for ${name} has been appended to ${filePath}`);
+        console.log(
+            `Data for ${name} ${getRegionName(name)} has been appended to ${filePath}`
+        );
     } catch (error) {
         console.log(`Error writing data for ${name} to file:`, error.message);
     }
