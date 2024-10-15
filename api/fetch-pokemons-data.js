@@ -71,6 +71,8 @@ async function getPokemonData(pokemonName) {
         // Get species string (e.g., "Mouse Pokémon")
         const speciesString = getEnglishSpecies(speciesData.genera);
 
+        const region = getRegionName(speciesData.generation.name);
+
         return {
             species: speciesString,
             types: types,
@@ -78,6 +80,7 @@ async function getPokemonData(pokemonName) {
             height: Number.parseFloat(height),
             evolutionStage: evolutionStage,
             evolutions: evolutions,
+            region: region,
         };
     } catch (error) {
         console.error(
@@ -193,6 +196,7 @@ async function processGenerations() {
                     height: pokemonData.height,
                     evolutionStage: pokemonData.evolutionStage,
                     evolution: pokemonData.evolutions,
+                    region: pokemonData.region,
                 });
                 console.log(`Fetched data for ${speciesName}.`);
             }

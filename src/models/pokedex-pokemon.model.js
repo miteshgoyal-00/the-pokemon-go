@@ -48,6 +48,7 @@ const pokedex_pokemon_schema = Schema({
     },
     evolutionStage: { type: Number, default: 1 },
     evolutions: [String],
+    region: { type: String, required: true },
 });
 
 const pokedex_pokemon_model = model("PokedexPokemon", pokedex_pokemon_schema);
