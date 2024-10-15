@@ -281,7 +281,7 @@ function get_generations_to_fetch_data() {
 async function add_to_pokemons_data_file(name, content) {
     try {
         const filePath = "./api/fetched-pokemons-data.js";
-        const fileContent = `const ${getRegionName(name)}_region_pokemons = ${JSON.stringify(content, null, 2)};\n\n`;
+        const fileContent = `const ${getRegionName(name)}_region_pokemons = ${JSON.stringify(content, null, 4)};\n\n`;
         await fs.appendFile(filePath, fileContent);
         console.log(
             `Data for ${name} ${getRegionName(name)} has been appended to ${filePath}`
