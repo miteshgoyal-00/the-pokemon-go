@@ -1,8 +1,6 @@
-// File: index.js
 import axios from "axios";
 import { promises as fs } from "fs";
 
-// Base URL for PokéAPI
 const BASE_URL = "https://pokeapi.co/api/v2";
 
 // Function to fetch all generations
@@ -286,6 +284,6 @@ function delay(ms) {
 
 // Main function
 (async () => {
-    console.log("______\nStarting to fetch Pokémon data...");
+    console.log("--------------------\nStarting to fetch Pokémon data...");
     await processGenerations();
 })();
