@@ -1,6 +1,6 @@
 import async_handler from "../utils/async-handler.util.js";
 import inventory_item_model from "../models/inventory-item.model.js";
-import { default_inventory_items } from "../constants.js";
+import { default_inventory_items } from "../constants/inventory-item.constants.js";
 
 const create_inventory_item = async_handler(async (req, res) => {
     try {

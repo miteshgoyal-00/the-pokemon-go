@@ -1,5 +1,5 @@
 import { Schema, model } from "mongoose";
-import { trainee_level_checkpoints } from "../constants.js";
+import { trainee_level_checkpoints } from "../constants/trainee.constants.js";
 import jwt from "jsonwebtoken";
 
 const linked_platforms = {
