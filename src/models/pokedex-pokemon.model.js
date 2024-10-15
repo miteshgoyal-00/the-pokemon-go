@@ -46,6 +46,7 @@ const pokedex_pokemon_schema = Schema({
             }
         },
     },
+    mostPrimitiveForm: { type: String },
     evolutionStage: { type: Number, default: 1 },
     evolutions: [String],
     region: { type: String, required: true },

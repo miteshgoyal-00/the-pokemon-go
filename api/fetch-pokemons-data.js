@@ -71,7 +71,12 @@ async function getPokemonData(pokemonName) {
         // Get species string (e.g., "Mouse Pokémon")
         const speciesString = getEnglishSpecies(speciesData.genera);
 
-        const region = getRegionName(speciesData.generation.name);
+        let region = getRegionName(speciesData.generation.name);
+        region = region.charAt(0).toUpperCase() + region.slice(1);
+
+        const mostPrimitiveForm =
+            evolutionChain.species.name.charAt(0).toUpperCase() +
+            evolutionChain.species.name.slice(1);
 
         return {
             species: speciesString,
@@ -81,6 +86,7 @@ async function getPokemonData(pokemonName) {
             evolutionStage: evolutionStage,
             evolutions: evolutions,
             region: region,
+            mostPrimitiveForm: mostPrimitiveForm,
         };
     } catch (error) {
         console.error(
@@ -185,8 +191,9 @@ async function processGenerations() {
             // await delay(1);
 
             const pokemonData = await getPokemonData(speciesName);
+
             if (pokemonData) {
-                allData[generation.name].push({
+                const pokemon_payload = {
                     name:
                         speciesName.charAt(0).toUpperCase() +
                         speciesName.slice(1),
@@ -197,7 +204,10 @@ async function processGenerations() {
                     evolutionStage: pokemonData.evolutionStage,
                     evolution: pokemonData.evolutions,
                     region: pokemonData.region,
-                });
+                    mostPrimitiveForm: pokemonData.mostPrimitiveForm,
+                };
+
+                allData[generation.name].push(pokemon_payload);
                 console.log(`Fetched data for ${speciesName}.`);
             }
         }
