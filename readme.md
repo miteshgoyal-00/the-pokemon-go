@@ -29,6 +29,24 @@ Visit these links to download **Pokémon GO**:
 - Google Play Store (Android): [Play Store](https://play.google.com/store/apps/details?id=com.nianticlabs.pokemongo)
 - Apple App Store (iOS): [App Store](https://apps.apple.com/app/id1094591345)
 
+## Pokémon GO Official App Links
+
+Visit these links to download **Pokémon GO**:
+
+- Google Play Store (Android): [Play Store](https://play.google.com/store/apps/details?id=com.nianticlabs.pokemongo)
+- Apple App Store (iOS): [App Store](https://apps.apple.com/app/id1094591345)
+
+## Initial Setup
+
+If you are cloning the repository and testing it, make sure to first hit the following routes to create necessary entries in the database:
+
+- `POST http://localhost:port/pokedex-pokemon/all`
+- `POST http://localhost:port/inventory-item/defaults`
+
+After that, you can register using the route:
+
+- `POST http://localhost:port/trainee/register`
+
 <!-- ## Features
 
 - **Real-Time Data Handling**: Learn how to manage real-time data using Express.js and MongoDB.
