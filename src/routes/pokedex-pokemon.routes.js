@@ -26,10 +26,6 @@ import {
 const router = Router();
 
 router
-    .route("/pokemons/all")
-    .post(create_all_pokemons)
-    .delete(delete_all_pokemons);
-router
     .route("/pokemons/region/kanto")
     .post(create_kanto_pokemons)
     .delete(delete_kanto_pokemons);
@@ -66,6 +62,10 @@ router
     .post(create_paldea_pokemons)
     .delete(delete_paldea_pokemons);
 
-router.route("/all").get(fetch_all_pokemons);
+router
+    .route("/all")
+    .post(create_all_pokemons)
+    .get(fetch_all_pokemons)
+    .delete(delete_all_pokemons);
 
 export default router;
