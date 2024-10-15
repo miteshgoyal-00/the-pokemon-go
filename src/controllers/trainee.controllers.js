@@ -7,7 +7,7 @@ const cookie_options = {
     secure: true,
 };
 
-const provide_necessary_inventory_items = async (trainee_id) => {
+const provide_necessary_inventory_items = async () => {
     const providable_items = [
         { name: "Pokeball", quantity: 3 },
         { name: "Potion", quantity: 3 },
@@ -18,33 +18,31 @@ const provide_necessary_inventory_items = async (trainee_id) => {
         { name: "Egg Incubator (Unlimited Use)", quantity: 1 },
     ];
 
-    const itemNames = providable_items.map((item) => item.name);
+    const item_names = providable_items.map((item) => item.name);
 
-    const inventoryItems = await inventory_item_model.find(
-        { name: { $in: itemNames } },
+    const inventory_items = await inventory_item_model.find(
+        { name: { $in: item_names } },
         { _id: 1, name: 1 }
     );
 
-    if (inventoryItems.length !== itemNames.length) {
-        const missingItems = itemNames.filter(
+    if (inventory_items.length !== item_names.length) {
+        const missingItems = item_names.filter(
             (item_to_provide) =>
-                !inventoryItems.some((item) => item.name === item_to_provide)
+                !inventory_items.some((item) => item.name === item_to_provide)
         );
         throw new Error(
             `The following items are not present in InventoryItems: ${missingItems.join(", ")}`
         );
     }
 
-    const trainee = await trainee_model.findOne({ _id: trainee_id });
-
-    trainee.inventory = inventoryItems.map((item) => ({
+    const inventory_items_payload = inventory_items.map((item) => ({
         itemId: item._id,
         quantity: providable_items.find(
             (providable_item) => providable_item.name === item.name
         ).quantity,
     }));
 
-    await trainee.save();
+    return inventory_items_payload;
 };
 
 const gen_access_and_refresh_tokens = async (trainee_id) => {
@@ -106,12 +104,14 @@ const register_trainee = async_handler(async (req, res) => {
                 : { googleId: id }),
         };
 
+        const inventory_items_payload =
+            await provide_necessary_inventory_items();
+
         const new_trainee = await trainee_model.create({
             name: name,
             linkedPlatforms: linkedPlatforms,
+            inventory: inventory_items_payload,
         });
-
-        await provide_necessary_inventory_items(new_trainee._id);
 
         const { access_token, refresh_token } =
             await gen_access_and_refresh_tokens(new_trainee._id);
