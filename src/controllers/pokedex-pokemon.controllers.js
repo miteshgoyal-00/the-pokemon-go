@@ -162,7 +162,33 @@ const delete_hoenn_pokemons = async_handler(async (req, res) => {
     }
 });
 
+const fetch_all_pokemons = async_handler(async (req, res) => {
+    try {
+        const pokemons = await pokedex_pokemon_model.find().select("-_id -__v");
+
+        if (pokemons)
+            res.status(200).json({
+                success: true,
+                all_pokemons: "fetched",
+                pokemons_count: pokemons.length,
+                pokemons: pokemons,
+            });
+        else
+            res.status(500).json({
+                success: false,
+                all_pokemons: "not fetched",
+            });
+    } catch (error) {
+        console.log("ERROR CAUGHT: ", error.message);
+        res.status(400).json({
+            success: false,
+            error: error.message,
+        });
+    }
+});
+
 export {
+    fetch_all_pokemons,
     create_kanto_pokemons,
     create_johto_pokemons,
     create_hoenn_pokemons,
