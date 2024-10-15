@@ -167,7 +167,6 @@ function getEnglishSpecies(genera) {
 
 // Function to process all generations and gather Pokémon data
 async function processGenerations() {
-    // let generations = await getGenerations();
     let generations = get_generations_to_fetch_data();
 
     const allData = {};
@@ -226,23 +225,24 @@ function getRegionName(generation) {
 }
 
 function get_generations_to_fetch_data() {
+    // let generations = await getGenerations();
     return [
-        // {
-        //     name: "generation-i",
-        //     url: "https://pokeapi.co/api/v2/generation/1/",
-        // },
-        // {
-        //     name: "generation-ii",
-        //     url: "https://pokeapi.co/api/v2/generation/2/",
-        // },
-        // {
-        //     name: "generation-iii",
-        //     url: "https://pokeapi.co/api/v2/generation/3/",
-        // },
-        // {
-        //     name: "generation-iv",
-        //     url: "https://pokeapi.co/api/v2/generation/4/",
-        // },
+        {
+            name: "generation-i",
+            url: "https://pokeapi.co/api/v2/generation/1/",
+        },
+        {
+            name: "generation-ii",
+            url: "https://pokeapi.co/api/v2/generation/2/",
+        },
+        {
+            name: "generation-iii",
+            url: "https://pokeapi.co/api/v2/generation/3/",
+        },
+        {
+            name: "generation-iv",
+            url: "https://pokeapi.co/api/v2/generation/4/",
+        },
         {
             name: "generation-v",
             url: "https://pokeapi.co/api/v2/generation/5/",
