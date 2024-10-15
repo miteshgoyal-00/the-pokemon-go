@@ -556,7 +556,7 @@ const delete_paldea_pokemons = async_handler(async (req, res) => {
     }
 });
 
-export {
+const controller_functions = {
     fetch_all_pokemons,
     create_all_pokemons,
     create_hoenn_pokemons,
@@ -579,3 +579,5 @@ export {
     delete_galar_pokemons,
     delete_paldea_pokemons,
 };
+
+export default controller_functions;

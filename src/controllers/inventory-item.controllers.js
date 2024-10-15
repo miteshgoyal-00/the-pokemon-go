@@ -93,9 +93,11 @@ const all_inventory_items = async_handler(async (req, res) => {
     });
 });
 
-export {
+const controller_functions = {
     create_inventory_item,
     create_default_items,
     delete_default_items,
     all_inventory_items,
 };
+
+export default controller_functions;

@@ -223,4 +223,11 @@ const logout_trainee = async_handler(async (req, res, next) => {
         });
 });
 
-export { fetch_trainee_info, register_trainee, login_trainee, logout_trainee };
+const controller_functions = {
+    fetch_trainee_info,
+    register_trainee,
+    login_trainee,
+    logout_trainee,
+};
+
+export default controller_functions;

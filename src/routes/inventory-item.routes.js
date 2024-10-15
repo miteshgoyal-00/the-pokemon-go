@@ -1,20 +1,15 @@
 import { Router } from "express";
-import {
-    create_inventory_item,
-    create_default_items,
-    delete_default_items,
-    all_inventory_items,
-} from "../controllers/inventory-item.controllers.js";
+import controllers from "../controllers/inventory-item.controllers.js";
 
 const router = Router();
 
-router.route("/").post(create_inventory_item);
+router.route("/").post(controllers.create_inventory_item);
 
 router
     .route("/defaults")
-    .post(create_default_items)
-    .delete(delete_default_items);
+    .post(controllers.create_default_items)
+    .delete(controllers.delete_default_items);
 
-router.route("/all").get(all_inventory_items);
+router.route("/all").get(controllers.all_inventory_items);
 
 export default router;
