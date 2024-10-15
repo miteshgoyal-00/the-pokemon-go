@@ -12,19 +12,17 @@ const json_response = (req, deleted) => ({
     deleted_count: deleted.deletedCount,
 });
 
-router.route("/trainees").delete(async (req, res) => {
-    const deleted = await trainee_model.deleteMany();
-    res.json(json_response(req, deleted));
-});
+const routes_and_models = {
+    trainees: trainee_model,
+    "inventory-items": inventory_item_model,
+    "pokedex-pokemons": pokedex_pokemon_model,
+};
 
-router.route("/inventory-items").delete(async (req, res) => {
-    const deleted = await inventory_item_model.deleteMany();
-    res.json(json_response(req, deleted));
-});
-
-router.route("/pokedex-pokemons").delete(async (req, res) => {
-    const deleted = await pokedex_pokemon_model.deleteMany();
-    res.json(json_response(req, deleted));
+Object.entries(routes_and_models).forEach(([route, model]) => {
+    router.route(`/${route}`).delete(async (req, res) => {
+        const deleted = await model.deleteMany();
+        res.json(json_response(req, deleted));
+    });
 });
 
 export default router;
