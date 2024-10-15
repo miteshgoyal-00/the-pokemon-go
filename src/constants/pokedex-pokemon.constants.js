@@ -6,7 +6,7 @@ const kanto_region_pokemons = [
         weight: 19.5,
         height: 0.9,
         evolutionStage: 1,
-        evolution: ["Kadabra"],
+        evolutions: ["Kadabra"],
     },
     {
         name: "Aerodactyl",
@@ -15,7 +15,7 @@ const kanto_region_pokemons = [
         weight: 59,
         height: 1.8,
         evolutionStage: 1,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Alakazam",
@@ -24,7 +24,7 @@ const kanto_region_pokemons = [
         weight: 48,
         height: 1.5,
         evolutionStage: 3,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Arbok",
@@ -33,7 +33,7 @@ const kanto_region_pokemons = [
         weight: 65,
         height: 3.5,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Arcanine",
@@ -42,7 +42,7 @@ const kanto_region_pokemons = [
         weight: 155,
         height: 1.9,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Articuno",
@@ -51,7 +51,7 @@ const kanto_region_pokemons = [
         weight: 55.4,
         height: 1.7,
         evolutionStage: 1,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Beedrill",
@@ -60,7 +60,7 @@ const kanto_region_pokemons = [
         weight: 29.5,
         height: 1,
         evolutionStage: 3,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Bellsprout",
@@ -69,7 +69,7 @@ const kanto_region_pokemons = [
         weight: 4,
         height: 0.7,
         evolutionStage: 1,
-        evolution: ["Weepinbell"],
+        evolutions: ["Weepinbell"],
     },
     {
         name: "Blastoise",
@@ -78,7 +78,7 @@ const kanto_region_pokemons = [
         weight: 85.5,
         height: 1.6,
         evolutionStage: 3,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Bulbasaur",
@@ -87,7 +87,7 @@ const kanto_region_pokemons = [
         weight: 6.9,
         height: 0.7,
         evolutionStage: 1,
-        evolution: ["Ivysaur"],
+        evolutions: ["Ivysaur"],
     },
     {
         name: "Butterfree",
@@ -96,7 +96,7 @@ const kanto_region_pokemons = [
         weight: 32,
         height: 1.1,
         evolutionStage: 3,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Caterpie",
@@ -105,7 +105,7 @@ const kanto_region_pokemons = [
         weight: 2.9,
         height: 0.3,
         evolutionStage: 1,
-        evolution: ["Metapod"],
+        evolutions: ["Metapod"],
     },
     {
         name: "Chansey",
@@ -114,7 +114,7 @@ const kanto_region_pokemons = [
         weight: 34.6,
         height: 1.1,
         evolutionStage: 2,
-        evolution: ["Blissey"],
+        evolutions: ["Blissey"],
     },
     {
         name: "Charizard",
@@ -123,7 +123,7 @@ const kanto_region_pokemons = [
         weight: 90.5,
         height: 1.7,
         evolutionStage: 3,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Charmander",
@@ -132,7 +132,7 @@ const kanto_region_pokemons = [
         weight: 8.5,
         height: 0.6,
         evolutionStage: 1,
-        evolution: ["Charmeleon"],
+        evolutions: ["Charmeleon"],
     },
     {
         name: "Charmeleon",
@@ -141,7 +141,7 @@ const kanto_region_pokemons = [
         weight: 19,
         height: 1.1,
         evolutionStage: 2,
-        evolution: ["Charizard"],
+        evolutions: ["Charizard"],
     },
     {
         name: "Clefable",
@@ -150,7 +150,7 @@ const kanto_region_pokemons = [
         weight: 40,
         height: 1.3,
         evolutionStage: 3,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Clefairy",
@@ -159,7 +159,7 @@ const kanto_region_pokemons = [
         weight: 7.5,
         height: 0.6,
         evolutionStage: 2,
-        evolution: ["Clefable"],
+        evolutions: ["Clefable"],
     },
     {
         name: "Cloyster",
@@ -168,7 +168,7 @@ const kanto_region_pokemons = [
         weight: 132.5,
         height: 1.5,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Cubone",
@@ -177,7 +177,7 @@ const kanto_region_pokemons = [
         weight: 6.5,
         height: 0.4,
         evolutionStage: 1,
-        evolution: ["Marowak"],
+        evolutions: ["Marowak"],
     },
     {
         name: "Dewgong",
@@ -186,7 +186,7 @@ const kanto_region_pokemons = [
         weight: 120,
         height: 1.7,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Diglett",
@@ -195,7 +195,7 @@ const kanto_region_pokemons = [
         weight: 0.8,
         height: 0.2,
         evolutionStage: 1,
-        evolution: ["Dugtrio"],
+        evolutions: ["Dugtrio"],
     },
     {
         name: "Ditto",
@@ -204,7 +204,7 @@ const kanto_region_pokemons = [
         weight: 4,
         height: 0.3,
         evolutionStage: 1,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Dodrio",
@@ -213,7 +213,7 @@ const kanto_region_pokemons = [
         weight: 85.2,
         height: 1.8,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Doduo",
@@ -222,7 +222,7 @@ const kanto_region_pokemons = [
         weight: 39.2,
         height: 1.4,
         evolutionStage: 1,
-        evolution: ["Dodrio"],
+        evolutions: ["Dodrio"],
     },
     {
         name: "Dragonair",
@@ -231,7 +231,7 @@ const kanto_region_pokemons = [
         weight: 16.5,
         height: 4,
         evolutionStage: 2,
-        evolution: ["Dragonite"],
+        evolutions: ["Dragonite"],
     },
     {
         name: "Dragonite",
@@ -240,7 +240,7 @@ const kanto_region_pokemons = [
         weight: 210,
         height: 2.2,
         evolutionStage: 3,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Dratini",
@@ -249,7 +249,7 @@ const kanto_region_pokemons = [
         weight: 3.3,
         height: 1.8,
         evolutionStage: 1,
-        evolution: ["Dragonair"],
+        evolutions: ["Dragonair"],
     },
     {
         name: "Drowzee",
@@ -258,7 +258,7 @@ const kanto_region_pokemons = [
         weight: 32.4,
         height: 1,
         evolutionStage: 1,
-        evolution: ["Hypno"],
+        evolutions: ["Hypno"],
     },
     {
         name: "Dugtrio",
@@ -267,7 +267,7 @@ const kanto_region_pokemons = [
         weight: 33.3,
         height: 0.7,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Eevee",
@@ -276,7 +276,7 @@ const kanto_region_pokemons = [
         weight: 6.5,
         height: 0.3,
         evolutionStage: 1,
-        evolution: [
+        evolutions: [
             "Vaporeon",
             "Jolteon",
             "Flareon",
@@ -294,7 +294,7 @@ const kanto_region_pokemons = [
         weight: 6.9,
         height: 2,
         evolutionStage: 1,
-        evolution: ["Arbok"],
+        evolutions: ["Arbok"],
     },
     {
         name: "Electabuzz",
@@ -303,7 +303,7 @@ const kanto_region_pokemons = [
         weight: 30,
         height: 1.1,
         evolutionStage: 2,
-        evolution: ["Electivire"],
+        evolutions: ["Electivire"],
     },
     {
         name: "Electrode",
@@ -312,7 +312,7 @@ const kanto_region_pokemons = [
         weight: 66.6,
         height: 1.2,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Exeggcute",
@@ -321,7 +321,7 @@ const kanto_region_pokemons = [
         weight: 2.5,
         height: 0.4,
         evolutionStage: 1,
-        evolution: ["Exeggutor"],
+        evolutions: ["Exeggutor"],
     },
     {
         name: "Exeggutor",
@@ -330,7 +330,7 @@ const kanto_region_pokemons = [
         weight: 120,
         height: 2,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Farfetchd",
@@ -339,7 +339,7 @@ const kanto_region_pokemons = [
         weight: 15,
         height: 0.8,
         evolutionStage: 1,
-        evolution: ["Sirfetchd"],
+        evolutions: ["Sirfetchd"],
     },
     {
         name: "Fearow",
@@ -348,7 +348,7 @@ const kanto_region_pokemons = [
         weight: 38,
         height: 1.2,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Flareon",
@@ -357,7 +357,7 @@ const kanto_region_pokemons = [
         weight: 25,
         height: 0.9,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Gastly",
@@ -366,7 +366,7 @@ const kanto_region_pokemons = [
         weight: 0.1,
         height: 1.3,
         evolutionStage: 1,
-        evolution: ["Haunter"],
+        evolutions: ["Haunter"],
     },
     {
         name: "Gengar",
@@ -375,7 +375,7 @@ const kanto_region_pokemons = [
         weight: 40.5,
         height: 1.5,
         evolutionStage: 3,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Geodude",
@@ -384,7 +384,7 @@ const kanto_region_pokemons = [
         weight: 20,
         height: 0.4,
         evolutionStage: 1,
-        evolution: ["Graveler"],
+        evolutions: ["Graveler"],
     },
     {
         name: "Gloom",
@@ -393,7 +393,7 @@ const kanto_region_pokemons = [
         weight: 8.6,
         height: 0.8,
         evolutionStage: 2,
-        evolution: ["Vileplume", "Bellossom"],
+        evolutions: ["Vileplume", "Bellossom"],
     },
     {
         name: "Golbat",
@@ -402,7 +402,7 @@ const kanto_region_pokemons = [
         weight: 55,
         height: 1.6,
         evolutionStage: 2,
-        evolution: ["Crobat"],
+        evolutions: ["Crobat"],
     },
     {
         name: "Goldeen",
@@ -411,7 +411,7 @@ const kanto_region_pokemons = [
         weight: 15,
         height: 0.6,
         evolutionStage: 1,
-        evolution: ["Seaking"],
+        evolutions: ["Seaking"],
     },
     {
         name: "Golduck",
@@ -420,7 +420,7 @@ const kanto_region_pokemons = [
         weight: 76.6,
         height: 1.7,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Golem",
@@ -429,7 +429,7 @@ const kanto_region_pokemons = [
         weight: 300,
         height: 1.4,
         evolutionStage: 3,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Graveler",
@@ -438,7 +438,7 @@ const kanto_region_pokemons = [
         weight: 105,
         height: 1,
         evolutionStage: 2,
-        evolution: ["Golem"],
+        evolutions: ["Golem"],
     },
     {
         name: "Grimer",
@@ -447,7 +447,7 @@ const kanto_region_pokemons = [
         weight: 30,
         height: 0.9,
         evolutionStage: 1,
-        evolution: ["Muk"],
+        evolutions: ["Muk"],
     },
     {
         name: "Growlithe",
@@ -456,7 +456,7 @@ const kanto_region_pokemons = [
         weight: 19,
         height: 0.7,
         evolutionStage: 1,
-        evolution: ["Arcanine"],
+        evolutions: ["Arcanine"],
     },
     {
         name: "Gyarados",
@@ -465,7 +465,7 @@ const kanto_region_pokemons = [
         weight: 235,
         height: 6.5,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Haunter",
@@ -474,7 +474,7 @@ const kanto_region_pokemons = [
         weight: 0.1,
         height: 1.6,
         evolutionStage: 2,
-        evolution: ["Gengar"],
+        evolutions: ["Gengar"],
     },
     {
         name: "Hitmonchan",
@@ -483,7 +483,7 @@ const kanto_region_pokemons = [
         weight: 50.2,
         height: 1.4,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Hitmonlee",
@@ -492,7 +492,7 @@ const kanto_region_pokemons = [
         weight: 49.8,
         height: 1.5,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Horsea",
@@ -501,7 +501,7 @@ const kanto_region_pokemons = [
         weight: 8,
         height: 0.4,
         evolutionStage: 1,
-        evolution: ["Seadra"],
+        evolutions: ["Seadra"],
     },
     {
         name: "Hypno",
@@ -510,7 +510,7 @@ const kanto_region_pokemons = [
         weight: 75.6,
         height: 1.6,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Ivysaur",
@@ -519,7 +519,7 @@ const kanto_region_pokemons = [
         weight: 13,
         height: 1,
         evolutionStage: 2,
-        evolution: ["Venusaur"],
+        evolutions: ["Venusaur"],
     },
     {
         name: "Jigglypuff",
@@ -528,7 +528,7 @@ const kanto_region_pokemons = [
         weight: 5.5,
         height: 0.5,
         evolutionStage: 2,
-        evolution: ["Wigglytuff"],
+        evolutions: ["Wigglytuff"],
     },
     {
         name: "Jolteon",
@@ -537,7 +537,7 @@ const kanto_region_pokemons = [
         weight: 24.5,
         height: 0.8,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Jynx",
@@ -546,7 +546,7 @@ const kanto_region_pokemons = [
         weight: 40.6,
         height: 1.4,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Kabuto",
@@ -555,7 +555,7 @@ const kanto_region_pokemons = [
         weight: 11.5,
         height: 0.5,
         evolutionStage: 1,
-        evolution: ["Kabutops"],
+        evolutions: ["Kabutops"],
     },
     {
         name: "Kabutops",
@@ -564,7 +564,7 @@ const kanto_region_pokemons = [
         weight: 40.5,
         height: 1.3,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Kadabra",
@@ -573,7 +573,7 @@ const kanto_region_pokemons = [
         weight: 56.5,
         height: 1.3,
         evolutionStage: 2,
-        evolution: ["Alakazam"],
+        evolutions: ["Alakazam"],
     },
     {
         name: "Kakuna",
@@ -582,7 +582,7 @@ const kanto_region_pokemons = [
         weight: 10,
         height: 0.6,
         evolutionStage: 2,
-        evolution: ["Beedrill"],
+        evolutions: ["Beedrill"],
     },
     {
         name: "Kangaskhan",
@@ -591,7 +591,7 @@ const kanto_region_pokemons = [
         weight: 80,
         height: 2.2,
         evolutionStage: 1,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Kingler",
@@ -600,7 +600,7 @@ const kanto_region_pokemons = [
         weight: 60,
         height: 1.3,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Koffing",
@@ -609,7 +609,7 @@ const kanto_region_pokemons = [
         weight: 1,
         height: 0.6,
         evolutionStage: 1,
-        evolution: ["Weezing"],
+        evolutions: ["Weezing"],
     },
     {
         name: "Krabby",
@@ -618,7 +618,7 @@ const kanto_region_pokemons = [
         weight: 6.5,
         height: 0.4,
         evolutionStage: 1,
-        evolution: ["Kingler"],
+        evolutions: ["Kingler"],
     },
     {
         name: "Lapras",
@@ -627,7 +627,7 @@ const kanto_region_pokemons = [
         weight: 220,
         height: 2.5,
         evolutionStage: 1,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Lickitung",
@@ -636,7 +636,7 @@ const kanto_region_pokemons = [
         weight: 65.5,
         height: 1.2,
         evolutionStage: 1,
-        evolution: ["Lickilicky"],
+        evolutions: ["Lickilicky"],
     },
     {
         name: "Machamp",
@@ -645,7 +645,7 @@ const kanto_region_pokemons = [
         weight: 130,
         height: 1.6,
         evolutionStage: 3,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Machoke",
@@ -654,7 +654,7 @@ const kanto_region_pokemons = [
         weight: 70.5,
         height: 1.5,
         evolutionStage: 2,
-        evolution: ["Machamp"],
+        evolutions: ["Machamp"],
     },
     {
         name: "Machop",
@@ -663,7 +663,7 @@ const kanto_region_pokemons = [
         weight: 19.5,
         height: 0.8,
         evolutionStage: 1,
-        evolution: ["Machoke"],
+        evolutions: ["Machoke"],
     },
     {
         name: "Magikarp",
@@ -672,7 +672,7 @@ const kanto_region_pokemons = [
         weight: 10,
         height: 0.9,
         evolutionStage: 1,
-        evolution: ["Gyarados"],
+        evolutions: ["Gyarados"],
     },
     {
         name: "Magmar",
@@ -681,7 +681,7 @@ const kanto_region_pokemons = [
         weight: 44.5,
         height: 1.3,
         evolutionStage: 2,
-        evolution: ["Magmortar"],
+        evolutions: ["Magmortar"],
     },
     {
         name: "Magnemite",
@@ -690,7 +690,7 @@ const kanto_region_pokemons = [
         weight: 6,
         height: 0.3,
         evolutionStage: 1,
-        evolution: ["Magneton"],
+        evolutions: ["Magneton"],
     },
     {
         name: "Magneton",
@@ -699,7 +699,7 @@ const kanto_region_pokemons = [
         weight: 60,
         height: 1,
         evolutionStage: 2,
-        evolution: ["Magnezone"],
+        evolutions: ["Magnezone"],
     },
     {
         name: "Mankey",
@@ -708,7 +708,7 @@ const kanto_region_pokemons = [
         weight: 28,
         height: 0.5,
         evolutionStage: 1,
-        evolution: ["Primeape"],
+        evolutions: ["Primeape"],
     },
     {
         name: "Marowak",
@@ -717,7 +717,7 @@ const kanto_region_pokemons = [
         weight: 45,
         height: 1,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Meowth",
@@ -726,7 +726,7 @@ const kanto_region_pokemons = [
         weight: 4.2,
         height: 0.4,
         evolutionStage: 1,
-        evolution: ["Persian", "Perrserker"],
+        evolutions: ["Persian", "Perrserker"],
     },
     {
         name: "Metapod",
@@ -735,7 +735,7 @@ const kanto_region_pokemons = [
         weight: 9.9,
         height: 0.7,
         evolutionStage: 2,
-        evolution: ["Butterfree"],
+        evolutions: ["Butterfree"],
     },
     {
         name: "Mew",
@@ -744,7 +744,7 @@ const kanto_region_pokemons = [
         weight: 4,
         height: 0.4,
         evolutionStage: 1,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Mewtwo",
@@ -753,7 +753,7 @@ const kanto_region_pokemons = [
         weight: 122,
         height: 2,
         evolutionStage: 1,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Moltres",
@@ -762,7 +762,7 @@ const kanto_region_pokemons = [
         weight: 60,
         height: 2,
         evolutionStage: 1,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Mr-mime",
@@ -771,7 +771,7 @@ const kanto_region_pokemons = [
         weight: 54.5,
         height: 1.3,
         evolutionStage: 2,
-        evolution: ["Mr-rime"],
+        evolutions: ["Mr-rime"],
     },
     {
         name: "Muk",
@@ -780,7 +780,7 @@ const kanto_region_pokemons = [
         weight: 30,
         height: 1.2,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Nidoking",
@@ -789,7 +789,7 @@ const kanto_region_pokemons = [
         weight: 62,
         height: 1.4,
         evolutionStage: 3,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Nidoqueen",
@@ -798,7 +798,7 @@ const kanto_region_pokemons = [
         weight: 60,
         height: 1.3,
         evolutionStage: 3,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Nidoran-f",
@@ -807,7 +807,7 @@ const kanto_region_pokemons = [
         weight: 7,
         height: 0.4,
         evolutionStage: 1,
-        evolution: ["Nidorina"],
+        evolutions: ["Nidorina"],
     },
     {
         name: "Nidoran-m",
@@ -816,7 +816,7 @@ const kanto_region_pokemons = [
         weight: 9,
         height: 0.5,
         evolutionStage: 1,
-        evolution: ["Nidorino"],
+        evolutions: ["Nidorino"],
     },
     {
         name: "Nidorina",
@@ -825,7 +825,7 @@ const kanto_region_pokemons = [
         weight: 20,
         height: 0.8,
         evolutionStage: 2,
-        evolution: ["Nidoqueen"],
+        evolutions: ["Nidoqueen"],
     },
     {
         name: "Nidorino",
@@ -834,7 +834,7 @@ const kanto_region_pokemons = [
         weight: 19.5,
         height: 0.9,
         evolutionStage: 2,
-        evolution: ["Nidoking"],
+        evolutions: ["Nidoking"],
     },
     {
         name: "Ninetales",
@@ -843,7 +843,7 @@ const kanto_region_pokemons = [
         weight: 19.9,
         height: 1.1,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Oddish",
@@ -852,7 +852,7 @@ const kanto_region_pokemons = [
         weight: 5.4,
         height: 0.5,
         evolutionStage: 1,
-        evolution: ["Gloom"],
+        evolutions: ["Gloom"],
     },
     {
         name: "Omanyte",
@@ -861,7 +861,7 @@ const kanto_region_pokemons = [
         weight: 7.5,
         height: 0.4,
         evolutionStage: 1,
-        evolution: ["Omastar"],
+        evolutions: ["Omastar"],
     },
     {
         name: "Omastar",
@@ -870,7 +870,7 @@ const kanto_region_pokemons = [
         weight: 35,
         height: 1,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Onix",
@@ -879,7 +879,7 @@ const kanto_region_pokemons = [
         weight: 210,
         height: 8.8,
         evolutionStage: 1,
-        evolution: ["Steelix"],
+        evolutions: ["Steelix"],
     },
     {
         name: "Paras",
@@ -888,7 +888,7 @@ const kanto_region_pokemons = [
         weight: 5.4,
         height: 0.3,
         evolutionStage: 1,
-        evolution: ["Parasect"],
+        evolutions: ["Parasect"],
     },
     {
         name: "Parasect",
@@ -897,7 +897,7 @@ const kanto_region_pokemons = [
         weight: 29.5,
         height: 1,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Persian",
@@ -906,7 +906,7 @@ const kanto_region_pokemons = [
         weight: 32,
         height: 1,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Pidgeot",
@@ -915,7 +915,7 @@ const kanto_region_pokemons = [
         weight: 39.5,
         height: 1.5,
         evolutionStage: 3,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Pidgeotto",
@@ -924,7 +924,7 @@ const kanto_region_pokemons = [
         weight: 30,
         height: 1.1,
         evolutionStage: 2,
-        evolution: ["Pidgeot"],
+        evolutions: ["Pidgeot"],
     },
     {
         name: "Pidgey",
@@ -933,7 +933,7 @@ const kanto_region_pokemons = [
         weight: 1.8,
         height: 0.3,
         evolutionStage: 1,
-        evolution: ["Pidgeotto"],
+        evolutions: ["Pidgeotto"],
     },
     {
         name: "Pikachu",
@@ -942,7 +942,7 @@ const kanto_region_pokemons = [
         weight: 6,
         height: 0.4,
         evolutionStage: 2,
-        evolution: ["Raichu"],
+        evolutions: ["Raichu"],
     },
     {
         name: "Pinsir",
@@ -951,7 +951,7 @@ const kanto_region_pokemons = [
         weight: 55,
         height: 1.5,
         evolutionStage: 1,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Poliwag",
@@ -960,7 +960,7 @@ const kanto_region_pokemons = [
         weight: 12.4,
         height: 0.6,
         evolutionStage: 1,
-        evolution: ["Poliwhirl"],
+        evolutions: ["Poliwhirl"],
     },
     {
         name: "Poliwhirl",
@@ -969,7 +969,7 @@ const kanto_region_pokemons = [
         weight: 20,
         height: 1,
         evolutionStage: 2,
-        evolution: ["Poliwrath", "Politoed"],
+        evolutions: ["Poliwrath", "Politoed"],
     },
     {
         name: "Poliwrath",
@@ -978,7 +978,7 @@ const kanto_region_pokemons = [
         weight: 54,
         height: 1.3,
         evolutionStage: 3,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Ponyta",
@@ -987,7 +987,7 @@ const kanto_region_pokemons = [
         weight: 30,
         height: 1,
         evolutionStage: 1,
-        evolution: ["Rapidash"],
+        evolutions: ["Rapidash"],
     },
     {
         name: "Porygon",
@@ -996,7 +996,7 @@ const kanto_region_pokemons = [
         weight: 36.5,
         height: 0.8,
         evolutionStage: 1,
-        evolution: ["Porygon2"],
+        evolutions: ["Porygon2"],
     },
     {
         name: "Primeape",
@@ -1005,7 +1005,7 @@ const kanto_region_pokemons = [
         weight: 32,
         height: 1,
         evolutionStage: 2,
-        evolution: ["Annihilape"],
+        evolutions: ["Annihilape"],
     },
     {
         name: "Psyduck",
@@ -1014,7 +1014,7 @@ const kanto_region_pokemons = [
         weight: 19.6,
         height: 0.8,
         evolutionStage: 1,
-        evolution: ["Golduck"],
+        evolutions: ["Golduck"],
     },
     {
         name: "Raichu",
@@ -1023,7 +1023,7 @@ const kanto_region_pokemons = [
         weight: 30,
         height: 0.8,
         evolutionStage: 3,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Rapidash",
@@ -1032,7 +1032,7 @@ const kanto_region_pokemons = [
         weight: 95,
         height: 1.7,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Raticate",
@@ -1041,7 +1041,7 @@ const kanto_region_pokemons = [
         weight: 18.5,
         height: 0.7,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Rattata",
@@ -1050,7 +1050,7 @@ const kanto_region_pokemons = [
         weight: 3.5,
         height: 0.3,
         evolutionStage: 1,
-        evolution: ["Raticate"],
+        evolutions: ["Raticate"],
     },
     {
         name: "Rhydon",
@@ -1059,7 +1059,7 @@ const kanto_region_pokemons = [
         weight: 120,
         height: 1.9,
         evolutionStage: 2,
-        evolution: ["Rhyperior"],
+        evolutions: ["Rhyperior"],
     },
     {
         name: "Rhyhorn",
@@ -1068,7 +1068,7 @@ const kanto_region_pokemons = [
         weight: 115,
         height: 1,
         evolutionStage: 1,
-        evolution: ["Rhydon"],
+        evolutions: ["Rhydon"],
     },
     {
         name: "Sandshrew",
@@ -1077,7 +1077,7 @@ const kanto_region_pokemons = [
         weight: 12,
         height: 0.6,
         evolutionStage: 1,
-        evolution: ["Sandslash"],
+        evolutions: ["Sandslash"],
     },
     {
         name: "Sandslash",
@@ -1086,7 +1086,7 @@ const kanto_region_pokemons = [
         weight: 29.5,
         height: 1,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Scyther",
@@ -1095,7 +1095,7 @@ const kanto_region_pokemons = [
         weight: 56,
         height: 1.5,
         evolutionStage: 1,
-        evolution: ["Scizor", "Kleavor"],
+        evolutions: ["Scizor", "Kleavor"],
     },
     {
         name: "Seadra",
@@ -1104,7 +1104,7 @@ const kanto_region_pokemons = [
         weight: 25,
         height: 1.2,
         evolutionStage: 2,
-        evolution: ["Kingdra"],
+        evolutions: ["Kingdra"],
     },
     {
         name: "Seaking",
@@ -1113,7 +1113,7 @@ const kanto_region_pokemons = [
         weight: 39,
         height: 1.3,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Seel",
@@ -1122,7 +1122,7 @@ const kanto_region_pokemons = [
         weight: 90,
         height: 1.1,
         evolutionStage: 1,
-        evolution: ["Dewgong"],
+        evolutions: ["Dewgong"],
     },
     {
         name: "Shellder",
@@ -1131,7 +1131,7 @@ const kanto_region_pokemons = [
         weight: 4,
         height: 0.3,
         evolutionStage: 1,
-        evolution: ["Cloyster"],
+        evolutions: ["Cloyster"],
     },
     {
         name: "Slowbro",
@@ -1140,7 +1140,7 @@ const kanto_region_pokemons = [
         weight: 78.5,
         height: 1.6,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Slowpoke",
@@ -1149,7 +1149,7 @@ const kanto_region_pokemons = [
         weight: 36,
         height: 1.2,
         evolutionStage: 1,
-        evolution: ["Slowbro", "Slowking"],
+        evolutions: ["Slowbro", "Slowking"],
     },
     {
         name: "Snorlax",
@@ -1158,7 +1158,7 @@ const kanto_region_pokemons = [
         weight: 460,
         height: 2.1,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Spearow",
@@ -1167,7 +1167,7 @@ const kanto_region_pokemons = [
         weight: 2,
         height: 0.3,
         evolutionStage: 1,
-        evolution: ["Fearow"],
+        evolutions: ["Fearow"],
     },
     {
         name: "Squirtle",
@@ -1176,7 +1176,7 @@ const kanto_region_pokemons = [
         weight: 9,
         height: 0.5,
         evolutionStage: 1,
-        evolution: ["Wartortle"],
+        evolutions: ["Wartortle"],
     },
     {
         name: "Starmie",
@@ -1185,7 +1185,7 @@ const kanto_region_pokemons = [
         weight: 80,
         height: 1.1,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Staryu",
@@ -1194,7 +1194,7 @@ const kanto_region_pokemons = [
         weight: 34.5,
         height: 0.8,
         evolutionStage: 1,
-        evolution: ["Starmie"],
+        evolutions: ["Starmie"],
     },
     {
         name: "Tangela",
@@ -1203,7 +1203,7 @@ const kanto_region_pokemons = [
         weight: 35,
         height: 1,
         evolutionStage: 1,
-        evolution: ["Tangrowth"],
+        evolutions: ["Tangrowth"],
     },
     {
         name: "Tauros",
@@ -1212,7 +1212,7 @@ const kanto_region_pokemons = [
         weight: 88.4,
         height: 1.4,
         evolutionStage: 1,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Tentacool",
@@ -1221,7 +1221,7 @@ const kanto_region_pokemons = [
         weight: 45.5,
         height: 0.9,
         evolutionStage: 1,
-        evolution: ["Tentacruel"],
+        evolutions: ["Tentacruel"],
     },
     {
         name: "Tentacruel",
@@ -1230,7 +1230,7 @@ const kanto_region_pokemons = [
         weight: 55,
         height: 1.6,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Vaporeon",
@@ -1239,7 +1239,7 @@ const kanto_region_pokemons = [
         weight: 29,
         height: 1,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Venomoth",
@@ -1248,7 +1248,7 @@ const kanto_region_pokemons = [
         weight: 12.5,
         height: 1.5,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Venonat",
@@ -1257,7 +1257,7 @@ const kanto_region_pokemons = [
         weight: 30,
         height: 1,
         evolutionStage: 1,
-        evolution: ["Venomoth"],
+        evolutions: ["Venomoth"],
     },
     {
         name: "Venusaur",
@@ -1266,7 +1266,7 @@ const kanto_region_pokemons = [
         weight: 100,
         height: 2,
         evolutionStage: 3,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Victreebel",
@@ -1275,7 +1275,7 @@ const kanto_region_pokemons = [
         weight: 15.5,
         height: 1.7,
         evolutionStage: 3,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Vileplume",
@@ -1284,7 +1284,7 @@ const kanto_region_pokemons = [
         weight: 18.6,
         height: 1.2,
         evolutionStage: 3,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Voltorb",
@@ -1293,7 +1293,7 @@ const kanto_region_pokemons = [
         weight: 10.4,
         height: 0.5,
         evolutionStage: 1,
-        evolution: ["Electrode"],
+        evolutions: ["Electrode"],
     },
     {
         name: "Vulpix",
@@ -1302,7 +1302,7 @@ const kanto_region_pokemons = [
         weight: 9.9,
         height: 0.6,
         evolutionStage: 1,
-        evolution: ["Ninetales"],
+        evolutions: ["Ninetales"],
     },
     {
         name: "Wartortle",
@@ -1311,7 +1311,7 @@ const kanto_region_pokemons = [
         weight: 22.5,
         height: 1,
         evolutionStage: 2,
-        evolution: ["Blastoise"],
+        evolutions: ["Blastoise"],
     },
     {
         name: "Weedle",
@@ -1320,7 +1320,7 @@ const kanto_region_pokemons = [
         weight: 3.2,
         height: 0.3,
         evolutionStage: 1,
-        evolution: ["Kakuna"],
+        evolutions: ["Kakuna"],
     },
     {
         name: "Weepinbell",
@@ -1329,7 +1329,7 @@ const kanto_region_pokemons = [
         weight: 6.4,
         height: 1,
         evolutionStage: 2,
-        evolution: ["Victreebel"],
+        evolutions: ["Victreebel"],
     },
     {
         name: "Weezing",
@@ -1338,7 +1338,7 @@ const kanto_region_pokemons = [
         weight: 9.5,
         height: 1.2,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Wigglytuff",
@@ -1347,7 +1347,7 @@ const kanto_region_pokemons = [
         weight: 12,
         height: 1,
         evolutionStage: 3,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Zapdos",
@@ -1356,7 +1356,7 @@ const kanto_region_pokemons = [
         weight: 52.6,
         height: 1.6,
         evolutionStage: 1,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Zubat",
@@ -1365,7 +1365,7 @@ const kanto_region_pokemons = [
         weight: 7.5,
         height: 0.8,
         evolutionStage: 1,
-        evolution: ["Golbat"],
+        evolutions: ["Golbat"],
     },
 ];
 
@@ -1377,7 +1377,7 @@ const johto_region_pokemons = [
         weight: 11.5,
         height: 0.8,
         evolutionStage: 1,
-        evolution: ["Ambipom"],
+        evolutions: ["Ambipom"],
     },
     {
         name: "Ampharos",
@@ -1386,7 +1386,7 @@ const johto_region_pokemons = [
         weight: 61.5,
         height: 1.4,
         evolutionStage: 3,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Ariados",
@@ -1395,7 +1395,7 @@ const johto_region_pokemons = [
         weight: 33.5,
         height: 1.1,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Azumarill",
@@ -1404,7 +1404,7 @@ const johto_region_pokemons = [
         weight: 28.5,
         height: 0.8,
         evolutionStage: 3,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Bayleef",
@@ -1413,7 +1413,7 @@ const johto_region_pokemons = [
         weight: 15.8,
         height: 1.2,
         evolutionStage: 2,
-        evolution: ["Meganium"],
+        evolutions: ["Meganium"],
     },
     {
         name: "Bellossom",
@@ -1422,7 +1422,7 @@ const johto_region_pokemons = [
         weight: 5.8,
         height: 0.4,
         evolutionStage: 3,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Blissey",
@@ -1431,7 +1431,7 @@ const johto_region_pokemons = [
         weight: 46.8,
         height: 1.5,
         evolutionStage: 3,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Celebi",
@@ -1440,7 +1440,7 @@ const johto_region_pokemons = [
         weight: 5,
         height: 0.6,
         evolutionStage: 1,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Chikorita",
@@ -1449,7 +1449,7 @@ const johto_region_pokemons = [
         weight: 6.4,
         height: 0.9,
         evolutionStage: 1,
-        evolution: ["Bayleef"],
+        evolutions: ["Bayleef"],
     },
     {
         name: "Chinchou",
@@ -1458,7 +1458,7 @@ const johto_region_pokemons = [
         weight: 12,
         height: 0.5,
         evolutionStage: 1,
-        evolution: ["Lanturn"],
+        evolutions: ["Lanturn"],
     },
     {
         name: "Cleffa",
@@ -1467,7 +1467,7 @@ const johto_region_pokemons = [
         weight: 3,
         height: 0.3,
         evolutionStage: 1,
-        evolution: ["Clefairy"],
+        evolutions: ["Clefairy"],
     },
     {
         name: "Corsola",
@@ -1476,7 +1476,7 @@ const johto_region_pokemons = [
         weight: 5,
         height: 0.6,
         evolutionStage: 1,
-        evolution: ["Cursola"],
+        evolutions: ["Cursola"],
     },
     {
         name: "Crobat",
@@ -1485,7 +1485,7 @@ const johto_region_pokemons = [
         weight: 75,
         height: 1.8,
         evolutionStage: 3,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Croconaw",
@@ -1494,7 +1494,7 @@ const johto_region_pokemons = [
         weight: 25,
         height: 1.1,
         evolutionStage: 2,
-        evolution: ["Feraligatr"],
+        evolutions: ["Feraligatr"],
     },
     {
         name: "Cyndaquil",
@@ -1503,7 +1503,7 @@ const johto_region_pokemons = [
         weight: 7.9,
         height: 0.5,
         evolutionStage: 1,
-        evolution: ["Quilava"],
+        evolutions: ["Quilava"],
     },
     {
         name: "Delibird",
@@ -1512,7 +1512,7 @@ const johto_region_pokemons = [
         weight: 16,
         height: 0.9,
         evolutionStage: 1,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Donphan",
@@ -1521,7 +1521,7 @@ const johto_region_pokemons = [
         weight: 120,
         height: 1.1,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Dunsparce",
@@ -1530,7 +1530,7 @@ const johto_region_pokemons = [
         weight: 14,
         height: 1.5,
         evolutionStage: 1,
-        evolution: ["Dudunsparce"],
+        evolutions: ["Dudunsparce"],
     },
     {
         name: "Elekid",
@@ -1539,7 +1539,7 @@ const johto_region_pokemons = [
         weight: 23.5,
         height: 0.6,
         evolutionStage: 1,
-        evolution: ["Electabuzz"],
+        evolutions: ["Electabuzz"],
     },
     {
         name: "Entei",
@@ -1548,7 +1548,7 @@ const johto_region_pokemons = [
         weight: 198,
         height: 2.1,
         evolutionStage: 1,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Espeon",
@@ -1557,7 +1557,7 @@ const johto_region_pokemons = [
         weight: 26.5,
         height: 0.9,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Feraligatr",
@@ -1566,7 +1566,7 @@ const johto_region_pokemons = [
         weight: 88.8,
         height: 2.3,
         evolutionStage: 3,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Flaaffy",
@@ -1575,7 +1575,7 @@ const johto_region_pokemons = [
         weight: 13.3,
         height: 0.8,
         evolutionStage: 2,
-        evolution: ["Ampharos"],
+        evolutions: ["Ampharos"],
     },
     {
         name: "Forretress",
@@ -1584,7 +1584,7 @@ const johto_region_pokemons = [
         weight: 125.8,
         height: 1.2,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Furret",
@@ -1593,7 +1593,7 @@ const johto_region_pokemons = [
         weight: 32.5,
         height: 1.8,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Girafarig",
@@ -1602,7 +1602,7 @@ const johto_region_pokemons = [
         weight: 41.5,
         height: 1.5,
         evolutionStage: 1,
-        evolution: ["Farigiraf"],
+        evolutions: ["Farigiraf"],
     },
     {
         name: "Gligar",
@@ -1611,7 +1611,7 @@ const johto_region_pokemons = [
         weight: 64.8,
         height: 1.1,
         evolutionStage: 1,
-        evolution: ["Gliscor"],
+        evolutions: ["Gliscor"],
     },
     {
         name: "Granbull",
@@ -1620,7 +1620,7 @@ const johto_region_pokemons = [
         weight: 48.7,
         height: 1.4,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Heracross",
@@ -1629,7 +1629,7 @@ const johto_region_pokemons = [
         weight: 54,
         height: 1.5,
         evolutionStage: 1,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Hitmontop",
@@ -1638,7 +1638,7 @@ const johto_region_pokemons = [
         weight: 48,
         height: 1.4,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Ho-oh",
@@ -1647,7 +1647,7 @@ const johto_region_pokemons = [
         weight: 199,
         height: 3.8,
         evolutionStage: 1,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Hoothoot",
@@ -1656,7 +1656,7 @@ const johto_region_pokemons = [
         weight: 21.2,
         height: 0.7,
         evolutionStage: 1,
-        evolution: ["Noctowl"],
+        evolutions: ["Noctowl"],
     },
     {
         name: "Hoppip",
@@ -1665,7 +1665,7 @@ const johto_region_pokemons = [
         weight: 0.5,
         height: 0.4,
         evolutionStage: 1,
-        evolution: ["Skiploom"],
+        evolutions: ["Skiploom"],
     },
     {
         name: "Houndoom",
@@ -1674,7 +1674,7 @@ const johto_region_pokemons = [
         weight: 35,
         height: 1.4,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Houndour",
@@ -1683,7 +1683,7 @@ const johto_region_pokemons = [
         weight: 10.8,
         height: 0.6,
         evolutionStage: 1,
-        evolution: ["Houndoom"],
+        evolutions: ["Houndoom"],
     },
     {
         name: "Igglybuff",
@@ -1692,7 +1692,7 @@ const johto_region_pokemons = [
         weight: 1,
         height: 0.3,
         evolutionStage: 1,
-        evolution: ["Jigglypuff"],
+        evolutions: ["Jigglypuff"],
     },
     {
         name: "Jumpluff",
@@ -1701,7 +1701,7 @@ const johto_region_pokemons = [
         weight: 3,
         height: 0.8,
         evolutionStage: 3,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Kingdra",
@@ -1710,7 +1710,7 @@ const johto_region_pokemons = [
         weight: 152,
         height: 1.8,
         evolutionStage: 3,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Lanturn",
@@ -1719,7 +1719,7 @@ const johto_region_pokemons = [
         weight: 22.5,
         height: 1.2,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Larvitar",
@@ -1728,7 +1728,7 @@ const johto_region_pokemons = [
         weight: 72,
         height: 0.6,
         evolutionStage: 1,
-        evolution: ["Pupitar"],
+        evolutions: ["Pupitar"],
     },
     {
         name: "Ledian",
@@ -1737,7 +1737,7 @@ const johto_region_pokemons = [
         weight: 35.6,
         height: 1.4,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Ledyba",
@@ -1746,7 +1746,7 @@ const johto_region_pokemons = [
         weight: 10.8,
         height: 1,
         evolutionStage: 1,
-        evolution: ["Ledian"],
+        evolutions: ["Ledian"],
     },
     {
         name: "Lugia",
@@ -1755,7 +1755,7 @@ const johto_region_pokemons = [
         weight: 216,
         height: 5.2,
         evolutionStage: 1,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Magby",
@@ -1764,7 +1764,7 @@ const johto_region_pokemons = [
         weight: 21.4,
         height: 0.7,
         evolutionStage: 1,
-        evolution: ["Magmar"],
+        evolutions: ["Magmar"],
     },
     {
         name: "Magcargo",
@@ -1773,7 +1773,7 @@ const johto_region_pokemons = [
         weight: 55,
         height: 0.8,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Mantine",
@@ -1782,7 +1782,7 @@ const johto_region_pokemons = [
         weight: 220,
         height: 2.1,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Mareep",
@@ -1791,7 +1791,7 @@ const johto_region_pokemons = [
         weight: 7.8,
         height: 0.6,
         evolutionStage: 1,
-        evolution: ["Flaaffy"],
+        evolutions: ["Flaaffy"],
     },
     {
         name: "Marill",
@@ -1800,7 +1800,7 @@ const johto_region_pokemons = [
         weight: 8.5,
         height: 0.4,
         evolutionStage: 2,
-        evolution: ["Azumarill"],
+        evolutions: ["Azumarill"],
     },
     {
         name: "Meganium",
@@ -1809,7 +1809,7 @@ const johto_region_pokemons = [
         weight: 100.5,
         height: 1.8,
         evolutionStage: 3,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Miltank",
@@ -1818,7 +1818,7 @@ const johto_region_pokemons = [
         weight: 75.5,
         height: 1.2,
         evolutionStage: 1,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Misdreavus",
@@ -1827,7 +1827,7 @@ const johto_region_pokemons = [
         weight: 1,
         height: 0.7,
         evolutionStage: 1,
-        evolution: ["Mismagius"],
+        evolutions: ["Mismagius"],
     },
     {
         name: "Murkrow",
@@ -1836,7 +1836,7 @@ const johto_region_pokemons = [
         weight: 2.1,
         height: 0.5,
         evolutionStage: 1,
-        evolution: ["Honchkrow"],
+        evolutions: ["Honchkrow"],
     },
     {
         name: "Natu",
@@ -1845,7 +1845,7 @@ const johto_region_pokemons = [
         weight: 2,
         height: 0.2,
         evolutionStage: 1,
-        evolution: ["Xatu"],
+        evolutions: ["Xatu"],
     },
     {
         name: "Noctowl",
@@ -1854,7 +1854,7 @@ const johto_region_pokemons = [
         weight: 40.8,
         height: 1.6,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Octillery",
@@ -1863,7 +1863,7 @@ const johto_region_pokemons = [
         weight: 28.5,
         height: 0.9,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Phanpy",
@@ -1872,7 +1872,7 @@ const johto_region_pokemons = [
         weight: 33.5,
         height: 0.5,
         evolutionStage: 1,
-        evolution: ["Donphan"],
+        evolutions: ["Donphan"],
     },
     {
         name: "Pichu",
@@ -1881,7 +1881,7 @@ const johto_region_pokemons = [
         weight: 2,
         height: 0.3,
         evolutionStage: 1,
-        evolution: ["Pikachu"],
+        evolutions: ["Pikachu"],
     },
     {
         name: "Piloswine",
@@ -1890,7 +1890,7 @@ const johto_region_pokemons = [
         weight: 55.8,
         height: 1.1,
         evolutionStage: 2,
-        evolution: ["Mamoswine"],
+        evolutions: ["Mamoswine"],
     },
     {
         name: "Pineco",
@@ -1899,7 +1899,7 @@ const johto_region_pokemons = [
         weight: 7.2,
         height: 0.6,
         evolutionStage: 1,
-        evolution: ["Forretress"],
+        evolutions: ["Forretress"],
     },
     {
         name: "Politoed",
@@ -1908,7 +1908,7 @@ const johto_region_pokemons = [
         weight: 33.9,
         height: 1.1,
         evolutionStage: 3,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Porygon2",
@@ -1917,7 +1917,7 @@ const johto_region_pokemons = [
         weight: 32.5,
         height: 0.6,
         evolutionStage: 2,
-        evolution: ["Porygon-z"],
+        evolutions: ["Porygon-z"],
     },
     {
         name: "Pupitar",
@@ -1926,7 +1926,7 @@ const johto_region_pokemons = [
         weight: 152,
         height: 1.2,
         evolutionStage: 2,
-        evolution: ["Tyranitar"],
+        evolutions: ["Tyranitar"],
     },
     {
         name: "Quagsire",
@@ -1935,7 +1935,7 @@ const johto_region_pokemons = [
         weight: 75,
         height: 1.4,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Quilava",
@@ -1944,7 +1944,7 @@ const johto_region_pokemons = [
         weight: 19,
         height: 0.9,
         evolutionStage: 2,
-        evolution: ["Typhlosion"],
+        evolutions: ["Typhlosion"],
     },
     {
         name: "Qwilfish",
@@ -1953,7 +1953,7 @@ const johto_region_pokemons = [
         weight: 3.9,
         height: 0.5,
         evolutionStage: 1,
-        evolution: ["Overqwil"],
+        evolutions: ["Overqwil"],
     },
     {
         name: "Raikou",
@@ -1962,7 +1962,7 @@ const johto_region_pokemons = [
         weight: 178,
         height: 1.9,
         evolutionStage: 1,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Remoraid",
@@ -1971,7 +1971,7 @@ const johto_region_pokemons = [
         weight: 12,
         height: 0.6,
         evolutionStage: 1,
-        evolution: ["Octillery"],
+        evolutions: ["Octillery"],
     },
     {
         name: "Scizor",
@@ -1980,7 +1980,7 @@ const johto_region_pokemons = [
         weight: 118,
         height: 1.8,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Sentret",
@@ -1989,7 +1989,7 @@ const johto_region_pokemons = [
         weight: 6,
         height: 0.8,
         evolutionStage: 1,
-        evolution: ["Furret"],
+        evolutions: ["Furret"],
     },
     {
         name: "Shuckle",
@@ -1998,7 +1998,7 @@ const johto_region_pokemons = [
         weight: 20.5,
         height: 0.6,
         evolutionStage: 1,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Skarmory",
@@ -2007,7 +2007,7 @@ const johto_region_pokemons = [
         weight: 50.5,
         height: 1.7,
         evolutionStage: 1,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Skiploom",
@@ -2016,7 +2016,7 @@ const johto_region_pokemons = [
         weight: 1,
         height: 0.6,
         evolutionStage: 2,
-        evolution: ["Jumpluff"],
+        evolutions: ["Jumpluff"],
     },
     {
         name: "Slowking",
@@ -2025,7 +2025,7 @@ const johto_region_pokemons = [
         weight: 79.5,
         height: 2,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Slugma",
@@ -2034,7 +2034,7 @@ const johto_region_pokemons = [
         weight: 35,
         height: 0.7,
         evolutionStage: 1,
-        evolution: ["Magcargo"],
+        evolutions: ["Magcargo"],
     },
     {
         name: "Smeargle",
@@ -2043,7 +2043,7 @@ const johto_region_pokemons = [
         weight: 58,
         height: 1.2,
         evolutionStage: 1,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Smoochum",
@@ -2052,7 +2052,7 @@ const johto_region_pokemons = [
         weight: 6,
         height: 0.4,
         evolutionStage: 1,
-        evolution: ["Jynx"],
+        evolutions: ["Jynx"],
     },
     {
         name: "Sneasel",
@@ -2061,7 +2061,7 @@ const johto_region_pokemons = [
         weight: 28,
         height: 0.9,
         evolutionStage: 1,
-        evolution: ["Weavile", "Sneasler"],
+        evolutions: ["Weavile", "Sneasler"],
     },
     {
         name: "Snubbull",
@@ -2070,7 +2070,7 @@ const johto_region_pokemons = [
         weight: 7.8,
         height: 0.6,
         evolutionStage: 1,
-        evolution: ["Granbull"],
+        evolutions: ["Granbull"],
     },
     {
         name: "Spinarak",
@@ -2079,7 +2079,7 @@ const johto_region_pokemons = [
         weight: 8.5,
         height: 0.5,
         evolutionStage: 1,
-        evolution: ["Ariados"],
+        evolutions: ["Ariados"],
     },
     {
         name: "Stantler",
@@ -2088,7 +2088,7 @@ const johto_region_pokemons = [
         weight: 71.2,
         height: 1.4,
         evolutionStage: 1,
-        evolution: ["Wyrdeer"],
+        evolutions: ["Wyrdeer"],
     },
     {
         name: "Steelix",
@@ -2097,7 +2097,7 @@ const johto_region_pokemons = [
         weight: 400,
         height: 9.2,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Sudowoodo",
@@ -2106,7 +2106,7 @@ const johto_region_pokemons = [
         weight: 38,
         height: 1.2,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Suicune",
@@ -2115,7 +2115,7 @@ const johto_region_pokemons = [
         weight: 187,
         height: 2,
         evolutionStage: 1,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Sunflora",
@@ -2124,7 +2124,7 @@ const johto_region_pokemons = [
         weight: 8.5,
         height: 0.8,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Sunkern",
@@ -2133,7 +2133,7 @@ const johto_region_pokemons = [
         weight: 1.8,
         height: 0.3,
         evolutionStage: 1,
-        evolution: ["Sunflora"],
+        evolutions: ["Sunflora"],
     },
     {
         name: "Swinub",
@@ -2142,7 +2142,7 @@ const johto_region_pokemons = [
         weight: 6.5,
         height: 0.4,
         evolutionStage: 1,
-        evolution: ["Piloswine"],
+        evolutions: ["Piloswine"],
     },
     {
         name: "Teddiursa",
@@ -2151,7 +2151,7 @@ const johto_region_pokemons = [
         weight: 8.8,
         height: 0.6,
         evolutionStage: 1,
-        evolution: ["Ursaring"],
+        evolutions: ["Ursaring"],
     },
     {
         name: "Togepi",
@@ -2160,7 +2160,7 @@ const johto_region_pokemons = [
         weight: 1.5,
         height: 0.3,
         evolutionStage: 1,
-        evolution: ["Togetic"],
+        evolutions: ["Togetic"],
     },
     {
         name: "Togetic",
@@ -2169,7 +2169,7 @@ const johto_region_pokemons = [
         weight: 3.2,
         height: 0.6,
         evolutionStage: 2,
-        evolution: ["Togekiss"],
+        evolutions: ["Togekiss"],
     },
     {
         name: "Totodile",
@@ -2178,7 +2178,7 @@ const johto_region_pokemons = [
         weight: 9.5,
         height: 0.6,
         evolutionStage: 1,
-        evolution: ["Croconaw"],
+        evolutions: ["Croconaw"],
     },
     {
         name: "Typhlosion",
@@ -2187,7 +2187,7 @@ const johto_region_pokemons = [
         weight: 79.5,
         height: 1.7,
         evolutionStage: 3,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Tyranitar",
@@ -2196,7 +2196,7 @@ const johto_region_pokemons = [
         weight: 202,
         height: 2,
         evolutionStage: 3,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Tyrogue",
@@ -2205,7 +2205,7 @@ const johto_region_pokemons = [
         weight: 21,
         height: 0.7,
         evolutionStage: 1,
-        evolution: ["Hitmonlee", "Hitmonchan", "Hitmontop"],
+        evolutions: ["Hitmonlee", "Hitmonchan", "Hitmontop"],
     },
     {
         name: "Umbreon",
@@ -2214,7 +2214,7 @@ const johto_region_pokemons = [
         weight: 27,
         height: 1,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Unown",
@@ -2223,7 +2223,7 @@ const johto_region_pokemons = [
         weight: 5,
         height: 0.5,
         evolutionStage: 1,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Ursaring",
@@ -2232,7 +2232,7 @@ const johto_region_pokemons = [
         weight: 125.8,
         height: 1.8,
         evolutionStage: 2,
-        evolution: ["Ursaluna"],
+        evolutions: ["Ursaluna"],
     },
     {
         name: "Wobbuffet",
@@ -2241,7 +2241,7 @@ const johto_region_pokemons = [
         weight: 28.5,
         height: 1.3,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Wooper",
@@ -2250,7 +2250,7 @@ const johto_region_pokemons = [
         weight: 8.5,
         height: 0.4,
         evolutionStage: 1,
-        evolution: ["Quagsire", "Clodsire"],
+        evolutions: ["Quagsire", "Clodsire"],
     },
     {
         name: "Xatu",
@@ -2259,7 +2259,7 @@ const johto_region_pokemons = [
         weight: 15,
         height: 1.5,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Yanma",
@@ -2268,7 +2268,7 @@ const johto_region_pokemons = [
         weight: 38,
         height: 1.2,
         evolutionStage: 1,
-        evolution: ["Yanmega"],
+        evolutions: ["Yanmega"],
     },
 ];
 
@@ -2280,7 +2280,7 @@ const hoenn_region_pokemons = [
         weight: 47,
         height: 1.2,
         evolutionStage: 1,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Aggron",
@@ -2289,7 +2289,7 @@ const hoenn_region_pokemons = [
         weight: 360,
         height: 2.1,
         evolutionStage: 3,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Altaria",
@@ -2298,7 +2298,7 @@ const hoenn_region_pokemons = [
         weight: 20.6,
         height: 1.1,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Anorith",
@@ -2307,7 +2307,7 @@ const hoenn_region_pokemons = [
         weight: 12.5,
         height: 0.7,
         evolutionStage: 1,
-        evolution: ["Armaldo"],
+        evolutions: ["Armaldo"],
     },
     {
         name: "Armaldo",
@@ -2316,7 +2316,7 @@ const hoenn_region_pokemons = [
         weight: 68.2,
         height: 1.5,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Aron",
@@ -2325,7 +2325,7 @@ const hoenn_region_pokemons = [
         weight: 60,
         height: 0.4,
         evolutionStage: 1,
-        evolution: ["Lairon"],
+        evolutions: ["Lairon"],
     },
     {
         name: "Azurill",
@@ -2334,7 +2334,7 @@ const hoenn_region_pokemons = [
         weight: 2,
         height: 0.2,
         evolutionStage: 1,
-        evolution: ["Marill"],
+        evolutions: ["Marill"],
     },
     {
         name: "Bagon",
@@ -2343,7 +2343,7 @@ const hoenn_region_pokemons = [
         weight: 42.1,
         height: 0.6,
         evolutionStage: 1,
-        evolution: ["Shelgon"],
+        evolutions: ["Shelgon"],
     },
     {
         name: "Baltoy",
@@ -2352,7 +2352,7 @@ const hoenn_region_pokemons = [
         weight: 21.5,
         height: 0.5,
         evolutionStage: 1,
-        evolution: ["Claydol"],
+        evolutions: ["Claydol"],
     },
     {
         name: "Banette",
@@ -2361,7 +2361,7 @@ const hoenn_region_pokemons = [
         weight: 12.5,
         height: 1.1,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Barboach",
@@ -2370,7 +2370,7 @@ const hoenn_region_pokemons = [
         weight: 1.9,
         height: 0.4,
         evolutionStage: 1,
-        evolution: ["Whiscash"],
+        evolutions: ["Whiscash"],
     },
     {
         name: "Beautifly",
@@ -2379,7 +2379,7 @@ const hoenn_region_pokemons = [
         weight: 28.4,
         height: 1,
         evolutionStage: 3,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Beldum",
@@ -2388,7 +2388,7 @@ const hoenn_region_pokemons = [
         weight: 95.2,
         height: 0.6,
         evolutionStage: 1,
-        evolution: ["Metang"],
+        evolutions: ["Metang"],
     },
     {
         name: "Blaziken",
@@ -2397,7 +2397,7 @@ const hoenn_region_pokemons = [
         weight: 52,
         height: 1.9,
         evolutionStage: 3,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Breloom",
@@ -2406,7 +2406,7 @@ const hoenn_region_pokemons = [
         weight: 39.2,
         height: 1.2,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Cacnea",
@@ -2415,7 +2415,7 @@ const hoenn_region_pokemons = [
         weight: 51.3,
         height: 0.4,
         evolutionStage: 1,
-        evolution: ["Cacturne"],
+        evolutions: ["Cacturne"],
     },
     {
         name: "Cacturne",
@@ -2424,7 +2424,7 @@ const hoenn_region_pokemons = [
         weight: 77.4,
         height: 1.3,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Camerupt",
@@ -2433,7 +2433,7 @@ const hoenn_region_pokemons = [
         weight: 220,
         height: 1.9,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Carvanha",
@@ -2442,7 +2442,7 @@ const hoenn_region_pokemons = [
         weight: 20.8,
         height: 0.8,
         evolutionStage: 1,
-        evolution: ["Sharpedo"],
+        evolutions: ["Sharpedo"],
     },
     {
         name: "Cascoon",
@@ -2451,7 +2451,7 @@ const hoenn_region_pokemons = [
         weight: 11.5,
         height: 0.7,
         evolutionStage: 2,
-        evolution: ["Dustox"],
+        evolutions: ["Dustox"],
     },
     {
         name: "Castform",
@@ -2460,7 +2460,7 @@ const hoenn_region_pokemons = [
         weight: 0.8,
         height: 0.3,
         evolutionStage: 1,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Chimecho",
@@ -2469,7 +2469,7 @@ const hoenn_region_pokemons = [
         weight: 1,
         height: 0.6,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Clamperl",
@@ -2478,7 +2478,7 @@ const hoenn_region_pokemons = [
         weight: 52.5,
         height: 0.4,
         evolutionStage: 1,
-        evolution: ["Huntail", "Gorebyss"],
+        evolutions: ["Huntail", "Gorebyss"],
     },
     {
         name: "Claydol",
@@ -2487,7 +2487,7 @@ const hoenn_region_pokemons = [
         weight: 108,
         height: 1.5,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Combusken",
@@ -2496,7 +2496,7 @@ const hoenn_region_pokemons = [
         weight: 19.5,
         height: 0.9,
         evolutionStage: 2,
-        evolution: ["Blaziken"],
+        evolutions: ["Blaziken"],
     },
     {
         name: "Corphish",
@@ -2505,7 +2505,7 @@ const hoenn_region_pokemons = [
         weight: 11.5,
         height: 0.6,
         evolutionStage: 1,
-        evolution: ["Crawdaunt"],
+        evolutions: ["Crawdaunt"],
     },
     {
         name: "Cradily",
@@ -2514,7 +2514,7 @@ const hoenn_region_pokemons = [
         weight: 60.4,
         height: 1.5,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Crawdaunt",
@@ -2523,7 +2523,7 @@ const hoenn_region_pokemons = [
         weight: 32.8,
         height: 1.1,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Delcatty",
@@ -2532,7 +2532,7 @@ const hoenn_region_pokemons = [
         weight: 32.6,
         height: 1.1,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Dusclops",
@@ -2541,7 +2541,7 @@ const hoenn_region_pokemons = [
         weight: 30.6,
         height: 1.6,
         evolutionStage: 2,
-        evolution: ["Dusknoir"],
+        evolutions: ["Dusknoir"],
     },
     {
         name: "Duskull",
@@ -2550,7 +2550,7 @@ const hoenn_region_pokemons = [
         weight: 15,
         height: 0.8,
         evolutionStage: 1,
-        evolution: ["Dusclops"],
+        evolutions: ["Dusclops"],
     },
     {
         name: "Dustox",
@@ -2559,7 +2559,7 @@ const hoenn_region_pokemons = [
         weight: 31.6,
         height: 1.2,
         evolutionStage: 3,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Electrike",
@@ -2568,7 +2568,7 @@ const hoenn_region_pokemons = [
         weight: 15.2,
         height: 0.6,
         evolutionStage: 1,
-        evolution: ["Manectric"],
+        evolutions: ["Manectric"],
     },
     {
         name: "Exploud",
@@ -2577,7 +2577,7 @@ const hoenn_region_pokemons = [
         weight: 84,
         height: 1.5,
         evolutionStage: 3,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Feebas",
@@ -2586,7 +2586,7 @@ const hoenn_region_pokemons = [
         weight: 7.4,
         height: 0.6,
         evolutionStage: 1,
-        evolution: ["Milotic"],
+        evolutions: ["Milotic"],
     },
     {
         name: "Flygon",
@@ -2595,7 +2595,7 @@ const hoenn_region_pokemons = [
         weight: 82,
         height: 2,
         evolutionStage: 3,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Gardevoir",
@@ -2604,7 +2604,7 @@ const hoenn_region_pokemons = [
         weight: 48.4,
         height: 1.6,
         evolutionStage: 3,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Glalie",
@@ -2613,7 +2613,7 @@ const hoenn_region_pokemons = [
         weight: 256.5,
         height: 1.5,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Gorebyss",
@@ -2622,7 +2622,7 @@ const hoenn_region_pokemons = [
         weight: 22.6,
         height: 1.8,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Groudon",
@@ -2631,7 +2631,7 @@ const hoenn_region_pokemons = [
         weight: 950,
         height: 3.5,
         evolutionStage: 1,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Grovyle",
@@ -2640,7 +2640,7 @@ const hoenn_region_pokemons = [
         weight: 21.6,
         height: 0.9,
         evolutionStage: 2,
-        evolution: ["Sceptile"],
+        evolutions: ["Sceptile"],
     },
     {
         name: "Grumpig",
@@ -2649,7 +2649,7 @@ const hoenn_region_pokemons = [
         weight: 71.5,
         height: 0.9,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Gulpin",
@@ -2658,7 +2658,7 @@ const hoenn_region_pokemons = [
         weight: 10.3,
         height: 0.4,
         evolutionStage: 1,
-        evolution: ["Swalot"],
+        evolutions: ["Swalot"],
     },
     {
         name: "Hariyama",
@@ -2667,7 +2667,7 @@ const hoenn_region_pokemons = [
         weight: 253.8,
         height: 2.3,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Huntail",
@@ -2676,7 +2676,7 @@ const hoenn_region_pokemons = [
         weight: 27,
         height: 1.7,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Illumise",
@@ -2685,7 +2685,7 @@ const hoenn_region_pokemons = [
         weight: 17.7,
         height: 0.6,
         evolutionStage: 1,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Jirachi",
@@ -2694,7 +2694,7 @@ const hoenn_region_pokemons = [
         weight: 1.1,
         height: 0.3,
         evolutionStage: 1,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Kecleon",
@@ -2703,7 +2703,7 @@ const hoenn_region_pokemons = [
         weight: 22,
         height: 1,
         evolutionStage: 1,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Kirlia",
@@ -2712,7 +2712,7 @@ const hoenn_region_pokemons = [
         weight: 20.2,
         height: 0.8,
         evolutionStage: 2,
-        evolution: ["Gardevoir", "Gallade"],
+        evolutions: ["Gardevoir", "Gallade"],
     },
     {
         name: "Kyogre",
@@ -2721,7 +2721,7 @@ const hoenn_region_pokemons = [
         weight: 352,
         height: 4.5,
         evolutionStage: 1,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Lairon",
@@ -2730,7 +2730,7 @@ const hoenn_region_pokemons = [
         weight: 120,
         height: 0.9,
         evolutionStage: 2,
-        evolution: ["Aggron"],
+        evolutions: ["Aggron"],
     },
     {
         name: "Latias",
@@ -2739,7 +2739,7 @@ const hoenn_region_pokemons = [
         weight: 40,
         height: 1.4,
         evolutionStage: 1,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Latios",
@@ -2748,7 +2748,7 @@ const hoenn_region_pokemons = [
         weight: 60,
         height: 2,
         evolutionStage: 1,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Lileep",
@@ -2757,7 +2757,7 @@ const hoenn_region_pokemons = [
         weight: 23.8,
         height: 1,
         evolutionStage: 1,
-        evolution: ["Cradily"],
+        evolutions: ["Cradily"],
     },
     {
         name: "Linoone",
@@ -2766,7 +2766,7 @@ const hoenn_region_pokemons = [
         weight: 32.5,
         height: 0.5,
         evolutionStage: 2,
-        evolution: ["Obstagoon"],
+        evolutions: ["Obstagoon"],
     },
     {
         name: "Lombre",
@@ -2775,7 +2775,7 @@ const hoenn_region_pokemons = [
         weight: 32.5,
         height: 1.2,
         evolutionStage: 2,
-        evolution: ["Ludicolo"],
+        evolutions: ["Ludicolo"],
     },
     {
         name: "Lotad",
@@ -2784,7 +2784,7 @@ const hoenn_region_pokemons = [
         weight: 2.6,
         height: 0.5,
         evolutionStage: 1,
-        evolution: ["Lombre"],
+        evolutions: ["Lombre"],
     },
     {
         name: "Loudred",
@@ -2793,7 +2793,7 @@ const hoenn_region_pokemons = [
         weight: 40.5,
         height: 1,
         evolutionStage: 2,
-        evolution: ["Exploud"],
+        evolutions: ["Exploud"],
     },
     {
         name: "Ludicolo",
@@ -2802,7 +2802,7 @@ const hoenn_region_pokemons = [
         weight: 55,
         height: 1.5,
         evolutionStage: 3,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Lunatone",
@@ -2811,7 +2811,7 @@ const hoenn_region_pokemons = [
         weight: 168,
         height: 1,
         evolutionStage: 1,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Luvdisc",
@@ -2820,7 +2820,7 @@ const hoenn_region_pokemons = [
         weight: 8.7,
         height: 0.6,
         evolutionStage: 1,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Makuhita",
@@ -2829,7 +2829,7 @@ const hoenn_region_pokemons = [
         weight: 86.4,
         height: 1,
         evolutionStage: 1,
-        evolution: ["Hariyama"],
+        evolutions: ["Hariyama"],
     },
     {
         name: "Manectric",
@@ -2838,7 +2838,7 @@ const hoenn_region_pokemons = [
         weight: 40.2,
         height: 1.5,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Marshtomp",
@@ -2847,7 +2847,7 @@ const hoenn_region_pokemons = [
         weight: 28,
         height: 0.7,
         evolutionStage: 2,
-        evolution: ["Swampert"],
+        evolutions: ["Swampert"],
     },
     {
         name: "Masquerain",
@@ -2856,7 +2856,7 @@ const hoenn_region_pokemons = [
         weight: 3.6,
         height: 0.8,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Mawile",
@@ -2865,7 +2865,7 @@ const hoenn_region_pokemons = [
         weight: 11.5,
         height: 0.6,
         evolutionStage: 1,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Medicham",
@@ -2874,7 +2874,7 @@ const hoenn_region_pokemons = [
         weight: 31.5,
         height: 1.3,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Meditite",
@@ -2883,7 +2883,7 @@ const hoenn_region_pokemons = [
         weight: 11.2,
         height: 0.6,
         evolutionStage: 1,
-        evolution: ["Medicham"],
+        evolutions: ["Medicham"],
     },
     {
         name: "Metagross",
@@ -2892,7 +2892,7 @@ const hoenn_region_pokemons = [
         weight: 550,
         height: 1.6,
         evolutionStage: 3,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Metang",
@@ -2901,7 +2901,7 @@ const hoenn_region_pokemons = [
         weight: 202.5,
         height: 1.2,
         evolutionStage: 2,
-        evolution: ["Metagross"],
+        evolutions: ["Metagross"],
     },
     {
         name: "Mightyena",
@@ -2910,7 +2910,7 @@ const hoenn_region_pokemons = [
         weight: 37,
         height: 1,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Milotic",
@@ -2919,7 +2919,7 @@ const hoenn_region_pokemons = [
         weight: 162,
         height: 6.2,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Minun",
@@ -2928,7 +2928,7 @@ const hoenn_region_pokemons = [
         weight: 4.2,
         height: 0.4,
         evolutionStage: 1,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Mudkip",
@@ -2937,7 +2937,7 @@ const hoenn_region_pokemons = [
         weight: 7.6,
         height: 0.4,
         evolutionStage: 1,
-        evolution: ["Marshtomp"],
+        evolutions: ["Marshtomp"],
     },
     {
         name: "Nincada",
@@ -2946,7 +2946,7 @@ const hoenn_region_pokemons = [
         weight: 5.5,
         height: 0.5,
         evolutionStage: 1,
-        evolution: ["Ninjask", "Shedinja"],
+        evolutions: ["Ninjask", "Shedinja"],
     },
     {
         name: "Ninjask",
@@ -2955,7 +2955,7 @@ const hoenn_region_pokemons = [
         weight: 12,
         height: 0.8,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Nosepass",
@@ -2964,7 +2964,7 @@ const hoenn_region_pokemons = [
         weight: 97,
         height: 1,
         evolutionStage: 1,
-        evolution: ["Probopass"],
+        evolutions: ["Probopass"],
     },
     {
         name: "Numel",
@@ -2973,7 +2973,7 @@ const hoenn_region_pokemons = [
         weight: 24,
         height: 0.7,
         evolutionStage: 1,
-        evolution: ["Camerupt"],
+        evolutions: ["Camerupt"],
     },
     {
         name: "Nuzleaf",
@@ -2982,7 +2982,7 @@ const hoenn_region_pokemons = [
         weight: 28,
         height: 1,
         evolutionStage: 2,
-        evolution: ["Shiftry"],
+        evolutions: ["Shiftry"],
     },
     {
         name: "Pelipper",
@@ -2991,7 +2991,7 @@ const hoenn_region_pokemons = [
         weight: 28,
         height: 1.2,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Plusle",
@@ -3000,7 +3000,7 @@ const hoenn_region_pokemons = [
         weight: 4.2,
         height: 0.4,
         evolutionStage: 1,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Poochyena",
@@ -3009,7 +3009,7 @@ const hoenn_region_pokemons = [
         weight: 13.6,
         height: 0.5,
         evolutionStage: 1,
-        evolution: ["Mightyena"],
+        evolutions: ["Mightyena"],
     },
     {
         name: "Ralts",
@@ -3018,7 +3018,7 @@ const hoenn_region_pokemons = [
         weight: 6.6,
         height: 0.4,
         evolutionStage: 1,
-        evolution: ["Kirlia"],
+        evolutions: ["Kirlia"],
     },
     {
         name: "Rayquaza",
@@ -3027,7 +3027,7 @@ const hoenn_region_pokemons = [
         weight: 206.5,
         height: 7,
         evolutionStage: 1,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Regice",
@@ -3036,7 +3036,7 @@ const hoenn_region_pokemons = [
         weight: 175,
         height: 1.8,
         evolutionStage: 1,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Regirock",
@@ -3045,7 +3045,7 @@ const hoenn_region_pokemons = [
         weight: 230,
         height: 1.7,
         evolutionStage: 1,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Registeel",
@@ -3054,7 +3054,7 @@ const hoenn_region_pokemons = [
         weight: 205,
         height: 1.9,
         evolutionStage: 1,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Relicanth",
@@ -3063,7 +3063,7 @@ const hoenn_region_pokemons = [
         weight: 23.4,
         height: 1,
         evolutionStage: 1,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Roselia",
@@ -3072,7 +3072,7 @@ const hoenn_region_pokemons = [
         weight: 2,
         height: 0.3,
         evolutionStage: 2,
-        evolution: ["Roserade"],
+        evolutions: ["Roserade"],
     },
     {
         name: "Sableye",
@@ -3081,7 +3081,7 @@ const hoenn_region_pokemons = [
         weight: 11,
         height: 0.5,
         evolutionStage: 1,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Salamence",
@@ -3090,7 +3090,7 @@ const hoenn_region_pokemons = [
         weight: 102.6,
         height: 1.5,
         evolutionStage: 3,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Sceptile",
@@ -3099,7 +3099,7 @@ const hoenn_region_pokemons = [
         weight: 52.2,
         height: 1.7,
         evolutionStage: 3,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Sealeo",
@@ -3108,7 +3108,7 @@ const hoenn_region_pokemons = [
         weight: 87.6,
         height: 1.1,
         evolutionStage: 2,
-        evolution: ["Walrein"],
+        evolutions: ["Walrein"],
     },
     {
         name: "Seedot",
@@ -3117,7 +3117,7 @@ const hoenn_region_pokemons = [
         weight: 4,
         height: 0.5,
         evolutionStage: 1,
-        evolution: ["Nuzleaf"],
+        evolutions: ["Nuzleaf"],
     },
     {
         name: "Seviper",
@@ -3126,7 +3126,7 @@ const hoenn_region_pokemons = [
         weight: 52.5,
         height: 2.7,
         evolutionStage: 1,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Sharpedo",
@@ -3135,7 +3135,7 @@ const hoenn_region_pokemons = [
         weight: 88.8,
         height: 1.8,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Shedinja",
@@ -3144,7 +3144,7 @@ const hoenn_region_pokemons = [
         weight: 1.2,
         height: 0.8,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Shelgon",
@@ -3153,7 +3153,7 @@ const hoenn_region_pokemons = [
         weight: 110.5,
         height: 1.1,
         evolutionStage: 2,
-        evolution: ["Salamence"],
+        evolutions: ["Salamence"],
     },
     {
         name: "Shiftry",
@@ -3162,7 +3162,7 @@ const hoenn_region_pokemons = [
         weight: 59.6,
         height: 1.3,
         evolutionStage: 3,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Shroomish",
@@ -3171,7 +3171,7 @@ const hoenn_region_pokemons = [
         weight: 4.5,
         height: 0.4,
         evolutionStage: 1,
-        evolution: ["Breloom"],
+        evolutions: ["Breloom"],
     },
     {
         name: "Shuppet",
@@ -3180,7 +3180,7 @@ const hoenn_region_pokemons = [
         weight: 2.3,
         height: 0.6,
         evolutionStage: 1,
-        evolution: ["Banette"],
+        evolutions: ["Banette"],
     },
     {
         name: "Silcoon",
@@ -3189,7 +3189,7 @@ const hoenn_region_pokemons = [
         weight: 10,
         height: 0.6,
         evolutionStage: 2,
-        evolution: ["Beautifly"],
+        evolutions: ["Beautifly"],
     },
     {
         name: "Skitty",
@@ -3198,7 +3198,7 @@ const hoenn_region_pokemons = [
         weight: 11,
         height: 0.6,
         evolutionStage: 1,
-        evolution: ["Delcatty"],
+        evolutions: ["Delcatty"],
     },
     {
         name: "Slaking",
@@ -3207,7 +3207,7 @@ const hoenn_region_pokemons = [
         weight: 130.5,
         height: 2,
         evolutionStage: 3,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Slakoth",
@@ -3216,7 +3216,7 @@ const hoenn_region_pokemons = [
         weight: 24,
         height: 0.8,
         evolutionStage: 1,
-        evolution: ["Vigoroth"],
+        evolutions: ["Vigoroth"],
     },
     {
         name: "Snorunt",
@@ -3225,7 +3225,7 @@ const hoenn_region_pokemons = [
         weight: 16.8,
         height: 0.7,
         evolutionStage: 1,
-        evolution: ["Glalie", "Froslass"],
+        evolutions: ["Glalie", "Froslass"],
     },
     {
         name: "Solrock",
@@ -3234,7 +3234,7 @@ const hoenn_region_pokemons = [
         weight: 154,
         height: 1.2,
         evolutionStage: 1,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Spheal",
@@ -3243,7 +3243,7 @@ const hoenn_region_pokemons = [
         weight: 39.5,
         height: 0.8,
         evolutionStage: 1,
-        evolution: ["Sealeo"],
+        evolutions: ["Sealeo"],
     },
     {
         name: "Spinda",
@@ -3252,7 +3252,7 @@ const hoenn_region_pokemons = [
         weight: 5,
         height: 1.1,
         evolutionStage: 1,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Spoink",
@@ -3261,7 +3261,7 @@ const hoenn_region_pokemons = [
         weight: 30.6,
         height: 0.7,
         evolutionStage: 1,
-        evolution: ["Grumpig"],
+        evolutions: ["Grumpig"],
     },
     {
         name: "Surskit",
@@ -3270,7 +3270,7 @@ const hoenn_region_pokemons = [
         weight: 1.7,
         height: 0.5,
         evolutionStage: 1,
-        evolution: ["Masquerain"],
+        evolutions: ["Masquerain"],
     },
     {
         name: "Swablu",
@@ -3279,7 +3279,7 @@ const hoenn_region_pokemons = [
         weight: 1.2,
         height: 0.4,
         evolutionStage: 1,
-        evolution: ["Altaria"],
+        evolutions: ["Altaria"],
     },
     {
         name: "Swalot",
@@ -3288,7 +3288,7 @@ const hoenn_region_pokemons = [
         weight: 80,
         height: 1.7,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Swampert",
@@ -3297,7 +3297,7 @@ const hoenn_region_pokemons = [
         weight: 81.9,
         height: 1.5,
         evolutionStage: 3,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Swellow",
@@ -3306,7 +3306,7 @@ const hoenn_region_pokemons = [
         weight: 19.8,
         height: 0.7,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Taillow",
@@ -3315,7 +3315,7 @@ const hoenn_region_pokemons = [
         weight: 2.3,
         height: 0.3,
         evolutionStage: 1,
-        evolution: ["Swellow"],
+        evolutions: ["Swellow"],
     },
     {
         name: "Torchic",
@@ -3324,7 +3324,7 @@ const hoenn_region_pokemons = [
         weight: 2.5,
         height: 0.4,
         evolutionStage: 1,
-        evolution: ["Combusken"],
+        evolutions: ["Combusken"],
     },
     {
         name: "Torkoal",
@@ -3333,7 +3333,7 @@ const hoenn_region_pokemons = [
         weight: 80.4,
         height: 0.5,
         evolutionStage: 1,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Trapinch",
@@ -3342,7 +3342,7 @@ const hoenn_region_pokemons = [
         weight: 15,
         height: 0.7,
         evolutionStage: 1,
-        evolution: ["Vibrava"],
+        evolutions: ["Vibrava"],
     },
     {
         name: "Treecko",
@@ -3351,7 +3351,7 @@ const hoenn_region_pokemons = [
         weight: 5,
         height: 0.5,
         evolutionStage: 1,
-        evolution: ["Grovyle"],
+        evolutions: ["Grovyle"],
     },
     {
         name: "Tropius",
@@ -3360,7 +3360,7 @@ const hoenn_region_pokemons = [
         weight: 100,
         height: 2,
         evolutionStage: 1,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Vibrava",
@@ -3369,7 +3369,7 @@ const hoenn_region_pokemons = [
         weight: 15.3,
         height: 1.1,
         evolutionStage: 2,
-        evolution: ["Flygon"],
+        evolutions: ["Flygon"],
     },
     {
         name: "Vigoroth",
@@ -3378,7 +3378,7 @@ const hoenn_region_pokemons = [
         weight: 46.5,
         height: 1.4,
         evolutionStage: 2,
-        evolution: ["Slaking"],
+        evolutions: ["Slaking"],
     },
     {
         name: "Volbeat",
@@ -3387,7 +3387,7 @@ const hoenn_region_pokemons = [
         weight: 17.7,
         height: 0.7,
         evolutionStage: 1,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Wailmer",
@@ -3396,7 +3396,7 @@ const hoenn_region_pokemons = [
         weight: 130,
         height: 2,
         evolutionStage: 1,
-        evolution: ["Wailord"],
+        evolutions: ["Wailord"],
     },
     {
         name: "Wailord",
@@ -3405,7 +3405,7 @@ const hoenn_region_pokemons = [
         weight: 398,
         height: 14.5,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Walrein",
@@ -3414,7 +3414,7 @@ const hoenn_region_pokemons = [
         weight: 150.6,
         height: 1.4,
         evolutionStage: 3,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Whiscash",
@@ -3423,7 +3423,7 @@ const hoenn_region_pokemons = [
         weight: 23.6,
         height: 0.9,
         evolutionStage: 2,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Whismur",
@@ -3432,7 +3432,7 @@ const hoenn_region_pokemons = [
         weight: 16.3,
         height: 0.6,
         evolutionStage: 1,
-        evolution: ["Loudred"],
+        evolutions: ["Loudred"],
     },
     {
         name: "Wingull",
@@ -3441,7 +3441,7 @@ const hoenn_region_pokemons = [
         weight: 9.5,
         height: 0.6,
         evolutionStage: 1,
-        evolution: ["Pelipper"],
+        evolutions: ["Pelipper"],
     },
     {
         name: "Wurmple",
@@ -3450,7 +3450,7 @@ const hoenn_region_pokemons = [
         weight: 3.6,
         height: 0.3,
         evolutionStage: 1,
-        evolution: ["Silcoon", "Cascoon"],
+        evolutions: ["Silcoon", "Cascoon"],
     },
     {
         name: "Wynaut",
@@ -3459,7 +3459,7 @@ const hoenn_region_pokemons = [
         weight: 14,
         height: 0.6,
         evolutionStage: 1,
-        evolution: ["Wobbuffet"],
+        evolutions: ["Wobbuffet"],
     },
     {
         name: "Zangoose",
@@ -3468,7 +3468,7 @@ const hoenn_region_pokemons = [
         weight: 40.3,
         height: 1.3,
         evolutionStage: 1,
-        evolution: [],
+        evolutions: [],
     },
     {
         name: "Zigzagoon",
@@ -3477,7 +3477,7 @@ const hoenn_region_pokemons = [
         weight: 17.5,
         height: 0.4,
         evolutionStage: 1,
-        evolution: ["Linoone"],
+        evolutions: ["Linoone"],
     },
 ];
 
