@@ -1,7 +1,6 @@
 // File: index.js
 import axios from "axios";
 import { promises as fs } from "fs";
-import path from "path";
 
 // Base URL for PokéAPI
 const BASE_URL = "https://pokeapi.co/api/v2";
@@ -25,6 +24,7 @@ async function getPokemonSpecies(generationUrl) {
         const sortedSpecies = response.data.pokemon_species.sort((a, b) =>
             a.name.localeCompare(b.name)
         );
+        console.log("Sorted Species of this generatino are: ", sortedSpecies);
         return sortedSpecies.map((species) => species.name);
     } catch (error) {
         console.error(
@@ -216,6 +216,8 @@ async function processGenerations() {
             `${BASE_URL}/generation/${generation.name}/`
         );
 
+        console.log("Species List of this generation is: ", speciesList);
+
         allData[generation.name] = [];
 
         for (const speciesName of speciesList) {
@@ -248,7 +250,7 @@ async function processGenerations() {
 
 async function add_to_pokemons_data_file(name, content) {
     try {
-        const filePath = path.resolve(process.cwd(), "src/pokemons-data.js");
+        const filePath = "./api/fetched-pokemons-data.js";
         const fileContent = `const ${name.split("-").pop()} = ${JSON.stringify(content, null, 2)};\n\n`;
         await fs.appendFile(filePath, fileContent);
         console.log(`Data for ${name} has been appended to ${filePath}`);
