@@ -8,9 +8,13 @@ import {
 
 const router = Router();
 
-router.route("/all").post(all_inventory_items);
-router.route("/create").post(create_inventory_item);
-router.route("/create/defaults").post(create_default_items);
-router.route("/delete/defaults").post(delete_default_items);
+router.route("/").post(create_inventory_item);
+
+router
+    .route("/defaults")
+    .post(create_default_items)
+    .delete(delete_default_items);
+
+router.route("/all").get(all_inventory_items);
 
 export default router;
