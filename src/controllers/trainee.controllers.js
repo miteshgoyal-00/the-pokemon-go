@@ -61,6 +61,30 @@ const gen_access_and_refresh_tokens = async (trainee_id) => {
     return { access_token, refresh_token };
 };
 
+const fetch_trainee_info = async_handler(async (req, res) => {
+    try {
+        const name = req.params.name;
+
+        const trainee = await trainee_model.findOne({ name: name });
+        if (trainee)
+            res.status(200).json({
+                success: true,
+                trainee: "fetched",
+                name: name,
+                info: trainee,
+            });
+        else
+            res.status(500).json({
+                success: false,
+                trainee: "not fetched",
+                name: name,
+            });
+    } catch (error) {
+        console.log("ERROR CAUGHT: ", error.message);
+        res.status(400).json({ success: false, error: error.message });
+    }
+});
+
 const register_trainee = async_handler(async (req, res) => {
     try {
         // console.log(req.body);
@@ -199,4 +223,4 @@ const logout_trainee = async_handler(async (req, res, next) => {
         });
 });
 
-export { register_trainee, login_trainee, logout_trainee };
+export { fetch_trainee_info, register_trainee, login_trainee, logout_trainee };
