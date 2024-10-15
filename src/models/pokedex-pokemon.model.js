@@ -1,7 +1,7 @@
 import { Schema, model } from "mongoose";
 
 const pokedex_pokemon_schema = Schema({
-    name: { type: String, required: true, unique: true },
+    name: { type: String, required: true, unique: true, sparse: true },
     species: { type: String, required: true },
     types: [
         {
@@ -33,8 +33,7 @@ const pokedex_pokemon_schema = Schema({
     height: { type: Number, required: true },
     candiesHolded: {
         type: Number,
-        default: 3,
-        get: function () {
+        default: function () {
             switch (this.evolutionStage) {
                 case 1:
                     return 3;
