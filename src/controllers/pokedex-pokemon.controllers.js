@@ -9,6 +9,7 @@ import {
     alola_region_pokemons,
     galar_region_pokemons,
     paldea_region_pokemons,
+    all_pokemons,
 } from "../constants/pokedex-pokemon.constants.js";
 import pokedex_pokemon_model from "../models/pokedex-pokemon.model.js";
 
@@ -27,6 +28,30 @@ const fetch_all_pokemons = async_handler(async (req, res) => {
             res.status(500).json({
                 success: false,
                 all_pokemons: "not fetched",
+            });
+    } catch (error) {
+        console.log("ERROR CAUGHT: ", error.message);
+        res.status(400).json({
+            success: false,
+            error: error.message,
+        });
+    }
+});
+
+const create_all_pokemons = async_handler(async (req, res) => {
+    try {
+        const result = await pokedex_pokemon_model.insertMany(all_pokemons);
+
+        if (result)
+            res.status(200).json({
+                success: true,
+                all_pokemons_creation: "successful",
+                creations_count: result.length,
+            });
+        else
+            res.status(500).json({
+                success: false,
+                all_pokemons_creation: "failed",
             });
     } catch (error) {
         console.log("ERROR CAUGHT: ", error.message);
@@ -261,6 +286,32 @@ const create_paldea_pokemons = async_handler(async (req, res) => {
             res.status(500).json({
                 success: false,
                 paldea_pokemons_creation: "failed",
+            });
+    } catch (error) {
+        console.log("ERROR CAUGHT: ", error.message);
+        res.status(400).json({
+            success: false,
+            error: error.message,
+        });
+    }
+});
+
+const delete_all_pokemons = async_handler(async (req, res) => {
+    try {
+        const result = await pokedex_pokemon_model.deleteMany({
+            name: { $in: all_pokemons.map((item) => item.name) },
+        });
+
+        if (result)
+            res.status(200).json({
+                success: true,
+                all_pokemons_deletion: "successful",
+                deletions_count: result.deletedCount,
+            });
+        else
+            res.status(500).json({
+                success: false,
+                all_pokemons_deletion: "failed",
             });
     } catch (error) {
         console.log("ERROR CAUGHT: ", error.message);
@@ -507,6 +558,7 @@ const delete_paldea_pokemons = async_handler(async (req, res) => {
 
 export {
     fetch_all_pokemons,
+    create_all_pokemons,
     create_hoenn_pokemons,
     create_johto_pokemons,
     create_kanto_pokemons,
@@ -516,6 +568,7 @@ export {
     create_alola_pokemons,
     create_galar_pokemons,
     create_paldea_pokemons,
+    delete_all_pokemons,
     delete_kanto_pokemons,
     delete_johto_pokemons,
     delete_hoenn_pokemons,

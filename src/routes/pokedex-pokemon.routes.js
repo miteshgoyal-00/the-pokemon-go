@@ -10,6 +10,7 @@ import {
     create_alola_pokemons,
     create_galar_pokemons,
     create_paldea_pokemons,
+    delete_all_pokemons,
     delete_kanto_pokemons,
     delete_johto_pokemons,
     delete_hoenn_pokemons,
@@ -19,10 +20,15 @@ import {
     delete_alola_pokemons,
     delete_galar_pokemons,
     delete_paldea_pokemons,
+    create_all_pokemons,
 } from "../controllers/pokedex-pokemon.controllers.js";
 
 const router = Router();
 
+router
+    .route("/pokemons/all")
+    .post(create_all_pokemons)
+    .delete(delete_all_pokemons);
 router
     .route("/pokemons/region/kanto")
     .post(create_kanto_pokemons)
