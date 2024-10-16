@@ -41,10 +41,23 @@ const instance_pokemon_schema = new Schema({
         },
         total: { type: Number, enum: [1, 2], default: 1 },
     },
-    spawnedAt: { type: String, required: true },
-    owner: {
+    spawnLocation: { type: String, required: true },
+    caughtBy: {
         type: Schema.Types.ObjectId,
         ref: "Trainee",
+        default: null,
+    },
+    caughtWithBall: {
+        type: Schema.Types.ObjectId,
+        ref: "InventoryItem",
+        default: null,
+    },
+    caughtLocation: {
+        type: String,
+        default: null,
+    },
+    caughtDate: {
+        type: Date,
         default: null,
     },
 });

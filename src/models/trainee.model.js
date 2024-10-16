@@ -73,16 +73,70 @@ const trainee_schema = new Schema(
         pokemonsCaught: { type: Number, default: 0 },
         pokestopsVisited: { type: Number, default: 0 },
         startDate: { type: Date },
-        pokemons: [
-            {
-                instancePokemonId: {
-                    type: Schema.Types.ObjectId,
-                    ref: "InstancePokemon",
+        pokemons: {
+            wild: [
+                {
+                    instancePokemonId: {
+                        type: Schema.Types.ObjectId,
+                        ref: "InstancePokemon",
+                    },
+                    candies: { type: Number, default: 0 },
+                    xlCandies: { type: Number, default: 0 },
+                    isFavourite: { type: Boolean, default: false },
+                    isBuddy: { type: Boolean, default: false },
                 },
-                candies: { type: Number, default: 0 },
-                xlCandies: { type: Number, default: 0 },
-                isFavourite: { type: Boolean, default: false },
-                isBuddy: { type: Boolean, default: false },
+            ],
+            hatched: [
+                {
+                    instancePokemonId: {
+                        type: Schema.Types.ObjectId,
+                        ref: "InstancePokemon",
+                    },
+                    candies: { type: Number, default: 0 },
+                    xlCandies: { type: Number, default: 0 },
+                    isFavourite: { type: Boolean, default: false },
+                    isBuddy: { type: Boolean, default: false },
+                    eggReceivedLocation: {
+                        type: String,
+                        default: null,
+                        required: true,
+                        get: function () {
+                            return this.eggs.receivedLocation;
+                        },
+                    },
+                    eggReceivedDate: {
+                        type: Date,
+                        default: null,
+                        required: true,
+                        get: function () {
+                            return this.eggs.receivedDate;
+                        },
+                    },
+                },
+            ],
+            raidBosses: [
+                {
+                    instancePokemonId: {
+                        type: Schema.Types.ObjectId,
+                        ref: "InstancePokemon",
+                    },
+                    candies: { type: Number, default: 0 },
+                    xlCandies: { type: Number, default: 0 },
+                    isFavourite: { type: Boolean, default: false },
+                    isBuddy: { type: Boolean, default: false },
+                },
+            ],
+        },
+        eggs: [
+            {
+                eggId: { type: Schema.Types.ObjectId, ref: "Egg" },
+                distanceCovered: { type: Number, default: 0 },
+                receivedLocation: {
+                    type: String,
+                    default: null,
+                    required: true,
+                },
+                receivedDate: { type: Date, default: null, required: true },
             },
         ],
         pokemonStorageCapacity: { type: Number, default: 300 },
