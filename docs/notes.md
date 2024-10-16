@@ -6,15 +6,21 @@
 - logic for pokemon will be caught or not
 - logic for ball thrown is good great excellent (and is it curveball or not)
 
+## in the pokedex pokemons model
+
+- how many candies are needed for evolution of each pokemon
+- is the pokemon capable of mega evolution
+
 ## in the instance pokemons model
 
-- the xl candies concept
+- the xl candies concept (if pokemon will give how many xlCandies when caught)
 - how much cp a pokemon will have at variuos levels.
 - candies and stardust required to level up the pokemon
 - after how many power ups the pokemon will go to next level (or increment by 1/2 level)
 
 ## in trainee mode
 
+- if a pokemon is capable for mega evolution (how many mega candies trainee holds for evolution)
 - the location concept
 - longitude and latitude will be stored and updated as per trainee's location
 
