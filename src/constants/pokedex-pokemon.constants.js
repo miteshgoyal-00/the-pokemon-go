@@ -10980,15 +10980,17 @@ const all_pokemons = [
     ...paldea_region_pokemons,
 ];
 
-export {
-    kanto_region_pokemons,
-    johto_region_pokemons,
-    hoenn_region_pokemons,
-    sinnoh_region_pokemons,
-    unova_region_pokemons,
-    kalos_region_pokemons,
-    alola_region_pokemons,
-    galar_region_pokemons,
-    paldea_region_pokemons,
-    all_pokemons,
+const pokemons = {
+    all: all_pokemons,
+    kanto: kanto_region_pokemons,
+    johto: johto_region_pokemons,
+    hoenn: hoenn_region_pokemons,
+    sinnoh: sinnoh_region_pokemons,
+    unova: unova_region_pokemons,
+    kalos: kalos_region_pokemons,
+    alola: alola_region_pokemons,
+    galar: galar_region_pokemons,
+    paldea: paldea_region_pokemons,
 };
+
+export default pokemons;

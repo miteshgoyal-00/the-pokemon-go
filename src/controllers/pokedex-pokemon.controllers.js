@@ -1,42 +1,36 @@
 import async_handler from "../utils/async-handler.util.js";
-import {
-    kanto_region_pokemons,
-    johto_region_pokemons,
-    hoenn_region_pokemons,
-    sinnoh_region_pokemons,
-    unova_region_pokemons,
-    kalos_region_pokemons,
-    alola_region_pokemons,
-    galar_region_pokemons,
-    paldea_region_pokemons,
-    all_pokemons,
-} from "../constants/pokedex-pokemon.constants.js";
+import pokemons from "../constants/pokedex-pokemon.constants.js";
 import pokedex_pokemon_model from "../models/pokedex-pokemon.model.js";
 
-const fetch_all_pokemons = async_handler(async (req, res) => {
-    try {
-        const pokemons = await pokedex_pokemon_model.find().select("-_id -__v");
+const fetch_pokemons = (region_pokemons, region_name) =>
+    async_handler(async (req, res) => {
+        try {
+            const pokemons = await pokedex_pokemon_model
+                .find({
+                    name: { $in: region_pokemons.map((item) => item.name) },
+                })
+                .select("-_id -__v");
 
-        if (pokemons)
-            res.status(200).json({
-                success: true,
-                all_pokemons: "fetched",
-                pokemons_count: pokemons.length,
-                pokemons: pokemons,
-            });
-        else
-            res.status(500).json({
+            if (pokemons)
+                res.status(200).json({
+                    success: true,
+                    [`${region_name}_pokemons`]: "fetched",
+                    pokemons_count: pokemons.length,
+                    pokemons: pokemons,
+                });
+            else
+                res.status(500).json({
+                    success: false,
+                    [`${region_name}_pokemons`]: "not fetched",
+                });
+        } catch (error) {
+            console.log("ERROR CAUGHT: ", error.message);
+            res.status(400).json({
                 success: false,
-                all_pokemons: "not fetched",
+                error: error.message,
             });
-    } catch (error) {
-        console.log("ERROR CAUGHT: ", error.message);
-        res.status(400).json({
-            success: false,
-            error: error.message,
-        });
-    }
-});
+        }
+    });
 
 const create_pokemons = (region_pokemons, region_name) =>
     async_handler(async (req, res) => {
@@ -91,38 +85,34 @@ const delete_pokemons = (region_pokemons, region_name) =>
         }
     });
 
-const controller_functions = {
-    fetch_all_pokemons,
+const region_names = [
+    "all",
+    "kanto",
+    "johto",
+    "hoenn",
+    "sinnoh",
+    "unova",
+    "kalos",
+    "alola",
+    "galar",
+    "paldea",
+];
 
-    create_all_pokemons: create_pokemons(all_pokemons, "all"),
-    delete_all_pokemons: delete_pokemons(all_pokemons, "all"),
+let controller_functions = {};
 
-    create_kanto_pokemons: create_pokemons(kanto_region_pokemons, "kanto"),
-    delete_kanto_pokemons: delete_pokemons(kanto_region_pokemons, "kanto"),
-
-    create_johto_pokemons: create_pokemons(johto_region_pokemons, "johto"),
-    delete_johto_pokemons: delete_pokemons(johto_region_pokemons, "johto"),
-
-    create_hoenn_pokemons: create_pokemons(hoenn_region_pokemons, "hoenn"),
-    delete_hoenn_pokemons: delete_pokemons(hoenn_region_pokemons, "hoenn"),
-
-    create_sinnoh_pokemons: create_pokemons(sinnoh_region_pokemons, "sinnoh"),
-    delete_sinnoh_pokemons: delete_pokemons(sinnoh_region_pokemons, "sinnoh"),
-
-    create_unova_pokemons: create_pokemons(unova_region_pokemons, "unova"),
-    delete_unova_pokemons: delete_pokemons(unova_region_pokemons, "unova"),
-
-    create_kalos_pokemons: create_pokemons(kalos_region_pokemons, "kalos"),
-    delete_kalos_pokemons: delete_pokemons(kalos_region_pokemons, "kalos"),
-
-    create_alola_pokemons: create_pokemons(alola_region_pokemons, "alola"),
-    delete_alola_pokemons: delete_pokemons(alola_region_pokemons, "alola"),
-
-    create_galar_pokemons: create_pokemons(galar_region_pokemons, "galar"),
-    delete_galar_pokemons: delete_pokemons(galar_region_pokemons, "galar"),
-
-    create_paldea_pokemons: create_pokemons(paldea_region_pokemons, "paldea"),
-    delete_paldea_pokemons: delete_pokemons(paldea_region_pokemons, "paldea"),
-};
+region_names.forEach((region) => {
+    controller_functions[`fetch_${region}_pokemons`] = fetch_pokemons(
+        pokemons[region],
+        region
+    );
+    controller_functions[`create_${region}_pokemons`] = create_pokemons(
+        pokemons[region],
+        region
+    );
+    controller_functions[`delete_${region}_pokemons`] = delete_pokemons(
+        pokemons[region],
+        region
+    );
+});
 
 export default controller_functions;
