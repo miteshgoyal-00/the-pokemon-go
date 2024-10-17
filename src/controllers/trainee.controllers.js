@@ -85,6 +85,30 @@ const fetch_trainee_info = async_handler(async (req, res) => {
     }
 });
 
+const delete_trainee_account = async_handler(async (req, res) => {
+    try {
+        const name = req.params.name;
+
+        const trainee = await trainee_model.findOneAndDelete({ name: name });
+        if (trainee)
+            res.status(200).json({
+                success: true,
+                trainee: "deleted",
+                name: name,
+                info: trainee,
+            });
+        else
+            res.status(500).json({
+                success: false,
+                trainee: "not deleted",
+                name: name,
+            });
+    } catch (error) {
+        console.log("ERROR CAUGHT: ", error.message);
+        res.status(400).json({ success: false, error: error.message });
+    }
+});
+
 const register_trainee = async_handler(async (req, res) => {
     try {
         // console.log(req.body);
@@ -225,6 +249,7 @@ const logout_trainee = async_handler(async (req, res, next) => {
 
 const controller_functions = {
     fetch_trainee_info,
+    delete_trainee_account,
     register_trainee,
     login_trainee,
     logout_trainee,
