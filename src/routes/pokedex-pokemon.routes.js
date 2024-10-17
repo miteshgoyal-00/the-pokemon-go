@@ -18,7 +18,7 @@ const region_names = [
 
 region_names.forEach((region) => {
     router
-        .route(`/pokemons/region/${region}`)
+        .route(`/s/region/${region}`)
         .post(controllers[`create_${region}_pokemons`])
         .get(controllers[`fetch_${region}_pokemons`])
         .delete(controllers[`delete_${region}_pokemons`]);
