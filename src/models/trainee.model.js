@@ -57,6 +57,26 @@ const trainee_schema = new Schema(
     {
         name: { type: String, required: true, unique: true },
         linkedPlatforms: { ...linked_platforms },
+        currentLocation: {
+            longitude: {
+                type: Number,
+                required: true,
+                default: function () {
+                    return this.currentLocation
+                        ? this.currentLocation.longitude
+                        : 0;
+                },
+            },
+            latitude: {
+                type: Number,
+                required: true,
+                default: function () {
+                    return this.currentLocation
+                        ? this.currentLocation.latitude
+                        : 0;
+                },
+            },
+        },
         xp: { type: Number, default: 0 },
         totalXp: { type: Number, default: 0 },
         level: { type: Number, default: 1, min: 1, max: 50 },

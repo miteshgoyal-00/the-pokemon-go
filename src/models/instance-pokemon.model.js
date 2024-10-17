@@ -41,6 +41,16 @@ const instance_pokemon_schema = new Schema({
         },
         total: { type: Number, enum: [1, 2], default: 1 },
     },
+    locationPoints: {
+        longitude: {
+            type: Number,
+            required: true,
+        },
+        latitude: {
+            type: Number,
+            required: true,
+        },
+    },
     spawnLocation: { type: String, required: true },
     caughtBy: {
         type: Schema.Types.ObjectId,
