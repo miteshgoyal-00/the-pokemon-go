@@ -5,7 +5,7 @@ const pokedex_pokemon_schema = Schema({
     species: { type: String, required: true },
     types: [
         {
-            type: [String],
+            type: String,
             enum: [
                 "Normal",
                 "Fire",
