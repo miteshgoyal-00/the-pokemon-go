@@ -2,7 +2,7 @@ const kanto_region_pokemons = [
     {
         name: "Abra",
         species: "Psi Pokémon",
-        type: ["Psychic"],
+        types: ["Psychic"],
         weight: 19.5,
         height: 0.9,
         evolutionStage: 1,
@@ -13,7 +13,7 @@ const kanto_region_pokemons = [
     {
         name: "Aerodactyl",
         species: "Fossil Pokémon",
-        type: ["Rock", "Flying"],
+        types: ["Rock", "Flying"],
         weight: 59,
         height: 1.8,
         evolutionStage: 1,
@@ -24,7 +24,7 @@ const kanto_region_pokemons = [
     {
         name: "Alakazam",
         species: "Psi Pokémon",
-        type: ["Psychic"],
+        types: ["Psychic"],
         weight: 48,
         height: 1.5,
         evolutionStage: 3,
@@ -35,7 +35,7 @@ const kanto_region_pokemons = [
     {
         name: "Arbok",
         species: "Cobra Pokémon",
-        type: ["Poison"],
+        types: ["Poison"],
         weight: 65,
         height: 3.5,
         evolutionStage: 2,
@@ -46,7 +46,7 @@ const kanto_region_pokemons = [
     {
         name: "Arcanine",
         species: "Legendary Pokémon",
-        type: ["Fire"],
+        types: ["Fire"],
         weight: 155,
         height: 1.9,
         evolutionStage: 2,
@@ -57,7 +57,7 @@ const kanto_region_pokemons = [
     {
         name: "Articuno",
         species: "Freeze Pokémon",
-        type: ["Ice", "Flying"],
+        types: ["Ice", "Flying"],
         weight: 55.4,
         height: 1.7,
         evolutionStage: 1,
@@ -68,7 +68,7 @@ const kanto_region_pokemons = [
     {
         name: "Beedrill",
         species: "Poison Bee Pokémon",
-        type: ["Bug", "Poison"],
+        types: ["Bug", "Poison"],
         weight: 29.5,
         height: 1,
         evolutionStage: 3,
@@ -79,7 +79,7 @@ const kanto_region_pokemons = [
     {
         name: "Bellsprout",
         species: "Flower Pokémon",
-        type: ["Grass", "Poison"],
+        types: ["Grass", "Poison"],
         weight: 4,
         height: 0.7,
         evolutionStage: 1,
@@ -90,7 +90,7 @@ const kanto_region_pokemons = [
     {
         name: "Blastoise",
         species: "Shellfish Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 85.5,
         height: 1.6,
         evolutionStage: 3,
@@ -101,7 +101,7 @@ const kanto_region_pokemons = [
     {
         name: "Bulbasaur",
         species: "Seed Pokémon",
-        type: ["Grass", "Poison"],
+        types: ["Grass", "Poison"],
         weight: 6.9,
         height: 0.7,
         evolutionStage: 1,
@@ -112,7 +112,7 @@ const kanto_region_pokemons = [
     {
         name: "Butterfree",
         species: "Butterfly Pokémon",
-        type: ["Bug", "Flying"],
+        types: ["Bug", "Flying"],
         weight: 32,
         height: 1.1,
         evolutionStage: 3,
@@ -123,7 +123,7 @@ const kanto_region_pokemons = [
     {
         name: "Caterpie",
         species: "Worm Pokémon",
-        type: ["Bug"],
+        types: ["Bug"],
         weight: 2.9,
         height: 0.3,
         evolutionStage: 1,
@@ -134,7 +134,7 @@ const kanto_region_pokemons = [
     {
         name: "Chansey",
         species: "Egg Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 34.6,
         height: 1.1,
         evolutionStage: 2,
@@ -145,7 +145,7 @@ const kanto_region_pokemons = [
     {
         name: "Charizard",
         species: "Flame Pokémon",
-        type: ["Fire", "Flying"],
+        types: ["Fire", "Flying"],
         weight: 90.5,
         height: 1.7,
         evolutionStage: 3,
@@ -156,7 +156,7 @@ const kanto_region_pokemons = [
     {
         name: "Charmander",
         species: "Lizard Pokémon",
-        type: ["Fire"],
+        types: ["Fire"],
         weight: 8.5,
         height: 0.6,
         evolutionStage: 1,
@@ -167,7 +167,7 @@ const kanto_region_pokemons = [
     {
         name: "Charmeleon",
         species: "Flame Pokémon",
-        type: ["Fire"],
+        types: ["Fire"],
         weight: 19,
         height: 1.1,
         evolutionStage: 2,
@@ -178,7 +178,7 @@ const kanto_region_pokemons = [
     {
         name: "Clefable",
         species: "Fairy Pokémon",
-        type: ["Fairy"],
+        types: ["Fairy"],
         weight: 40,
         height: 1.3,
         evolutionStage: 3,
@@ -189,7 +189,7 @@ const kanto_region_pokemons = [
     {
         name: "Clefairy",
         species: "Fairy Pokémon",
-        type: ["Fairy"],
+        types: ["Fairy"],
         weight: 7.5,
         height: 0.6,
         evolutionStage: 2,
@@ -200,7 +200,7 @@ const kanto_region_pokemons = [
     {
         name: "Cloyster",
         species: "Bivalve Pokémon",
-        type: ["Water", "Ice"],
+        types: ["Water", "Ice"],
         weight: 132.5,
         height: 1.5,
         evolutionStage: 2,
@@ -211,7 +211,7 @@ const kanto_region_pokemons = [
     {
         name: "Cubone",
         species: "Lonely Pokémon",
-        type: ["Ground"],
+        types: ["Ground"],
         weight: 6.5,
         height: 0.4,
         evolutionStage: 1,
@@ -222,7 +222,7 @@ const kanto_region_pokemons = [
     {
         name: "Dewgong",
         species: "Sea Lion Pokémon",
-        type: ["Water", "Ice"],
+        types: ["Water", "Ice"],
         weight: 120,
         height: 1.7,
         evolutionStage: 2,
@@ -233,7 +233,7 @@ const kanto_region_pokemons = [
     {
         name: "Diglett",
         species: "Mole Pokémon",
-        type: ["Ground"],
+        types: ["Ground"],
         weight: 0.8,
         height: 0.2,
         evolutionStage: 1,
@@ -244,7 +244,7 @@ const kanto_region_pokemons = [
     {
         name: "Ditto",
         species: "Transform Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 4,
         height: 0.3,
         evolutionStage: 1,
@@ -255,7 +255,7 @@ const kanto_region_pokemons = [
     {
         name: "Dodrio",
         species: "Triple Bird Pokémon",
-        type: ["Normal", "Flying"],
+        types: ["Normal", "Flying"],
         weight: 85.2,
         height: 1.8,
         evolutionStage: 2,
@@ -266,7 +266,7 @@ const kanto_region_pokemons = [
     {
         name: "Doduo",
         species: "Twin Bird Pokémon",
-        type: ["Normal", "Flying"],
+        types: ["Normal", "Flying"],
         weight: 39.2,
         height: 1.4,
         evolutionStage: 1,
@@ -277,7 +277,7 @@ const kanto_region_pokemons = [
     {
         name: "Dragonair",
         species: "Dragon Pokémon",
-        type: ["Dragon"],
+        types: ["Dragon"],
         weight: 16.5,
         height: 4,
         evolutionStage: 2,
@@ -288,7 +288,7 @@ const kanto_region_pokemons = [
     {
         name: "Dragonite",
         species: "Dragon Pokémon",
-        type: ["Dragon", "Flying"],
+        types: ["Dragon", "Flying"],
         weight: 210,
         height: 2.2,
         evolutionStage: 3,
@@ -299,7 +299,7 @@ const kanto_region_pokemons = [
     {
         name: "Dratini",
         species: "Dragon Pokémon",
-        type: ["Dragon"],
+        types: ["Dragon"],
         weight: 3.3,
         height: 1.8,
         evolutionStage: 1,
@@ -310,7 +310,7 @@ const kanto_region_pokemons = [
     {
         name: "Drowzee",
         species: "Hypnosis Pokémon",
-        type: ["Psychic"],
+        types: ["Psychic"],
         weight: 32.4,
         height: 1,
         evolutionStage: 1,
@@ -321,7 +321,7 @@ const kanto_region_pokemons = [
     {
         name: "Dugtrio",
         species: "Mole Pokémon",
-        type: ["Ground"],
+        types: ["Ground"],
         weight: 33.3,
         height: 0.7,
         evolutionStage: 2,
@@ -332,7 +332,7 @@ const kanto_region_pokemons = [
     {
         name: "Eevee",
         species: "Evolution Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 6.5,
         height: 0.3,
         evolutionStage: 1,
@@ -352,7 +352,7 @@ const kanto_region_pokemons = [
     {
         name: "Ekans",
         species: "Snake Pokémon",
-        type: ["Poison"],
+        types: ["Poison"],
         weight: 6.9,
         height: 2,
         evolutionStage: 1,
@@ -363,7 +363,7 @@ const kanto_region_pokemons = [
     {
         name: "Electabuzz",
         species: "Electric Pokémon",
-        type: ["Electric"],
+        types: ["Electric"],
         weight: 30,
         height: 1.1,
         evolutionStage: 2,
@@ -374,7 +374,7 @@ const kanto_region_pokemons = [
     {
         name: "Electrode",
         species: "Ball Pokémon",
-        type: ["Electric"],
+        types: ["Electric"],
         weight: 66.6,
         height: 1.2,
         evolutionStage: 2,
@@ -385,7 +385,7 @@ const kanto_region_pokemons = [
     {
         name: "Exeggcute",
         species: "Egg Pokémon",
-        type: ["Grass", "Psychic"],
+        types: ["Grass", "Psychic"],
         weight: 2.5,
         height: 0.4,
         evolutionStage: 1,
@@ -396,7 +396,7 @@ const kanto_region_pokemons = [
     {
         name: "Exeggutor",
         species: "Coconut Pokémon",
-        type: ["Grass", "Psychic"],
+        types: ["Grass", "Psychic"],
         weight: 120,
         height: 2,
         evolutionStage: 2,
@@ -407,7 +407,7 @@ const kanto_region_pokemons = [
     {
         name: "Farfetchd",
         species: "Wild Duck Pokémon",
-        type: ["Normal", "Flying"],
+        types: ["Normal", "Flying"],
         weight: 15,
         height: 0.8,
         evolutionStage: 1,
@@ -418,7 +418,7 @@ const kanto_region_pokemons = [
     {
         name: "Fearow",
         species: "Beak Pokémon",
-        type: ["Normal", "Flying"],
+        types: ["Normal", "Flying"],
         weight: 38,
         height: 1.2,
         evolutionStage: 2,
@@ -429,7 +429,7 @@ const kanto_region_pokemons = [
     {
         name: "Flareon",
         species: "Flame Pokémon",
-        type: ["Fire"],
+        types: ["Fire"],
         weight: 25,
         height: 0.9,
         evolutionStage: 2,
@@ -440,7 +440,7 @@ const kanto_region_pokemons = [
     {
         name: "Gastly",
         species: "Gas Pokémon",
-        type: ["Ghost", "Poison"],
+        types: ["Ghost", "Poison"],
         weight: 0.1,
         height: 1.3,
         evolutionStage: 1,
@@ -451,7 +451,7 @@ const kanto_region_pokemons = [
     {
         name: "Gengar",
         species: "Shadow Pokémon",
-        type: ["Ghost", "Poison"],
+        types: ["Ghost", "Poison"],
         weight: 40.5,
         height: 1.5,
         evolutionStage: 3,
@@ -462,7 +462,7 @@ const kanto_region_pokemons = [
     {
         name: "Geodude",
         species: "Rock Pokémon",
-        type: ["Rock", "Ground"],
+        types: ["Rock", "Ground"],
         weight: 20,
         height: 0.4,
         evolutionStage: 1,
@@ -473,7 +473,7 @@ const kanto_region_pokemons = [
     {
         name: "Gloom",
         species: "Weed Pokémon",
-        type: ["Grass", "Poison"],
+        types: ["Grass", "Poison"],
         weight: 8.6,
         height: 0.8,
         evolutionStage: 2,
@@ -484,7 +484,7 @@ const kanto_region_pokemons = [
     {
         name: "Golbat",
         species: "Bat Pokémon",
-        type: ["Poison", "Flying"],
+        types: ["Poison", "Flying"],
         weight: 55,
         height: 1.6,
         evolutionStage: 2,
@@ -495,7 +495,7 @@ const kanto_region_pokemons = [
     {
         name: "Goldeen",
         species: "Goldfish Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 15,
         height: 0.6,
         evolutionStage: 1,
@@ -506,7 +506,7 @@ const kanto_region_pokemons = [
     {
         name: "Golduck",
         species: "Duck Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 76.6,
         height: 1.7,
         evolutionStage: 2,
@@ -517,7 +517,7 @@ const kanto_region_pokemons = [
     {
         name: "Golem",
         species: "Megaton Pokémon",
-        type: ["Rock", "Ground"],
+        types: ["Rock", "Ground"],
         weight: 300,
         height: 1.4,
         evolutionStage: 3,
@@ -528,7 +528,7 @@ const kanto_region_pokemons = [
     {
         name: "Graveler",
         species: "Rock Pokémon",
-        type: ["Rock", "Ground"],
+        types: ["Rock", "Ground"],
         weight: 105,
         height: 1,
         evolutionStage: 2,
@@ -539,7 +539,7 @@ const kanto_region_pokemons = [
     {
         name: "Grimer",
         species: "Sludge Pokémon",
-        type: ["Poison"],
+        types: ["Poison"],
         weight: 30,
         height: 0.9,
         evolutionStage: 1,
@@ -550,7 +550,7 @@ const kanto_region_pokemons = [
     {
         name: "Growlithe",
         species: "Puppy Pokémon",
-        type: ["Fire"],
+        types: ["Fire"],
         weight: 19,
         height: 0.7,
         evolutionStage: 1,
@@ -561,7 +561,7 @@ const kanto_region_pokemons = [
     {
         name: "Gyarados",
         species: "Atrocious Pokémon",
-        type: ["Water", "Flying"],
+        types: ["Water", "Flying"],
         weight: 235,
         height: 6.5,
         evolutionStage: 2,
@@ -572,7 +572,7 @@ const kanto_region_pokemons = [
     {
         name: "Haunter",
         species: "Gas Pokémon",
-        type: ["Ghost", "Poison"],
+        types: ["Ghost", "Poison"],
         weight: 0.1,
         height: 1.6,
         evolutionStage: 2,
@@ -583,7 +583,7 @@ const kanto_region_pokemons = [
     {
         name: "Hitmonchan",
         species: "Punching Pokémon",
-        type: ["Fighting"],
+        types: ["Fighting"],
         weight: 50.2,
         height: 1.4,
         evolutionStage: 2,
@@ -594,7 +594,7 @@ const kanto_region_pokemons = [
     {
         name: "Hitmonlee",
         species: "Kicking Pokémon",
-        type: ["Fighting"],
+        types: ["Fighting"],
         weight: 49.8,
         height: 1.5,
         evolutionStage: 2,
@@ -605,7 +605,7 @@ const kanto_region_pokemons = [
     {
         name: "Horsea",
         species: "Dragon Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 8,
         height: 0.4,
         evolutionStage: 1,
@@ -616,7 +616,7 @@ const kanto_region_pokemons = [
     {
         name: "Hypno",
         species: "Hypnosis Pokémon",
-        type: ["Psychic"],
+        types: ["Psychic"],
         weight: 75.6,
         height: 1.6,
         evolutionStage: 2,
@@ -627,7 +627,7 @@ const kanto_region_pokemons = [
     {
         name: "Ivysaur",
         species: "Seed Pokémon",
-        type: ["Grass", "Poison"],
+        types: ["Grass", "Poison"],
         weight: 13,
         height: 1,
         evolutionStage: 2,
@@ -638,7 +638,7 @@ const kanto_region_pokemons = [
     {
         name: "Jigglypuff",
         species: "Balloon Pokémon",
-        type: ["Normal", "Fairy"],
+        types: ["Normal", "Fairy"],
         weight: 5.5,
         height: 0.5,
         evolutionStage: 2,
@@ -649,7 +649,7 @@ const kanto_region_pokemons = [
     {
         name: "Jolteon",
         species: "Lightning Pokémon",
-        type: ["Electric"],
+        types: ["Electric"],
         weight: 24.5,
         height: 0.8,
         evolutionStage: 2,
@@ -660,7 +660,7 @@ const kanto_region_pokemons = [
     {
         name: "Jynx",
         species: "Human Shape Pokémon",
-        type: ["Ice", "Psychic"],
+        types: ["Ice", "Psychic"],
         weight: 40.6,
         height: 1.4,
         evolutionStage: 2,
@@ -671,7 +671,7 @@ const kanto_region_pokemons = [
     {
         name: "Kabuto",
         species: "Shellfish Pokémon",
-        type: ["Rock", "Water"],
+        types: ["Rock", "Water"],
         weight: 11.5,
         height: 0.5,
         evolutionStage: 1,
@@ -682,7 +682,7 @@ const kanto_region_pokemons = [
     {
         name: "Kabutops",
         species: "Shellfish Pokémon",
-        type: ["Rock", "Water"],
+        types: ["Rock", "Water"],
         weight: 40.5,
         height: 1.3,
         evolutionStage: 2,
@@ -693,7 +693,7 @@ const kanto_region_pokemons = [
     {
         name: "Kadabra",
         species: "Psi Pokémon",
-        type: ["Psychic"],
+        types: ["Psychic"],
         weight: 56.5,
         height: 1.3,
         evolutionStage: 2,
@@ -704,7 +704,7 @@ const kanto_region_pokemons = [
     {
         name: "Kakuna",
         species: "Cocoon Pokémon",
-        type: ["Bug", "Poison"],
+        types: ["Bug", "Poison"],
         weight: 10,
         height: 0.6,
         evolutionStage: 2,
@@ -715,7 +715,7 @@ const kanto_region_pokemons = [
     {
         name: "Kangaskhan",
         species: "Parent Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 80,
         height: 2.2,
         evolutionStage: 1,
@@ -726,7 +726,7 @@ const kanto_region_pokemons = [
     {
         name: "Kingler",
         species: "Pincer Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 60,
         height: 1.3,
         evolutionStage: 2,
@@ -737,7 +737,7 @@ const kanto_region_pokemons = [
     {
         name: "Koffing",
         species: "Poison Gas Pokémon",
-        type: ["Poison"],
+        types: ["Poison"],
         weight: 1,
         height: 0.6,
         evolutionStage: 1,
@@ -748,7 +748,7 @@ const kanto_region_pokemons = [
     {
         name: "Krabby",
         species: "River Crab Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 6.5,
         height: 0.4,
         evolutionStage: 1,
@@ -759,7 +759,7 @@ const kanto_region_pokemons = [
     {
         name: "Lapras",
         species: "Transport Pokémon",
-        type: ["Water", "Ice"],
+        types: ["Water", "Ice"],
         weight: 220,
         height: 2.5,
         evolutionStage: 1,
@@ -770,7 +770,7 @@ const kanto_region_pokemons = [
     {
         name: "Lickitung",
         species: "Licking Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 65.5,
         height: 1.2,
         evolutionStage: 1,
@@ -781,7 +781,7 @@ const kanto_region_pokemons = [
     {
         name: "Machamp",
         species: "Superpower Pokémon",
-        type: ["Fighting"],
+        types: ["Fighting"],
         weight: 130,
         height: 1.6,
         evolutionStage: 3,
@@ -792,7 +792,7 @@ const kanto_region_pokemons = [
     {
         name: "Machoke",
         species: "Superpower Pokémon",
-        type: ["Fighting"],
+        types: ["Fighting"],
         weight: 70.5,
         height: 1.5,
         evolutionStage: 2,
@@ -803,7 +803,7 @@ const kanto_region_pokemons = [
     {
         name: "Machop",
         species: "Superpower Pokémon",
-        type: ["Fighting"],
+        types: ["Fighting"],
         weight: 19.5,
         height: 0.8,
         evolutionStage: 1,
@@ -814,7 +814,7 @@ const kanto_region_pokemons = [
     {
         name: "Magikarp",
         species: "Fish Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 10,
         height: 0.9,
         evolutionStage: 1,
@@ -825,7 +825,7 @@ const kanto_region_pokemons = [
     {
         name: "Magmar",
         species: "Spitfire Pokémon",
-        type: ["Fire"],
+        types: ["Fire"],
         weight: 44.5,
         height: 1.3,
         evolutionStage: 2,
@@ -836,7 +836,7 @@ const kanto_region_pokemons = [
     {
         name: "Magnemite",
         species: "Magnet Pokémon",
-        type: ["Electric", "Steel"],
+        types: ["Electric", "Steel"],
         weight: 6,
         height: 0.3,
         evolutionStage: 1,
@@ -847,7 +847,7 @@ const kanto_region_pokemons = [
     {
         name: "Magneton",
         species: "Magnet Pokémon",
-        type: ["Electric", "Steel"],
+        types: ["Electric", "Steel"],
         weight: 60,
         height: 1,
         evolutionStage: 2,
@@ -858,7 +858,7 @@ const kanto_region_pokemons = [
     {
         name: "Mankey",
         species: "Pig Monkey Pokémon",
-        type: ["Fighting"],
+        types: ["Fighting"],
         weight: 28,
         height: 0.5,
         evolutionStage: 1,
@@ -869,7 +869,7 @@ const kanto_region_pokemons = [
     {
         name: "Marowak",
         species: "Bone Keeper Pokémon",
-        type: ["Ground"],
+        types: ["Ground"],
         weight: 45,
         height: 1,
         evolutionStage: 2,
@@ -880,7 +880,7 @@ const kanto_region_pokemons = [
     {
         name: "Meowth",
         species: "Scratch Cat Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 4.2,
         height: 0.4,
         evolutionStage: 1,
@@ -891,7 +891,7 @@ const kanto_region_pokemons = [
     {
         name: "Metapod",
         species: "Cocoon Pokémon",
-        type: ["Bug"],
+        types: ["Bug"],
         weight: 9.9,
         height: 0.7,
         evolutionStage: 2,
@@ -902,7 +902,7 @@ const kanto_region_pokemons = [
     {
         name: "Mew",
         species: "New Species Pokémon",
-        type: ["Psychic"],
+        types: ["Psychic"],
         weight: 4,
         height: 0.4,
         evolutionStage: 1,
@@ -913,7 +913,7 @@ const kanto_region_pokemons = [
     {
         name: "Mewtwo",
         species: "Genetic Pokémon",
-        type: ["Psychic"],
+        types: ["Psychic"],
         weight: 122,
         height: 2,
         evolutionStage: 1,
@@ -924,7 +924,7 @@ const kanto_region_pokemons = [
     {
         name: "Moltres",
         species: "Flame Pokémon",
-        type: ["Fire", "Flying"],
+        types: ["Fire", "Flying"],
         weight: 60,
         height: 2,
         evolutionStage: 1,
@@ -935,7 +935,7 @@ const kanto_region_pokemons = [
     {
         name: "Mr-mime",
         species: "Barrier Pokémon",
-        type: ["Psychic", "Fairy"],
+        types: ["Psychic", "Fairy"],
         weight: 54.5,
         height: 1.3,
         evolutionStage: 2,
@@ -946,7 +946,7 @@ const kanto_region_pokemons = [
     {
         name: "Muk",
         species: "Sludge Pokémon",
-        type: ["Poison"],
+        types: ["Poison"],
         weight: 30,
         height: 1.2,
         evolutionStage: 2,
@@ -957,7 +957,7 @@ const kanto_region_pokemons = [
     {
         name: "Nidoking",
         species: "Drill Pokémon",
-        type: ["Poison", "Ground"],
+        types: ["Poison", "Ground"],
         weight: 62,
         height: 1.4,
         evolutionStage: 3,
@@ -968,7 +968,7 @@ const kanto_region_pokemons = [
     {
         name: "Nidoqueen",
         species: "Drill Pokémon",
-        type: ["Poison", "Ground"],
+        types: ["Poison", "Ground"],
         weight: 60,
         height: 1.3,
         evolutionStage: 3,
@@ -979,7 +979,7 @@ const kanto_region_pokemons = [
     {
         name: "Nidoran-f",
         species: "Poison Pin Pokémon",
-        type: ["Poison"],
+        types: ["Poison"],
         weight: 7,
         height: 0.4,
         evolutionStage: 1,
@@ -990,7 +990,7 @@ const kanto_region_pokemons = [
     {
         name: "Nidoran-m",
         species: "Poison Pin Pokémon",
-        type: ["Poison"],
+        types: ["Poison"],
         weight: 9,
         height: 0.5,
         evolutionStage: 1,
@@ -1001,7 +1001,7 @@ const kanto_region_pokemons = [
     {
         name: "Nidorina",
         species: "Poison Pin Pokémon",
-        type: ["Poison"],
+        types: ["Poison"],
         weight: 20,
         height: 0.8,
         evolutionStage: 2,
@@ -1012,7 +1012,7 @@ const kanto_region_pokemons = [
     {
         name: "Nidorino",
         species: "Poison Pin Pokémon",
-        type: ["Poison"],
+        types: ["Poison"],
         weight: 19.5,
         height: 0.9,
         evolutionStage: 2,
@@ -1023,7 +1023,7 @@ const kanto_region_pokemons = [
     {
         name: "Ninetales",
         species: "Fox Pokémon",
-        type: ["Fire"],
+        types: ["Fire"],
         weight: 19.9,
         height: 1.1,
         evolutionStage: 2,
@@ -1034,7 +1034,7 @@ const kanto_region_pokemons = [
     {
         name: "Oddish",
         species: "Weed Pokémon",
-        type: ["Grass", "Poison"],
+        types: ["Grass", "Poison"],
         weight: 5.4,
         height: 0.5,
         evolutionStage: 1,
@@ -1045,7 +1045,7 @@ const kanto_region_pokemons = [
     {
         name: "Omanyte",
         species: "Spiral Pokémon",
-        type: ["Rock", "Water"],
+        types: ["Rock", "Water"],
         weight: 7.5,
         height: 0.4,
         evolutionStage: 1,
@@ -1056,7 +1056,7 @@ const kanto_region_pokemons = [
     {
         name: "Omastar",
         species: "Spiral Pokémon",
-        type: ["Rock", "Water"],
+        types: ["Rock", "Water"],
         weight: 35,
         height: 1,
         evolutionStage: 2,
@@ -1067,7 +1067,7 @@ const kanto_region_pokemons = [
     {
         name: "Onix",
         species: "Rock Snake Pokémon",
-        type: ["Rock", "Ground"],
+        types: ["Rock", "Ground"],
         weight: 210,
         height: 8.8,
         evolutionStage: 1,
@@ -1078,7 +1078,7 @@ const kanto_region_pokemons = [
     {
         name: "Paras",
         species: "Mushroom Pokémon",
-        type: ["Bug", "Grass"],
+        types: ["Bug", "Grass"],
         weight: 5.4,
         height: 0.3,
         evolutionStage: 1,
@@ -1089,7 +1089,7 @@ const kanto_region_pokemons = [
     {
         name: "Parasect",
         species: "Mushroom Pokémon",
-        type: ["Bug", "Grass"],
+        types: ["Bug", "Grass"],
         weight: 29.5,
         height: 1,
         evolutionStage: 2,
@@ -1100,7 +1100,7 @@ const kanto_region_pokemons = [
     {
         name: "Persian",
         species: "Classy Cat Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 32,
         height: 1,
         evolutionStage: 2,
@@ -1111,7 +1111,7 @@ const kanto_region_pokemons = [
     {
         name: "Pidgeot",
         species: "Bird Pokémon",
-        type: ["Normal", "Flying"],
+        types: ["Normal", "Flying"],
         weight: 39.5,
         height: 1.5,
         evolutionStage: 3,
@@ -1122,7 +1122,7 @@ const kanto_region_pokemons = [
     {
         name: "Pidgeotto",
         species: "Bird Pokémon",
-        type: ["Normal", "Flying"],
+        types: ["Normal", "Flying"],
         weight: 30,
         height: 1.1,
         evolutionStage: 2,
@@ -1133,7 +1133,7 @@ const kanto_region_pokemons = [
     {
         name: "Pidgey",
         species: "Tiny Bird Pokémon",
-        type: ["Normal", "Flying"],
+        types: ["Normal", "Flying"],
         weight: 1.8,
         height: 0.3,
         evolutionStage: 1,
@@ -1144,7 +1144,7 @@ const kanto_region_pokemons = [
     {
         name: "Pikachu",
         species: "Mouse Pokémon",
-        type: ["Electric"],
+        types: ["Electric"],
         weight: 6,
         height: 0.4,
         evolutionStage: 2,
@@ -1155,7 +1155,7 @@ const kanto_region_pokemons = [
     {
         name: "Pinsir",
         species: "Stag Beetle Pokémon",
-        type: ["Bug"],
+        types: ["Bug"],
         weight: 55,
         height: 1.5,
         evolutionStage: 1,
@@ -1166,7 +1166,7 @@ const kanto_region_pokemons = [
     {
         name: "Poliwag",
         species: "Tadpole Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 12.4,
         height: 0.6,
         evolutionStage: 1,
@@ -1177,7 +1177,7 @@ const kanto_region_pokemons = [
     {
         name: "Poliwhirl",
         species: "Tadpole Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 20,
         height: 1,
         evolutionStage: 2,
@@ -1188,7 +1188,7 @@ const kanto_region_pokemons = [
     {
         name: "Poliwrath",
         species: "Tadpole Pokémon",
-        type: ["Water", "Fighting"],
+        types: ["Water", "Fighting"],
         weight: 54,
         height: 1.3,
         evolutionStage: 3,
@@ -1199,7 +1199,7 @@ const kanto_region_pokemons = [
     {
         name: "Ponyta",
         species: "Fire Horse Pokémon",
-        type: ["Fire"],
+        types: ["Fire"],
         weight: 30,
         height: 1,
         evolutionStage: 1,
@@ -1210,7 +1210,7 @@ const kanto_region_pokemons = [
     {
         name: "Porygon",
         species: "Virtual Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 36.5,
         height: 0.8,
         evolutionStage: 1,
@@ -1221,7 +1221,7 @@ const kanto_region_pokemons = [
     {
         name: "Primeape",
         species: "Pig Monkey Pokémon",
-        type: ["Fighting"],
+        types: ["Fighting"],
         weight: 32,
         height: 1,
         evolutionStage: 2,
@@ -1232,7 +1232,7 @@ const kanto_region_pokemons = [
     {
         name: "Psyduck",
         species: "Duck Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 19.6,
         height: 0.8,
         evolutionStage: 1,
@@ -1243,7 +1243,7 @@ const kanto_region_pokemons = [
     {
         name: "Raichu",
         species: "Mouse Pokémon",
-        type: ["Electric"],
+        types: ["Electric"],
         weight: 30,
         height: 0.8,
         evolutionStage: 3,
@@ -1254,7 +1254,7 @@ const kanto_region_pokemons = [
     {
         name: "Rapidash",
         species: "Fire Horse Pokémon",
-        type: ["Fire"],
+        types: ["Fire"],
         weight: 95,
         height: 1.7,
         evolutionStage: 2,
@@ -1265,7 +1265,7 @@ const kanto_region_pokemons = [
     {
         name: "Raticate",
         species: "Mouse Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 18.5,
         height: 0.7,
         evolutionStage: 2,
@@ -1276,7 +1276,7 @@ const kanto_region_pokemons = [
     {
         name: "Rattata",
         species: "Mouse Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 3.5,
         height: 0.3,
         evolutionStage: 1,
@@ -1287,7 +1287,7 @@ const kanto_region_pokemons = [
     {
         name: "Rhydon",
         species: "Drill Pokémon",
-        type: ["Ground", "Rock"],
+        types: ["Ground", "Rock"],
         weight: 120,
         height: 1.9,
         evolutionStage: 2,
@@ -1298,7 +1298,7 @@ const kanto_region_pokemons = [
     {
         name: "Rhyhorn",
         species: "Spikes Pokémon",
-        type: ["Ground", "Rock"],
+        types: ["Ground", "Rock"],
         weight: 115,
         height: 1,
         evolutionStage: 1,
@@ -1309,7 +1309,7 @@ const kanto_region_pokemons = [
     {
         name: "Sandshrew",
         species: "Mouse Pokémon",
-        type: ["Ground"],
+        types: ["Ground"],
         weight: 12,
         height: 0.6,
         evolutionStage: 1,
@@ -1320,7 +1320,7 @@ const kanto_region_pokemons = [
     {
         name: "Sandslash",
         species: "Mouse Pokémon",
-        type: ["Ground"],
+        types: ["Ground"],
         weight: 29.5,
         height: 1,
         evolutionStage: 2,
@@ -1331,7 +1331,7 @@ const kanto_region_pokemons = [
     {
         name: "Scyther",
         species: "Mantis Pokémon",
-        type: ["Bug", "Flying"],
+        types: ["Bug", "Flying"],
         weight: 56,
         height: 1.5,
         evolutionStage: 1,
@@ -1342,7 +1342,7 @@ const kanto_region_pokemons = [
     {
         name: "Seadra",
         species: "Dragon Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 25,
         height: 1.2,
         evolutionStage: 2,
@@ -1353,7 +1353,7 @@ const kanto_region_pokemons = [
     {
         name: "Seaking",
         species: "Goldfish Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 39,
         height: 1.3,
         evolutionStage: 2,
@@ -1364,7 +1364,7 @@ const kanto_region_pokemons = [
     {
         name: "Seel",
         species: "Sea Lion Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 90,
         height: 1.1,
         evolutionStage: 1,
@@ -1375,7 +1375,7 @@ const kanto_region_pokemons = [
     {
         name: "Shellder",
         species: "Bivalve Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 4,
         height: 0.3,
         evolutionStage: 1,
@@ -1386,7 +1386,7 @@ const kanto_region_pokemons = [
     {
         name: "Slowbro",
         species: "Hermit Crab Pokémon",
-        type: ["Water", "Psychic"],
+        types: ["Water", "Psychic"],
         weight: 78.5,
         height: 1.6,
         evolutionStage: 2,
@@ -1397,7 +1397,7 @@ const kanto_region_pokemons = [
     {
         name: "Slowpoke",
         species: "Dopey Pokémon",
-        type: ["Water", "Psychic"],
+        types: ["Water", "Psychic"],
         weight: 36,
         height: 1.2,
         evolutionStage: 1,
@@ -1408,7 +1408,7 @@ const kanto_region_pokemons = [
     {
         name: "Snorlax",
         species: "Sleeping Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 460,
         height: 2.1,
         evolutionStage: 2,
@@ -1419,7 +1419,7 @@ const kanto_region_pokemons = [
     {
         name: "Spearow",
         species: "Tiny Bird Pokémon",
-        type: ["Normal", "Flying"],
+        types: ["Normal", "Flying"],
         weight: 2,
         height: 0.3,
         evolutionStage: 1,
@@ -1430,7 +1430,7 @@ const kanto_region_pokemons = [
     {
         name: "Squirtle",
         species: "Tiny Turtle Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 9,
         height: 0.5,
         evolutionStage: 1,
@@ -1441,7 +1441,7 @@ const kanto_region_pokemons = [
     {
         name: "Starmie",
         species: "Mysterious Pokémon",
-        type: ["Water", "Psychic"],
+        types: ["Water", "Psychic"],
         weight: 80,
         height: 1.1,
         evolutionStage: 2,
@@ -1452,7 +1452,7 @@ const kanto_region_pokemons = [
     {
         name: "Staryu",
         species: "Star Shape Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 34.5,
         height: 0.8,
         evolutionStage: 1,
@@ -1463,7 +1463,7 @@ const kanto_region_pokemons = [
     {
         name: "Tangela",
         species: "Vine Pokémon",
-        type: ["Grass"],
+        types: ["Grass"],
         weight: 35,
         height: 1,
         evolutionStage: 1,
@@ -1474,7 +1474,7 @@ const kanto_region_pokemons = [
     {
         name: "Tauros",
         species: "Wild Bull Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 88.4,
         height: 1.4,
         evolutionStage: 1,
@@ -1485,7 +1485,7 @@ const kanto_region_pokemons = [
     {
         name: "Tentacool",
         species: "Jellyfish Pokémon",
-        type: ["Water", "Poison"],
+        types: ["Water", "Poison"],
         weight: 45.5,
         height: 0.9,
         evolutionStage: 1,
@@ -1496,7 +1496,7 @@ const kanto_region_pokemons = [
     {
         name: "Tentacruel",
         species: "Jellyfish Pokémon",
-        type: ["Water", "Poison"],
+        types: ["Water", "Poison"],
         weight: 55,
         height: 1.6,
         evolutionStage: 2,
@@ -1507,7 +1507,7 @@ const kanto_region_pokemons = [
     {
         name: "Vaporeon",
         species: "Bubble Jet Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 29,
         height: 1,
         evolutionStage: 2,
@@ -1518,7 +1518,7 @@ const kanto_region_pokemons = [
     {
         name: "Venomoth",
         species: "Poison Moth Pokémon",
-        type: ["Bug", "Poison"],
+        types: ["Bug", "Poison"],
         weight: 12.5,
         height: 1.5,
         evolutionStage: 2,
@@ -1529,7 +1529,7 @@ const kanto_region_pokemons = [
     {
         name: "Venonat",
         species: "Insect Pokémon",
-        type: ["Bug", "Poison"],
+        types: ["Bug", "Poison"],
         weight: 30,
         height: 1,
         evolutionStage: 1,
@@ -1540,7 +1540,7 @@ const kanto_region_pokemons = [
     {
         name: "Venusaur",
         species: "Seed Pokémon",
-        type: ["Grass", "Poison"],
+        types: ["Grass", "Poison"],
         weight: 100,
         height: 2,
         evolutionStage: 3,
@@ -1551,7 +1551,7 @@ const kanto_region_pokemons = [
     {
         name: "Victreebel",
         species: "Flycatcher Pokémon",
-        type: ["Grass", "Poison"],
+        types: ["Grass", "Poison"],
         weight: 15.5,
         height: 1.7,
         evolutionStage: 3,
@@ -1562,7 +1562,7 @@ const kanto_region_pokemons = [
     {
         name: "Vileplume",
         species: "Flower Pokémon",
-        type: ["Grass", "Poison"],
+        types: ["Grass", "Poison"],
         weight: 18.6,
         height: 1.2,
         evolutionStage: 3,
@@ -1573,7 +1573,7 @@ const kanto_region_pokemons = [
     {
         name: "Voltorb",
         species: "Ball Pokémon",
-        type: ["Electric"],
+        types: ["Electric"],
         weight: 10.4,
         height: 0.5,
         evolutionStage: 1,
@@ -1584,7 +1584,7 @@ const kanto_region_pokemons = [
     {
         name: "Vulpix",
         species: "Fox Pokémon",
-        type: ["Fire"],
+        types: ["Fire"],
         weight: 9.9,
         height: 0.6,
         evolutionStage: 1,
@@ -1595,7 +1595,7 @@ const kanto_region_pokemons = [
     {
         name: "Wartortle",
         species: "Turtle Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 22.5,
         height: 1,
         evolutionStage: 2,
@@ -1606,7 +1606,7 @@ const kanto_region_pokemons = [
     {
         name: "Weedle",
         species: "Hairy Bug Pokémon",
-        type: ["Bug", "Poison"],
+        types: ["Bug", "Poison"],
         weight: 3.2,
         height: 0.3,
         evolutionStage: 1,
@@ -1617,7 +1617,7 @@ const kanto_region_pokemons = [
     {
         name: "Weepinbell",
         species: "Flycatcher Pokémon",
-        type: ["Grass", "Poison"],
+        types: ["Grass", "Poison"],
         weight: 6.4,
         height: 1,
         evolutionStage: 2,
@@ -1628,7 +1628,7 @@ const kanto_region_pokemons = [
     {
         name: "Weezing",
         species: "Poison Gas Pokémon",
-        type: ["Poison"],
+        types: ["Poison"],
         weight: 9.5,
         height: 1.2,
         evolutionStage: 2,
@@ -1639,7 +1639,7 @@ const kanto_region_pokemons = [
     {
         name: "Wigglytuff",
         species: "Balloon Pokémon",
-        type: ["Normal", "Fairy"],
+        types: ["Normal", "Fairy"],
         weight: 12,
         height: 1,
         evolutionStage: 3,
@@ -1650,7 +1650,7 @@ const kanto_region_pokemons = [
     {
         name: "Zapdos",
         species: "Electric Pokémon",
-        type: ["Electric", "Flying"],
+        types: ["Electric", "Flying"],
         weight: 52.6,
         height: 1.6,
         evolutionStage: 1,
@@ -1661,7 +1661,7 @@ const kanto_region_pokemons = [
     {
         name: "Zubat",
         species: "Bat Pokémon",
-        type: ["Poison", "Flying"],
+        types: ["Poison", "Flying"],
         weight: 7.5,
         height: 0.8,
         evolutionStage: 1,
@@ -1675,7 +1675,7 @@ const johto_region_pokemons = [
     {
         name: "Aipom",
         species: "Long Tail Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 11.5,
         height: 0.8,
         evolutionStage: 1,
@@ -1686,7 +1686,7 @@ const johto_region_pokemons = [
     {
         name: "Ampharos",
         species: "Light Pokémon",
-        type: ["Electric"],
+        types: ["Electric"],
         weight: 61.5,
         height: 1.4,
         evolutionStage: 3,
@@ -1697,7 +1697,7 @@ const johto_region_pokemons = [
     {
         name: "Ariados",
         species: "Long Leg Pokémon",
-        type: ["Bug", "Poison"],
+        types: ["Bug", "Poison"],
         weight: 33.5,
         height: 1.1,
         evolutionStage: 2,
@@ -1708,7 +1708,7 @@ const johto_region_pokemons = [
     {
         name: "Azumarill",
         species: "Aqua Rabbit Pokémon",
-        type: ["Water", "Fairy"],
+        types: ["Water", "Fairy"],
         weight: 28.5,
         height: 0.8,
         evolutionStage: 3,
@@ -1719,7 +1719,7 @@ const johto_region_pokemons = [
     {
         name: "Bayleef",
         species: "Leaf Pokémon",
-        type: ["Grass"],
+        types: ["Grass"],
         weight: 15.8,
         height: 1.2,
         evolutionStage: 2,
@@ -1730,7 +1730,7 @@ const johto_region_pokemons = [
     {
         name: "Bellossom",
         species: "Flower Pokémon",
-        type: ["Grass"],
+        types: ["Grass"],
         weight: 5.8,
         height: 0.4,
         evolutionStage: 3,
@@ -1741,7 +1741,7 @@ const johto_region_pokemons = [
     {
         name: "Blissey",
         species: "Happiness Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 46.8,
         height: 1.5,
         evolutionStage: 3,
@@ -1752,7 +1752,7 @@ const johto_region_pokemons = [
     {
         name: "Celebi",
         species: "Time Travel Pokémon",
-        type: ["Psychic", "Grass"],
+        types: ["Psychic", "Grass"],
         weight: 5,
         height: 0.6,
         evolutionStage: 1,
@@ -1763,7 +1763,7 @@ const johto_region_pokemons = [
     {
         name: "Chikorita",
         species: "Leaf Pokémon",
-        type: ["Grass"],
+        types: ["Grass"],
         weight: 6.4,
         height: 0.9,
         evolutionStage: 1,
@@ -1774,7 +1774,7 @@ const johto_region_pokemons = [
     {
         name: "Chinchou",
         species: "Angler Pokémon",
-        type: ["Water", "Electric"],
+        types: ["Water", "Electric"],
         weight: 12,
         height: 0.5,
         evolutionStage: 1,
@@ -1785,7 +1785,7 @@ const johto_region_pokemons = [
     {
         name: "Cleffa",
         species: "Star Shape Pokémon",
-        type: ["Fairy"],
+        types: ["Fairy"],
         weight: 3,
         height: 0.3,
         evolutionStage: 1,
@@ -1796,7 +1796,7 @@ const johto_region_pokemons = [
     {
         name: "Corsola",
         species: "Coral Pokémon",
-        type: ["Water", "Rock"],
+        types: ["Water", "Rock"],
         weight: 5,
         height: 0.6,
         evolutionStage: 1,
@@ -1807,7 +1807,7 @@ const johto_region_pokemons = [
     {
         name: "Crobat",
         species: "Bat Pokémon",
-        type: ["Poison", "Flying"],
+        types: ["Poison", "Flying"],
         weight: 75,
         height: 1.8,
         evolutionStage: 3,
@@ -1818,7 +1818,7 @@ const johto_region_pokemons = [
     {
         name: "Croconaw",
         species: "Big Jaw Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 25,
         height: 1.1,
         evolutionStage: 2,
@@ -1829,7 +1829,7 @@ const johto_region_pokemons = [
     {
         name: "Cyndaquil",
         species: "Fire Mouse Pokémon",
-        type: ["Fire"],
+        types: ["Fire"],
         weight: 7.9,
         height: 0.5,
         evolutionStage: 1,
@@ -1840,7 +1840,7 @@ const johto_region_pokemons = [
     {
         name: "Delibird",
         species: "Delivery Pokémon",
-        type: ["Ice", "Flying"],
+        types: ["Ice", "Flying"],
         weight: 16,
         height: 0.9,
         evolutionStage: 1,
@@ -1851,7 +1851,7 @@ const johto_region_pokemons = [
     {
         name: "Donphan",
         species: "Armor Pokémon",
-        type: ["Ground"],
+        types: ["Ground"],
         weight: 120,
         height: 1.1,
         evolutionStage: 2,
@@ -1862,7 +1862,7 @@ const johto_region_pokemons = [
     {
         name: "Dunsparce",
         species: "Land Snake Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 14,
         height: 1.5,
         evolutionStage: 1,
@@ -1873,7 +1873,7 @@ const johto_region_pokemons = [
     {
         name: "Elekid",
         species: "Electric Pokémon",
-        type: ["Electric"],
+        types: ["Electric"],
         weight: 23.5,
         height: 0.6,
         evolutionStage: 1,
@@ -1884,7 +1884,7 @@ const johto_region_pokemons = [
     {
         name: "Entei",
         species: "Volcano Pokémon",
-        type: ["Fire"],
+        types: ["Fire"],
         weight: 198,
         height: 2.1,
         evolutionStage: 1,
@@ -1895,7 +1895,7 @@ const johto_region_pokemons = [
     {
         name: "Espeon",
         species: "Sun Pokémon",
-        type: ["Psychic"],
+        types: ["Psychic"],
         weight: 26.5,
         height: 0.9,
         evolutionStage: 2,
@@ -1906,7 +1906,7 @@ const johto_region_pokemons = [
     {
         name: "Feraligatr",
         species: "Big Jaw Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 88.8,
         height: 2.3,
         evolutionStage: 3,
@@ -1917,7 +1917,7 @@ const johto_region_pokemons = [
     {
         name: "Flaaffy",
         species: "Wool Pokémon",
-        type: ["Electric"],
+        types: ["Electric"],
         weight: 13.3,
         height: 0.8,
         evolutionStage: 2,
@@ -1928,7 +1928,7 @@ const johto_region_pokemons = [
     {
         name: "Forretress",
         species: "Bagworm Pokémon",
-        type: ["Bug", "Steel"],
+        types: ["Bug", "Steel"],
         weight: 125.8,
         height: 1.2,
         evolutionStage: 2,
@@ -1939,7 +1939,7 @@ const johto_region_pokemons = [
     {
         name: "Furret",
         species: "Long Body Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 32.5,
         height: 1.8,
         evolutionStage: 2,
@@ -1950,7 +1950,7 @@ const johto_region_pokemons = [
     {
         name: "Girafarig",
         species: "Long Neck Pokémon",
-        type: ["Normal", "Psychic"],
+        types: ["Normal", "Psychic"],
         weight: 41.5,
         height: 1.5,
         evolutionStage: 1,
@@ -1961,7 +1961,7 @@ const johto_region_pokemons = [
     {
         name: "Gligar",
         species: "Fly Scorpion Pokémon",
-        type: ["Ground", "Flying"],
+        types: ["Ground", "Flying"],
         weight: 64.8,
         height: 1.1,
         evolutionStage: 1,
@@ -1972,7 +1972,7 @@ const johto_region_pokemons = [
     {
         name: "Granbull",
         species: "Fairy Pokémon",
-        type: ["Fairy"],
+        types: ["Fairy"],
         weight: 48.7,
         height: 1.4,
         evolutionStage: 2,
@@ -1983,7 +1983,7 @@ const johto_region_pokemons = [
     {
         name: "Heracross",
         species: "Single Horn Pokémon",
-        type: ["Bug", "Fighting"],
+        types: ["Bug", "Fighting"],
         weight: 54,
         height: 1.5,
         evolutionStage: 1,
@@ -1994,7 +1994,7 @@ const johto_region_pokemons = [
     {
         name: "Hitmontop",
         species: "Handstand Pokémon",
-        type: ["Fighting"],
+        types: ["Fighting"],
         weight: 48,
         height: 1.4,
         evolutionStage: 2,
@@ -2005,7 +2005,7 @@ const johto_region_pokemons = [
     {
         name: "Ho-oh",
         species: "Rainbow Pokémon",
-        type: ["Fire", "Flying"],
+        types: ["Fire", "Flying"],
         weight: 199,
         height: 3.8,
         evolutionStage: 1,
@@ -2016,7 +2016,7 @@ const johto_region_pokemons = [
     {
         name: "Hoothoot",
         species: "Owl Pokémon",
-        type: ["Normal", "Flying"],
+        types: ["Normal", "Flying"],
         weight: 21.2,
         height: 0.7,
         evolutionStage: 1,
@@ -2027,7 +2027,7 @@ const johto_region_pokemons = [
     {
         name: "Hoppip",
         species: "Cottonweed Pokémon",
-        type: ["Grass", "Flying"],
+        types: ["Grass", "Flying"],
         weight: 0.5,
         height: 0.4,
         evolutionStage: 1,
@@ -2038,7 +2038,7 @@ const johto_region_pokemons = [
     {
         name: "Houndoom",
         species: "Dark Pokémon",
-        type: ["Dark", "Fire"],
+        types: ["Dark", "Fire"],
         weight: 35,
         height: 1.4,
         evolutionStage: 2,
@@ -2049,7 +2049,7 @@ const johto_region_pokemons = [
     {
         name: "Houndour",
         species: "Dark Pokémon",
-        type: ["Dark", "Fire"],
+        types: ["Dark", "Fire"],
         weight: 10.8,
         height: 0.6,
         evolutionStage: 1,
@@ -2060,7 +2060,7 @@ const johto_region_pokemons = [
     {
         name: "Igglybuff",
         species: "Balloon Pokémon",
-        type: ["Normal", "Fairy"],
+        types: ["Normal", "Fairy"],
         weight: 1,
         height: 0.3,
         evolutionStage: 1,
@@ -2071,7 +2071,7 @@ const johto_region_pokemons = [
     {
         name: "Jumpluff",
         species: "Cottonweed Pokémon",
-        type: ["Grass", "Flying"],
+        types: ["Grass", "Flying"],
         weight: 3,
         height: 0.8,
         evolutionStage: 3,
@@ -2082,7 +2082,7 @@ const johto_region_pokemons = [
     {
         name: "Kingdra",
         species: "Dragon Pokémon",
-        type: ["Water", "Dragon"],
+        types: ["Water", "Dragon"],
         weight: 152,
         height: 1.8,
         evolutionStage: 3,
@@ -2093,7 +2093,7 @@ const johto_region_pokemons = [
     {
         name: "Lanturn",
         species: "Light Pokémon",
-        type: ["Water", "Electric"],
+        types: ["Water", "Electric"],
         weight: 22.5,
         height: 1.2,
         evolutionStage: 2,
@@ -2104,7 +2104,7 @@ const johto_region_pokemons = [
     {
         name: "Larvitar",
         species: "Rock Skin Pokémon",
-        type: ["Rock", "Ground"],
+        types: ["Rock", "Ground"],
         weight: 72,
         height: 0.6,
         evolutionStage: 1,
@@ -2115,7 +2115,7 @@ const johto_region_pokemons = [
     {
         name: "Ledian",
         species: "Five Star Pokémon",
-        type: ["Bug", "Flying"],
+        types: ["Bug", "Flying"],
         weight: 35.6,
         height: 1.4,
         evolutionStage: 2,
@@ -2126,7 +2126,7 @@ const johto_region_pokemons = [
     {
         name: "Ledyba",
         species: "Five Star Pokémon",
-        type: ["Bug", "Flying"],
+        types: ["Bug", "Flying"],
         weight: 10.8,
         height: 1,
         evolutionStage: 1,
@@ -2137,7 +2137,7 @@ const johto_region_pokemons = [
     {
         name: "Lugia",
         species: "Diving Pokémon",
-        type: ["Psychic", "Flying"],
+        types: ["Psychic", "Flying"],
         weight: 216,
         height: 5.2,
         evolutionStage: 1,
@@ -2148,7 +2148,7 @@ const johto_region_pokemons = [
     {
         name: "Magby",
         species: "Live Coal Pokémon",
-        type: ["Fire"],
+        types: ["Fire"],
         weight: 21.4,
         height: 0.7,
         evolutionStage: 1,
@@ -2159,7 +2159,7 @@ const johto_region_pokemons = [
     {
         name: "Magcargo",
         species: "Lava Pokémon",
-        type: ["Fire", "Rock"],
+        types: ["Fire", "Rock"],
         weight: 55,
         height: 0.8,
         evolutionStage: 2,
@@ -2170,7 +2170,7 @@ const johto_region_pokemons = [
     {
         name: "Mantine",
         species: "Kite Pokémon",
-        type: ["Water", "Flying"],
+        types: ["Water", "Flying"],
         weight: 220,
         height: 2.1,
         evolutionStage: 2,
@@ -2181,7 +2181,7 @@ const johto_region_pokemons = [
     {
         name: "Mareep",
         species: "Wool Pokémon",
-        type: ["Electric"],
+        types: ["Electric"],
         weight: 7.8,
         height: 0.6,
         evolutionStage: 1,
@@ -2192,7 +2192,7 @@ const johto_region_pokemons = [
     {
         name: "Marill",
         species: "Aqua Mouse Pokémon",
-        type: ["Water", "Fairy"],
+        types: ["Water", "Fairy"],
         weight: 8.5,
         height: 0.4,
         evolutionStage: 2,
@@ -2203,7 +2203,7 @@ const johto_region_pokemons = [
     {
         name: "Meganium",
         species: "Herb Pokémon",
-        type: ["Grass"],
+        types: ["Grass"],
         weight: 100.5,
         height: 1.8,
         evolutionStage: 3,
@@ -2214,7 +2214,7 @@ const johto_region_pokemons = [
     {
         name: "Miltank",
         species: "Milk Cow Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 75.5,
         height: 1.2,
         evolutionStage: 1,
@@ -2225,7 +2225,7 @@ const johto_region_pokemons = [
     {
         name: "Misdreavus",
         species: "Screech Pokémon",
-        type: ["Ghost"],
+        types: ["Ghost"],
         weight: 1,
         height: 0.7,
         evolutionStage: 1,
@@ -2236,7 +2236,7 @@ const johto_region_pokemons = [
     {
         name: "Murkrow",
         species: "Darkness Pokémon",
-        type: ["Dark", "Flying"],
+        types: ["Dark", "Flying"],
         weight: 2.1,
         height: 0.5,
         evolutionStage: 1,
@@ -2247,7 +2247,7 @@ const johto_region_pokemons = [
     {
         name: "Natu",
         species: "Tiny Bird Pokémon",
-        type: ["Psychic", "Flying"],
+        types: ["Psychic", "Flying"],
         weight: 2,
         height: 0.2,
         evolutionStage: 1,
@@ -2258,7 +2258,7 @@ const johto_region_pokemons = [
     {
         name: "Noctowl",
         species: "Owl Pokémon",
-        type: ["Normal", "Flying"],
+        types: ["Normal", "Flying"],
         weight: 40.8,
         height: 1.6,
         evolutionStage: 2,
@@ -2269,7 +2269,7 @@ const johto_region_pokemons = [
     {
         name: "Octillery",
         species: "Jet Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 28.5,
         height: 0.9,
         evolutionStage: 2,
@@ -2280,7 +2280,7 @@ const johto_region_pokemons = [
     {
         name: "Phanpy",
         species: "Long Nose Pokémon",
-        type: ["Ground"],
+        types: ["Ground"],
         weight: 33.5,
         height: 0.5,
         evolutionStage: 1,
@@ -2291,7 +2291,7 @@ const johto_region_pokemons = [
     {
         name: "Pichu",
         species: "Tiny Mouse Pokémon",
-        type: ["Electric"],
+        types: ["Electric"],
         weight: 2,
         height: 0.3,
         evolutionStage: 1,
@@ -2302,7 +2302,7 @@ const johto_region_pokemons = [
     {
         name: "Piloswine",
         species: "Swine Pokémon",
-        type: ["Ice", "Ground"],
+        types: ["Ice", "Ground"],
         weight: 55.8,
         height: 1.1,
         evolutionStage: 2,
@@ -2313,7 +2313,7 @@ const johto_region_pokemons = [
     {
         name: "Pineco",
         species: "Bagworm Pokémon",
-        type: ["Bug"],
+        types: ["Bug"],
         weight: 7.2,
         height: 0.6,
         evolutionStage: 1,
@@ -2324,7 +2324,7 @@ const johto_region_pokemons = [
     {
         name: "Politoed",
         species: "Frog Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 33.9,
         height: 1.1,
         evolutionStage: 3,
@@ -2335,7 +2335,7 @@ const johto_region_pokemons = [
     {
         name: "Porygon2",
         species: "Virtual Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 32.5,
         height: 0.6,
         evolutionStage: 2,
@@ -2346,7 +2346,7 @@ const johto_region_pokemons = [
     {
         name: "Pupitar",
         species: "Hard Shell Pokémon",
-        type: ["Rock", "Ground"],
+        types: ["Rock", "Ground"],
         weight: 152,
         height: 1.2,
         evolutionStage: 2,
@@ -2357,7 +2357,7 @@ const johto_region_pokemons = [
     {
         name: "Quagsire",
         species: "Water Fish Pokémon",
-        type: ["Water", "Ground"],
+        types: ["Water", "Ground"],
         weight: 75,
         height: 1.4,
         evolutionStage: 2,
@@ -2368,7 +2368,7 @@ const johto_region_pokemons = [
     {
         name: "Quilava",
         species: "Volcano Pokémon",
-        type: ["Fire"],
+        types: ["Fire"],
         weight: 19,
         height: 0.9,
         evolutionStage: 2,
@@ -2379,7 +2379,7 @@ const johto_region_pokemons = [
     {
         name: "Qwilfish",
         species: "Balloon Pokémon",
-        type: ["Water", "Poison"],
+        types: ["Water", "Poison"],
         weight: 3.9,
         height: 0.5,
         evolutionStage: 1,
@@ -2390,7 +2390,7 @@ const johto_region_pokemons = [
     {
         name: "Raikou",
         species: "Thunder Pokémon",
-        type: ["Electric"],
+        types: ["Electric"],
         weight: 178,
         height: 1.9,
         evolutionStage: 1,
@@ -2401,7 +2401,7 @@ const johto_region_pokemons = [
     {
         name: "Remoraid",
         species: "Jet Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 12,
         height: 0.6,
         evolutionStage: 1,
@@ -2412,7 +2412,7 @@ const johto_region_pokemons = [
     {
         name: "Scizor",
         species: "Pincer Pokémon",
-        type: ["Bug", "Steel"],
+        types: ["Bug", "Steel"],
         weight: 118,
         height: 1.8,
         evolutionStage: 2,
@@ -2423,7 +2423,7 @@ const johto_region_pokemons = [
     {
         name: "Sentret",
         species: "Scout Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 6,
         height: 0.8,
         evolutionStage: 1,
@@ -2434,7 +2434,7 @@ const johto_region_pokemons = [
     {
         name: "Shuckle",
         species: "Mold Pokémon",
-        type: ["Bug", "Rock"],
+        types: ["Bug", "Rock"],
         weight: 20.5,
         height: 0.6,
         evolutionStage: 1,
@@ -2445,7 +2445,7 @@ const johto_region_pokemons = [
     {
         name: "Skarmory",
         species: "Armor Bird Pokémon",
-        type: ["Steel", "Flying"],
+        types: ["Steel", "Flying"],
         weight: 50.5,
         height: 1.7,
         evolutionStage: 1,
@@ -2456,7 +2456,7 @@ const johto_region_pokemons = [
     {
         name: "Skiploom",
         species: "Cottonweed Pokémon",
-        type: ["Grass", "Flying"],
+        types: ["Grass", "Flying"],
         weight: 1,
         height: 0.6,
         evolutionStage: 2,
@@ -2467,7 +2467,7 @@ const johto_region_pokemons = [
     {
         name: "Slowking",
         species: "Royal Pokémon",
-        type: ["Water", "Psychic"],
+        types: ["Water", "Psychic"],
         weight: 79.5,
         height: 2,
         evolutionStage: 2,
@@ -2478,7 +2478,7 @@ const johto_region_pokemons = [
     {
         name: "Slugma",
         species: "Lava Pokémon",
-        type: ["Fire"],
+        types: ["Fire"],
         weight: 35,
         height: 0.7,
         evolutionStage: 1,
@@ -2489,7 +2489,7 @@ const johto_region_pokemons = [
     {
         name: "Smeargle",
         species: "Painter Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 58,
         height: 1.2,
         evolutionStage: 1,
@@ -2500,7 +2500,7 @@ const johto_region_pokemons = [
     {
         name: "Smoochum",
         species: "Kiss Pokémon",
-        type: ["Ice", "Psychic"],
+        types: ["Ice", "Psychic"],
         weight: 6,
         height: 0.4,
         evolutionStage: 1,
@@ -2511,7 +2511,7 @@ const johto_region_pokemons = [
     {
         name: "Sneasel",
         species: "Sharp Claw Pokémon",
-        type: ["Dark", "Ice"],
+        types: ["Dark", "Ice"],
         weight: 28,
         height: 0.9,
         evolutionStage: 1,
@@ -2522,7 +2522,7 @@ const johto_region_pokemons = [
     {
         name: "Snubbull",
         species: "Fairy Pokémon",
-        type: ["Fairy"],
+        types: ["Fairy"],
         weight: 7.8,
         height: 0.6,
         evolutionStage: 1,
@@ -2533,7 +2533,7 @@ const johto_region_pokemons = [
     {
         name: "Spinarak",
         species: "String Spit Pokémon",
-        type: ["Bug", "Poison"],
+        types: ["Bug", "Poison"],
         weight: 8.5,
         height: 0.5,
         evolutionStage: 1,
@@ -2544,7 +2544,7 @@ const johto_region_pokemons = [
     {
         name: "Stantler",
         species: "Big Horn Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 71.2,
         height: 1.4,
         evolutionStage: 1,
@@ -2555,7 +2555,7 @@ const johto_region_pokemons = [
     {
         name: "Steelix",
         species: "Iron Snake Pokémon",
-        type: ["Steel", "Ground"],
+        types: ["Steel", "Ground"],
         weight: 400,
         height: 9.2,
         evolutionStage: 2,
@@ -2566,7 +2566,7 @@ const johto_region_pokemons = [
     {
         name: "Sudowoodo",
         species: "Imitation Pokémon",
-        type: ["Rock"],
+        types: ["Rock"],
         weight: 38,
         height: 1.2,
         evolutionStage: 2,
@@ -2577,7 +2577,7 @@ const johto_region_pokemons = [
     {
         name: "Suicune",
         species: "Aurora Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 187,
         height: 2,
         evolutionStage: 1,
@@ -2588,7 +2588,7 @@ const johto_region_pokemons = [
     {
         name: "Sunflora",
         species: "Sun Pokémon",
-        type: ["Grass"],
+        types: ["Grass"],
         weight: 8.5,
         height: 0.8,
         evolutionStage: 2,
@@ -2599,7 +2599,7 @@ const johto_region_pokemons = [
     {
         name: "Sunkern",
         species: "Seed Pokémon",
-        type: ["Grass"],
+        types: ["Grass"],
         weight: 1.8,
         height: 0.3,
         evolutionStage: 1,
@@ -2610,7 +2610,7 @@ const johto_region_pokemons = [
     {
         name: "Swinub",
         species: "Pig Pokémon",
-        type: ["Ice", "Ground"],
+        types: ["Ice", "Ground"],
         weight: 6.5,
         height: 0.4,
         evolutionStage: 1,
@@ -2621,7 +2621,7 @@ const johto_region_pokemons = [
     {
         name: "Teddiursa",
         species: "Little Bear Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 8.8,
         height: 0.6,
         evolutionStage: 1,
@@ -2632,7 +2632,7 @@ const johto_region_pokemons = [
     {
         name: "Togepi",
         species: "Spike Ball Pokémon",
-        type: ["Fairy"],
+        types: ["Fairy"],
         weight: 1.5,
         height: 0.3,
         evolutionStage: 1,
@@ -2643,7 +2643,7 @@ const johto_region_pokemons = [
     {
         name: "Togetic",
         species: "Happiness Pokémon",
-        type: ["Fairy", "Flying"],
+        types: ["Fairy", "Flying"],
         weight: 3.2,
         height: 0.6,
         evolutionStage: 2,
@@ -2654,7 +2654,7 @@ const johto_region_pokemons = [
     {
         name: "Totodile",
         species: "Big Jaw Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 9.5,
         height: 0.6,
         evolutionStage: 1,
@@ -2665,7 +2665,7 @@ const johto_region_pokemons = [
     {
         name: "Typhlosion",
         species: "Volcano Pokémon",
-        type: ["Fire"],
+        types: ["Fire"],
         weight: 79.5,
         height: 1.7,
         evolutionStage: 3,
@@ -2676,7 +2676,7 @@ const johto_region_pokemons = [
     {
         name: "Tyranitar",
         species: "Armor Pokémon",
-        type: ["Rock", "Dark"],
+        types: ["Rock", "Dark"],
         weight: 202,
         height: 2,
         evolutionStage: 3,
@@ -2687,7 +2687,7 @@ const johto_region_pokemons = [
     {
         name: "Tyrogue",
         species: "Scuffle Pokémon",
-        type: ["Fighting"],
+        types: ["Fighting"],
         weight: 21,
         height: 0.7,
         evolutionStage: 1,
@@ -2698,7 +2698,7 @@ const johto_region_pokemons = [
     {
         name: "Umbreon",
         species: "Moonlight Pokémon",
-        type: ["Dark"],
+        types: ["Dark"],
         weight: 27,
         height: 1,
         evolutionStage: 2,
@@ -2709,7 +2709,7 @@ const johto_region_pokemons = [
     {
         name: "Unown",
         species: "Symbol Pokémon",
-        type: ["Psychic"],
+        types: ["Psychic"],
         weight: 5,
         height: 0.5,
         evolutionStage: 1,
@@ -2720,7 +2720,7 @@ const johto_region_pokemons = [
     {
         name: "Ursaring",
         species: "Hibernator Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 125.8,
         height: 1.8,
         evolutionStage: 2,
@@ -2731,7 +2731,7 @@ const johto_region_pokemons = [
     {
         name: "Wobbuffet",
         species: "Patient Pokémon",
-        type: ["Psychic"],
+        types: ["Psychic"],
         weight: 28.5,
         height: 1.3,
         evolutionStage: 2,
@@ -2742,7 +2742,7 @@ const johto_region_pokemons = [
     {
         name: "Wooper",
         species: "Water Fish Pokémon",
-        type: ["Water", "Ground"],
+        types: ["Water", "Ground"],
         weight: 8.5,
         height: 0.4,
         evolutionStage: 1,
@@ -2753,7 +2753,7 @@ const johto_region_pokemons = [
     {
         name: "Xatu",
         species: "Mystic Pokémon",
-        type: ["Psychic", "Flying"],
+        types: ["Psychic", "Flying"],
         weight: 15,
         height: 1.5,
         evolutionStage: 2,
@@ -2764,7 +2764,7 @@ const johto_region_pokemons = [
     {
         name: "Yanma",
         species: "Clear Wing Pokémon",
-        type: ["Bug", "Flying"],
+        types: ["Bug", "Flying"],
         weight: 38,
         height: 1.2,
         evolutionStage: 1,
@@ -2778,7 +2778,7 @@ const hoenn_region_pokemons = [
     {
         name: "Absol",
         species: "Disaster Pokémon",
-        type: ["Dark"],
+        types: ["Dark"],
         weight: 47,
         height: 1.2,
         evolutionStage: 1,
@@ -2789,7 +2789,7 @@ const hoenn_region_pokemons = [
     {
         name: "Aggron",
         species: "Iron Armor Pokémon",
-        type: ["Steel", "Rock"],
+        types: ["Steel", "Rock"],
         weight: 360,
         height: 2.1,
         evolutionStage: 3,
@@ -2800,7 +2800,7 @@ const hoenn_region_pokemons = [
     {
         name: "Altaria",
         species: "Humming Pokémon",
-        type: ["Dragon", "Flying"],
+        types: ["Dragon", "Flying"],
         weight: 20.6,
         height: 1.1,
         evolutionStage: 2,
@@ -2811,7 +2811,7 @@ const hoenn_region_pokemons = [
     {
         name: "Anorith",
         species: "Old Shrimp Pokémon",
-        type: ["Rock", "Bug"],
+        types: ["Rock", "Bug"],
         weight: 12.5,
         height: 0.7,
         evolutionStage: 1,
@@ -2822,7 +2822,7 @@ const hoenn_region_pokemons = [
     {
         name: "Armaldo",
         species: "Plate Pokémon",
-        type: ["Rock", "Bug"],
+        types: ["Rock", "Bug"],
         weight: 68.2,
         height: 1.5,
         evolutionStage: 2,
@@ -2833,7 +2833,7 @@ const hoenn_region_pokemons = [
     {
         name: "Aron",
         species: "Iron Armor Pokémon",
-        type: ["Steel", "Rock"],
+        types: ["Steel", "Rock"],
         weight: 60,
         height: 0.4,
         evolutionStage: 1,
@@ -2844,7 +2844,7 @@ const hoenn_region_pokemons = [
     {
         name: "Azurill",
         species: "Polka Dot Pokémon",
-        type: ["Normal", "Fairy"],
+        types: ["Normal", "Fairy"],
         weight: 2,
         height: 0.2,
         evolutionStage: 1,
@@ -2855,7 +2855,7 @@ const hoenn_region_pokemons = [
     {
         name: "Bagon",
         species: "Rock Head Pokémon",
-        type: ["Dragon"],
+        types: ["Dragon"],
         weight: 42.1,
         height: 0.6,
         evolutionStage: 1,
@@ -2866,7 +2866,7 @@ const hoenn_region_pokemons = [
     {
         name: "Baltoy",
         species: "Clay Doll Pokémon",
-        type: ["Ground", "Psychic"],
+        types: ["Ground", "Psychic"],
         weight: 21.5,
         height: 0.5,
         evolutionStage: 1,
@@ -2877,7 +2877,7 @@ const hoenn_region_pokemons = [
     {
         name: "Banette",
         species: "Marionette Pokémon",
-        type: ["Ghost"],
+        types: ["Ghost"],
         weight: 12.5,
         height: 1.1,
         evolutionStage: 2,
@@ -2888,7 +2888,7 @@ const hoenn_region_pokemons = [
     {
         name: "Barboach",
         species: "Whiskers Pokémon",
-        type: ["Water", "Ground"],
+        types: ["Water", "Ground"],
         weight: 1.9,
         height: 0.4,
         evolutionStage: 1,
@@ -2899,7 +2899,7 @@ const hoenn_region_pokemons = [
     {
         name: "Beautifly",
         species: "Butterfly Pokémon",
-        type: ["Bug", "Flying"],
+        types: ["Bug", "Flying"],
         weight: 28.4,
         height: 1,
         evolutionStage: 3,
@@ -2910,7 +2910,7 @@ const hoenn_region_pokemons = [
     {
         name: "Beldum",
         species: "Iron Ball Pokémon",
-        type: ["Steel", "Psychic"],
+        types: ["Steel", "Psychic"],
         weight: 95.2,
         height: 0.6,
         evolutionStage: 1,
@@ -2921,7 +2921,7 @@ const hoenn_region_pokemons = [
     {
         name: "Blaziken",
         species: "Blaze Pokémon",
-        type: ["Fire", "Fighting"],
+        types: ["Fire", "Fighting"],
         weight: 52,
         height: 1.9,
         evolutionStage: 3,
@@ -2932,7 +2932,7 @@ const hoenn_region_pokemons = [
     {
         name: "Breloom",
         species: "Mushroom Pokémon",
-        type: ["Grass", "Fighting"],
+        types: ["Grass", "Fighting"],
         weight: 39.2,
         height: 1.2,
         evolutionStage: 2,
@@ -2943,7 +2943,7 @@ const hoenn_region_pokemons = [
     {
         name: "Cacnea",
         species: "Cactus Pokémon",
-        type: ["Grass"],
+        types: ["Grass"],
         weight: 51.3,
         height: 0.4,
         evolutionStage: 1,
@@ -2954,7 +2954,7 @@ const hoenn_region_pokemons = [
     {
         name: "Cacturne",
         species: "Scarecrow Pokémon",
-        type: ["Grass", "Dark"],
+        types: ["Grass", "Dark"],
         weight: 77.4,
         height: 1.3,
         evolutionStage: 2,
@@ -2965,7 +2965,7 @@ const hoenn_region_pokemons = [
     {
         name: "Camerupt",
         species: "Eruption Pokémon",
-        type: ["Fire", "Ground"],
+        types: ["Fire", "Ground"],
         weight: 220,
         height: 1.9,
         evolutionStage: 2,
@@ -2976,7 +2976,7 @@ const hoenn_region_pokemons = [
     {
         name: "Carvanha",
         species: "Savage Pokémon",
-        type: ["Water", "Dark"],
+        types: ["Water", "Dark"],
         weight: 20.8,
         height: 0.8,
         evolutionStage: 1,
@@ -2987,7 +2987,7 @@ const hoenn_region_pokemons = [
     {
         name: "Cascoon",
         species: "Cocoon Pokémon",
-        type: ["Bug"],
+        types: ["Bug"],
         weight: 11.5,
         height: 0.7,
         evolutionStage: 2,
@@ -2998,7 +2998,7 @@ const hoenn_region_pokemons = [
     {
         name: "Castform",
         species: "Weather Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 0.8,
         height: 0.3,
         evolutionStage: 1,
@@ -3009,7 +3009,7 @@ const hoenn_region_pokemons = [
     {
         name: "Chimecho",
         species: "Wind Chime Pokémon",
-        type: ["Psychic"],
+        types: ["Psychic"],
         weight: 1,
         height: 0.6,
         evolutionStage: 2,
@@ -3020,7 +3020,7 @@ const hoenn_region_pokemons = [
     {
         name: "Clamperl",
         species: "Bivalve Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 52.5,
         height: 0.4,
         evolutionStage: 1,
@@ -3031,7 +3031,7 @@ const hoenn_region_pokemons = [
     {
         name: "Claydol",
         species: "Clay Doll Pokémon",
-        type: ["Ground", "Psychic"],
+        types: ["Ground", "Psychic"],
         weight: 108,
         height: 1.5,
         evolutionStage: 2,
@@ -3042,7 +3042,7 @@ const hoenn_region_pokemons = [
     {
         name: "Combusken",
         species: "Young Fowl Pokémon",
-        type: ["Fire", "Fighting"],
+        types: ["Fire", "Fighting"],
         weight: 19.5,
         height: 0.9,
         evolutionStage: 2,
@@ -3053,7 +3053,7 @@ const hoenn_region_pokemons = [
     {
         name: "Corphish",
         species: "Ruffian Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 11.5,
         height: 0.6,
         evolutionStage: 1,
@@ -3064,7 +3064,7 @@ const hoenn_region_pokemons = [
     {
         name: "Cradily",
         species: "Barnacle Pokémon",
-        type: ["Rock", "Grass"],
+        types: ["Rock", "Grass"],
         weight: 60.4,
         height: 1.5,
         evolutionStage: 2,
@@ -3075,7 +3075,7 @@ const hoenn_region_pokemons = [
     {
         name: "Crawdaunt",
         species: "Rogue Pokémon",
-        type: ["Water", "Dark"],
+        types: ["Water", "Dark"],
         weight: 32.8,
         height: 1.1,
         evolutionStage: 2,
@@ -3086,7 +3086,7 @@ const hoenn_region_pokemons = [
     {
         name: "Delcatty",
         species: "Prim Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 32.6,
         height: 1.1,
         evolutionStage: 2,
@@ -3097,7 +3097,7 @@ const hoenn_region_pokemons = [
     {
         name: "Dusclops",
         species: "Beckon Pokémon",
-        type: ["Ghost"],
+        types: ["Ghost"],
         weight: 30.6,
         height: 1.6,
         evolutionStage: 2,
@@ -3108,7 +3108,7 @@ const hoenn_region_pokemons = [
     {
         name: "Duskull",
         species: "Requiem Pokémon",
-        type: ["Ghost"],
+        types: ["Ghost"],
         weight: 15,
         height: 0.8,
         evolutionStage: 1,
@@ -3119,7 +3119,7 @@ const hoenn_region_pokemons = [
     {
         name: "Dustox",
         species: "Poison Moth Pokémon",
-        type: ["Bug", "Poison"],
+        types: ["Bug", "Poison"],
         weight: 31.6,
         height: 1.2,
         evolutionStage: 3,
@@ -3130,7 +3130,7 @@ const hoenn_region_pokemons = [
     {
         name: "Electrike",
         species: "Lightning Pokémon",
-        type: ["Electric"],
+        types: ["Electric"],
         weight: 15.2,
         height: 0.6,
         evolutionStage: 1,
@@ -3141,7 +3141,7 @@ const hoenn_region_pokemons = [
     {
         name: "Exploud",
         species: "Loud Noise Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 84,
         height: 1.5,
         evolutionStage: 3,
@@ -3152,7 +3152,7 @@ const hoenn_region_pokemons = [
     {
         name: "Feebas",
         species: "Fish Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 7.4,
         height: 0.6,
         evolutionStage: 1,
@@ -3163,7 +3163,7 @@ const hoenn_region_pokemons = [
     {
         name: "Flygon",
         species: "Mystic Pokémon",
-        type: ["Ground", "Dragon"],
+        types: ["Ground", "Dragon"],
         weight: 82,
         height: 2,
         evolutionStage: 3,
@@ -3174,7 +3174,7 @@ const hoenn_region_pokemons = [
     {
         name: "Gardevoir",
         species: "Embrace Pokémon",
-        type: ["Psychic", "Fairy"],
+        types: ["Psychic", "Fairy"],
         weight: 48.4,
         height: 1.6,
         evolutionStage: 3,
@@ -3185,7 +3185,7 @@ const hoenn_region_pokemons = [
     {
         name: "Glalie",
         species: "Face Pokémon",
-        type: ["Ice"],
+        types: ["Ice"],
         weight: 256.5,
         height: 1.5,
         evolutionStage: 2,
@@ -3196,7 +3196,7 @@ const hoenn_region_pokemons = [
     {
         name: "Gorebyss",
         species: "South Sea Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 22.6,
         height: 1.8,
         evolutionStage: 2,
@@ -3207,7 +3207,7 @@ const hoenn_region_pokemons = [
     {
         name: "Groudon",
         species: "Continent Pokémon",
-        type: ["Ground"],
+        types: ["Ground"],
         weight: 950,
         height: 3.5,
         evolutionStage: 1,
@@ -3218,7 +3218,7 @@ const hoenn_region_pokemons = [
     {
         name: "Grovyle",
         species: "Wood Gecko Pokémon",
-        type: ["Grass"],
+        types: ["Grass"],
         weight: 21.6,
         height: 0.9,
         evolutionStage: 2,
@@ -3229,7 +3229,7 @@ const hoenn_region_pokemons = [
     {
         name: "Grumpig",
         species: "Manipulate Pokémon",
-        type: ["Psychic"],
+        types: ["Psychic"],
         weight: 71.5,
         height: 0.9,
         evolutionStage: 2,
@@ -3240,7 +3240,7 @@ const hoenn_region_pokemons = [
     {
         name: "Gulpin",
         species: "Stomach Pokémon",
-        type: ["Poison"],
+        types: ["Poison"],
         weight: 10.3,
         height: 0.4,
         evolutionStage: 1,
@@ -3251,7 +3251,7 @@ const hoenn_region_pokemons = [
     {
         name: "Hariyama",
         species: "Arm Thrust Pokémon",
-        type: ["Fighting"],
+        types: ["Fighting"],
         weight: 253.8,
         height: 2.3,
         evolutionStage: 2,
@@ -3262,7 +3262,7 @@ const hoenn_region_pokemons = [
     {
         name: "Huntail",
         species: "Deep Sea Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 27,
         height: 1.7,
         evolutionStage: 2,
@@ -3273,7 +3273,7 @@ const hoenn_region_pokemons = [
     {
         name: "Illumise",
         species: "Firefly Pokémon",
-        type: ["Bug"],
+        types: ["Bug"],
         weight: 17.7,
         height: 0.6,
         evolutionStage: 1,
@@ -3284,7 +3284,7 @@ const hoenn_region_pokemons = [
     {
         name: "Jirachi",
         species: "Wish Pokémon",
-        type: ["Steel", "Psychic"],
+        types: ["Steel", "Psychic"],
         weight: 1.1,
         height: 0.3,
         evolutionStage: 1,
@@ -3295,7 +3295,7 @@ const hoenn_region_pokemons = [
     {
         name: "Kecleon",
         species: "Color Swap Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 22,
         height: 1,
         evolutionStage: 1,
@@ -3306,7 +3306,7 @@ const hoenn_region_pokemons = [
     {
         name: "Kirlia",
         species: "Emotion Pokémon",
-        type: ["Psychic", "Fairy"],
+        types: ["Psychic", "Fairy"],
         weight: 20.2,
         height: 0.8,
         evolutionStage: 2,
@@ -3317,7 +3317,7 @@ const hoenn_region_pokemons = [
     {
         name: "Kyogre",
         species: "Sea Basin Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 352,
         height: 4.5,
         evolutionStage: 1,
@@ -3328,7 +3328,7 @@ const hoenn_region_pokemons = [
     {
         name: "Lairon",
         species: "Iron Armor Pokémon",
-        type: ["Steel", "Rock"],
+        types: ["Steel", "Rock"],
         weight: 120,
         height: 0.9,
         evolutionStage: 2,
@@ -3339,7 +3339,7 @@ const hoenn_region_pokemons = [
     {
         name: "Latias",
         species: "Eon Pokémon",
-        type: ["Dragon", "Psychic"],
+        types: ["Dragon", "Psychic"],
         weight: 40,
         height: 1.4,
         evolutionStage: 1,
@@ -3350,7 +3350,7 @@ const hoenn_region_pokemons = [
     {
         name: "Latios",
         species: "Eon Pokémon",
-        type: ["Dragon", "Psychic"],
+        types: ["Dragon", "Psychic"],
         weight: 60,
         height: 2,
         evolutionStage: 1,
@@ -3361,7 +3361,7 @@ const hoenn_region_pokemons = [
     {
         name: "Lileep",
         species: "Sea Lily Pokémon",
-        type: ["Rock", "Grass"],
+        types: ["Rock", "Grass"],
         weight: 23.8,
         height: 1,
         evolutionStage: 1,
@@ -3372,7 +3372,7 @@ const hoenn_region_pokemons = [
     {
         name: "Linoone",
         species: "Rushing Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 32.5,
         height: 0.5,
         evolutionStage: 2,
@@ -3383,7 +3383,7 @@ const hoenn_region_pokemons = [
     {
         name: "Lombre",
         species: "Jolly Pokémon",
-        type: ["Water", "Grass"],
+        types: ["Water", "Grass"],
         weight: 32.5,
         height: 1.2,
         evolutionStage: 2,
@@ -3394,7 +3394,7 @@ const hoenn_region_pokemons = [
     {
         name: "Lotad",
         species: "Water Weed Pokémon",
-        type: ["Water", "Grass"],
+        types: ["Water", "Grass"],
         weight: 2.6,
         height: 0.5,
         evolutionStage: 1,
@@ -3405,7 +3405,7 @@ const hoenn_region_pokemons = [
     {
         name: "Loudred",
         species: "Big Voice Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 40.5,
         height: 1,
         evolutionStage: 2,
@@ -3416,7 +3416,7 @@ const hoenn_region_pokemons = [
     {
         name: "Ludicolo",
         species: "Carefree Pokémon",
-        type: ["Water", "Grass"],
+        types: ["Water", "Grass"],
         weight: 55,
         height: 1.5,
         evolutionStage: 3,
@@ -3427,7 +3427,7 @@ const hoenn_region_pokemons = [
     {
         name: "Lunatone",
         species: "Meteorite Pokémon",
-        type: ["Rock", "Psychic"],
+        types: ["Rock", "Psychic"],
         weight: 168,
         height: 1,
         evolutionStage: 1,
@@ -3438,7 +3438,7 @@ const hoenn_region_pokemons = [
     {
         name: "Luvdisc",
         species: "Rendezvous Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 8.7,
         height: 0.6,
         evolutionStage: 1,
@@ -3449,7 +3449,7 @@ const hoenn_region_pokemons = [
     {
         name: "Makuhita",
         species: "Guts Pokémon",
-        type: ["Fighting"],
+        types: ["Fighting"],
         weight: 86.4,
         height: 1,
         evolutionStage: 1,
@@ -3460,7 +3460,7 @@ const hoenn_region_pokemons = [
     {
         name: "Manectric",
         species: "Discharge Pokémon",
-        type: ["Electric"],
+        types: ["Electric"],
         weight: 40.2,
         height: 1.5,
         evolutionStage: 2,
@@ -3471,7 +3471,7 @@ const hoenn_region_pokemons = [
     {
         name: "Marshtomp",
         species: "Mud Fish Pokémon",
-        type: ["Water", "Ground"],
+        types: ["Water", "Ground"],
         weight: 28,
         height: 0.7,
         evolutionStage: 2,
@@ -3482,7 +3482,7 @@ const hoenn_region_pokemons = [
     {
         name: "Masquerain",
         species: "Eyeball Pokémon",
-        type: ["Bug", "Flying"],
+        types: ["Bug", "Flying"],
         weight: 3.6,
         height: 0.8,
         evolutionStage: 2,
@@ -3493,7 +3493,7 @@ const hoenn_region_pokemons = [
     {
         name: "Mawile",
         species: "Deceiver Pokémon",
-        type: ["Steel", "Fairy"],
+        types: ["Steel", "Fairy"],
         weight: 11.5,
         height: 0.6,
         evolutionStage: 1,
@@ -3504,7 +3504,7 @@ const hoenn_region_pokemons = [
     {
         name: "Medicham",
         species: "Meditate Pokémon",
-        type: ["Fighting", "Psychic"],
+        types: ["Fighting", "Psychic"],
         weight: 31.5,
         height: 1.3,
         evolutionStage: 2,
@@ -3515,7 +3515,7 @@ const hoenn_region_pokemons = [
     {
         name: "Meditite",
         species: "Meditate Pokémon",
-        type: ["Fighting", "Psychic"],
+        types: ["Fighting", "Psychic"],
         weight: 11.2,
         height: 0.6,
         evolutionStage: 1,
@@ -3526,7 +3526,7 @@ const hoenn_region_pokemons = [
     {
         name: "Metagross",
         species: "Iron Leg Pokémon",
-        type: ["Steel", "Psychic"],
+        types: ["Steel", "Psychic"],
         weight: 550,
         height: 1.6,
         evolutionStage: 3,
@@ -3537,7 +3537,7 @@ const hoenn_region_pokemons = [
     {
         name: "Metang",
         species: "Iron Claw Pokémon",
-        type: ["Steel", "Psychic"],
+        types: ["Steel", "Psychic"],
         weight: 202.5,
         height: 1.2,
         evolutionStage: 2,
@@ -3548,7 +3548,7 @@ const hoenn_region_pokemons = [
     {
         name: "Mightyena",
         species: "Bite Pokémon",
-        type: ["Dark"],
+        types: ["Dark"],
         weight: 37,
         height: 1,
         evolutionStage: 2,
@@ -3559,7 +3559,7 @@ const hoenn_region_pokemons = [
     {
         name: "Milotic",
         species: "Tender Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 162,
         height: 6.2,
         evolutionStage: 2,
@@ -3570,7 +3570,7 @@ const hoenn_region_pokemons = [
     {
         name: "Minun",
         species: "Cheering Pokémon",
-        type: ["Electric"],
+        types: ["Electric"],
         weight: 4.2,
         height: 0.4,
         evolutionStage: 1,
@@ -3581,7 +3581,7 @@ const hoenn_region_pokemons = [
     {
         name: "Mudkip",
         species: "Mud Fish Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 7.6,
         height: 0.4,
         evolutionStage: 1,
@@ -3592,7 +3592,7 @@ const hoenn_region_pokemons = [
     {
         name: "Nincada",
         species: "Trainee Pokémon",
-        type: ["Bug", "Ground"],
+        types: ["Bug", "Ground"],
         weight: 5.5,
         height: 0.5,
         evolutionStage: 1,
@@ -3603,7 +3603,7 @@ const hoenn_region_pokemons = [
     {
         name: "Ninjask",
         species: "Ninja Pokémon",
-        type: ["Bug", "Flying"],
+        types: ["Bug", "Flying"],
         weight: 12,
         height: 0.8,
         evolutionStage: 2,
@@ -3614,7 +3614,7 @@ const hoenn_region_pokemons = [
     {
         name: "Nosepass",
         species: "Compass Pokémon",
-        type: ["Rock"],
+        types: ["Rock"],
         weight: 97,
         height: 1,
         evolutionStage: 1,
@@ -3625,7 +3625,7 @@ const hoenn_region_pokemons = [
     {
         name: "Numel",
         species: "Numb Pokémon",
-        type: ["Fire", "Ground"],
+        types: ["Fire", "Ground"],
         weight: 24,
         height: 0.7,
         evolutionStage: 1,
@@ -3636,7 +3636,7 @@ const hoenn_region_pokemons = [
     {
         name: "Nuzleaf",
         species: "Wily Pokémon",
-        type: ["Grass", "Dark"],
+        types: ["Grass", "Dark"],
         weight: 28,
         height: 1,
         evolutionStage: 2,
@@ -3647,7 +3647,7 @@ const hoenn_region_pokemons = [
     {
         name: "Pelipper",
         species: "Water Bird Pokémon",
-        type: ["Water", "Flying"],
+        types: ["Water", "Flying"],
         weight: 28,
         height: 1.2,
         evolutionStage: 2,
@@ -3658,7 +3658,7 @@ const hoenn_region_pokemons = [
     {
         name: "Plusle",
         species: "Cheering Pokémon",
-        type: ["Electric"],
+        types: ["Electric"],
         weight: 4.2,
         height: 0.4,
         evolutionStage: 1,
@@ -3669,7 +3669,7 @@ const hoenn_region_pokemons = [
     {
         name: "Poochyena",
         species: "Bite Pokémon",
-        type: ["Dark"],
+        types: ["Dark"],
         weight: 13.6,
         height: 0.5,
         evolutionStage: 1,
@@ -3680,7 +3680,7 @@ const hoenn_region_pokemons = [
     {
         name: "Ralts",
         species: "Feeling Pokémon",
-        type: ["Psychic", "Fairy"],
+        types: ["Psychic", "Fairy"],
         weight: 6.6,
         height: 0.4,
         evolutionStage: 1,
@@ -3691,7 +3691,7 @@ const hoenn_region_pokemons = [
     {
         name: "Rayquaza",
         species: "Sky High Pokémon",
-        type: ["Dragon", "Flying"],
+        types: ["Dragon", "Flying"],
         weight: 206.5,
         height: 7,
         evolutionStage: 1,
@@ -3702,7 +3702,7 @@ const hoenn_region_pokemons = [
     {
         name: "Regice",
         species: "Iceberg Pokémon",
-        type: ["Ice"],
+        types: ["Ice"],
         weight: 175,
         height: 1.8,
         evolutionStage: 1,
@@ -3713,7 +3713,7 @@ const hoenn_region_pokemons = [
     {
         name: "Regirock",
         species: "Rock Peak Pokémon",
-        type: ["Rock"],
+        types: ["Rock"],
         weight: 230,
         height: 1.7,
         evolutionStage: 1,
@@ -3724,7 +3724,7 @@ const hoenn_region_pokemons = [
     {
         name: "Registeel",
         species: "Iron Pokémon",
-        type: ["Steel"],
+        types: ["Steel"],
         weight: 205,
         height: 1.9,
         evolutionStage: 1,
@@ -3735,7 +3735,7 @@ const hoenn_region_pokemons = [
     {
         name: "Relicanth",
         species: "Longevity Pokémon",
-        type: ["Water", "Rock"],
+        types: ["Water", "Rock"],
         weight: 23.4,
         height: 1,
         evolutionStage: 1,
@@ -3746,7 +3746,7 @@ const hoenn_region_pokemons = [
     {
         name: "Roselia",
         species: "Thorn Pokémon",
-        type: ["Grass", "Poison"],
+        types: ["Grass", "Poison"],
         weight: 2,
         height: 0.3,
         evolutionStage: 2,
@@ -3757,7 +3757,7 @@ const hoenn_region_pokemons = [
     {
         name: "Sableye",
         species: "Darkness Pokémon",
-        type: ["Dark", "Ghost"],
+        types: ["Dark", "Ghost"],
         weight: 11,
         height: 0.5,
         evolutionStage: 1,
@@ -3768,7 +3768,7 @@ const hoenn_region_pokemons = [
     {
         name: "Salamence",
         species: "Dragon Pokémon",
-        type: ["Dragon", "Flying"],
+        types: ["Dragon", "Flying"],
         weight: 102.6,
         height: 1.5,
         evolutionStage: 3,
@@ -3779,7 +3779,7 @@ const hoenn_region_pokemons = [
     {
         name: "Sceptile",
         species: "Forest Pokémon",
-        type: ["Grass"],
+        types: ["Grass"],
         weight: 52.2,
         height: 1.7,
         evolutionStage: 3,
@@ -3790,7 +3790,7 @@ const hoenn_region_pokemons = [
     {
         name: "Sealeo",
         species: "Ball Roll Pokémon",
-        type: ["Ice", "Water"],
+        types: ["Ice", "Water"],
         weight: 87.6,
         height: 1.1,
         evolutionStage: 2,
@@ -3801,7 +3801,7 @@ const hoenn_region_pokemons = [
     {
         name: "Seedot",
         species: "Acorn Pokémon",
-        type: ["Grass"],
+        types: ["Grass"],
         weight: 4,
         height: 0.5,
         evolutionStage: 1,
@@ -3812,7 +3812,7 @@ const hoenn_region_pokemons = [
     {
         name: "Seviper",
         species: "Fang Snake Pokémon",
-        type: ["Poison"],
+        types: ["Poison"],
         weight: 52.5,
         height: 2.7,
         evolutionStage: 1,
@@ -3823,7 +3823,7 @@ const hoenn_region_pokemons = [
     {
         name: "Sharpedo",
         species: "Brutal Pokémon",
-        type: ["Water", "Dark"],
+        types: ["Water", "Dark"],
         weight: 88.8,
         height: 1.8,
         evolutionStage: 2,
@@ -3834,7 +3834,7 @@ const hoenn_region_pokemons = [
     {
         name: "Shedinja",
         species: "Shed Pokémon",
-        type: ["Bug", "Ghost"],
+        types: ["Bug", "Ghost"],
         weight: 1.2,
         height: 0.8,
         evolutionStage: 2,
@@ -3845,7 +3845,7 @@ const hoenn_region_pokemons = [
     {
         name: "Shelgon",
         species: "Endurance Pokémon",
-        type: ["Dragon"],
+        types: ["Dragon"],
         weight: 110.5,
         height: 1.1,
         evolutionStage: 2,
@@ -3856,7 +3856,7 @@ const hoenn_region_pokemons = [
     {
         name: "Shiftry",
         species: "Wicked Pokémon",
-        type: ["Grass", "Dark"],
+        types: ["Grass", "Dark"],
         weight: 59.6,
         height: 1.3,
         evolutionStage: 3,
@@ -3867,7 +3867,7 @@ const hoenn_region_pokemons = [
     {
         name: "Shroomish",
         species: "Mushroom Pokémon",
-        type: ["Grass"],
+        types: ["Grass"],
         weight: 4.5,
         height: 0.4,
         evolutionStage: 1,
@@ -3878,7 +3878,7 @@ const hoenn_region_pokemons = [
     {
         name: "Shuppet",
         species: "Puppet Pokémon",
-        type: ["Ghost"],
+        types: ["Ghost"],
         weight: 2.3,
         height: 0.6,
         evolutionStage: 1,
@@ -3889,7 +3889,7 @@ const hoenn_region_pokemons = [
     {
         name: "Silcoon",
         species: "Cocoon Pokémon",
-        type: ["Bug"],
+        types: ["Bug"],
         weight: 10,
         height: 0.6,
         evolutionStage: 2,
@@ -3900,7 +3900,7 @@ const hoenn_region_pokemons = [
     {
         name: "Skitty",
         species: "Kitten Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 11,
         height: 0.6,
         evolutionStage: 1,
@@ -3911,7 +3911,7 @@ const hoenn_region_pokemons = [
     {
         name: "Slaking",
         species: "Lazy Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 130.5,
         height: 2,
         evolutionStage: 3,
@@ -3922,7 +3922,7 @@ const hoenn_region_pokemons = [
     {
         name: "Slakoth",
         species: "Slacker Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 24,
         height: 0.8,
         evolutionStage: 1,
@@ -3933,7 +3933,7 @@ const hoenn_region_pokemons = [
     {
         name: "Snorunt",
         species: "Snow Hat Pokémon",
-        type: ["Ice"],
+        types: ["Ice"],
         weight: 16.8,
         height: 0.7,
         evolutionStage: 1,
@@ -3944,7 +3944,7 @@ const hoenn_region_pokemons = [
     {
         name: "Solrock",
         species: "Meteorite Pokémon",
-        type: ["Rock", "Psychic"],
+        types: ["Rock", "Psychic"],
         weight: 154,
         height: 1.2,
         evolutionStage: 1,
@@ -3955,7 +3955,7 @@ const hoenn_region_pokemons = [
     {
         name: "Spheal",
         species: "Clap Pokémon",
-        type: ["Ice", "Water"],
+        types: ["Ice", "Water"],
         weight: 39.5,
         height: 0.8,
         evolutionStage: 1,
@@ -3966,7 +3966,7 @@ const hoenn_region_pokemons = [
     {
         name: "Spinda",
         species: "Spot Panda Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 5,
         height: 1.1,
         evolutionStage: 1,
@@ -3977,7 +3977,7 @@ const hoenn_region_pokemons = [
     {
         name: "Spoink",
         species: "Bounce Pokémon",
-        type: ["Psychic"],
+        types: ["Psychic"],
         weight: 30.6,
         height: 0.7,
         evolutionStage: 1,
@@ -3988,7 +3988,7 @@ const hoenn_region_pokemons = [
     {
         name: "Surskit",
         species: "Pond Skater Pokémon",
-        type: ["Bug", "Water"],
+        types: ["Bug", "Water"],
         weight: 1.7,
         height: 0.5,
         evolutionStage: 1,
@@ -3999,7 +3999,7 @@ const hoenn_region_pokemons = [
     {
         name: "Swablu",
         species: "Cotton Bird Pokémon",
-        type: ["Normal", "Flying"],
+        types: ["Normal", "Flying"],
         weight: 1.2,
         height: 0.4,
         evolutionStage: 1,
@@ -4010,7 +4010,7 @@ const hoenn_region_pokemons = [
     {
         name: "Swalot",
         species: "Poison Bag Pokémon",
-        type: ["Poison"],
+        types: ["Poison"],
         weight: 80,
         height: 1.7,
         evolutionStage: 2,
@@ -4021,7 +4021,7 @@ const hoenn_region_pokemons = [
     {
         name: "Swampert",
         species: "Mud Fish Pokémon",
-        type: ["Water", "Ground"],
+        types: ["Water", "Ground"],
         weight: 81.9,
         height: 1.5,
         evolutionStage: 3,
@@ -4032,7 +4032,7 @@ const hoenn_region_pokemons = [
     {
         name: "Swellow",
         species: "Swallow Pokémon",
-        type: ["Normal", "Flying"],
+        types: ["Normal", "Flying"],
         weight: 19.8,
         height: 0.7,
         evolutionStage: 2,
@@ -4043,7 +4043,7 @@ const hoenn_region_pokemons = [
     {
         name: "Taillow",
         species: "Tiny Swallow Pokémon",
-        type: ["Normal", "Flying"],
+        types: ["Normal", "Flying"],
         weight: 2.3,
         height: 0.3,
         evolutionStage: 1,
@@ -4054,7 +4054,7 @@ const hoenn_region_pokemons = [
     {
         name: "Torchic",
         species: "Chick Pokémon",
-        type: ["Fire"],
+        types: ["Fire"],
         weight: 2.5,
         height: 0.4,
         evolutionStage: 1,
@@ -4065,7 +4065,7 @@ const hoenn_region_pokemons = [
     {
         name: "Torkoal",
         species: "Coal Pokémon",
-        type: ["Fire"],
+        types: ["Fire"],
         weight: 80.4,
         height: 0.5,
         evolutionStage: 1,
@@ -4076,7 +4076,7 @@ const hoenn_region_pokemons = [
     {
         name: "Trapinch",
         species: "Ant Pit Pokémon",
-        type: ["Ground"],
+        types: ["Ground"],
         weight: 15,
         height: 0.7,
         evolutionStage: 1,
@@ -4087,7 +4087,7 @@ const hoenn_region_pokemons = [
     {
         name: "Treecko",
         species: "Wood Gecko Pokémon",
-        type: ["Grass"],
+        types: ["Grass"],
         weight: 5,
         height: 0.5,
         evolutionStage: 1,
@@ -4098,7 +4098,7 @@ const hoenn_region_pokemons = [
     {
         name: "Tropius",
         species: "Fruit Pokémon",
-        type: ["Grass", "Flying"],
+        types: ["Grass", "Flying"],
         weight: 100,
         height: 2,
         evolutionStage: 1,
@@ -4109,7 +4109,7 @@ const hoenn_region_pokemons = [
     {
         name: "Vibrava",
         species: "Vibration Pokémon",
-        type: ["Ground", "Dragon"],
+        types: ["Ground", "Dragon"],
         weight: 15.3,
         height: 1.1,
         evolutionStage: 2,
@@ -4120,7 +4120,7 @@ const hoenn_region_pokemons = [
     {
         name: "Vigoroth",
         species: "Wild Monkey Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 46.5,
         height: 1.4,
         evolutionStage: 2,
@@ -4131,7 +4131,7 @@ const hoenn_region_pokemons = [
     {
         name: "Volbeat",
         species: "Firefly Pokémon",
-        type: ["Bug"],
+        types: ["Bug"],
         weight: 17.7,
         height: 0.7,
         evolutionStage: 1,
@@ -4142,7 +4142,7 @@ const hoenn_region_pokemons = [
     {
         name: "Wailmer",
         species: "Ball Whale Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 130,
         height: 2,
         evolutionStage: 1,
@@ -4153,7 +4153,7 @@ const hoenn_region_pokemons = [
     {
         name: "Wailord",
         species: "Float Whale Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 398,
         height: 14.5,
         evolutionStage: 2,
@@ -4164,7 +4164,7 @@ const hoenn_region_pokemons = [
     {
         name: "Walrein",
         species: "Ice Break Pokémon",
-        type: ["Ice", "Water"],
+        types: ["Ice", "Water"],
         weight: 150.6,
         height: 1.4,
         evolutionStage: 3,
@@ -4175,7 +4175,7 @@ const hoenn_region_pokemons = [
     {
         name: "Whiscash",
         species: "Whiskers Pokémon",
-        type: ["Water", "Ground"],
+        types: ["Water", "Ground"],
         weight: 23.6,
         height: 0.9,
         evolutionStage: 2,
@@ -4186,7 +4186,7 @@ const hoenn_region_pokemons = [
     {
         name: "Whismur",
         species: "Whisper Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 16.3,
         height: 0.6,
         evolutionStage: 1,
@@ -4197,7 +4197,7 @@ const hoenn_region_pokemons = [
     {
         name: "Wingull",
         species: "Seagull Pokémon",
-        type: ["Water", "Flying"],
+        types: ["Water", "Flying"],
         weight: 9.5,
         height: 0.6,
         evolutionStage: 1,
@@ -4208,7 +4208,7 @@ const hoenn_region_pokemons = [
     {
         name: "Wurmple",
         species: "Worm Pokémon",
-        type: ["Bug"],
+        types: ["Bug"],
         weight: 3.6,
         height: 0.3,
         evolutionStage: 1,
@@ -4219,7 +4219,7 @@ const hoenn_region_pokemons = [
     {
         name: "Wynaut",
         species: "Bright Pokémon",
-        type: ["Psychic"],
+        types: ["Psychic"],
         weight: 14,
         height: 0.6,
         evolutionStage: 1,
@@ -4230,7 +4230,7 @@ const hoenn_region_pokemons = [
     {
         name: "Zangoose",
         species: "Cat Ferret Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 40.3,
         height: 1.3,
         evolutionStage: 1,
@@ -4241,7 +4241,7 @@ const hoenn_region_pokemons = [
     {
         name: "Zigzagoon",
         species: "Tiny Raccoon Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 17.5,
         height: 0.4,
         evolutionStage: 1,
@@ -4255,7 +4255,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Abomasnow",
         species: "Frost Tree Pokémon",
-        type: ["Grass", "Ice"],
+        types: ["Grass", "Ice"],
         weight: 135.5,
         height: 2.2,
         evolutionStage: 2,
@@ -4266,7 +4266,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Ambipom",
         species: "Long Tail Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 20.3,
         height: 1.2,
         evolutionStage: 2,
@@ -4277,7 +4277,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Arceus",
         species: "Alpha Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 320,
         height: 3.2,
         evolutionStage: 1,
@@ -4288,7 +4288,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Azelf",
         species: "Willpower Pokémon",
-        type: ["Psychic"],
+        types: ["Psychic"],
         weight: 0.3,
         height: 0.3,
         evolutionStage: 1,
@@ -4299,7 +4299,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Bastiodon",
         species: "Shield Pokémon",
-        type: ["Rock", "Steel"],
+        types: ["Rock", "Steel"],
         weight: 149.5,
         height: 1.3,
         evolutionStage: 2,
@@ -4310,7 +4310,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Bibarel",
         species: "Beaver Pokémon",
-        type: ["Normal", "Water"],
+        types: ["Normal", "Water"],
         weight: 31.5,
         height: 1,
         evolutionStage: 2,
@@ -4321,7 +4321,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Bidoof",
         species: "Plump Mouse Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 20,
         height: 0.5,
         evolutionStage: 1,
@@ -4332,7 +4332,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Bonsly",
         species: "Bonsai Pokémon",
-        type: ["Rock"],
+        types: ["Rock"],
         weight: 15,
         height: 0.5,
         evolutionStage: 1,
@@ -4343,7 +4343,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Bronzong",
         species: "Bronze Bell Pokémon",
-        type: ["Steel", "Psychic"],
+        types: ["Steel", "Psychic"],
         weight: 187,
         height: 1.3,
         evolutionStage: 2,
@@ -4354,7 +4354,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Bronzor",
         species: "Bronze Pokémon",
-        type: ["Steel", "Psychic"],
+        types: ["Steel", "Psychic"],
         weight: 60.5,
         height: 0.5,
         evolutionStage: 1,
@@ -4365,7 +4365,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Budew",
         species: "Bud Pokémon",
-        type: ["Grass", "Poison"],
+        types: ["Grass", "Poison"],
         weight: 1.2,
         height: 0.2,
         evolutionStage: 1,
@@ -4376,7 +4376,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Buizel",
         species: "Sea Weasel Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 29.5,
         height: 0.7,
         evolutionStage: 1,
@@ -4387,7 +4387,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Buneary",
         species: "Rabbit Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 5.5,
         height: 0.4,
         evolutionStage: 1,
@@ -4398,7 +4398,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Burmy",
         species: "Bagworm Pokémon",
-        type: ["Bug"],
+        types: ["Bug"],
         weight: 3.4,
         height: 0.2,
         evolutionStage: 1,
@@ -4409,7 +4409,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Carnivine",
         species: "Bug Catcher Pokémon",
-        type: ["Grass"],
+        types: ["Grass"],
         weight: 27,
         height: 1.4,
         evolutionStage: 1,
@@ -4420,7 +4420,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Chatot",
         species: "Music Note Pokémon",
-        type: ["Normal", "Flying"],
+        types: ["Normal", "Flying"],
         weight: 1.9,
         height: 0.5,
         evolutionStage: 1,
@@ -4431,7 +4431,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Cherrim",
         species: "Blossom Pokémon",
-        type: ["Grass"],
+        types: ["Grass"],
         weight: 9.3,
         height: 0.5,
         evolutionStage: 2,
@@ -4442,7 +4442,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Cherubi",
         species: "Cherry Pokémon",
-        type: ["Grass"],
+        types: ["Grass"],
         weight: 3.3,
         height: 0.4,
         evolutionStage: 1,
@@ -4453,7 +4453,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Chimchar",
         species: "Chimp Pokémon",
-        type: ["Fire"],
+        types: ["Fire"],
         weight: 6.2,
         height: 0.5,
         evolutionStage: 1,
@@ -4464,7 +4464,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Chingling",
         species: "Bell Pokémon",
-        type: ["Psychic"],
+        types: ["Psychic"],
         weight: 0.6,
         height: 0.2,
         evolutionStage: 1,
@@ -4475,7 +4475,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Combee",
         species: "Tiny Bee Pokémon",
-        type: ["Bug", "Flying"],
+        types: ["Bug", "Flying"],
         weight: 5.5,
         height: 0.3,
         evolutionStage: 1,
@@ -4486,7 +4486,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Cranidos",
         species: "Head Butt Pokémon",
-        type: ["Rock"],
+        types: ["Rock"],
         weight: 31.5,
         height: 0.9,
         evolutionStage: 1,
@@ -4497,7 +4497,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Cresselia",
         species: "Lunar Pokémon",
-        type: ["Psychic"],
+        types: ["Psychic"],
         weight: 85.6,
         height: 1.5,
         evolutionStage: 1,
@@ -4508,7 +4508,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Croagunk",
         species: "Toxic Mouth Pokémon",
-        type: ["Poison", "Fighting"],
+        types: ["Poison", "Fighting"],
         weight: 23,
         height: 0.7,
         evolutionStage: 1,
@@ -4519,7 +4519,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Darkrai",
         species: "Pitch-Black Pokémon",
-        type: ["Dark"],
+        types: ["Dark"],
         weight: 50.5,
         height: 1.5,
         evolutionStage: 1,
@@ -4530,7 +4530,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Dialga",
         species: "Temporal Pokémon",
-        type: ["Steel", "Dragon"],
+        types: ["Steel", "Dragon"],
         weight: 683,
         height: 5.4,
         evolutionStage: 1,
@@ -4541,7 +4541,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Drapion",
         species: "Ogre Scorpion Pokémon",
-        type: ["Poison", "Dark"],
+        types: ["Poison", "Dark"],
         weight: 61.5,
         height: 1.3,
         evolutionStage: 2,
@@ -4552,7 +4552,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Drifblim",
         species: "Blimp Pokémon",
-        type: ["Ghost", "Flying"],
+        types: ["Ghost", "Flying"],
         weight: 15,
         height: 1.2,
         evolutionStage: 2,
@@ -4563,7 +4563,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Drifloon",
         species: "Balloon Pokémon",
-        type: ["Ghost", "Flying"],
+        types: ["Ghost", "Flying"],
         weight: 1.2,
         height: 0.4,
         evolutionStage: 1,
@@ -4574,7 +4574,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Dusknoir",
         species: "Gripper Pokémon",
-        type: ["Ghost"],
+        types: ["Ghost"],
         weight: 106.6,
         height: 2.2,
         evolutionStage: 3,
@@ -4585,7 +4585,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Electivire",
         species: "Thunderbolt Pokémon",
-        type: ["Electric"],
+        types: ["Electric"],
         weight: 138.6,
         height: 1.8,
         evolutionStage: 3,
@@ -4596,7 +4596,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Empoleon",
         species: "Emperor Pokémon",
-        type: ["Water", "Steel"],
+        types: ["Water", "Steel"],
         weight: 84.5,
         height: 1.7,
         evolutionStage: 3,
@@ -4607,7 +4607,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Finneon",
         species: "Wing Fish Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 7,
         height: 0.4,
         evolutionStage: 1,
@@ -4618,7 +4618,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Floatzel",
         species: "Sea Weasel Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 33.5,
         height: 1.1,
         evolutionStage: 2,
@@ -4629,7 +4629,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Froslass",
         species: "Snow Land Pokémon",
-        type: ["Ice", "Ghost"],
+        types: ["Ice", "Ghost"],
         weight: 26.6,
         height: 1.3,
         evolutionStage: 2,
@@ -4640,7 +4640,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Gabite",
         species: "Cave Pokémon",
-        type: ["Dragon", "Ground"],
+        types: ["Dragon", "Ground"],
         weight: 56,
         height: 1.4,
         evolutionStage: 2,
@@ -4651,7 +4651,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Gallade",
         species: "Blade Pokémon",
-        type: ["Psychic", "Fighting"],
+        types: ["Psychic", "Fighting"],
         weight: 52,
         height: 1.6,
         evolutionStage: 3,
@@ -4662,7 +4662,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Garchomp",
         species: "Mach Pokémon",
-        type: ["Dragon", "Ground"],
+        types: ["Dragon", "Ground"],
         weight: 95,
         height: 1.9,
         evolutionStage: 3,
@@ -4673,7 +4673,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Gastrodon",
         species: "Sea Slug Pokémon",
-        type: ["Water", "Ground"],
+        types: ["Water", "Ground"],
         weight: 29.9,
         height: 0.9,
         evolutionStage: 2,
@@ -4684,7 +4684,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Gible",
         species: "Land Shark Pokémon",
-        type: ["Dragon", "Ground"],
+        types: ["Dragon", "Ground"],
         weight: 20.5,
         height: 0.7,
         evolutionStage: 1,
@@ -4695,7 +4695,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Glaceon",
         species: "Fresh Snow Pokémon",
-        type: ["Ice"],
+        types: ["Ice"],
         weight: 25.9,
         height: 0.8,
         evolutionStage: 2,
@@ -4706,7 +4706,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Glameow",
         species: "Catty Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 3.9,
         height: 0.5,
         evolutionStage: 1,
@@ -4717,7 +4717,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Gliscor",
         species: "Fang Scorpion Pokémon",
-        type: ["Ground", "Flying"],
+        types: ["Ground", "Flying"],
         weight: 42.5,
         height: 2,
         evolutionStage: 2,
@@ -4728,7 +4728,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Grotle",
         species: "Grove Pokémon",
-        type: ["Grass"],
+        types: ["Grass"],
         weight: 97,
         height: 1.1,
         evolutionStage: 2,
@@ -4739,7 +4739,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Happiny",
         species: "Playhouse Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 24.4,
         height: 0.6,
         evolutionStage: 1,
@@ -4750,7 +4750,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Heatran",
         species: "Lava Dome Pokémon",
-        type: ["Fire", "Steel"],
+        types: ["Fire", "Steel"],
         weight: 430,
         height: 1.7,
         evolutionStage: 1,
@@ -4761,7 +4761,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Hippopotas",
         species: "Hippo Pokémon",
-        type: ["Ground"],
+        types: ["Ground"],
         weight: 49.5,
         height: 0.8,
         evolutionStage: 1,
@@ -4772,7 +4772,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Hippowdon",
         species: "Heavyweight Pokémon",
-        type: ["Ground"],
+        types: ["Ground"],
         weight: 300,
         height: 2,
         evolutionStage: 2,
@@ -4783,7 +4783,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Honchkrow",
         species: "Big Boss Pokémon",
-        type: ["Dark", "Flying"],
+        types: ["Dark", "Flying"],
         weight: 27.3,
         height: 0.9,
         evolutionStage: 2,
@@ -4794,7 +4794,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Infernape",
         species: "Flame Pokémon",
-        type: ["Fire", "Fighting"],
+        types: ["Fire", "Fighting"],
         weight: 55,
         height: 1.2,
         evolutionStage: 3,
@@ -4805,7 +4805,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Kricketot",
         species: "Cricket Pokémon",
-        type: ["Bug"],
+        types: ["Bug"],
         weight: 2.2,
         height: 0.3,
         evolutionStage: 1,
@@ -4816,7 +4816,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Kricketune",
         species: "Cricket Pokémon",
-        type: ["Bug"],
+        types: ["Bug"],
         weight: 25.5,
         height: 1,
         evolutionStage: 2,
@@ -4827,7 +4827,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Leafeon",
         species: "Verdant Pokémon",
-        type: ["Grass"],
+        types: ["Grass"],
         weight: 25.5,
         height: 1,
         evolutionStage: 2,
@@ -4838,7 +4838,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Lickilicky",
         species: "Licking Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 140,
         height: 1.7,
         evolutionStage: 2,
@@ -4849,7 +4849,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Lopunny",
         species: "Rabbit Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 33.3,
         height: 1.2,
         evolutionStage: 2,
@@ -4860,7 +4860,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Lucario",
         species: "Aura Pokémon",
-        type: ["Fighting", "Steel"],
+        types: ["Fighting", "Steel"],
         weight: 54,
         height: 1.2,
         evolutionStage: 2,
@@ -4871,7 +4871,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Lumineon",
         species: "Neon Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 24,
         height: 1.2,
         evolutionStage: 2,
@@ -4882,7 +4882,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Luxio",
         species: "Spark Pokémon",
-        type: ["Electric"],
+        types: ["Electric"],
         weight: 30.5,
         height: 0.9,
         evolutionStage: 2,
@@ -4893,7 +4893,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Luxray",
         species: "Gleam Eyes Pokémon",
-        type: ["Electric"],
+        types: ["Electric"],
         weight: 42,
         height: 1.4,
         evolutionStage: 3,
@@ -4904,7 +4904,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Magmortar",
         species: "Blast Pokémon",
-        type: ["Fire"],
+        types: ["Fire"],
         weight: 68,
         height: 1.6,
         evolutionStage: 3,
@@ -4915,7 +4915,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Magnezone",
         species: "Magnet Area Pokémon",
-        type: ["Electric", "Steel"],
+        types: ["Electric", "Steel"],
         weight: 180,
         height: 1.2,
         evolutionStage: 3,
@@ -4926,7 +4926,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Mamoswine",
         species: "Twin Tusk Pokémon",
-        type: ["Ice", "Ground"],
+        types: ["Ice", "Ground"],
         weight: 291,
         height: 2.5,
         evolutionStage: 3,
@@ -4937,7 +4937,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Manaphy",
         species: "Seafaring Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 1.4,
         height: 0.3,
         evolutionStage: 2,
@@ -4948,7 +4948,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Mantyke",
         species: "Kite Pokémon",
-        type: ["Water", "Flying"],
+        types: ["Water", "Flying"],
         weight: 65,
         height: 1,
         evolutionStage: 1,
@@ -4959,7 +4959,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Mesprit",
         species: "Emotion Pokémon",
-        type: ["Psychic"],
+        types: ["Psychic"],
         weight: 0.3,
         height: 0.3,
         evolutionStage: 1,
@@ -4970,7 +4970,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Mime-jr",
         species: "Mime Pokémon",
-        type: ["Psychic", "Fairy"],
+        types: ["Psychic", "Fairy"],
         weight: 13,
         height: 0.6,
         evolutionStage: 1,
@@ -4981,7 +4981,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Mismagius",
         species: "Magical Pokémon",
-        type: ["Ghost"],
+        types: ["Ghost"],
         weight: 4.4,
         height: 0.9,
         evolutionStage: 2,
@@ -4992,7 +4992,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Monferno",
         species: "Playful Pokémon",
-        type: ["Fire", "Fighting"],
+        types: ["Fire", "Fighting"],
         weight: 22,
         height: 0.9,
         evolutionStage: 2,
@@ -5003,7 +5003,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Mothim",
         species: "Moth Pokémon",
-        type: ["Bug", "Flying"],
+        types: ["Bug", "Flying"],
         weight: 23.3,
         height: 0.9,
         evolutionStage: 2,
@@ -5014,7 +5014,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Munchlax",
         species: "Big Eater Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 105,
         height: 0.6,
         evolutionStage: 1,
@@ -5025,7 +5025,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Pachirisu",
         species: "EleSquirrel Pokémon",
-        type: ["Electric"],
+        types: ["Electric"],
         weight: 3.9,
         height: 0.4,
         evolutionStage: 1,
@@ -5036,7 +5036,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Palkia",
         species: "Spatial Pokémon",
-        type: ["Water", "Dragon"],
+        types: ["Water", "Dragon"],
         weight: 336,
         height: 4.2,
         evolutionStage: 1,
@@ -5047,7 +5047,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Phione",
         species: "Sea Drifter Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 3.1,
         height: 0.4,
         evolutionStage: 1,
@@ -5058,7 +5058,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Piplup",
         species: "Penguin Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 5.2,
         height: 0.4,
         evolutionStage: 1,
@@ -5069,7 +5069,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Porygon-z",
         species: "Virtual Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 34,
         height: 0.9,
         evolutionStage: 3,
@@ -5080,7 +5080,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Prinplup",
         species: "Penguin Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 23,
         height: 0.8,
         evolutionStage: 2,
@@ -5091,7 +5091,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Probopass",
         species: "Compass Pokémon",
-        type: ["Rock", "Steel"],
+        types: ["Rock", "Steel"],
         weight: 340,
         height: 1.4,
         evolutionStage: 2,
@@ -5102,7 +5102,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Purugly",
         species: "Tiger Cat Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 43.8,
         height: 1,
         evolutionStage: 2,
@@ -5113,7 +5113,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Rampardos",
         species: "Head Butt Pokémon",
-        type: ["Rock"],
+        types: ["Rock"],
         weight: 102.5,
         height: 1.6,
         evolutionStage: 2,
@@ -5124,7 +5124,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Regigigas",
         species: "Colossal Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 420,
         height: 3.7,
         evolutionStage: 1,
@@ -5135,7 +5135,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Rhyperior",
         species: "Drill Pokémon",
-        type: ["Ground", "Rock"],
+        types: ["Ground", "Rock"],
         weight: 282.8,
         height: 2.4,
         evolutionStage: 3,
@@ -5146,7 +5146,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Riolu",
         species: "Emanation Pokémon",
-        type: ["Fighting"],
+        types: ["Fighting"],
         weight: 20.2,
         height: 0.7,
         evolutionStage: 1,
@@ -5157,7 +5157,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Roserade",
         species: "Bouquet Pokémon",
-        type: ["Grass", "Poison"],
+        types: ["Grass", "Poison"],
         weight: 14.5,
         height: 0.9,
         evolutionStage: 3,
@@ -5168,7 +5168,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Rotom",
         species: "Plasma Pokémon",
-        type: ["Electric", "Ghost"],
+        types: ["Electric", "Ghost"],
         weight: 0.3,
         height: 0.3,
         evolutionStage: 1,
@@ -5179,7 +5179,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Shellos",
         species: "Sea Slug Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 6.3,
         height: 0.3,
         evolutionStage: 1,
@@ -5190,7 +5190,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Shieldon",
         species: "Shield Pokémon",
-        type: ["Rock", "Steel"],
+        types: ["Rock", "Steel"],
         weight: 57,
         height: 0.5,
         evolutionStage: 1,
@@ -5201,7 +5201,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Shinx",
         species: "Flash Pokémon",
-        type: ["Electric"],
+        types: ["Electric"],
         weight: 9.5,
         height: 0.5,
         evolutionStage: 1,
@@ -5212,7 +5212,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Skorupi",
         species: "Scorpion Pokémon",
-        type: ["Poison", "Bug"],
+        types: ["Poison", "Bug"],
         weight: 12,
         height: 0.8,
         evolutionStage: 1,
@@ -5223,7 +5223,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Skuntank",
         species: "Skunk Pokémon",
-        type: ["Poison", "Dark"],
+        types: ["Poison", "Dark"],
         weight: 38,
         height: 1,
         evolutionStage: 2,
@@ -5234,7 +5234,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Snover",
         species: "Frost Tree Pokémon",
-        type: ["Grass", "Ice"],
+        types: ["Grass", "Ice"],
         weight: 50.5,
         height: 1,
         evolutionStage: 1,
@@ -5245,7 +5245,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Spiritomb",
         species: "Forbidden Pokémon",
-        type: ["Ghost", "Dark"],
+        types: ["Ghost", "Dark"],
         weight: 108,
         height: 1,
         evolutionStage: 1,
@@ -5256,7 +5256,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Staraptor",
         species: "Predator Pokémon",
-        type: ["Normal", "Flying"],
+        types: ["Normal", "Flying"],
         weight: 24.9,
         height: 1.2,
         evolutionStage: 3,
@@ -5267,7 +5267,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Staravia",
         species: "Starling Pokémon",
-        type: ["Normal", "Flying"],
+        types: ["Normal", "Flying"],
         weight: 15.5,
         height: 0.6,
         evolutionStage: 2,
@@ -5278,7 +5278,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Starly",
         species: "Starling Pokémon",
-        type: ["Normal", "Flying"],
+        types: ["Normal", "Flying"],
         weight: 2,
         height: 0.3,
         evolutionStage: 1,
@@ -5289,7 +5289,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Stunky",
         species: "Skunk Pokémon",
-        type: ["Poison", "Dark"],
+        types: ["Poison", "Dark"],
         weight: 19.2,
         height: 0.4,
         evolutionStage: 1,
@@ -5300,7 +5300,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Tangrowth",
         species: "Vine Pokémon",
-        type: ["Grass"],
+        types: ["Grass"],
         weight: 128.6,
         height: 2,
         evolutionStage: 2,
@@ -5311,7 +5311,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Togekiss",
         species: "Jubilee Pokémon",
-        type: ["Fairy", "Flying"],
+        types: ["Fairy", "Flying"],
         weight: 38,
         height: 1.5,
         evolutionStage: 3,
@@ -5322,7 +5322,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Torterra",
         species: "Continent Pokémon",
-        type: ["Grass", "Ground"],
+        types: ["Grass", "Ground"],
         weight: 310,
         height: 2.2,
         evolutionStage: 3,
@@ -5333,7 +5333,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Toxicroak",
         species: "Toxic Mouth Pokémon",
-        type: ["Poison", "Fighting"],
+        types: ["Poison", "Fighting"],
         weight: 44.4,
         height: 1.3,
         evolutionStage: 2,
@@ -5344,7 +5344,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Turtwig",
         species: "Tiny Leaf Pokémon",
-        type: ["Grass"],
+        types: ["Grass"],
         weight: 10.2,
         height: 0.4,
         evolutionStage: 1,
@@ -5355,7 +5355,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Uxie",
         species: "Knowledge Pokémon",
-        type: ["Psychic"],
+        types: ["Psychic"],
         weight: 0.3,
         height: 0.3,
         evolutionStage: 1,
@@ -5366,7 +5366,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Vespiquen",
         species: "Beehive Pokémon",
-        type: ["Bug", "Flying"],
+        types: ["Bug", "Flying"],
         weight: 38.5,
         height: 1.2,
         evolutionStage: 2,
@@ -5377,7 +5377,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Weavile",
         species: "Sharp Claw Pokémon",
-        type: ["Dark", "Ice"],
+        types: ["Dark", "Ice"],
         weight: 34,
         height: 1.1,
         evolutionStage: 2,
@@ -5388,7 +5388,7 @@ const sinnoh_region_pokemons = [
     {
         name: "Yanmega",
         species: "Ogre Darner Pokémon",
-        type: ["Bug", "Flying"],
+        types: ["Bug", "Flying"],
         weight: 51.5,
         height: 1.9,
         evolutionStage: 2,
@@ -5402,7 +5402,7 @@ const unova_region_pokemons = [
     {
         name: "Accelgor",
         species: "Shell Out Pokémon",
-        type: ["Bug"],
+        types: ["Bug"],
         weight: 25.3,
         height: 0.8,
         evolutionStage: 2,
@@ -5413,7 +5413,7 @@ const unova_region_pokemons = [
     {
         name: "Alomomola",
         species: "Caring Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 31.6,
         height: 1.2,
         evolutionStage: 1,
@@ -5424,7 +5424,7 @@ const unova_region_pokemons = [
     {
         name: "Amoonguss",
         species: "Mushroom Pokémon",
-        type: ["Grass", "Poison"],
+        types: ["Grass", "Poison"],
         weight: 10.5,
         height: 0.6,
         evolutionStage: 2,
@@ -5435,7 +5435,7 @@ const unova_region_pokemons = [
     {
         name: "Archen",
         species: "First Bird Pokémon",
-        type: ["Rock", "Flying"],
+        types: ["Rock", "Flying"],
         weight: 9.5,
         height: 0.5,
         evolutionStage: 1,
@@ -5446,7 +5446,7 @@ const unova_region_pokemons = [
     {
         name: "Archeops",
         species: "First Bird Pokémon",
-        type: ["Rock", "Flying"],
+        types: ["Rock", "Flying"],
         weight: 32,
         height: 1.4,
         evolutionStage: 2,
@@ -5457,7 +5457,7 @@ const unova_region_pokemons = [
     {
         name: "Audino",
         species: "Hearing Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 31,
         height: 1.1,
         evolutionStage: 1,
@@ -5468,7 +5468,7 @@ const unova_region_pokemons = [
     {
         name: "Axew",
         species: "Tusk Pokémon",
-        type: ["Dragon"],
+        types: ["Dragon"],
         weight: 18,
         height: 0.6,
         evolutionStage: 1,
@@ -5479,7 +5479,7 @@ const unova_region_pokemons = [
     {
         name: "Beartic",
         species: "Freezing Pokémon",
-        type: ["Ice"],
+        types: ["Ice"],
         weight: 260,
         height: 2.6,
         evolutionStage: 2,
@@ -5490,7 +5490,7 @@ const unova_region_pokemons = [
     {
         name: "Beheeyem",
         species: "Cerebral Pokémon",
-        type: ["Psychic"],
+        types: ["Psychic"],
         weight: 34.5,
         height: 1,
         evolutionStage: 2,
@@ -5501,7 +5501,7 @@ const unova_region_pokemons = [
     {
         name: "Bisharp",
         species: "Sword Blade Pokémon",
-        type: ["Dark", "Steel"],
+        types: ["Dark", "Steel"],
         weight: 70,
         height: 1.6,
         evolutionStage: 2,
@@ -5512,7 +5512,7 @@ const unova_region_pokemons = [
     {
         name: "Blitzle",
         species: "Electrified Pokémon",
-        type: ["Electric"],
+        types: ["Electric"],
         weight: 29.8,
         height: 0.8,
         evolutionStage: 1,
@@ -5523,7 +5523,7 @@ const unova_region_pokemons = [
     {
         name: "Boldore",
         species: "Ore Pokémon",
-        type: ["Rock"],
+        types: ["Rock"],
         weight: 102,
         height: 0.9,
         evolutionStage: 2,
@@ -5534,7 +5534,7 @@ const unova_region_pokemons = [
     {
         name: "Bouffalant",
         species: "Bash Buffalo Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 94.6,
         height: 1.6,
         evolutionStage: 1,
@@ -5545,7 +5545,7 @@ const unova_region_pokemons = [
     {
         name: "Braviary",
         species: "Valiant Pokémon",
-        type: ["Normal", "Flying"],
+        types: ["Normal", "Flying"],
         weight: 41,
         height: 1.5,
         evolutionStage: 2,
@@ -5556,7 +5556,7 @@ const unova_region_pokemons = [
     {
         name: "Carracosta",
         species: "Prototurtle Pokémon",
-        type: ["Water", "Rock"],
+        types: ["Water", "Rock"],
         weight: 81,
         height: 1.2,
         evolutionStage: 2,
@@ -5567,7 +5567,7 @@ const unova_region_pokemons = [
     {
         name: "Chandelure",
         species: "Luring Pokémon",
-        type: ["Ghost", "Fire"],
+        types: ["Ghost", "Fire"],
         weight: 34.3,
         height: 1,
         evolutionStage: 3,
@@ -5578,7 +5578,7 @@ const unova_region_pokemons = [
     {
         name: "Cinccino",
         species: "Scarf Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 7.5,
         height: 0.5,
         evolutionStage: 2,
@@ -5589,7 +5589,7 @@ const unova_region_pokemons = [
     {
         name: "Cobalion",
         species: "Iron Will Pokémon",
-        type: ["Steel", "Fighting"],
+        types: ["Steel", "Fighting"],
         weight: 250,
         height: 2.1,
         evolutionStage: 1,
@@ -5600,7 +5600,7 @@ const unova_region_pokemons = [
     {
         name: "Cofagrigus",
         species: "Coffin Pokémon",
-        type: ["Ghost"],
+        types: ["Ghost"],
         weight: 76.5,
         height: 1.7,
         evolutionStage: 2,
@@ -5611,7 +5611,7 @@ const unova_region_pokemons = [
     {
         name: "Conkeldurr",
         species: "Muscular Pokémon",
-        type: ["Fighting"],
+        types: ["Fighting"],
         weight: 87,
         height: 1.4,
         evolutionStage: 3,
@@ -5622,7 +5622,7 @@ const unova_region_pokemons = [
     {
         name: "Cottonee",
         species: "Cotton Puff Pokémon",
-        type: ["Grass", "Fairy"],
+        types: ["Grass", "Fairy"],
         weight: 0.6,
         height: 0.3,
         evolutionStage: 1,
@@ -5633,7 +5633,7 @@ const unova_region_pokemons = [
     {
         name: "Crustle",
         species: "Stone Home Pokémon",
-        type: ["Bug", "Rock"],
+        types: ["Bug", "Rock"],
         weight: 200,
         height: 1.4,
         evolutionStage: 2,
@@ -5644,7 +5644,7 @@ const unova_region_pokemons = [
     {
         name: "Cryogonal",
         species: "Crystallizing Pokémon",
-        type: ["Ice"],
+        types: ["Ice"],
         weight: 148,
         height: 1.1,
         evolutionStage: 1,
@@ -5655,7 +5655,7 @@ const unova_region_pokemons = [
     {
         name: "Cubchoo",
         species: "Chill Pokémon",
-        type: ["Ice"],
+        types: ["Ice"],
         weight: 8.5,
         height: 0.5,
         evolutionStage: 1,
@@ -5666,7 +5666,7 @@ const unova_region_pokemons = [
     {
         name: "Darumaka",
         species: "Zen Charm Pokémon",
-        type: ["Fire"],
+        types: ["Fire"],
         weight: 37.5,
         height: 0.6,
         evolutionStage: 1,
@@ -5677,7 +5677,7 @@ const unova_region_pokemons = [
     {
         name: "Deerling",
         species: "Season Pokémon",
-        type: ["Normal", "Grass"],
+        types: ["Normal", "Grass"],
         weight: 19.5,
         height: 0.6,
         evolutionStage: 1,
@@ -5688,7 +5688,7 @@ const unova_region_pokemons = [
     {
         name: "Deino",
         species: "Irate Pokémon",
-        type: ["Dark", "Dragon"],
+        types: ["Dark", "Dragon"],
         weight: 17.3,
         height: 0.8,
         evolutionStage: 1,
@@ -5699,7 +5699,7 @@ const unova_region_pokemons = [
     {
         name: "Dewott",
         species: "Discipline Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 24.5,
         height: 0.8,
         evolutionStage: 2,
@@ -5710,7 +5710,7 @@ const unova_region_pokemons = [
     {
         name: "Drilbur",
         species: "Mole Pokémon",
-        type: ["Ground"],
+        types: ["Ground"],
         weight: 8.5,
         height: 0.3,
         evolutionStage: 1,
@@ -5721,7 +5721,7 @@ const unova_region_pokemons = [
     {
         name: "Druddigon",
         species: "Cave Pokémon",
-        type: ["Dragon"],
+        types: ["Dragon"],
         weight: 139,
         height: 1.6,
         evolutionStage: 1,
@@ -5732,7 +5732,7 @@ const unova_region_pokemons = [
     {
         name: "Ducklett",
         species: "Water Bird Pokémon",
-        type: ["Water", "Flying"],
+        types: ["Water", "Flying"],
         weight: 5.5,
         height: 0.5,
         evolutionStage: 1,
@@ -5743,7 +5743,7 @@ const unova_region_pokemons = [
     {
         name: "Duosion",
         species: "Mitosis Pokémon",
-        type: ["Psychic"],
+        types: ["Psychic"],
         weight: 8,
         height: 0.6,
         evolutionStage: 2,
@@ -5754,7 +5754,7 @@ const unova_region_pokemons = [
     {
         name: "Durant",
         species: "Iron Ant Pokémon",
-        type: ["Bug", "Steel"],
+        types: ["Bug", "Steel"],
         weight: 33,
         height: 0.3,
         evolutionStage: 1,
@@ -5765,7 +5765,7 @@ const unova_region_pokemons = [
     {
         name: "Dwebble",
         species: "Rock Inn Pokémon",
-        type: ["Bug", "Rock"],
+        types: ["Bug", "Rock"],
         weight: 14.5,
         height: 0.3,
         evolutionStage: 1,
@@ -5776,7 +5776,7 @@ const unova_region_pokemons = [
     {
         name: "Eelektrik",
         species: "EleFish Pokémon",
-        type: ["Electric"],
+        types: ["Electric"],
         weight: 22,
         height: 1.2,
         evolutionStage: 2,
@@ -5787,7 +5787,7 @@ const unova_region_pokemons = [
     {
         name: "Eelektross",
         species: "EleFish Pokémon",
-        type: ["Electric"],
+        types: ["Electric"],
         weight: 80.5,
         height: 2.1,
         evolutionStage: 3,
@@ -5798,7 +5798,7 @@ const unova_region_pokemons = [
     {
         name: "Elgyem",
         species: "Cerebral Pokémon",
-        type: ["Psychic"],
+        types: ["Psychic"],
         weight: 9,
         height: 0.5,
         evolutionStage: 1,
@@ -5809,7 +5809,7 @@ const unova_region_pokemons = [
     {
         name: "Emboar",
         species: "Mega Fire Pig Pokémon",
-        type: ["Fire", "Fighting"],
+        types: ["Fire", "Fighting"],
         weight: 150,
         height: 1.6,
         evolutionStage: 3,
@@ -5820,7 +5820,7 @@ const unova_region_pokemons = [
     {
         name: "Emolga",
         species: "Sky Squirrel Pokémon",
-        type: ["Electric", "Flying"],
+        types: ["Electric", "Flying"],
         weight: 5,
         height: 0.4,
         evolutionStage: 1,
@@ -5831,7 +5831,7 @@ const unova_region_pokemons = [
     {
         name: "Escavalier",
         species: "Cavalry Pokémon",
-        type: ["Bug", "Steel"],
+        types: ["Bug", "Steel"],
         weight: 33,
         height: 1,
         evolutionStage: 2,
@@ -5842,7 +5842,7 @@ const unova_region_pokemons = [
     {
         name: "Excadrill",
         species: "Subterrene Pokémon",
-        type: ["Ground", "Steel"],
+        types: ["Ground", "Steel"],
         weight: 40.4,
         height: 0.7,
         evolutionStage: 2,
@@ -5853,7 +5853,7 @@ const unova_region_pokemons = [
     {
         name: "Ferroseed",
         species: "Thorn Seed Pokémon",
-        type: ["Grass", "Steel"],
+        types: ["Grass", "Steel"],
         weight: 18.8,
         height: 0.6,
         evolutionStage: 1,
@@ -5864,7 +5864,7 @@ const unova_region_pokemons = [
     {
         name: "Ferrothorn",
         species: "Thorn Pod Pokémon",
-        type: ["Grass", "Steel"],
+        types: ["Grass", "Steel"],
         weight: 110,
         height: 1,
         evolutionStage: 2,
@@ -5875,7 +5875,7 @@ const unova_region_pokemons = [
     {
         name: "Foongus",
         species: "Mushroom Pokémon",
-        type: ["Grass", "Poison"],
+        types: ["Grass", "Poison"],
         weight: 1,
         height: 0.2,
         evolutionStage: 1,
@@ -5886,7 +5886,7 @@ const unova_region_pokemons = [
     {
         name: "Fraxure",
         species: "Axe Jaw Pokémon",
-        type: ["Dragon"],
+        types: ["Dragon"],
         weight: 36,
         height: 1,
         evolutionStage: 2,
@@ -5897,7 +5897,7 @@ const unova_region_pokemons = [
     {
         name: "Frillish",
         species: "Floating Pokémon",
-        type: ["Water", "Ghost"],
+        types: ["Water", "Ghost"],
         weight: 33,
         height: 1.2,
         evolutionStage: 1,
@@ -5908,7 +5908,7 @@ const unova_region_pokemons = [
     {
         name: "Galvantula",
         species: "EleSpider Pokémon",
-        type: ["Bug", "Electric"],
+        types: ["Bug", "Electric"],
         weight: 14.3,
         height: 0.8,
         evolutionStage: 2,
@@ -5919,7 +5919,7 @@ const unova_region_pokemons = [
     {
         name: "Garbodor",
         species: "Trash Heap Pokémon",
-        type: ["Poison"],
+        types: ["Poison"],
         weight: 107.3,
         height: 1.9,
         evolutionStage: 2,
@@ -5930,7 +5930,7 @@ const unova_region_pokemons = [
     {
         name: "Genesect",
         species: "Paleozoic Pokémon",
-        type: ["Bug", "Steel"],
+        types: ["Bug", "Steel"],
         weight: 82.5,
         height: 1.5,
         evolutionStage: 1,
@@ -5941,7 +5941,7 @@ const unova_region_pokemons = [
     {
         name: "Gigalith",
         species: "Compressed Pokémon",
-        type: ["Rock"],
+        types: ["Rock"],
         weight: 260,
         height: 1.7,
         evolutionStage: 3,
@@ -5952,7 +5952,7 @@ const unova_region_pokemons = [
     {
         name: "Golett",
         species: "Automaton Pokémon",
-        type: ["Ground", "Ghost"],
+        types: ["Ground", "Ghost"],
         weight: 92,
         height: 1,
         evolutionStage: 1,
@@ -5963,7 +5963,7 @@ const unova_region_pokemons = [
     {
         name: "Golurk",
         species: "Automaton Pokémon",
-        type: ["Ground", "Ghost"],
+        types: ["Ground", "Ghost"],
         weight: 330,
         height: 2.8,
         evolutionStage: 2,
@@ -5974,7 +5974,7 @@ const unova_region_pokemons = [
     {
         name: "Gothita",
         species: "Fixation Pokémon",
-        type: ["Psychic"],
+        types: ["Psychic"],
         weight: 5.8,
         height: 0.4,
         evolutionStage: 1,
@@ -5985,7 +5985,7 @@ const unova_region_pokemons = [
     {
         name: "Gothitelle",
         species: "Astral Body Pokémon",
-        type: ["Psychic"],
+        types: ["Psychic"],
         weight: 44,
         height: 1.5,
         evolutionStage: 3,
@@ -5996,7 +5996,7 @@ const unova_region_pokemons = [
     {
         name: "Gothorita",
         species: "Manipulate Pokémon",
-        type: ["Psychic"],
+        types: ["Psychic"],
         weight: 18,
         height: 0.7,
         evolutionStage: 2,
@@ -6007,7 +6007,7 @@ const unova_region_pokemons = [
     {
         name: "Gurdurr",
         species: "Muscular Pokémon",
-        type: ["Fighting"],
+        types: ["Fighting"],
         weight: 40,
         height: 1.2,
         evolutionStage: 2,
@@ -6018,7 +6018,7 @@ const unova_region_pokemons = [
     {
         name: "Haxorus",
         species: "Axe Jaw Pokémon",
-        type: ["Dragon"],
+        types: ["Dragon"],
         weight: 105.5,
         height: 1.8,
         evolutionStage: 3,
@@ -6029,7 +6029,7 @@ const unova_region_pokemons = [
     {
         name: "Heatmor",
         species: "Anteater Pokémon",
-        type: ["Fire"],
+        types: ["Fire"],
         weight: 58,
         height: 1.4,
         evolutionStage: 1,
@@ -6040,7 +6040,7 @@ const unova_region_pokemons = [
     {
         name: "Herdier",
         species: "Loyal Dog Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 14.7,
         height: 0.9,
         evolutionStage: 2,
@@ -6051,7 +6051,7 @@ const unova_region_pokemons = [
     {
         name: "Hydreigon",
         species: "Brutal Pokémon",
-        type: ["Dark", "Dragon"],
+        types: ["Dark", "Dragon"],
         weight: 160,
         height: 1.8,
         evolutionStage: 3,
@@ -6062,7 +6062,7 @@ const unova_region_pokemons = [
     {
         name: "Jellicent",
         species: "Floating Pokémon",
-        type: ["Water", "Ghost"],
+        types: ["Water", "Ghost"],
         weight: 135,
         height: 2.2,
         evolutionStage: 2,
@@ -6073,7 +6073,7 @@ const unova_region_pokemons = [
     {
         name: "Joltik",
         species: "Attaching Pokémon",
-        type: ["Bug", "Electric"],
+        types: ["Bug", "Electric"],
         weight: 0.6,
         height: 0.1,
         evolutionStage: 1,
@@ -6084,7 +6084,7 @@ const unova_region_pokemons = [
     {
         name: "Karrablast",
         species: "Clamping Pokémon",
-        type: ["Bug"],
+        types: ["Bug"],
         weight: 5.9,
         height: 0.5,
         evolutionStage: 1,
@@ -6095,7 +6095,7 @@ const unova_region_pokemons = [
     {
         name: "Klang",
         species: "Gear Pokémon",
-        type: ["Steel"],
+        types: ["Steel"],
         weight: 51,
         height: 0.6,
         evolutionStage: 2,
@@ -6106,7 +6106,7 @@ const unova_region_pokemons = [
     {
         name: "Klink",
         species: "Gear Pokémon",
-        type: ["Steel"],
+        types: ["Steel"],
         weight: 21,
         height: 0.3,
         evolutionStage: 1,
@@ -6117,7 +6117,7 @@ const unova_region_pokemons = [
     {
         name: "Klinklang",
         species: "Gear Pokémon",
-        type: ["Steel"],
+        types: ["Steel"],
         weight: 81,
         height: 0.6,
         evolutionStage: 3,
@@ -6128,7 +6128,7 @@ const unova_region_pokemons = [
     {
         name: "Krokorok",
         species: "Desert Croc Pokémon",
-        type: ["Ground", "Dark"],
+        types: ["Ground", "Dark"],
         weight: 33.4,
         height: 1,
         evolutionStage: 2,
@@ -6139,7 +6139,7 @@ const unova_region_pokemons = [
     {
         name: "Krookodile",
         species: "Intimidation Pokémon",
-        type: ["Ground", "Dark"],
+        types: ["Ground", "Dark"],
         weight: 96.3,
         height: 1.5,
         evolutionStage: 3,
@@ -6150,7 +6150,7 @@ const unova_region_pokemons = [
     {
         name: "Kyurem",
         species: "Boundary Pokémon",
-        type: ["Dragon", "Ice"],
+        types: ["Dragon", "Ice"],
         weight: 325,
         height: 3,
         evolutionStage: 1,
@@ -6161,7 +6161,7 @@ const unova_region_pokemons = [
     {
         name: "Lampent",
         species: "Lamp Pokémon",
-        type: ["Ghost", "Fire"],
+        types: ["Ghost", "Fire"],
         weight: 13,
         height: 0.6,
         evolutionStage: 2,
@@ -6172,7 +6172,7 @@ const unova_region_pokemons = [
     {
         name: "Larvesta",
         species: "Torch Pokémon",
-        type: ["Bug", "Fire"],
+        types: ["Bug", "Fire"],
         weight: 28.8,
         height: 1.1,
         evolutionStage: 1,
@@ -6183,7 +6183,7 @@ const unova_region_pokemons = [
     {
         name: "Leavanny",
         species: "Nurturing Pokémon",
-        type: ["Bug", "Grass"],
+        types: ["Bug", "Grass"],
         weight: 20.5,
         height: 1.2,
         evolutionStage: 3,
@@ -6194,7 +6194,7 @@ const unova_region_pokemons = [
     {
         name: "Liepard",
         species: "Cruel Pokémon",
-        type: ["Dark"],
+        types: ["Dark"],
         weight: 37.5,
         height: 1.1,
         evolutionStage: 2,
@@ -6205,7 +6205,7 @@ const unova_region_pokemons = [
     {
         name: "Lilligant",
         species: "Flowering Pokémon",
-        type: ["Grass"],
+        types: ["Grass"],
         weight: 16.3,
         height: 1.1,
         evolutionStage: 2,
@@ -6216,7 +6216,7 @@ const unova_region_pokemons = [
     {
         name: "Lillipup",
         species: "Puppy Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 4.1,
         height: 0.4,
         evolutionStage: 1,
@@ -6227,7 +6227,7 @@ const unova_region_pokemons = [
     {
         name: "Litwick",
         species: "Candle Pokémon",
-        type: ["Ghost", "Fire"],
+        types: ["Ghost", "Fire"],
         weight: 3.1,
         height: 0.3,
         evolutionStage: 1,
@@ -6238,7 +6238,7 @@ const unova_region_pokemons = [
     {
         name: "Mandibuzz",
         species: "Bone Vulture Pokémon",
-        type: ["Dark", "Flying"],
+        types: ["Dark", "Flying"],
         weight: 39.5,
         height: 1.2,
         evolutionStage: 2,
@@ -6249,7 +6249,7 @@ const unova_region_pokemons = [
     {
         name: "Maractus",
         species: "Cactus Pokémon",
-        type: ["Grass"],
+        types: ["Grass"],
         weight: 28,
         height: 1,
         evolutionStage: 1,
@@ -6260,7 +6260,7 @@ const unova_region_pokemons = [
     {
         name: "Mienfoo",
         species: "Martial Arts Pokémon",
-        type: ["Fighting"],
+        types: ["Fighting"],
         weight: 20,
         height: 0.9,
         evolutionStage: 1,
@@ -6271,7 +6271,7 @@ const unova_region_pokemons = [
     {
         name: "Mienshao",
         species: "Martial Arts Pokémon",
-        type: ["Fighting"],
+        types: ["Fighting"],
         weight: 35.5,
         height: 1.4,
         evolutionStage: 2,
@@ -6282,7 +6282,7 @@ const unova_region_pokemons = [
     {
         name: "Minccino",
         species: "Chinchilla Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 5.8,
         height: 0.4,
         evolutionStage: 1,
@@ -6293,7 +6293,7 @@ const unova_region_pokemons = [
     {
         name: "Munna",
         species: "Dream Eater Pokémon",
-        type: ["Psychic"],
+        types: ["Psychic"],
         weight: 23.3,
         height: 0.6,
         evolutionStage: 1,
@@ -6304,7 +6304,7 @@ const unova_region_pokemons = [
     {
         name: "Musharna",
         species: "Drowsing Pokémon",
-        type: ["Psychic"],
+        types: ["Psychic"],
         weight: 60.5,
         height: 1.1,
         evolutionStage: 2,
@@ -6315,7 +6315,7 @@ const unova_region_pokemons = [
     {
         name: "Oshawott",
         species: "Sea Otter Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 5.9,
         height: 0.5,
         evolutionStage: 1,
@@ -6326,7 +6326,7 @@ const unova_region_pokemons = [
     {
         name: "Palpitoad",
         species: "Vibration Pokémon",
-        type: ["Water", "Ground"],
+        types: ["Water", "Ground"],
         weight: 17,
         height: 0.8,
         evolutionStage: 2,
@@ -6337,7 +6337,7 @@ const unova_region_pokemons = [
     {
         name: "Panpour",
         species: "Spray Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 13.5,
         height: 0.6,
         evolutionStage: 1,
@@ -6348,7 +6348,7 @@ const unova_region_pokemons = [
     {
         name: "Pansage",
         species: "Grass Monkey Pokémon",
-        type: ["Grass"],
+        types: ["Grass"],
         weight: 10.5,
         height: 0.6,
         evolutionStage: 1,
@@ -6359,7 +6359,7 @@ const unova_region_pokemons = [
     {
         name: "Pansear",
         species: "High Temp Pokémon",
-        type: ["Fire"],
+        types: ["Fire"],
         weight: 11,
         height: 0.6,
         evolutionStage: 1,
@@ -6370,7 +6370,7 @@ const unova_region_pokemons = [
     {
         name: "Patrat",
         species: "Scout Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 11.6,
         height: 0.5,
         evolutionStage: 1,
@@ -6381,7 +6381,7 @@ const unova_region_pokemons = [
     {
         name: "Pawniard",
         species: "Sharp Blade Pokémon",
-        type: ["Dark", "Steel"],
+        types: ["Dark", "Steel"],
         weight: 10.2,
         height: 0.5,
         evolutionStage: 1,
@@ -6392,7 +6392,7 @@ const unova_region_pokemons = [
     {
         name: "Petilil",
         species: "Bulb Pokémon",
-        type: ["Grass"],
+        types: ["Grass"],
         weight: 6.6,
         height: 0.5,
         evolutionStage: 1,
@@ -6403,7 +6403,7 @@ const unova_region_pokemons = [
     {
         name: "Pidove",
         species: "Tiny Pigeon Pokémon",
-        type: ["Normal", "Flying"],
+        types: ["Normal", "Flying"],
         weight: 2.1,
         height: 0.3,
         evolutionStage: 1,
@@ -6414,7 +6414,7 @@ const unova_region_pokemons = [
     {
         name: "Pignite",
         species: "Fire Pig Pokémon",
-        type: ["Fire", "Fighting"],
+        types: ["Fire", "Fighting"],
         weight: 55.5,
         height: 1,
         evolutionStage: 2,
@@ -6425,7 +6425,7 @@ const unova_region_pokemons = [
     {
         name: "Purrloin",
         species: "Devious Pokémon",
-        type: ["Dark"],
+        types: ["Dark"],
         weight: 10.1,
         height: 0.4,
         evolutionStage: 1,
@@ -6436,7 +6436,7 @@ const unova_region_pokemons = [
     {
         name: "Reshiram",
         species: "Vast White Pokémon",
-        type: ["Dragon", "Fire"],
+        types: ["Dragon", "Fire"],
         weight: 330,
         height: 3.2,
         evolutionStage: 1,
@@ -6447,7 +6447,7 @@ const unova_region_pokemons = [
     {
         name: "Reuniclus",
         species: "Multiplying Pokémon",
-        type: ["Psychic"],
+        types: ["Psychic"],
         weight: 20.1,
         height: 1,
         evolutionStage: 3,
@@ -6458,7 +6458,7 @@ const unova_region_pokemons = [
     {
         name: "Roggenrola",
         species: "Mantle Pokémon",
-        type: ["Rock"],
+        types: ["Rock"],
         weight: 18,
         height: 0.4,
         evolutionStage: 1,
@@ -6469,7 +6469,7 @@ const unova_region_pokemons = [
     {
         name: "Rufflet",
         species: "Eaglet Pokémon",
-        type: ["Normal", "Flying"],
+        types: ["Normal", "Flying"],
         weight: 10.5,
         height: 0.5,
         evolutionStage: 1,
@@ -6480,7 +6480,7 @@ const unova_region_pokemons = [
     {
         name: "Samurott",
         species: "Formidable Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 94.6,
         height: 1.5,
         evolutionStage: 3,
@@ -6491,7 +6491,7 @@ const unova_region_pokemons = [
     {
         name: "Sandile",
         species: "Desert Croc Pokémon",
-        type: ["Ground", "Dark"],
+        types: ["Ground", "Dark"],
         weight: 15.2,
         height: 0.7,
         evolutionStage: 1,
@@ -6502,7 +6502,7 @@ const unova_region_pokemons = [
     {
         name: "Sawk",
         species: "Karate Pokémon",
-        type: ["Fighting"],
+        types: ["Fighting"],
         weight: 51,
         height: 1.4,
         evolutionStage: 1,
@@ -6513,7 +6513,7 @@ const unova_region_pokemons = [
     {
         name: "Sawsbuck",
         species: "Season Pokémon",
-        type: ["Normal", "Grass"],
+        types: ["Normal", "Grass"],
         weight: 92.5,
         height: 1.9,
         evolutionStage: 2,
@@ -6524,7 +6524,7 @@ const unova_region_pokemons = [
     {
         name: "Scolipede",
         species: "Megapede Pokémon",
-        type: ["Bug", "Poison"],
+        types: ["Bug", "Poison"],
         weight: 200.5,
         height: 2.5,
         evolutionStage: 3,
@@ -6535,7 +6535,7 @@ const unova_region_pokemons = [
     {
         name: "Scrafty",
         species: "Hoodlum Pokémon",
-        type: ["Dark", "Fighting"],
+        types: ["Dark", "Fighting"],
         weight: 30,
         height: 1.1,
         evolutionStage: 2,
@@ -6546,7 +6546,7 @@ const unova_region_pokemons = [
     {
         name: "Scraggy",
         species: "Shedding Pokémon",
-        type: ["Dark", "Fighting"],
+        types: ["Dark", "Fighting"],
         weight: 11.8,
         height: 0.6,
         evolutionStage: 1,
@@ -6557,7 +6557,7 @@ const unova_region_pokemons = [
     {
         name: "Seismitoad",
         species: "Vibration Pokémon",
-        type: ["Water", "Ground"],
+        types: ["Water", "Ground"],
         weight: 62,
         height: 1.5,
         evolutionStage: 3,
@@ -6568,7 +6568,7 @@ const unova_region_pokemons = [
     {
         name: "Serperior",
         species: "Regal Pokémon",
-        type: ["Grass"],
+        types: ["Grass"],
         weight: 63,
         height: 3.3,
         evolutionStage: 3,
@@ -6579,7 +6579,7 @@ const unova_region_pokemons = [
     {
         name: "Servine",
         species: "Grass Snake Pokémon",
-        type: ["Grass"],
+        types: ["Grass"],
         weight: 16,
         height: 0.8,
         evolutionStage: 2,
@@ -6590,7 +6590,7 @@ const unova_region_pokemons = [
     {
         name: "Sewaddle",
         species: "Sewing Pokémon",
-        type: ["Bug", "Grass"],
+        types: ["Bug", "Grass"],
         weight: 2.5,
         height: 0.3,
         evolutionStage: 1,
@@ -6601,7 +6601,7 @@ const unova_region_pokemons = [
     {
         name: "Shelmet",
         species: "Snail Pokémon",
-        type: ["Bug"],
+        types: ["Bug"],
         weight: 7.7,
         height: 0.4,
         evolutionStage: 1,
@@ -6612,7 +6612,7 @@ const unova_region_pokemons = [
     {
         name: "Sigilyph",
         species: "Avianoid Pokémon",
-        type: ["Psychic", "Flying"],
+        types: ["Psychic", "Flying"],
         weight: 14,
         height: 1.4,
         evolutionStage: 1,
@@ -6623,7 +6623,7 @@ const unova_region_pokemons = [
     {
         name: "Simipour",
         species: "Geyser Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 29,
         height: 1,
         evolutionStage: 2,
@@ -6634,7 +6634,7 @@ const unova_region_pokemons = [
     {
         name: "Simisage",
         species: "Thorn Monkey Pokémon",
-        type: ["Grass"],
+        types: ["Grass"],
         weight: 30.5,
         height: 1.1,
         evolutionStage: 2,
@@ -6645,7 +6645,7 @@ const unova_region_pokemons = [
     {
         name: "Simisear",
         species: "Ember Pokémon",
-        type: ["Fire"],
+        types: ["Fire"],
         weight: 28,
         height: 1,
         evolutionStage: 2,
@@ -6656,7 +6656,7 @@ const unova_region_pokemons = [
     {
         name: "Snivy",
         species: "Grass Snake Pokémon",
-        type: ["Grass"],
+        types: ["Grass"],
         weight: 8.1,
         height: 0.6,
         evolutionStage: 1,
@@ -6667,7 +6667,7 @@ const unova_region_pokemons = [
     {
         name: "Solosis",
         species: "Cell Pokémon",
-        type: ["Psychic"],
+        types: ["Psychic"],
         weight: 1,
         height: 0.3,
         evolutionStage: 1,
@@ -6678,7 +6678,7 @@ const unova_region_pokemons = [
     {
         name: "Stoutland",
         species: "Big-Hearted Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 61,
         height: 1.2,
         evolutionStage: 3,
@@ -6689,7 +6689,7 @@ const unova_region_pokemons = [
     {
         name: "Stunfisk",
         species: "Trap Pokémon",
-        type: ["Ground", "Electric"],
+        types: ["Ground", "Electric"],
         weight: 11,
         height: 0.7,
         evolutionStage: 1,
@@ -6700,7 +6700,7 @@ const unova_region_pokemons = [
     {
         name: "Swadloon",
         species: "Leaf-Wrapped Pokémon",
-        type: ["Bug", "Grass"],
+        types: ["Bug", "Grass"],
         weight: 7.3,
         height: 0.5,
         evolutionStage: 2,
@@ -6711,7 +6711,7 @@ const unova_region_pokemons = [
     {
         name: "Swanna",
         species: "White Bird Pokémon",
-        type: ["Water", "Flying"],
+        types: ["Water", "Flying"],
         weight: 24.2,
         height: 1.3,
         evolutionStage: 2,
@@ -6722,7 +6722,7 @@ const unova_region_pokemons = [
     {
         name: "Swoobat",
         species: "Courting Pokémon",
-        type: ["Psychic", "Flying"],
+        types: ["Psychic", "Flying"],
         weight: 10.5,
         height: 0.9,
         evolutionStage: 2,
@@ -6733,7 +6733,7 @@ const unova_region_pokemons = [
     {
         name: "Tepig",
         species: "Fire Pig Pokémon",
-        type: ["Fire"],
+        types: ["Fire"],
         weight: 9.9,
         height: 0.5,
         evolutionStage: 1,
@@ -6744,7 +6744,7 @@ const unova_region_pokemons = [
     {
         name: "Terrakion",
         species: "Cavern Pokémon",
-        type: ["Rock", "Fighting"],
+        types: ["Rock", "Fighting"],
         weight: 260,
         height: 1.9,
         evolutionStage: 1,
@@ -6755,7 +6755,7 @@ const unova_region_pokemons = [
     {
         name: "Throh",
         species: "Judo Pokémon",
-        type: ["Fighting"],
+        types: ["Fighting"],
         weight: 55.5,
         height: 1.3,
         evolutionStage: 1,
@@ -6766,7 +6766,7 @@ const unova_region_pokemons = [
     {
         name: "Timburr",
         species: "Muscular Pokémon",
-        type: ["Fighting"],
+        types: ["Fighting"],
         weight: 12.5,
         height: 0.6,
         evolutionStage: 1,
@@ -6777,7 +6777,7 @@ const unova_region_pokemons = [
     {
         name: "Tirtouga",
         species: "Prototurtle Pokémon",
-        type: ["Water", "Rock"],
+        types: ["Water", "Rock"],
         weight: 16.5,
         height: 0.7,
         evolutionStage: 1,
@@ -6788,7 +6788,7 @@ const unova_region_pokemons = [
     {
         name: "Tranquill",
         species: "Wild Pigeon Pokémon",
-        type: ["Normal", "Flying"],
+        types: ["Normal", "Flying"],
         weight: 15,
         height: 0.6,
         evolutionStage: 2,
@@ -6799,7 +6799,7 @@ const unova_region_pokemons = [
     {
         name: "Trubbish",
         species: "Trash Bag Pokémon",
-        type: ["Poison"],
+        types: ["Poison"],
         weight: 31,
         height: 0.6,
         evolutionStage: 1,
@@ -6810,7 +6810,7 @@ const unova_region_pokemons = [
     {
         name: "Tympole",
         species: "Tadpole Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 4.5,
         height: 0.5,
         evolutionStage: 1,
@@ -6821,7 +6821,7 @@ const unova_region_pokemons = [
     {
         name: "Tynamo",
         species: "EleFish Pokémon",
-        type: ["Electric"],
+        types: ["Electric"],
         weight: 0.3,
         height: 0.2,
         evolutionStage: 1,
@@ -6832,7 +6832,7 @@ const unova_region_pokemons = [
     {
         name: "Unfezant",
         species: "Proud Pokémon",
-        type: ["Normal", "Flying"],
+        types: ["Normal", "Flying"],
         weight: 29,
         height: 1.2,
         evolutionStage: 3,
@@ -6843,7 +6843,7 @@ const unova_region_pokemons = [
     {
         name: "Vanillish",
         species: "Icy Snow Pokémon",
-        type: ["Ice"],
+        types: ["Ice"],
         weight: 41,
         height: 1.1,
         evolutionStage: 2,
@@ -6854,7 +6854,7 @@ const unova_region_pokemons = [
     {
         name: "Vanillite",
         species: "Fresh Snow Pokémon",
-        type: ["Ice"],
+        types: ["Ice"],
         weight: 5.7,
         height: 0.4,
         evolutionStage: 1,
@@ -6865,7 +6865,7 @@ const unova_region_pokemons = [
     {
         name: "Vanilluxe",
         species: "Snowstorm Pokémon",
-        type: ["Ice"],
+        types: ["Ice"],
         weight: 57.5,
         height: 1.3,
         evolutionStage: 3,
@@ -6876,7 +6876,7 @@ const unova_region_pokemons = [
     {
         name: "Venipede",
         species: "Centipede Pokémon",
-        type: ["Bug", "Poison"],
+        types: ["Bug", "Poison"],
         weight: 5.3,
         height: 0.4,
         evolutionStage: 1,
@@ -6887,7 +6887,7 @@ const unova_region_pokemons = [
     {
         name: "Victini",
         species: "Victory Pokémon",
-        type: ["Psychic", "Fire"],
+        types: ["Psychic", "Fire"],
         weight: 4,
         height: 0.4,
         evolutionStage: 1,
@@ -6898,7 +6898,7 @@ const unova_region_pokemons = [
     {
         name: "Virizion",
         species: "Grassland Pokémon",
-        type: ["Grass", "Fighting"],
+        types: ["Grass", "Fighting"],
         weight: 200,
         height: 2,
         evolutionStage: 1,
@@ -6909,7 +6909,7 @@ const unova_region_pokemons = [
     {
         name: "Volcarona",
         species: "Sun Pokémon",
-        type: ["Bug", "Fire"],
+        types: ["Bug", "Fire"],
         weight: 46,
         height: 1.6,
         evolutionStage: 2,
@@ -6920,7 +6920,7 @@ const unova_region_pokemons = [
     {
         name: "Vullaby",
         species: "Diapered Pokémon",
-        type: ["Dark", "Flying"],
+        types: ["Dark", "Flying"],
         weight: 9,
         height: 0.5,
         evolutionStage: 1,
@@ -6931,7 +6931,7 @@ const unova_region_pokemons = [
     {
         name: "Watchog",
         species: "Lookout Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 27,
         height: 1.1,
         evolutionStage: 2,
@@ -6942,7 +6942,7 @@ const unova_region_pokemons = [
     {
         name: "Whimsicott",
         species: "Windveiled Pokémon",
-        type: ["Grass", "Fairy"],
+        types: ["Grass", "Fairy"],
         weight: 6.6,
         height: 0.7,
         evolutionStage: 2,
@@ -6953,7 +6953,7 @@ const unova_region_pokemons = [
     {
         name: "Whirlipede",
         species: "Curlipede Pokémon",
-        type: ["Bug", "Poison"],
+        types: ["Bug", "Poison"],
         weight: 58.5,
         height: 1.2,
         evolutionStage: 2,
@@ -6964,7 +6964,7 @@ const unova_region_pokemons = [
     {
         name: "Woobat",
         species: "Bat Pokémon",
-        type: ["Psychic", "Flying"],
+        types: ["Psychic", "Flying"],
         weight: 2.1,
         height: 0.4,
         evolutionStage: 1,
@@ -6975,7 +6975,7 @@ const unova_region_pokemons = [
     {
         name: "Yamask",
         species: "Spirit Pokémon",
-        type: ["Ghost"],
+        types: ["Ghost"],
         weight: 1.5,
         height: 0.5,
         evolutionStage: 1,
@@ -6986,7 +6986,7 @@ const unova_region_pokemons = [
     {
         name: "Zebstrika",
         species: "Thunderbolt Pokémon",
-        type: ["Electric"],
+        types: ["Electric"],
         weight: 79.5,
         height: 1.6,
         evolutionStage: 2,
@@ -6997,7 +6997,7 @@ const unova_region_pokemons = [
     {
         name: "Zekrom",
         species: "Deep Black Pokémon",
-        type: ["Dragon", "Electric"],
+        types: ["Dragon", "Electric"],
         weight: 345,
         height: 2.9,
         evolutionStage: 1,
@@ -7008,7 +7008,7 @@ const unova_region_pokemons = [
     {
         name: "Zoroark",
         species: "Illusion Fox Pokémon",
-        type: ["Dark"],
+        types: ["Dark"],
         weight: 81.1,
         height: 1.6,
         evolutionStage: 2,
@@ -7019,7 +7019,7 @@ const unova_region_pokemons = [
     {
         name: "Zorua",
         species: "Tricky Fox Pokémon",
-        type: ["Dark"],
+        types: ["Dark"],
         weight: 12.5,
         height: 0.7,
         evolutionStage: 1,
@@ -7030,7 +7030,7 @@ const unova_region_pokemons = [
     {
         name: "Zweilous",
         species: "Hostile Pokémon",
-        type: ["Dark", "Dragon"],
+        types: ["Dark", "Dragon"],
         weight: 50,
         height: 1.4,
         evolutionStage: 2,
@@ -7044,7 +7044,7 @@ const kalos_region_pokemons = [
     {
         name: "Amaura",
         species: "Tundra Pokémon",
-        type: ["Rock", "Ice"],
+        types: ["Rock", "Ice"],
         weight: 25.2,
         height: 1.3,
         evolutionStage: 1,
@@ -7055,7 +7055,7 @@ const kalos_region_pokemons = [
     {
         name: "Aromatisse",
         species: "Fragrance Pokémon",
-        type: ["Fairy"],
+        types: ["Fairy"],
         weight: 15.5,
         height: 0.8,
         evolutionStage: 2,
@@ -7066,7 +7066,7 @@ const kalos_region_pokemons = [
     {
         name: "Aurorus",
         species: "Tundra Pokémon",
-        type: ["Rock", "Ice"],
+        types: ["Rock", "Ice"],
         weight: 225,
         height: 2.7,
         evolutionStage: 2,
@@ -7077,7 +7077,7 @@ const kalos_region_pokemons = [
     {
         name: "Avalugg",
         species: "Iceberg Pokémon",
-        type: ["Ice"],
+        types: ["Ice"],
         weight: 505,
         height: 2,
         evolutionStage: 2,
@@ -7088,7 +7088,7 @@ const kalos_region_pokemons = [
     {
         name: "Barbaracle",
         species: "Collective Pokémon",
-        type: ["Rock", "Water"],
+        types: ["Rock", "Water"],
         weight: 96,
         height: 1.3,
         evolutionStage: 2,
@@ -7099,7 +7099,7 @@ const kalos_region_pokemons = [
     {
         name: "Bergmite",
         species: "Ice Chunk Pokémon",
-        type: ["Ice"],
+        types: ["Ice"],
         weight: 99.5,
         height: 1,
         evolutionStage: 1,
@@ -7110,7 +7110,7 @@ const kalos_region_pokemons = [
     {
         name: "Binacle",
         species: "Two-Handed Pokémon",
-        type: ["Rock", "Water"],
+        types: ["Rock", "Water"],
         weight: 31,
         height: 0.5,
         evolutionStage: 1,
@@ -7121,7 +7121,7 @@ const kalos_region_pokemons = [
     {
         name: "Braixen",
         species: "Fox Pokémon",
-        type: ["Fire"],
+        types: ["Fire"],
         weight: 14.5,
         height: 1,
         evolutionStage: 2,
@@ -7132,7 +7132,7 @@ const kalos_region_pokemons = [
     {
         name: "Bunnelby",
         species: "Digging Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 5,
         height: 0.4,
         evolutionStage: 1,
@@ -7143,7 +7143,7 @@ const kalos_region_pokemons = [
     {
         name: "Carbink",
         species: "Jewel Pokémon",
-        type: ["Rock", "Fairy"],
+        types: ["Rock", "Fairy"],
         weight: 5.7,
         height: 0.3,
         evolutionStage: 1,
@@ -7154,7 +7154,7 @@ const kalos_region_pokemons = [
     {
         name: "Chesnaught",
         species: "Spiny Armor Pokémon",
-        type: ["Grass", "Fighting"],
+        types: ["Grass", "Fighting"],
         weight: 90,
         height: 1.6,
         evolutionStage: 3,
@@ -7165,7 +7165,7 @@ const kalos_region_pokemons = [
     {
         name: "Chespin",
         species: "Spiny Nut Pokémon",
-        type: ["Grass"],
+        types: ["Grass"],
         weight: 9,
         height: 0.4,
         evolutionStage: 1,
@@ -7176,7 +7176,7 @@ const kalos_region_pokemons = [
     {
         name: "Clauncher",
         species: "Water Gun Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 8.3,
         height: 0.5,
         evolutionStage: 1,
@@ -7187,7 +7187,7 @@ const kalos_region_pokemons = [
     {
         name: "Clawitzer",
         species: "Howitzer Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 35.3,
         height: 1.3,
         evolutionStage: 2,
@@ -7198,7 +7198,7 @@ const kalos_region_pokemons = [
     {
         name: "Dedenne",
         species: "Antenna Pokémon",
-        type: ["Electric", "Fairy"],
+        types: ["Electric", "Fairy"],
         weight: 2.2,
         height: 0.2,
         evolutionStage: 1,
@@ -7209,7 +7209,7 @@ const kalos_region_pokemons = [
     {
         name: "Delphox",
         species: "Fox Pokémon",
-        type: ["Fire", "Psychic"],
+        types: ["Fire", "Psychic"],
         weight: 39,
         height: 1.5,
         evolutionStage: 3,
@@ -7220,7 +7220,7 @@ const kalos_region_pokemons = [
     {
         name: "Diancie",
         species: "Jewel Pokémon",
-        type: ["Rock", "Fairy"],
+        types: ["Rock", "Fairy"],
         weight: 8.8,
         height: 0.7,
         evolutionStage: 1,
@@ -7231,7 +7231,7 @@ const kalos_region_pokemons = [
     {
         name: "Diggersby",
         species: "Digging Pokémon",
-        type: ["Normal", "Ground"],
+        types: ["Normal", "Ground"],
         weight: 42.4,
         height: 1,
         evolutionStage: 2,
@@ -7242,7 +7242,7 @@ const kalos_region_pokemons = [
     {
         name: "Doublade",
         species: "Sword Pokémon",
-        type: ["Steel", "Ghost"],
+        types: ["Steel", "Ghost"],
         weight: 4.5,
         height: 0.8,
         evolutionStage: 2,
@@ -7253,7 +7253,7 @@ const kalos_region_pokemons = [
     {
         name: "Dragalge",
         species: "Mock Kelp Pokémon",
-        type: ["Poison", "Dragon"],
+        types: ["Poison", "Dragon"],
         weight: 81.5,
         height: 1.8,
         evolutionStage: 2,
@@ -7264,7 +7264,7 @@ const kalos_region_pokemons = [
     {
         name: "Espurr",
         species: "Restraint Pokémon",
-        type: ["Psychic"],
+        types: ["Psychic"],
         weight: 3.5,
         height: 0.3,
         evolutionStage: 1,
@@ -7275,7 +7275,7 @@ const kalos_region_pokemons = [
     {
         name: "Fennekin",
         species: "Fox Pokémon",
-        type: ["Fire"],
+        types: ["Fire"],
         weight: 9.4,
         height: 0.4,
         evolutionStage: 1,
@@ -7286,7 +7286,7 @@ const kalos_region_pokemons = [
     {
         name: "Flabebe",
         species: "Single Bloom Pokémon",
-        type: ["Fairy"],
+        types: ["Fairy"],
         weight: 0.1,
         height: 0.1,
         evolutionStage: 1,
@@ -7297,7 +7297,7 @@ const kalos_region_pokemons = [
     {
         name: "Fletchinder",
         species: "Ember Pokémon",
-        type: ["Fire", "Flying"],
+        types: ["Fire", "Flying"],
         weight: 16,
         height: 0.7,
         evolutionStage: 2,
@@ -7308,7 +7308,7 @@ const kalos_region_pokemons = [
     {
         name: "Fletchling",
         species: "Tiny Robin Pokémon",
-        type: ["Normal", "Flying"],
+        types: ["Normal", "Flying"],
         weight: 1.7,
         height: 0.3,
         evolutionStage: 1,
@@ -7319,7 +7319,7 @@ const kalos_region_pokemons = [
     {
         name: "Floette",
         species: "Single Bloom Pokémon",
-        type: ["Fairy"],
+        types: ["Fairy"],
         weight: 0.9,
         height: 0.2,
         evolutionStage: 2,
@@ -7330,7 +7330,7 @@ const kalos_region_pokemons = [
     {
         name: "Florges",
         species: "Garden Pokémon",
-        type: ["Fairy"],
+        types: ["Fairy"],
         weight: 10,
         height: 1.1,
         evolutionStage: 3,
@@ -7341,7 +7341,7 @@ const kalos_region_pokemons = [
     {
         name: "Froakie",
         species: "Bubble Frog Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 7,
         height: 0.3,
         evolutionStage: 1,
@@ -7352,7 +7352,7 @@ const kalos_region_pokemons = [
     {
         name: "Frogadier",
         species: "Bubble Frog Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 10.9,
         height: 0.6,
         evolutionStage: 2,
@@ -7363,7 +7363,7 @@ const kalos_region_pokemons = [
     {
         name: "Furfrou",
         species: "Poodle Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 28,
         height: 1.2,
         evolutionStage: 1,
@@ -7374,7 +7374,7 @@ const kalos_region_pokemons = [
     {
         name: "Gogoat",
         species: "Mount Pokémon",
-        type: ["Grass"],
+        types: ["Grass"],
         weight: 91,
         height: 1.7,
         evolutionStage: 2,
@@ -7385,7 +7385,7 @@ const kalos_region_pokemons = [
     {
         name: "Goodra",
         species: "Dragon Pokémon",
-        type: ["Dragon"],
+        types: ["Dragon"],
         weight: 150.5,
         height: 2,
         evolutionStage: 3,
@@ -7396,7 +7396,7 @@ const kalos_region_pokemons = [
     {
         name: "Goomy",
         species: "Soft Tissue Pokémon",
-        type: ["Dragon"],
+        types: ["Dragon"],
         weight: 2.8,
         height: 0.3,
         evolutionStage: 1,
@@ -7407,7 +7407,7 @@ const kalos_region_pokemons = [
     {
         name: "Greninja",
         species: "Ninja Pokémon",
-        type: ["Water", "Dark"],
+        types: ["Water", "Dark"],
         weight: 40,
         height: 1.5,
         evolutionStage: 3,
@@ -7418,7 +7418,7 @@ const kalos_region_pokemons = [
     {
         name: "Hawlucha",
         species: "Wrestling Pokémon",
-        type: ["Fighting", "Flying"],
+        types: ["Fighting", "Flying"],
         weight: 21.5,
         height: 0.8,
         evolutionStage: 1,
@@ -7429,7 +7429,7 @@ const kalos_region_pokemons = [
     {
         name: "Heliolisk",
         species: "Generator Pokémon",
-        type: ["Electric", "Normal"],
+        types: ["Electric", "Normal"],
         weight: 21,
         height: 1,
         evolutionStage: 2,
@@ -7440,7 +7440,7 @@ const kalos_region_pokemons = [
     {
         name: "Helioptile",
         species: "Generator Pokémon",
-        type: ["Electric", "Normal"],
+        types: ["Electric", "Normal"],
         weight: 6,
         height: 0.5,
         evolutionStage: 1,
@@ -7451,7 +7451,7 @@ const kalos_region_pokemons = [
     {
         name: "Honedge",
         species: "Sword Pokémon",
-        type: ["Steel", "Ghost"],
+        types: ["Steel", "Ghost"],
         weight: 2,
         height: 0.8,
         evolutionStage: 1,
@@ -7462,7 +7462,7 @@ const kalos_region_pokemons = [
     {
         name: "Hoopa",
         species: "Mischief Pokémon",
-        type: ["Psychic", "Ghost"],
+        types: ["Psychic", "Ghost"],
         weight: 9,
         height: 0.5,
         evolutionStage: 1,
@@ -7473,7 +7473,7 @@ const kalos_region_pokemons = [
     {
         name: "Inkay",
         species: "Revolving Pokémon",
-        type: ["Dark", "Psychic"],
+        types: ["Dark", "Psychic"],
         weight: 3.5,
         height: 0.4,
         evolutionStage: 1,
@@ -7484,7 +7484,7 @@ const kalos_region_pokemons = [
     {
         name: "Klefki",
         species: "Key Ring Pokémon",
-        type: ["Steel", "Fairy"],
+        types: ["Steel", "Fairy"],
         weight: 3,
         height: 0.2,
         evolutionStage: 1,
@@ -7495,7 +7495,7 @@ const kalos_region_pokemons = [
     {
         name: "Litleo",
         species: "Lion Cub Pokémon",
-        type: ["Fire", "Normal"],
+        types: ["Fire", "Normal"],
         weight: 13.5,
         height: 0.6,
         evolutionStage: 1,
@@ -7506,7 +7506,7 @@ const kalos_region_pokemons = [
     {
         name: "Malamar",
         species: "Overturning Pokémon",
-        type: ["Dark", "Psychic"],
+        types: ["Dark", "Psychic"],
         weight: 47,
         height: 1.5,
         evolutionStage: 2,
@@ -7517,7 +7517,7 @@ const kalos_region_pokemons = [
     {
         name: "Noibat",
         species: "Sound Wave Pokémon",
-        type: ["Flying", "Dragon"],
+        types: ["Flying", "Dragon"],
         weight: 8,
         height: 0.5,
         evolutionStage: 1,
@@ -7528,7 +7528,7 @@ const kalos_region_pokemons = [
     {
         name: "Noivern",
         species: "Sound Wave Pokémon",
-        type: ["Flying", "Dragon"],
+        types: ["Flying", "Dragon"],
         weight: 85,
         height: 1.5,
         evolutionStage: 2,
@@ -7539,7 +7539,7 @@ const kalos_region_pokemons = [
     {
         name: "Pancham",
         species: "Playful Pokémon",
-        type: ["Fighting"],
+        types: ["Fighting"],
         weight: 8,
         height: 0.6,
         evolutionStage: 1,
@@ -7550,7 +7550,7 @@ const kalos_region_pokemons = [
     {
         name: "Pangoro",
         species: "Daunting Pokémon",
-        type: ["Fighting", "Dark"],
+        types: ["Fighting", "Dark"],
         weight: 136,
         height: 2.1,
         evolutionStage: 2,
@@ -7561,7 +7561,7 @@ const kalos_region_pokemons = [
     {
         name: "Phantump",
         species: "Stump Pokémon",
-        type: ["Ghost", "Grass"],
+        types: ["Ghost", "Grass"],
         weight: 7,
         height: 0.4,
         evolutionStage: 1,
@@ -7572,7 +7572,7 @@ const kalos_region_pokemons = [
     {
         name: "Pyroar",
         species: "Royal Pokémon",
-        type: ["Fire", "Normal"],
+        types: ["Fire", "Normal"],
         weight: 81.5,
         height: 1.5,
         evolutionStage: 2,
@@ -7583,7 +7583,7 @@ const kalos_region_pokemons = [
     {
         name: "Quilladin",
         species: "Spiny Armor Pokémon",
-        type: ["Grass"],
+        types: ["Grass"],
         weight: 29,
         height: 0.7,
         evolutionStage: 2,
@@ -7594,7 +7594,7 @@ const kalos_region_pokemons = [
     {
         name: "Scatterbug",
         species: "Scatterdust Pokémon",
-        type: ["Bug"],
+        types: ["Bug"],
         weight: 2.5,
         height: 0.3,
         evolutionStage: 1,
@@ -7605,7 +7605,7 @@ const kalos_region_pokemons = [
     {
         name: "Skiddo",
         species: "Mount Pokémon",
-        type: ["Grass"],
+        types: ["Grass"],
         weight: 31,
         height: 0.9,
         evolutionStage: 1,
@@ -7616,7 +7616,7 @@ const kalos_region_pokemons = [
     {
         name: "Skrelp",
         species: "Mock Kelp Pokémon",
-        type: ["Poison", "Water"],
+        types: ["Poison", "Water"],
         weight: 7.3,
         height: 0.5,
         evolutionStage: 1,
@@ -7627,7 +7627,7 @@ const kalos_region_pokemons = [
     {
         name: "Sliggoo",
         species: "Soft Tissue Pokémon",
-        type: ["Dragon"],
+        types: ["Dragon"],
         weight: 17.5,
         height: 0.8,
         evolutionStage: 2,
@@ -7638,7 +7638,7 @@ const kalos_region_pokemons = [
     {
         name: "Slurpuff",
         species: "Meringue Pokémon",
-        type: ["Fairy"],
+        types: ["Fairy"],
         weight: 5,
         height: 0.8,
         evolutionStage: 2,
@@ -7649,7 +7649,7 @@ const kalos_region_pokemons = [
     {
         name: "Spewpa",
         species: "Scatterdust Pokémon",
-        type: ["Bug"],
+        types: ["Bug"],
         weight: 8.4,
         height: 0.3,
         evolutionStage: 2,
@@ -7660,7 +7660,7 @@ const kalos_region_pokemons = [
     {
         name: "Spritzee",
         species: "Perfume Pokémon",
-        type: ["Fairy"],
+        types: ["Fairy"],
         weight: 0.5,
         height: 0.2,
         evolutionStage: 1,
@@ -7671,7 +7671,7 @@ const kalos_region_pokemons = [
     {
         name: "Swirlix",
         species: "Cotton Candy Pokémon",
-        type: ["Fairy"],
+        types: ["Fairy"],
         weight: 3.5,
         height: 0.4,
         evolutionStage: 1,
@@ -7682,7 +7682,7 @@ const kalos_region_pokemons = [
     {
         name: "Sylveon",
         species: "Intertwining Pokémon",
-        type: ["Fairy"],
+        types: ["Fairy"],
         weight: 23.5,
         height: 1,
         evolutionStage: 2,
@@ -7693,7 +7693,7 @@ const kalos_region_pokemons = [
     {
         name: "Talonflame",
         species: "Scorching Pokémon",
-        type: ["Fire", "Flying"],
+        types: ["Fire", "Flying"],
         weight: 24.5,
         height: 1.2,
         evolutionStage: 3,
@@ -7704,7 +7704,7 @@ const kalos_region_pokemons = [
     {
         name: "Trevenant",
         species: "Elder Tree Pokémon",
-        type: ["Ghost", "Grass"],
+        types: ["Ghost", "Grass"],
         weight: 71,
         height: 1.5,
         evolutionStage: 2,
@@ -7715,7 +7715,7 @@ const kalos_region_pokemons = [
     {
         name: "Tyrantrum",
         species: "Despot Pokémon",
-        type: ["Rock", "Dragon"],
+        types: ["Rock", "Dragon"],
         weight: 270,
         height: 2.5,
         evolutionStage: 2,
@@ -7726,7 +7726,7 @@ const kalos_region_pokemons = [
     {
         name: "Tyrunt",
         species: "Royal Heir Pokémon",
-        type: ["Rock", "Dragon"],
+        types: ["Rock", "Dragon"],
         weight: 26,
         height: 0.8,
         evolutionStage: 1,
@@ -7737,7 +7737,7 @@ const kalos_region_pokemons = [
     {
         name: "Vivillon",
         species: "Scale Pokémon",
-        type: ["Bug", "Flying"],
+        types: ["Bug", "Flying"],
         weight: 17,
         height: 1.2,
         evolutionStage: 3,
@@ -7748,7 +7748,7 @@ const kalos_region_pokemons = [
     {
         name: "Volcanion",
         species: "Steam Pokémon",
-        type: ["Fire", "Water"],
+        types: ["Fire", "Water"],
         weight: 195,
         height: 1.7,
         evolutionStage: 1,
@@ -7759,7 +7759,7 @@ const kalos_region_pokemons = [
     {
         name: "Xerneas",
         species: "Life Pokémon",
-        type: ["Fairy"],
+        types: ["Fairy"],
         weight: 215,
         height: 3,
         evolutionStage: 1,
@@ -7770,7 +7770,7 @@ const kalos_region_pokemons = [
     {
         name: "Yveltal",
         species: "Destruction Pokémon",
-        type: ["Dark", "Flying"],
+        types: ["Dark", "Flying"],
         weight: 203,
         height: 5.8,
         evolutionStage: 1,
@@ -7784,7 +7784,7 @@ const alola_region_pokemons = [
     {
         name: "Araquanid",
         species: "Water Bubble Pokémon",
-        type: ["Water", "Bug"],
+        types: ["Water", "Bug"],
         weight: 82,
         height: 1.8,
         evolutionStage: 2,
@@ -7795,7 +7795,7 @@ const alola_region_pokemons = [
     {
         name: "Bewear",
         species: "Strong Arm Pokémon",
-        type: ["Normal", "Fighting"],
+        types: ["Normal", "Fighting"],
         weight: 135,
         height: 2.1,
         evolutionStage: 2,
@@ -7806,7 +7806,7 @@ const alola_region_pokemons = [
     {
         name: "Blacephalon",
         species: "Fireworks Pokémon",
-        type: ["Fire", "Ghost"],
+        types: ["Fire", "Ghost"],
         weight: 13,
         height: 1.8,
         evolutionStage: 1,
@@ -7817,7 +7817,7 @@ const alola_region_pokemons = [
     {
         name: "Bounsweet",
         species: "Fruit Pokémon",
-        type: ["Grass"],
+        types: ["Grass"],
         weight: 3.2,
         height: 0.3,
         evolutionStage: 1,
@@ -7828,7 +7828,7 @@ const alola_region_pokemons = [
     {
         name: "Brionne",
         species: "Pop Star Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 17.5,
         height: 0.6,
         evolutionStage: 2,
@@ -7839,7 +7839,7 @@ const alola_region_pokemons = [
     {
         name: "Bruxish",
         species: "Gnash Teeth Pokémon",
-        type: ["Water", "Psychic"],
+        types: ["Water", "Psychic"],
         weight: 19,
         height: 0.9,
         evolutionStage: 1,
@@ -7850,7 +7850,7 @@ const alola_region_pokemons = [
     {
         name: "Buzzwole",
         species: "Swollen Pokémon",
-        type: ["Bug", "Fighting"],
+        types: ["Bug", "Fighting"],
         weight: 333.6,
         height: 2.4,
         evolutionStage: 1,
@@ -7861,7 +7861,7 @@ const alola_region_pokemons = [
     {
         name: "Celesteela",
         species: "Launch Pokémon",
-        type: ["Steel", "Flying"],
+        types: ["Steel", "Flying"],
         weight: 999.9,
         height: 9.2,
         evolutionStage: 1,
@@ -7872,7 +7872,7 @@ const alola_region_pokemons = [
     {
         name: "Charjabug",
         species: "Battery Pokémon",
-        type: ["Bug", "Electric"],
+        types: ["Bug", "Electric"],
         weight: 10.5,
         height: 0.5,
         evolutionStage: 2,
@@ -7883,7 +7883,7 @@ const alola_region_pokemons = [
     {
         name: "Comfey",
         species: "Posy Picker Pokémon",
-        type: ["Fairy"],
+        types: ["Fairy"],
         weight: 0.3,
         height: 0.1,
         evolutionStage: 1,
@@ -7894,7 +7894,7 @@ const alola_region_pokemons = [
     {
         name: "Cosmoem",
         species: "Protostar Pokémon",
-        type: ["Psychic"],
+        types: ["Psychic"],
         weight: 999.9,
         height: 0.1,
         evolutionStage: 2,
@@ -7905,7 +7905,7 @@ const alola_region_pokemons = [
     {
         name: "Cosmog",
         species: "Nebula Pokémon",
-        type: ["Psychic"],
+        types: ["Psychic"],
         weight: 0.1,
         height: 0.2,
         evolutionStage: 1,
@@ -7916,7 +7916,7 @@ const alola_region_pokemons = [
     {
         name: "Crabominable",
         species: "Woolly Crab Pokémon",
-        type: ["Fighting", "Ice"],
+        types: ["Fighting", "Ice"],
         weight: 180,
         height: 1.7,
         evolutionStage: 2,
@@ -7927,7 +7927,7 @@ const alola_region_pokemons = [
     {
         name: "Crabrawler",
         species: "Boxing Pokémon",
-        type: ["Fighting"],
+        types: ["Fighting"],
         weight: 7,
         height: 0.6,
         evolutionStage: 1,
@@ -7938,7 +7938,7 @@ const alola_region_pokemons = [
     {
         name: "Cutiefly",
         species: "Bee Fly Pokémon",
-        type: ["Bug", "Fairy"],
+        types: ["Bug", "Fairy"],
         weight: 0.2,
         height: 0.1,
         evolutionStage: 1,
@@ -7949,7 +7949,7 @@ const alola_region_pokemons = [
     {
         name: "Dartrix",
         species: "Blade Quill Pokémon",
-        type: ["Grass", "Flying"],
+        types: ["Grass", "Flying"],
         weight: 16,
         height: 0.7,
         evolutionStage: 2,
@@ -7960,7 +7960,7 @@ const alola_region_pokemons = [
     {
         name: "Decidueye",
         species: "Arrow Quill Pokémon",
-        type: ["Grass", "Ghost"],
+        types: ["Grass", "Ghost"],
         weight: 36.6,
         height: 1.6,
         evolutionStage: 3,
@@ -7971,7 +7971,7 @@ const alola_region_pokemons = [
     {
         name: "Dewpider",
         species: "Water Bubble Pokémon",
-        type: ["Water", "Bug"],
+        types: ["Water", "Bug"],
         weight: 4,
         height: 0.3,
         evolutionStage: 1,
@@ -7982,7 +7982,7 @@ const alola_region_pokemons = [
     {
         name: "Dhelmise",
         species: "Sea Creeper Pokémon",
-        type: ["Ghost", "Grass"],
+        types: ["Ghost", "Grass"],
         weight: 210,
         height: 3.9,
         evolutionStage: 1,
@@ -7993,7 +7993,7 @@ const alola_region_pokemons = [
     {
         name: "Drampa",
         species: "Placid Pokémon",
-        type: ["Normal", "Dragon"],
+        types: ["Normal", "Dragon"],
         weight: 185,
         height: 3,
         evolutionStage: 1,
@@ -8004,7 +8004,7 @@ const alola_region_pokemons = [
     {
         name: "Fomantis",
         species: "Sickle Grass Pokémon",
-        type: ["Grass"],
+        types: ["Grass"],
         weight: 1.5,
         height: 0.3,
         evolutionStage: 1,
@@ -8015,7 +8015,7 @@ const alola_region_pokemons = [
     {
         name: "Golisopod",
         species: "Hard Scale Pokémon",
-        type: ["Bug", "Water"],
+        types: ["Bug", "Water"],
         weight: 108,
         height: 2,
         evolutionStage: 2,
@@ -8026,7 +8026,7 @@ const alola_region_pokemons = [
     {
         name: "Grubbin",
         species: "Larva Pokémon",
-        type: ["Bug"],
+        types: ["Bug"],
         weight: 4.4,
         height: 0.4,
         evolutionStage: 1,
@@ -8037,7 +8037,7 @@ const alola_region_pokemons = [
     {
         name: "Gumshoos",
         species: "Stakeout Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 14.2,
         height: 0.7,
         evolutionStage: 2,
@@ -8048,7 +8048,7 @@ const alola_region_pokemons = [
     {
         name: "Guzzlord",
         species: "Junkivore Pokémon",
-        type: ["Dark", "Dragon"],
+        types: ["Dark", "Dragon"],
         weight: 888,
         height: 5.5,
         evolutionStage: 1,
@@ -8059,7 +8059,7 @@ const alola_region_pokemons = [
     {
         name: "Hakamo-o",
         species: "Scaly Pokémon",
-        type: ["Dragon", "Fighting"],
+        types: ["Dragon", "Fighting"],
         weight: 47,
         height: 1.2,
         evolutionStage: 2,
@@ -8070,7 +8070,7 @@ const alola_region_pokemons = [
     {
         name: "Incineroar",
         species: "Heel Pokémon",
-        type: ["Fire", "Dark"],
+        types: ["Fire", "Dark"],
         weight: 83,
         height: 1.8,
         evolutionStage: 3,
@@ -8081,7 +8081,7 @@ const alola_region_pokemons = [
     {
         name: "Jangmo-o",
         species: "Scaly Pokémon",
-        type: ["Dragon"],
+        types: ["Dragon"],
         weight: 29.7,
         height: 0.6,
         evolutionStage: 1,
@@ -8092,7 +8092,7 @@ const alola_region_pokemons = [
     {
         name: "Kartana",
         species: "Drawn Sword Pokémon",
-        type: ["Grass", "Steel"],
+        types: ["Grass", "Steel"],
         weight: 0.1,
         height: 0.3,
         evolutionStage: 1,
@@ -8103,7 +8103,7 @@ const alola_region_pokemons = [
     {
         name: "Komala",
         species: "Drowsing Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 19.9,
         height: 0.4,
         evolutionStage: 1,
@@ -8114,7 +8114,7 @@ const alola_region_pokemons = [
     {
         name: "Kommo-o",
         species: "Scaly Pokémon",
-        type: ["Dragon", "Fighting"],
+        types: ["Dragon", "Fighting"],
         weight: 78.2,
         height: 1.6,
         evolutionStage: 3,
@@ -8125,7 +8125,7 @@ const alola_region_pokemons = [
     {
         name: "Litten",
         species: "Fire Cat Pokémon",
-        type: ["Fire"],
+        types: ["Fire"],
         weight: 4.3,
         height: 0.4,
         evolutionStage: 1,
@@ -8136,7 +8136,7 @@ const alola_region_pokemons = [
     {
         name: "Lunala",
         species: "Moone Pokémon",
-        type: ["Psychic", "Ghost"],
+        types: ["Psychic", "Ghost"],
         weight: 120,
         height: 4,
         evolutionStage: 3,
@@ -8147,7 +8147,7 @@ const alola_region_pokemons = [
     {
         name: "Lurantis",
         species: "Bloom Sickle Pokémon",
-        type: ["Grass"],
+        types: ["Grass"],
         weight: 18.5,
         height: 0.9,
         evolutionStage: 2,
@@ -8158,7 +8158,7 @@ const alola_region_pokemons = [
     {
         name: "Magearna",
         species: "Artificial Pokémon",
-        type: ["Steel", "Fairy"],
+        types: ["Steel", "Fairy"],
         weight: 80.5,
         height: 1,
         evolutionStage: 1,
@@ -8169,7 +8169,7 @@ const alola_region_pokemons = [
     {
         name: "Mareanie",
         species: "Brutal Star Pokémon",
-        type: ["Poison", "Water"],
+        types: ["Poison", "Water"],
         weight: 8,
         height: 0.4,
         evolutionStage: 1,
@@ -8180,7 +8180,7 @@ const alola_region_pokemons = [
     {
         name: "Marshadow",
         species: "Gloomdweller Pokémon",
-        type: ["Fighting", "Ghost"],
+        types: ["Fighting", "Ghost"],
         weight: 22.2,
         height: 0.7,
         evolutionStage: 1,
@@ -8191,7 +8191,7 @@ const alola_region_pokemons = [
     {
         name: "Melmetal",
         species: "Hex Nut Pokémon",
-        type: ["Steel"],
+        types: ["Steel"],
         weight: 800,
         height: 2.5,
         evolutionStage: 1,
@@ -8202,7 +8202,7 @@ const alola_region_pokemons = [
     {
         name: "Meltan",
         species: "Hex Nut Pokémon",
-        type: ["Steel"],
+        types: ["Steel"],
         weight: 8,
         height: 0.2,
         evolutionStage: 1,
@@ -8213,7 +8213,7 @@ const alola_region_pokemons = [
     {
         name: "Morelull",
         species: "Illuminating Pokémon",
-        type: ["Grass", "Fairy"],
+        types: ["Grass", "Fairy"],
         weight: 1.5,
         height: 0.2,
         evolutionStage: 1,
@@ -8224,7 +8224,7 @@ const alola_region_pokemons = [
     {
         name: "Mudbray",
         species: "Donkey Pokémon",
-        type: ["Ground"],
+        types: ["Ground"],
         weight: 110,
         height: 1,
         evolutionStage: 1,
@@ -8235,7 +8235,7 @@ const alola_region_pokemons = [
     {
         name: "Mudsdale",
         species: "Draft Horse Pokémon",
-        type: ["Ground"],
+        types: ["Ground"],
         weight: 920,
         height: 2.5,
         evolutionStage: 2,
@@ -8246,7 +8246,7 @@ const alola_region_pokemons = [
     {
         name: "Naganadel",
         species: "Poison Pin Pokémon",
-        type: ["Poison", "Dragon"],
+        types: ["Poison", "Dragon"],
         weight: 150,
         height: 3.6,
         evolutionStage: 2,
@@ -8257,7 +8257,7 @@ const alola_region_pokemons = [
     {
         name: "Necrozma",
         species: "Prism Pokémon",
-        type: ["Psychic"],
+        types: ["Psychic"],
         weight: 230,
         height: 2.4,
         evolutionStage: 1,
@@ -8268,7 +8268,7 @@ const alola_region_pokemons = [
     {
         name: "Nihilego",
         species: "Parasite Pokémon",
-        type: ["Rock", "Poison"],
+        types: ["Rock", "Poison"],
         weight: 55.5,
         height: 1.2,
         evolutionStage: 1,
@@ -8279,7 +8279,7 @@ const alola_region_pokemons = [
     {
         name: "Oranguru",
         species: "Sage Pokémon",
-        type: ["Normal", "Psychic"],
+        types: ["Normal", "Psychic"],
         weight: 76,
         height: 1.5,
         evolutionStage: 1,
@@ -8290,7 +8290,7 @@ const alola_region_pokemons = [
     {
         name: "Palossand",
         species: "Sand Castle Pokémon",
-        type: ["Ghost", "Ground"],
+        types: ["Ghost", "Ground"],
         weight: 250,
         height: 1.3,
         evolutionStage: 2,
@@ -8301,7 +8301,7 @@ const alola_region_pokemons = [
     {
         name: "Passimian",
         species: "Teamwork Pokémon",
-        type: ["Fighting"],
+        types: ["Fighting"],
         weight: 82.8,
         height: 2,
         evolutionStage: 1,
@@ -8312,7 +8312,7 @@ const alola_region_pokemons = [
     {
         name: "Pheromosa",
         species: "Lissome Pokémon",
-        type: ["Bug", "Fighting"],
+        types: ["Bug", "Fighting"],
         weight: 25,
         height: 1.8,
         evolutionStage: 1,
@@ -8323,7 +8323,7 @@ const alola_region_pokemons = [
     {
         name: "Pikipek",
         species: "Woodpecker Pokémon",
-        type: ["Normal", "Flying"],
+        types: ["Normal", "Flying"],
         weight: 1.2,
         height: 0.3,
         evolutionStage: 1,
@@ -8334,7 +8334,7 @@ const alola_region_pokemons = [
     {
         name: "Poipole",
         species: "Poison Pin Pokémon",
-        type: ["Poison"],
+        types: ["Poison"],
         weight: 1.8,
         height: 0.6,
         evolutionStage: 1,
@@ -8345,7 +8345,7 @@ const alola_region_pokemons = [
     {
         name: "Popplio",
         species: "Sea Lion Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 7.5,
         height: 0.4,
         evolutionStage: 1,
@@ -8356,7 +8356,7 @@ const alola_region_pokemons = [
     {
         name: "Primarina",
         species: "Soloist Pokémon",
-        type: ["Water", "Fairy"],
+        types: ["Water", "Fairy"],
         weight: 44,
         height: 1.8,
         evolutionStage: 3,
@@ -8367,7 +8367,7 @@ const alola_region_pokemons = [
     {
         name: "Pyukumuku",
         species: "Sea Cucumber Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 1.2,
         height: 0.3,
         evolutionStage: 1,
@@ -8378,7 +8378,7 @@ const alola_region_pokemons = [
     {
         name: "Ribombee",
         species: "Bee Fly Pokémon",
-        type: ["Bug", "Fairy"],
+        types: ["Bug", "Fairy"],
         weight: 0.5,
         height: 0.2,
         evolutionStage: 2,
@@ -8389,7 +8389,7 @@ const alola_region_pokemons = [
     {
         name: "Rockruff",
         species: "Puppy Pokémon",
-        type: ["Rock"],
+        types: ["Rock"],
         weight: 9.2,
         height: 0.5,
         evolutionStage: 1,
@@ -8400,7 +8400,7 @@ const alola_region_pokemons = [
     {
         name: "Rowlet",
         species: "Grass Quill Pokémon",
-        type: ["Grass", "Flying"],
+        types: ["Grass", "Flying"],
         weight: 1.5,
         height: 0.3,
         evolutionStage: 1,
@@ -8411,7 +8411,7 @@ const alola_region_pokemons = [
     {
         name: "Salandit",
         species: "Toxic Lizard Pokémon",
-        type: ["Poison", "Fire"],
+        types: ["Poison", "Fire"],
         weight: 4.8,
         height: 0.6,
         evolutionStage: 1,
@@ -8422,7 +8422,7 @@ const alola_region_pokemons = [
     {
         name: "Salazzle",
         species: "Toxic Lizard Pokémon",
-        type: ["Poison", "Fire"],
+        types: ["Poison", "Fire"],
         weight: 22.2,
         height: 1.2,
         evolutionStage: 2,
@@ -8433,7 +8433,7 @@ const alola_region_pokemons = [
     {
         name: "Sandygast",
         species: "Sand Heap Pokémon",
-        type: ["Ghost", "Ground"],
+        types: ["Ghost", "Ground"],
         weight: 70,
         height: 0.5,
         evolutionStage: 1,
@@ -8444,7 +8444,7 @@ const alola_region_pokemons = [
     {
         name: "Shiinotic",
         species: "Illuminating Pokémon",
-        type: ["Grass", "Fairy"],
+        types: ["Grass", "Fairy"],
         weight: 11.5,
         height: 1,
         evolutionStage: 2,
@@ -8455,7 +8455,7 @@ const alola_region_pokemons = [
     {
         name: "Silvally",
         species: "Synthetic Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 100.5,
         height: 2.3,
         evolutionStage: 2,
@@ -8466,7 +8466,7 @@ const alola_region_pokemons = [
     {
         name: "Solgaleo",
         species: "Sunne Pokémon",
-        type: ["Psychic", "Steel"],
+        types: ["Psychic", "Steel"],
         weight: 230,
         height: 3.4,
         evolutionStage: 3,
@@ -8477,7 +8477,7 @@ const alola_region_pokemons = [
     {
         name: "Stakataka",
         species: "Rampart Pokémon",
-        type: ["Rock", "Steel"],
+        types: ["Rock", "Steel"],
         weight: 820,
         height: 5.5,
         evolutionStage: 1,
@@ -8488,7 +8488,7 @@ const alola_region_pokemons = [
     {
         name: "Steenee",
         species: "Fruit Pokémon",
-        type: ["Grass"],
+        types: ["Grass"],
         weight: 8.2,
         height: 0.7,
         evolutionStage: 2,
@@ -8499,7 +8499,7 @@ const alola_region_pokemons = [
     {
         name: "Stufful",
         species: "Flailing Pokémon",
-        type: ["Normal", "Fighting"],
+        types: ["Normal", "Fighting"],
         weight: 6.8,
         height: 0.5,
         evolutionStage: 1,
@@ -8510,7 +8510,7 @@ const alola_region_pokemons = [
     {
         name: "Tapu-bulu",
         species: "Land Spirit Pokémon",
-        type: ["Grass", "Fairy"],
+        types: ["Grass", "Fairy"],
         weight: 45.5,
         height: 1.9,
         evolutionStage: 1,
@@ -8521,7 +8521,7 @@ const alola_region_pokemons = [
     {
         name: "Tapu-fini",
         species: "Land Spirit Pokémon",
-        type: ["Water", "Fairy"],
+        types: ["Water", "Fairy"],
         weight: 21.2,
         height: 1.3,
         evolutionStage: 1,
@@ -8532,7 +8532,7 @@ const alola_region_pokemons = [
     {
         name: "Tapu-koko",
         species: "Land Spirit Pokémon",
-        type: ["Electric", "Fairy"],
+        types: ["Electric", "Fairy"],
         weight: 20.5,
         height: 1.8,
         evolutionStage: 1,
@@ -8543,7 +8543,7 @@ const alola_region_pokemons = [
     {
         name: "Tapu-lele",
         species: "Land Spirit Pokémon",
-        type: ["Psychic", "Fairy"],
+        types: ["Psychic", "Fairy"],
         weight: 18.6,
         height: 1.2,
         evolutionStage: 1,
@@ -8554,7 +8554,7 @@ const alola_region_pokemons = [
     {
         name: "Togedemaru",
         species: "Roly-Poly Pokémon",
-        type: ["Electric", "Steel"],
+        types: ["Electric", "Steel"],
         weight: 3.3,
         height: 0.3,
         evolutionStage: 1,
@@ -8565,7 +8565,7 @@ const alola_region_pokemons = [
     {
         name: "Torracat",
         species: "Fire Cat Pokémon",
-        type: ["Fire"],
+        types: ["Fire"],
         weight: 25,
         height: 0.7,
         evolutionStage: 2,
@@ -8576,7 +8576,7 @@ const alola_region_pokemons = [
     {
         name: "Toucannon",
         species: "Cannon Pokémon",
-        type: ["Normal", "Flying"],
+        types: ["Normal", "Flying"],
         weight: 26,
         height: 1.1,
         evolutionStage: 3,
@@ -8587,7 +8587,7 @@ const alola_region_pokemons = [
     {
         name: "Toxapex",
         species: "Brutal Star Pokémon",
-        type: ["Poison", "Water"],
+        types: ["Poison", "Water"],
         weight: 14.5,
         height: 0.7,
         evolutionStage: 2,
@@ -8598,7 +8598,7 @@ const alola_region_pokemons = [
     {
         name: "Trumbeak",
         species: "Bugle Beak Pokémon",
-        type: ["Normal", "Flying"],
+        types: ["Normal", "Flying"],
         weight: 14.8,
         height: 0.6,
         evolutionStage: 2,
@@ -8609,7 +8609,7 @@ const alola_region_pokemons = [
     {
         name: "Tsareena",
         species: "Fruit Pokémon",
-        type: ["Grass"],
+        types: ["Grass"],
         weight: 21.4,
         height: 1.2,
         evolutionStage: 3,
@@ -8620,7 +8620,7 @@ const alola_region_pokemons = [
     {
         name: "Turtonator",
         species: "Blast Turtle Pokémon",
-        type: ["Fire", "Dragon"],
+        types: ["Fire", "Dragon"],
         weight: 212,
         height: 2,
         evolutionStage: 1,
@@ -8631,7 +8631,7 @@ const alola_region_pokemons = [
     {
         name: "Type-null",
         species: "Synthetic Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 120.5,
         height: 1.9,
         evolutionStage: 1,
@@ -8642,7 +8642,7 @@ const alola_region_pokemons = [
     {
         name: "Vikavolt",
         species: "Stag Beetle Pokémon",
-        type: ["Bug", "Electric"],
+        types: ["Bug", "Electric"],
         weight: 45,
         height: 1.5,
         evolutionStage: 3,
@@ -8653,7 +8653,7 @@ const alola_region_pokemons = [
     {
         name: "Wimpod",
         species: "Turn Tail Pokémon",
-        type: ["Bug", "Water"],
+        types: ["Bug", "Water"],
         weight: 12,
         height: 0.5,
         evolutionStage: 1,
@@ -8664,7 +8664,7 @@ const alola_region_pokemons = [
     {
         name: "Xurkitree",
         species: "Glowing Pokémon",
-        type: ["Electric"],
+        types: ["Electric"],
         weight: 100,
         height: 3.8,
         evolutionStage: 1,
@@ -8675,7 +8675,7 @@ const alola_region_pokemons = [
     {
         name: "Yungoos",
         species: "Loitering Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 6,
         height: 0.4,
         evolutionStage: 1,
@@ -8686,7 +8686,7 @@ const alola_region_pokemons = [
     {
         name: "Zeraora",
         species: "Thunderclap Pokémon",
-        type: ["Electric"],
+        types: ["Electric"],
         weight: 44.5,
         height: 1.5,
         evolutionStage: 1,
@@ -8700,7 +8700,7 @@ const galar_region_pokemons = [
     {
         name: "Alcremie",
         species: "Cream Pokémon",
-        type: ["Fairy"],
+        types: ["Fairy"],
         weight: 0.5,
         height: 0.3,
         evolutionStage: 2,
@@ -8711,7 +8711,7 @@ const galar_region_pokemons = [
     {
         name: "Appletun",
         species: "Apple Nectar Pokémon",
-        type: ["Grass", "Dragon"],
+        types: ["Grass", "Dragon"],
         weight: 13,
         height: 0.4,
         evolutionStage: 2,
@@ -8722,7 +8722,7 @@ const galar_region_pokemons = [
     {
         name: "Applin",
         species: "Apple Core Pokémon",
-        type: ["Grass", "Dragon"],
+        types: ["Grass", "Dragon"],
         weight: 0.5,
         height: 0.2,
         evolutionStage: 1,
@@ -8733,7 +8733,7 @@ const galar_region_pokemons = [
     {
         name: "Arctovish",
         species: "Fossil Pokémon",
-        type: ["Water", "Ice"],
+        types: ["Water", "Ice"],
         weight: 175,
         height: 2,
         evolutionStage: 1,
@@ -8744,7 +8744,7 @@ const galar_region_pokemons = [
     {
         name: "Arctozolt",
         species: "Fossil Pokémon",
-        type: ["Electric", "Ice"],
+        types: ["Electric", "Ice"],
         weight: 150,
         height: 2.3,
         evolutionStage: 1,
@@ -8755,7 +8755,7 @@ const galar_region_pokemons = [
     {
         name: "Arrokuda",
         species: "Rush Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 1,
         height: 0.5,
         evolutionStage: 1,
@@ -8766,7 +8766,7 @@ const galar_region_pokemons = [
     {
         name: "Barraskewda",
         species: "Skewer Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 30,
         height: 1.3,
         evolutionStage: 2,
@@ -8777,7 +8777,7 @@ const galar_region_pokemons = [
     {
         name: "Blipbug",
         species: "Larva Pokémon",
-        type: ["Bug"],
+        types: ["Bug"],
         weight: 8,
         height: 0.4,
         evolutionStage: 1,
@@ -8788,7 +8788,7 @@ const galar_region_pokemons = [
     {
         name: "Boltund",
         species: "Dog Pokémon",
-        type: ["Electric"],
+        types: ["Electric"],
         weight: 34,
         height: 1,
         evolutionStage: 2,
@@ -8799,7 +8799,7 @@ const galar_region_pokemons = [
     {
         name: "Calyrex",
         species: "King Pokémon",
-        type: ["Psychic", "Grass"],
+        types: ["Psychic", "Grass"],
         weight: 7.7,
         height: 1.1,
         evolutionStage: 1,
@@ -8810,7 +8810,7 @@ const galar_region_pokemons = [
     {
         name: "Carkol",
         species: "Coal Pokémon",
-        type: ["Rock", "Fire"],
+        types: ["Rock", "Fire"],
         weight: 78,
         height: 1.1,
         evolutionStage: 2,
@@ -8821,7 +8821,7 @@ const galar_region_pokemons = [
     {
         name: "Centiskorch",
         species: "Radiator Pokémon",
-        type: ["Fire", "Bug"],
+        types: ["Fire", "Bug"],
         weight: 120,
         height: 3,
         evolutionStage: 2,
@@ -8832,7 +8832,7 @@ const galar_region_pokemons = [
     {
         name: "Chewtle",
         species: "Snapping Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 8.5,
         height: 0.3,
         evolutionStage: 1,
@@ -8843,7 +8843,7 @@ const galar_region_pokemons = [
     {
         name: "Cinderace",
         species: "Striker Pokémon",
-        type: ["Fire"],
+        types: ["Fire"],
         weight: 33,
         height: 1.4,
         evolutionStage: 3,
@@ -8854,7 +8854,7 @@ const galar_region_pokemons = [
     {
         name: "Clobbopus",
         species: "Tantrum Pokémon",
-        type: ["Fighting"],
+        types: ["Fighting"],
         weight: 4,
         height: 0.6,
         evolutionStage: 1,
@@ -8865,7 +8865,7 @@ const galar_region_pokemons = [
     {
         name: "Coalossal",
         species: "Coal Pokémon",
-        type: ["Rock", "Fire"],
+        types: ["Rock", "Fire"],
         weight: 310.5,
         height: 2.8,
         evolutionStage: 3,
@@ -8876,7 +8876,7 @@ const galar_region_pokemons = [
     {
         name: "Copperajah",
         species: "Copperderm Pokémon",
-        type: ["Steel"],
+        types: ["Steel"],
         weight: 650,
         height: 3,
         evolutionStage: 2,
@@ -8887,7 +8887,7 @@ const galar_region_pokemons = [
     {
         name: "Corviknight",
         species: "Raven Pokémon",
-        type: ["Flying", "Steel"],
+        types: ["Flying", "Steel"],
         weight: 75,
         height: 2.2,
         evolutionStage: 3,
@@ -8898,7 +8898,7 @@ const galar_region_pokemons = [
     {
         name: "Corvisquire",
         species: "Raven Pokémon",
-        type: ["Flying"],
+        types: ["Flying"],
         weight: 16,
         height: 0.8,
         evolutionStage: 2,
@@ -8909,7 +8909,7 @@ const galar_region_pokemons = [
     {
         name: "Cramorant",
         species: "Gulp Pokémon",
-        type: ["Flying", "Water"],
+        types: ["Flying", "Water"],
         weight: 18,
         height: 0.8,
         evolutionStage: 1,
@@ -8920,7 +8920,7 @@ const galar_region_pokemons = [
     {
         name: "Cufant",
         species: "Copperderm Pokémon",
-        type: ["Steel"],
+        types: ["Steel"],
         weight: 100,
         height: 1.2,
         evolutionStage: 1,
@@ -8931,7 +8931,7 @@ const galar_region_pokemons = [
     {
         name: "Cursola",
         species: "Coral Pokémon",
-        type: ["Ghost"],
+        types: ["Ghost"],
         weight: 0.4,
         height: 1,
         evolutionStage: 2,
@@ -8942,7 +8942,7 @@ const galar_region_pokemons = [
     {
         name: "Dottler",
         species: "Radome Pokémon",
-        type: ["Bug", "Psychic"],
+        types: ["Bug", "Psychic"],
         weight: 19.5,
         height: 0.4,
         evolutionStage: 2,
@@ -8953,7 +8953,7 @@ const galar_region_pokemons = [
     {
         name: "Dracovish",
         species: "Fossil Pokémon",
-        type: ["Water", "Dragon"],
+        types: ["Water", "Dragon"],
         weight: 215,
         height: 2.3,
         evolutionStage: 1,
@@ -8964,7 +8964,7 @@ const galar_region_pokemons = [
     {
         name: "Dracozolt",
         species: "Fossil Pokémon",
-        type: ["Electric", "Dragon"],
+        types: ["Electric", "Dragon"],
         weight: 190,
         height: 1.8,
         evolutionStage: 1,
@@ -8975,7 +8975,7 @@ const galar_region_pokemons = [
     {
         name: "Dragapult",
         species: "Stealth Pokémon",
-        type: ["Dragon", "Ghost"],
+        types: ["Dragon", "Ghost"],
         weight: 50,
         height: 3,
         evolutionStage: 3,
@@ -8986,7 +8986,7 @@ const galar_region_pokemons = [
     {
         name: "Drakloak",
         species: "Caretaker Pokémon",
-        type: ["Dragon", "Ghost"],
+        types: ["Dragon", "Ghost"],
         weight: 11,
         height: 1.4,
         evolutionStage: 2,
@@ -8997,7 +8997,7 @@ const galar_region_pokemons = [
     {
         name: "Drednaw",
         species: "Bite Pokémon",
-        type: ["Water", "Rock"],
+        types: ["Water", "Rock"],
         weight: 115.5,
         height: 1,
         evolutionStage: 2,
@@ -9008,7 +9008,7 @@ const galar_region_pokemons = [
     {
         name: "Dreepy",
         species: "Lingering Pokémon",
-        type: ["Dragon", "Ghost"],
+        types: ["Dragon", "Ghost"],
         weight: 2,
         height: 0.5,
         evolutionStage: 1,
@@ -9019,7 +9019,7 @@ const galar_region_pokemons = [
     {
         name: "Drizzile",
         species: "Water Lizard Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 11.5,
         height: 0.7,
         evolutionStage: 2,
@@ -9030,7 +9030,7 @@ const galar_region_pokemons = [
     {
         name: "Dubwool",
         species: "Sheep Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 43,
         height: 1.3,
         evolutionStage: 2,
@@ -9041,7 +9041,7 @@ const galar_region_pokemons = [
     {
         name: "Duraludon",
         species: "Alloy Pokémon",
-        type: ["Steel", "Dragon"],
+        types: ["Steel", "Dragon"],
         weight: 40,
         height: 1.8,
         evolutionStage: 1,
@@ -9052,7 +9052,7 @@ const galar_region_pokemons = [
     {
         name: "Eldegoss",
         species: "Cotton Bloom Pokémon",
-        type: ["Grass"],
+        types: ["Grass"],
         weight: 2.5,
         height: 0.5,
         evolutionStage: 2,
@@ -9063,7 +9063,7 @@ const galar_region_pokemons = [
     {
         name: "Eternatus",
         species: "Gigantic Pokémon",
-        type: ["Poison", "Dragon"],
+        types: ["Poison", "Dragon"],
         weight: 950,
         height: 20,
         evolutionStage: 1,
@@ -9074,7 +9074,7 @@ const galar_region_pokemons = [
     {
         name: "Falinks",
         species: "Formation Pokémon",
-        type: ["Fighting"],
+        types: ["Fighting"],
         weight: 62,
         height: 3,
         evolutionStage: 1,
@@ -9085,7 +9085,7 @@ const galar_region_pokemons = [
     {
         name: "Flapple",
         species: "Apple Wing Pokémon",
-        type: ["Grass", "Dragon"],
+        types: ["Grass", "Dragon"],
         weight: 1,
         height: 0.3,
         evolutionStage: 2,
@@ -9096,7 +9096,7 @@ const galar_region_pokemons = [
     {
         name: "Frosmoth",
         species: "Frost Moth Pokémon",
-        type: ["Ice", "Bug"],
+        types: ["Ice", "Bug"],
         weight: 42,
         height: 1.3,
         evolutionStage: 2,
@@ -9107,7 +9107,7 @@ const galar_region_pokemons = [
     {
         name: "Glastrier",
         species: "Wild Horse Pokémon",
-        type: ["Ice"],
+        types: ["Ice"],
         weight: 800,
         height: 2.2,
         evolutionStage: 1,
@@ -9118,7 +9118,7 @@ const galar_region_pokemons = [
     {
         name: "Gossifleur",
         species: "Flowering Pokémon",
-        type: ["Grass"],
+        types: ["Grass"],
         weight: 2.2,
         height: 0.4,
         evolutionStage: 1,
@@ -9129,7 +9129,7 @@ const galar_region_pokemons = [
     {
         name: "Grapploct",
         species: "Jujitsu Pokémon",
-        type: ["Fighting"],
+        types: ["Fighting"],
         weight: 39,
         height: 1.6,
         evolutionStage: 2,
@@ -9140,7 +9140,7 @@ const galar_region_pokemons = [
     {
         name: "Greedent",
         species: "Greedy Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 6,
         height: 0.6,
         evolutionStage: 2,
@@ -9151,7 +9151,7 @@ const galar_region_pokemons = [
     {
         name: "Grimmsnarl",
         species: "Bulk Up Pokémon",
-        type: ["Dark", "Fairy"],
+        types: ["Dark", "Fairy"],
         weight: 61,
         height: 1.5,
         evolutionStage: 3,
@@ -9162,7 +9162,7 @@ const galar_region_pokemons = [
     {
         name: "Grookey",
         species: "Chimp Pokémon",
-        type: ["Grass"],
+        types: ["Grass"],
         weight: 5,
         height: 0.3,
         evolutionStage: 1,
@@ -9173,7 +9173,7 @@ const galar_region_pokemons = [
     {
         name: "Hatenna",
         species: "Calm Pokémon",
-        type: ["Psychic"],
+        types: ["Psychic"],
         weight: 3.4,
         height: 0.4,
         evolutionStage: 1,
@@ -9184,7 +9184,7 @@ const galar_region_pokemons = [
     {
         name: "Hatterene",
         species: "Silent Pokémon",
-        type: ["Psychic", "Fairy"],
+        types: ["Psychic", "Fairy"],
         weight: 5.1,
         height: 2.1,
         evolutionStage: 3,
@@ -9195,7 +9195,7 @@ const galar_region_pokemons = [
     {
         name: "Hattrem",
         species: "Serene Pokémon",
-        type: ["Psychic"],
+        types: ["Psychic"],
         weight: 4.8,
         height: 0.6,
         evolutionStage: 2,
@@ -9206,7 +9206,7 @@ const galar_region_pokemons = [
     {
         name: "Impidimp",
         species: "Wily Pokémon",
-        type: ["Dark", "Fairy"],
+        types: ["Dark", "Fairy"],
         weight: 5.5,
         height: 0.4,
         evolutionStage: 1,
@@ -9217,7 +9217,7 @@ const galar_region_pokemons = [
     {
         name: "Inteleon",
         species: "Secret Agent Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 45.2,
         height: 1.9,
         evolutionStage: 3,
@@ -9228,7 +9228,7 @@ const galar_region_pokemons = [
     {
         name: "Kleavor",
         species: "Axe Pokémon",
-        type: ["Bug", "Rock"],
+        types: ["Bug", "Rock"],
         weight: 89,
         height: 1.8,
         evolutionStage: 2,
@@ -9239,7 +9239,7 @@ const galar_region_pokemons = [
     {
         name: "Kubfu",
         species: "Wushu Pokémon",
-        type: ["Fighting"],
+        types: ["Fighting"],
         weight: 12,
         height: 0.6,
         evolutionStage: 1,
@@ -9250,7 +9250,7 @@ const galar_region_pokemons = [
     {
         name: "Milcery",
         species: "Cream Pokémon",
-        type: ["Fairy"],
+        types: ["Fairy"],
         weight: 0.3,
         height: 0.2,
         evolutionStage: 1,
@@ -9261,7 +9261,7 @@ const galar_region_pokemons = [
     {
         name: "Morgrem",
         species: "Devious Pokémon",
-        type: ["Dark", "Fairy"],
+        types: ["Dark", "Fairy"],
         weight: 12.5,
         height: 0.8,
         evolutionStage: 2,
@@ -9272,7 +9272,7 @@ const galar_region_pokemons = [
     {
         name: "Mr-rime",
         species: "Comedian Pokémon",
-        type: ["Ice", "Psychic"],
+        types: ["Ice", "Psychic"],
         weight: 58.2,
         height: 1.5,
         evolutionStage: 3,
@@ -9283,7 +9283,7 @@ const galar_region_pokemons = [
     {
         name: "Nickit",
         species: "Fox Pokémon",
-        type: ["Dark"],
+        types: ["Dark"],
         weight: 8.9,
         height: 0.6,
         evolutionStage: 1,
@@ -9294,7 +9294,7 @@ const galar_region_pokemons = [
     {
         name: "Obstagoon",
         species: "Blocking Pokémon",
-        type: ["Dark", "Normal"],
+        types: ["Dark", "Normal"],
         weight: 46,
         height: 1.6,
         evolutionStage: 3,
@@ -9305,7 +9305,7 @@ const galar_region_pokemons = [
     {
         name: "Orbeetle",
         species: "Seven Spot Pokémon",
-        type: ["Bug", "Psychic"],
+        types: ["Bug", "Psychic"],
         weight: 40.8,
         height: 0.4,
         evolutionStage: 3,
@@ -9316,7 +9316,7 @@ const galar_region_pokemons = [
     {
         name: "Overqwil",
         species: "Pin Cluster Pokémon",
-        type: ["Dark", "Poison"],
+        types: ["Dark", "Poison"],
         weight: 60.5,
         height: 2.5,
         evolutionStage: 2,
@@ -9327,7 +9327,7 @@ const galar_region_pokemons = [
     {
         name: "Perrserker",
         species: "Viking Pokémon",
-        type: ["Steel"],
+        types: ["Steel"],
         weight: 28,
         height: 0.8,
         evolutionStage: 2,
@@ -9338,7 +9338,7 @@ const galar_region_pokemons = [
     {
         name: "Pincurchin",
         species: "Sea Urchin Pokémon",
-        type: ["Electric"],
+        types: ["Electric"],
         weight: 1,
         height: 0.3,
         evolutionStage: 1,
@@ -9349,7 +9349,7 @@ const galar_region_pokemons = [
     {
         name: "Polteageist",
         species: "Black Tea Pokémon",
-        type: ["Ghost"],
+        types: ["Ghost"],
         weight: 0.4,
         height: 0.2,
         evolutionStage: 2,
@@ -9360,7 +9360,7 @@ const galar_region_pokemons = [
     {
         name: "Raboot",
         species: "Rabbit Pokémon",
-        type: ["Fire"],
+        types: ["Fire"],
         weight: 9,
         height: 0.6,
         evolutionStage: 2,
@@ -9371,7 +9371,7 @@ const galar_region_pokemons = [
     {
         name: "Regidrago",
         species: "Dragon Orb Pokémon",
-        type: ["Dragon"],
+        types: ["Dragon"],
         weight: 200,
         height: 2.1,
         evolutionStage: 1,
@@ -9382,7 +9382,7 @@ const galar_region_pokemons = [
     {
         name: "Regieleki",
         species: "Electron Pokémon",
-        type: ["Electric"],
+        types: ["Electric"],
         weight: 145,
         height: 1.2,
         evolutionStage: 1,
@@ -9393,7 +9393,7 @@ const galar_region_pokemons = [
     {
         name: "Rillaboom",
         species: "Drummer Pokémon",
-        type: ["Grass"],
+        types: ["Grass"],
         weight: 90,
         height: 2.1,
         evolutionStage: 3,
@@ -9404,7 +9404,7 @@ const galar_region_pokemons = [
     {
         name: "Rolycoly",
         species: "Coal Pokémon",
-        type: ["Rock"],
+        types: ["Rock"],
         weight: 12,
         height: 0.3,
         evolutionStage: 1,
@@ -9415,7 +9415,7 @@ const galar_region_pokemons = [
     {
         name: "Rookidee",
         species: "Tiny Bird Pokémon",
-        type: ["Flying"],
+        types: ["Flying"],
         weight: 1.8,
         height: 0.2,
         evolutionStage: 1,
@@ -9426,7 +9426,7 @@ const galar_region_pokemons = [
     {
         name: "Runerigus",
         species: "Grudge Pokémon",
-        type: ["Ground", "Ghost"],
+        types: ["Ground", "Ghost"],
         weight: 66.6,
         height: 1.6,
         evolutionStage: 2,
@@ -9437,7 +9437,7 @@ const galar_region_pokemons = [
     {
         name: "Sandaconda",
         species: "Sand Snake Pokémon",
-        type: ["Ground"],
+        types: ["Ground"],
         weight: 65.5,
         height: 3.8,
         evolutionStage: 2,
@@ -9448,7 +9448,7 @@ const galar_region_pokemons = [
     {
         name: "Scorbunny",
         species: "Rabbit Pokémon",
-        type: ["Fire"],
+        types: ["Fire"],
         weight: 4.5,
         height: 0.3,
         evolutionStage: 1,
@@ -9459,7 +9459,7 @@ const galar_region_pokemons = [
     {
         name: "Silicobra",
         species: "Sand Snake Pokémon",
-        type: ["Ground"],
+        types: ["Ground"],
         weight: 7.6,
         height: 2.2,
         evolutionStage: 1,
@@ -9470,7 +9470,7 @@ const galar_region_pokemons = [
     {
         name: "Sinistea",
         species: "Black Tea Pokémon",
-        type: ["Ghost"],
+        types: ["Ghost"],
         weight: 0.2,
         height: 0.1,
         evolutionStage: 1,
@@ -9481,7 +9481,7 @@ const galar_region_pokemons = [
     {
         name: "Sirfetchd",
         species: "Wild Duck Pokémon",
-        type: ["Fighting"],
+        types: ["Fighting"],
         weight: 117,
         height: 0.8,
         evolutionStage: 2,
@@ -9492,7 +9492,7 @@ const galar_region_pokemons = [
     {
         name: "Sizzlipede",
         species: "Radiator Pokémon",
-        type: ["Fire", "Bug"],
+        types: ["Fire", "Bug"],
         weight: 1,
         height: 0.7,
         evolutionStage: 1,
@@ -9503,7 +9503,7 @@ const galar_region_pokemons = [
     {
         name: "Skwovet",
         species: "Cheeky Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 2.5,
         height: 0.3,
         evolutionStage: 1,
@@ -9514,7 +9514,7 @@ const galar_region_pokemons = [
     {
         name: "Sneasler",
         species: "Free Climb Pokémon",
-        type: ["Fighting", "Poison"],
+        types: ["Fighting", "Poison"],
         weight: 43,
         height: 1.3,
         evolutionStage: 2,
@@ -9525,7 +9525,7 @@ const galar_region_pokemons = [
     {
         name: "Snom",
         species: "Worm Pokémon",
-        type: ["Ice", "Bug"],
+        types: ["Ice", "Bug"],
         weight: 3.8,
         height: 0.3,
         evolutionStage: 1,
@@ -9536,7 +9536,7 @@ const galar_region_pokemons = [
     {
         name: "Sobble",
         species: "Water Lizard Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 4,
         height: 0.3,
         evolutionStage: 1,
@@ -9547,7 +9547,7 @@ const galar_region_pokemons = [
     {
         name: "Spectrier",
         species: "Swift Horse Pokémon",
-        type: ["Ghost"],
+        types: ["Ghost"],
         weight: 44.5,
         height: 2,
         evolutionStage: 1,
@@ -9558,7 +9558,7 @@ const galar_region_pokemons = [
     {
         name: "Stonjourner",
         species: "Big Rock Pokémon",
-        type: ["Rock"],
+        types: ["Rock"],
         weight: 520,
         height: 2.5,
         evolutionStage: 1,
@@ -9569,7 +9569,7 @@ const galar_region_pokemons = [
     {
         name: "Thievul",
         species: "Fox Pokémon",
-        type: ["Dark"],
+        types: ["Dark"],
         weight: 19.9,
         height: 1.2,
         evolutionStage: 2,
@@ -9580,7 +9580,7 @@ const galar_region_pokemons = [
     {
         name: "Thwackey",
         species: "Beat Pokémon",
-        type: ["Grass"],
+        types: ["Grass"],
         weight: 14,
         height: 0.7,
         evolutionStage: 2,
@@ -9591,7 +9591,7 @@ const galar_region_pokemons = [
     {
         name: "Toxel",
         species: "Baby Pokémon",
-        type: ["Electric", "Poison"],
+        types: ["Electric", "Poison"],
         weight: 11,
         height: 0.4,
         evolutionStage: 1,
@@ -9602,7 +9602,7 @@ const galar_region_pokemons = [
     {
         name: "Ursaluna",
         species: "Peat Pokémon",
-        type: ["Ground", "Normal"],
+        types: ["Ground", "Normal"],
         weight: 290,
         height: 2.4,
         evolutionStage: 3,
@@ -9613,7 +9613,7 @@ const galar_region_pokemons = [
     {
         name: "Wooloo",
         species: "Sheep Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 6,
         height: 0.6,
         evolutionStage: 1,
@@ -9624,7 +9624,7 @@ const galar_region_pokemons = [
     {
         name: "Wyrdeer",
         species: "Big Horn Pokémon",
-        type: ["Normal", "Psychic"],
+        types: ["Normal", "Psychic"],
         weight: 95.1,
         height: 1.8,
         evolutionStage: 2,
@@ -9635,7 +9635,7 @@ const galar_region_pokemons = [
     {
         name: "Yamper",
         species: "Puppy Pokémon",
-        type: ["Electric"],
+        types: ["Electric"],
         weight: 13.5,
         height: 0.3,
         evolutionStage: 1,
@@ -9646,7 +9646,7 @@ const galar_region_pokemons = [
     {
         name: "Zacian",
         species: "Warrior Pokémon",
-        type: ["Fairy"],
+        types: ["Fairy"],
         weight: 110,
         height: 2.8,
         evolutionStage: 1,
@@ -9657,7 +9657,7 @@ const galar_region_pokemons = [
     {
         name: "Zamazenta",
         species: "Warrior Pokémon",
-        type: ["Fighting"],
+        types: ["Fighting"],
         weight: 210,
         height: 2.9,
         evolutionStage: 1,
@@ -9668,7 +9668,7 @@ const galar_region_pokemons = [
     {
         name: "Zarude",
         species: "Rogue Monkey Pokémon",
-        type: ["Dark", "Grass"],
+        types: ["Dark", "Grass"],
         weight: 70,
         height: 1.8,
         evolutionStage: 1,
@@ -9682,7 +9682,7 @@ const paldea_region_pokemons = [
     {
         name: "Annihilape",
         species: "Rage Monkey Pokémon",
-        type: ["Fighting", "Ghost"],
+        types: ["Fighting", "Ghost"],
         weight: 56,
         height: 1.2,
         evolutionStage: 3,
@@ -9693,7 +9693,7 @@ const paldea_region_pokemons = [
     {
         name: "Arboliva",
         species: "Olive Pokémon",
-        type: ["Grass", "Normal"],
+        types: ["Grass", "Normal"],
         weight: 48.2,
         height: 1.4,
         evolutionStage: 3,
@@ -9704,7 +9704,7 @@ const paldea_region_pokemons = [
     {
         name: "Archaludon",
         species: "Alloy Pokémon",
-        type: ["Steel", "Dragon"],
+        types: ["Steel", "Dragon"],
         weight: 60,
         height: 2,
         evolutionStage: 2,
@@ -9715,7 +9715,7 @@ const paldea_region_pokemons = [
     {
         name: "Arctibax",
         species: "Ice Fin Pokémon",
-        type: ["Dragon", "Ice"],
+        types: ["Dragon", "Ice"],
         weight: 30,
         height: 0.8,
         evolutionStage: 2,
@@ -9726,7 +9726,7 @@ const paldea_region_pokemons = [
     {
         name: "Armarouge",
         species: "Fire Warrior Pokémon",
-        type: ["Fire", "Psychic"],
+        types: ["Fire", "Psychic"],
         weight: 85,
         height: 1.5,
         evolutionStage: 2,
@@ -9737,7 +9737,7 @@ const paldea_region_pokemons = [
     {
         name: "Baxcalibur",
         species: "Ice Dragon Pokémon",
-        type: ["Dragon", "Ice"],
+        types: ["Dragon", "Ice"],
         weight: 210,
         height: 2.1,
         evolutionStage: 3,
@@ -9748,7 +9748,7 @@ const paldea_region_pokemons = [
     {
         name: "Bellibolt",
         species: "EleFrog Pokémon",
-        type: ["Electric"],
+        types: ["Electric"],
         weight: 113,
         height: 1.2,
         evolutionStage: 2,
@@ -9759,7 +9759,7 @@ const paldea_region_pokemons = [
     {
         name: "Bombirdier",
         species: "Item Drop Pokémon",
-        type: ["Flying", "Dark"],
+        types: ["Flying", "Dark"],
         weight: 42.9,
         height: 1.5,
         evolutionStage: 1,
@@ -9770,7 +9770,7 @@ const paldea_region_pokemons = [
     {
         name: "Brambleghast",
         species: "Tumbleweed Pokémon",
-        type: ["Grass", "Ghost"],
+        types: ["Grass", "Ghost"],
         weight: 6,
         height: 1.2,
         evolutionStage: 2,
@@ -9781,7 +9781,7 @@ const paldea_region_pokemons = [
     {
         name: "Bramblin",
         species: "Tumbleweed Pokémon",
-        type: ["Grass", "Ghost"],
+        types: ["Grass", "Ghost"],
         weight: 0.6,
         height: 0.6,
         evolutionStage: 1,
@@ -9792,7 +9792,7 @@ const paldea_region_pokemons = [
     {
         name: "Brute-bonnet",
         species: "Paradox Pokémon",
-        type: ["Grass", "Dark"],
+        types: ["Grass", "Dark"],
         weight: 21,
         height: 1.2,
         evolutionStage: 1,
@@ -9803,7 +9803,7 @@ const paldea_region_pokemons = [
     {
         name: "Capsakid",
         species: "Spicy Pepper Pokémon",
-        type: ["Grass"],
+        types: ["Grass"],
         weight: 3,
         height: 0.3,
         evolutionStage: 1,
@@ -9814,7 +9814,7 @@ const paldea_region_pokemons = [
     {
         name: "Ceruledge",
         species: "Fire Blades Pokémon",
-        type: ["Fire", "Ghost"],
+        types: ["Fire", "Ghost"],
         weight: 62,
         height: 1.6,
         evolutionStage: 2,
@@ -9825,7 +9825,7 @@ const paldea_region_pokemons = [
     {
         name: "Cetitan",
         species: "Terra Whale Pokémon",
-        type: ["Ice"],
+        types: ["Ice"],
         weight: 700,
         height: 4.5,
         evolutionStage: 2,
@@ -9836,7 +9836,7 @@ const paldea_region_pokemons = [
     {
         name: "Cetoddle",
         species: "Terra Whale Pokémon",
-        type: ["Ice"],
+        types: ["Ice"],
         weight: 45,
         height: 1.2,
         evolutionStage: 1,
@@ -9847,7 +9847,7 @@ const paldea_region_pokemons = [
     {
         name: "Charcadet",
         species: "Fire Child Pokémon",
-        type: ["Fire"],
+        types: ["Fire"],
         weight: 10.5,
         height: 0.6,
         evolutionStage: 1,
@@ -9858,7 +9858,7 @@ const paldea_region_pokemons = [
     {
         name: "Chi-yu",
         species: "Ruinous Pokémon",
-        type: ["Dark", "Fire"],
+        types: ["Dark", "Fire"],
         weight: 4.9,
         height: 0.4,
         evolutionStage: 1,
@@ -9869,7 +9869,7 @@ const paldea_region_pokemons = [
     {
         name: "Chien-pao",
         species: "Ruinous Pokémon",
-        type: ["Dark", "Ice"],
+        types: ["Dark", "Ice"],
         weight: 152.2,
         height: 1.9,
         evolutionStage: 1,
@@ -9880,7 +9880,7 @@ const paldea_region_pokemons = [
     {
         name: "Clodsire",
         species: "Spiny Fish Pokémon",
-        type: ["Poison", "Ground"],
+        types: ["Poison", "Ground"],
         weight: 223,
         height: 1.8,
         evolutionStage: 2,
@@ -9891,7 +9891,7 @@ const paldea_region_pokemons = [
     {
         name: "Crocalor",
         species: "Fire Croc Pokémon",
-        type: ["Fire"],
+        types: ["Fire"],
         weight: 30.7,
         height: 1,
         evolutionStage: 2,
@@ -9902,7 +9902,7 @@ const paldea_region_pokemons = [
     {
         name: "Cyclizar",
         species: "Mount Pokémon",
-        type: ["Dragon", "Normal"],
+        types: ["Dragon", "Normal"],
         weight: 63,
         height: 1.6,
         evolutionStage: 1,
@@ -9913,7 +9913,7 @@ const paldea_region_pokemons = [
     {
         name: "Dachsbun",
         species: "Dog Pokémon",
-        type: ["Fairy"],
+        types: ["Fairy"],
         weight: 14.9,
         height: 0.5,
         evolutionStage: 2,
@@ -9924,7 +9924,7 @@ const paldea_region_pokemons = [
     {
         name: "Dipplin",
         species: "Candy Apple Pokémon",
-        type: ["Grass", "Dragon"],
+        types: ["Grass", "Dragon"],
         weight: 9.7,
         height: 0.4,
         evolutionStage: 2,
@@ -9935,7 +9935,7 @@ const paldea_region_pokemons = [
     {
         name: "Dolliv",
         species: "Olive Pokémon",
-        type: ["Grass", "Normal"],
+        types: ["Grass", "Normal"],
         weight: 11.9,
         height: 0.6,
         evolutionStage: 2,
@@ -9946,7 +9946,7 @@ const paldea_region_pokemons = [
     {
         name: "Dondozo",
         species: "Big Catfish Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 220,
         height: 12,
         evolutionStage: 1,
@@ -9957,7 +9957,7 @@ const paldea_region_pokemons = [
     {
         name: "Dudunsparce",
         species: "Land Snake Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 39.2,
         height: 3.6,
         evolutionStage: 2,
@@ -9968,7 +9968,7 @@ const paldea_region_pokemons = [
     {
         name: "Espathra",
         species: "Ostrich Pokémon",
-        type: ["Psychic"],
+        types: ["Psychic"],
         weight: 90,
         height: 1.9,
         evolutionStage: 2,
@@ -9979,7 +9979,7 @@ const paldea_region_pokemons = [
     {
         name: "Farigiraf",
         species: "Long Neck Pokémon",
-        type: ["Normal", "Psychic"],
+        types: ["Normal", "Psychic"],
         weight: 160,
         height: 3.2,
         evolutionStage: 2,
@@ -9990,7 +9990,7 @@ const paldea_region_pokemons = [
     {
         name: "Fezandipiti",
         species: "Unknown",
-        type: ["Poison", "Fairy"],
+        types: ["Poison", "Fairy"],
         weight: 30.1,
         height: 1.4,
         evolutionStage: 1,
@@ -10001,7 +10001,7 @@ const paldea_region_pokemons = [
     {
         name: "Fidough",
         species: "Puppy Pokémon",
-        type: ["Fairy"],
+        types: ["Fairy"],
         weight: 10.9,
         height: 0.3,
         evolutionStage: 1,
@@ -10012,7 +10012,7 @@ const paldea_region_pokemons = [
     {
         name: "Finizen",
         species: "Dolphin Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 60.2,
         height: 1.3,
         evolutionStage: 1,
@@ -10023,7 +10023,7 @@ const paldea_region_pokemons = [
     {
         name: "Flamigo",
         species: "Synchronize Pokémon",
-        type: ["Flying", "Fighting"],
+        types: ["Flying", "Fighting"],
         weight: 37,
         height: 1.6,
         evolutionStage: 1,
@@ -10034,7 +10034,7 @@ const paldea_region_pokemons = [
     {
         name: "Flittle",
         species: "Frill Pokémon",
-        type: ["Psychic"],
+        types: ["Psychic"],
         weight: 1.5,
         height: 0.2,
         evolutionStage: 1,
@@ -10045,7 +10045,7 @@ const paldea_region_pokemons = [
     {
         name: "Floragato",
         species: "Grass Cat Pokémon",
-        type: ["Grass"],
+        types: ["Grass"],
         weight: 12.2,
         height: 0.9,
         evolutionStage: 2,
@@ -10056,7 +10056,7 @@ const paldea_region_pokemons = [
     {
         name: "Flutter-mane",
         species: "Paradox Pokémon",
-        type: ["Ghost", "Fairy"],
+        types: ["Ghost", "Fairy"],
         weight: 4,
         height: 1.4,
         evolutionStage: 1,
@@ -10067,7 +10067,7 @@ const paldea_region_pokemons = [
     {
         name: "Frigibax",
         species: "Ice Fin Pokémon",
-        type: ["Dragon", "Ice"],
+        types: ["Dragon", "Ice"],
         weight: 17,
         height: 0.5,
         evolutionStage: 1,
@@ -10078,7 +10078,7 @@ const paldea_region_pokemons = [
     {
         name: "Fuecoco",
         species: "Fire Croc Pokémon",
-        type: ["Fire"],
+        types: ["Fire"],
         weight: 9.8,
         height: 0.4,
         evolutionStage: 1,
@@ -10089,7 +10089,7 @@ const paldea_region_pokemons = [
     {
         name: "Garganacl",
         species: "Rock Salt Pokémon",
-        type: ["Rock"],
+        types: ["Rock"],
         weight: 240,
         height: 2.3,
         evolutionStage: 3,
@@ -10100,7 +10100,7 @@ const paldea_region_pokemons = [
     {
         name: "Gholdengo",
         species: "Coin Entity Pokémon",
-        type: ["Steel", "Ghost"],
+        types: ["Steel", "Ghost"],
         weight: 30,
         height: 1.2,
         evolutionStage: 2,
@@ -10111,7 +10111,7 @@ const paldea_region_pokemons = [
     {
         name: "Gimmighoul",
         species: "Coin Chest Pokémon",
-        type: ["Ghost"],
+        types: ["Ghost"],
         weight: 5,
         height: 0.3,
         evolutionStage: 1,
@@ -10122,7 +10122,7 @@ const paldea_region_pokemons = [
     {
         name: "Glimmet",
         species: "Ore Pokémon",
-        type: ["Rock", "Poison"],
+        types: ["Rock", "Poison"],
         weight: 8,
         height: 0.7,
         evolutionStage: 1,
@@ -10133,7 +10133,7 @@ const paldea_region_pokemons = [
     {
         name: "Glimmora",
         species: "Ore Pokémon",
-        type: ["Rock", "Poison"],
+        types: ["Rock", "Poison"],
         weight: 45,
         height: 1.5,
         evolutionStage: 2,
@@ -10144,7 +10144,7 @@ const paldea_region_pokemons = [
     {
         name: "Gouging-fire",
         species: "Paladox Pokémon",
-        type: ["Fire", "Dragon"],
+        types: ["Fire", "Dragon"],
         weight: 590,
         height: 3.5,
         evolutionStage: 1,
@@ -10155,7 +10155,7 @@ const paldea_region_pokemons = [
     {
         name: "Grafaiai",
         species: "Toxic Monkey Pokémon",
-        type: ["Poison", "Normal"],
+        types: ["Poison", "Normal"],
         weight: 27.2,
         height: 0.7,
         evolutionStage: 2,
@@ -10166,7 +10166,7 @@ const paldea_region_pokemons = [
     {
         name: "Great-tusk",
         species: "Paradox Pokémon",
-        type: ["Ground", "Fighting"],
+        types: ["Ground", "Fighting"],
         weight: 320,
         height: 2.2,
         evolutionStage: 1,
@@ -10177,7 +10177,7 @@ const paldea_region_pokemons = [
     {
         name: "Greavard",
         species: "Ghost Dog Pokémon",
-        type: ["Ghost"],
+        types: ["Ghost"],
         weight: 35,
         height: 0.6,
         evolutionStage: 1,
@@ -10188,7 +10188,7 @@ const paldea_region_pokemons = [
     {
         name: "Houndstone",
         species: "Ghost Dog Pokémon",
-        type: ["Ghost"],
+        types: ["Ghost"],
         weight: 15,
         height: 2,
         evolutionStage: 2,
@@ -10199,7 +10199,7 @@ const paldea_region_pokemons = [
     {
         name: "Hydrapple",
         species: "Apple Hydra Pokémon",
-        type: ["Grass", "Dragon"],
+        types: ["Grass", "Dragon"],
         weight: 93,
         height: 1.8,
         evolutionStage: 3,
@@ -10210,7 +10210,7 @@ const paldea_region_pokemons = [
     {
         name: "Iron-boulder",
         species: "Paradox Pokémon",
-        type: ["Rock", "Psychic"],
+        types: ["Rock", "Psychic"],
         weight: 162.5,
         height: 1.5,
         evolutionStage: 1,
@@ -10221,7 +10221,7 @@ const paldea_region_pokemons = [
     {
         name: "Iron-bundle",
         species: "Paradox Pokémon",
-        type: ["Ice", "Water"],
+        types: ["Ice", "Water"],
         weight: 11,
         height: 0.6,
         evolutionStage: 1,
@@ -10232,7 +10232,7 @@ const paldea_region_pokemons = [
     {
         name: "Iron-crown",
         species: "Paladox Pokémon",
-        type: ["Steel", "Psychic"],
+        types: ["Steel", "Psychic"],
         weight: 156,
         height: 1.6,
         evolutionStage: 1,
@@ -10243,7 +10243,7 @@ const paldea_region_pokemons = [
     {
         name: "Iron-hands",
         species: "Paradox Pokémon",
-        type: ["Fighting", "Electric"],
+        types: ["Fighting", "Electric"],
         weight: 380.7,
         height: 1.8,
         evolutionStage: 1,
@@ -10254,7 +10254,7 @@ const paldea_region_pokemons = [
     {
         name: "Iron-jugulis",
         species: "Paradox Pokémon",
-        type: ["Dark", "Flying"],
+        types: ["Dark", "Flying"],
         weight: 111,
         height: 1.3,
         evolutionStage: 1,
@@ -10265,7 +10265,7 @@ const paldea_region_pokemons = [
     {
         name: "Iron-leaves",
         species: "Paradox Pokémon",
-        type: ["Grass", "Psychic"],
+        types: ["Grass", "Psychic"],
         weight: 125,
         height: 1.5,
         evolutionStage: 1,
@@ -10276,7 +10276,7 @@ const paldea_region_pokemons = [
     {
         name: "Iron-moth",
         species: "Paradox Pokémon",
-        type: ["Fire", "Poison"],
+        types: ["Fire", "Poison"],
         weight: 36,
         height: 1.2,
         evolutionStage: 1,
@@ -10287,7 +10287,7 @@ const paldea_region_pokemons = [
     {
         name: "Iron-thorns",
         species: "Paradox Pokémon",
-        type: ["Rock", "Electric"],
+        types: ["Rock", "Electric"],
         weight: 303,
         height: 1.6,
         evolutionStage: 1,
@@ -10298,7 +10298,7 @@ const paldea_region_pokemons = [
     {
         name: "Iron-treads",
         species: "Paradox Pokémon",
-        type: ["Ground", "Steel"],
+        types: ["Ground", "Steel"],
         weight: 240,
         height: 0.9,
         evolutionStage: 1,
@@ -10309,7 +10309,7 @@ const paldea_region_pokemons = [
     {
         name: "Iron-valiant",
         species: "Paradox Pokémon",
-        type: ["Fairy", "Fighting"],
+        types: ["Fairy", "Fighting"],
         weight: 35,
         height: 1.4,
         evolutionStage: 1,
@@ -10320,7 +10320,7 @@ const paldea_region_pokemons = [
     {
         name: "Kilowattrel",
         species: "Frigatebird Pokémon",
-        type: ["Electric", "Flying"],
+        types: ["Electric", "Flying"],
         weight: 38.6,
         height: 1.4,
         evolutionStage: 2,
@@ -10331,7 +10331,7 @@ const paldea_region_pokemons = [
     {
         name: "Kingambit",
         species: "Big Blade Pokémon",
-        type: ["Dark", "Steel"],
+        types: ["Dark", "Steel"],
         weight: 120,
         height: 2,
         evolutionStage: 3,
@@ -10342,7 +10342,7 @@ const paldea_region_pokemons = [
     {
         name: "Klawf",
         species: "Ambush Pokémon",
-        type: ["Rock"],
+        types: ["Rock"],
         weight: 79,
         height: 1.3,
         evolutionStage: 1,
@@ -10353,7 +10353,7 @@ const paldea_region_pokemons = [
     {
         name: "Koraidon",
         species: "Paradox Pokémon",
-        type: ["Fighting", "Dragon"],
+        types: ["Fighting", "Dragon"],
         weight: 303,
         height: 2.5,
         evolutionStage: 1,
@@ -10364,7 +10364,7 @@ const paldea_region_pokemons = [
     {
         name: "Lechonk",
         species: "Hog Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 10.2,
         height: 0.5,
         evolutionStage: 1,
@@ -10375,7 +10375,7 @@ const paldea_region_pokemons = [
     {
         name: "Lokix",
         species: "Grasshopper Pokémon",
-        type: ["Bug", "Dark"],
+        types: ["Bug", "Dark"],
         weight: 17.5,
         height: 1,
         evolutionStage: 2,
@@ -10386,7 +10386,7 @@ const paldea_region_pokemons = [
     {
         name: "Mabosstiff",
         species: "Boss Pokémon",
-        type: ["Dark"],
+        types: ["Dark"],
         weight: 61,
         height: 1.1,
         evolutionStage: 2,
@@ -10397,7 +10397,7 @@ const paldea_region_pokemons = [
     {
         name: "Maschiff",
         species: "Rascal Pokémon",
-        type: ["Dark"],
+        types: ["Dark"],
         weight: 16,
         height: 0.5,
         evolutionStage: 1,
@@ -10408,7 +10408,7 @@ const paldea_region_pokemons = [
     {
         name: "Maushold",
         species: "Family Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 2.3,
         height: 0.3,
         evolutionStage: 2,
@@ -10419,7 +10419,7 @@ const paldea_region_pokemons = [
     {
         name: "Meowscarada",
         species: "Magician Pokémon",
-        type: ["Grass", "Dark"],
+        types: ["Grass", "Dark"],
         weight: 31.2,
         height: 1.5,
         evolutionStage: 3,
@@ -10430,7 +10430,7 @@ const paldea_region_pokemons = [
     {
         name: "Miraidon",
         species: "Paradox Pokémon",
-        type: ["Electric", "Dragon"],
+        types: ["Electric", "Dragon"],
         weight: 240,
         height: 3.5,
         evolutionStage: 1,
@@ -10441,7 +10441,7 @@ const paldea_region_pokemons = [
     {
         name: "Munkidori",
         species: "Retainer Pokémon",
-        type: ["Poison", "Psychic"],
+        types: ["Poison", "Psychic"],
         weight: 12.2,
         height: 1,
         evolutionStage: 1,
@@ -10452,7 +10452,7 @@ const paldea_region_pokemons = [
     {
         name: "Nacli",
         species: "Rock Salt Pokémon",
-        type: ["Rock"],
+        types: ["Rock"],
         weight: 16,
         height: 0.4,
         evolutionStage: 1,
@@ -10463,7 +10463,7 @@ const paldea_region_pokemons = [
     {
         name: "Naclstack",
         species: "Rock Salt Pokémon",
-        type: ["Rock"],
+        types: ["Rock"],
         weight: 105,
         height: 0.6,
         evolutionStage: 2,
@@ -10474,7 +10474,7 @@ const paldea_region_pokemons = [
     {
         name: "Nymble",
         species: "Grasshopper Pokémon",
-        type: ["Bug"],
+        types: ["Bug"],
         weight: 1,
         height: 0.2,
         evolutionStage: 1,
@@ -10485,7 +10485,7 @@ const paldea_region_pokemons = [
     {
         name: "Ogerpon",
         species: "Unknown",
-        type: ["Grass"],
+        types: ["Grass"],
         weight: 39.8,
         height: 1.2,
         evolutionStage: 1,
@@ -10496,7 +10496,7 @@ const paldea_region_pokemons = [
     {
         name: "Okidogi",
         species: "Retainer Pokémon",
-        type: ["Poison", "Fighting"],
+        types: ["Poison", "Fighting"],
         weight: 92.2,
         height: 1.8,
         evolutionStage: 1,
@@ -10507,7 +10507,7 @@ const paldea_region_pokemons = [
     {
         name: "Orthworm",
         species: "Earthworm Pokémon",
-        type: ["Steel"],
+        types: ["Steel"],
         weight: 310,
         height: 2.5,
         evolutionStage: 1,
@@ -10518,7 +10518,7 @@ const paldea_region_pokemons = [
     {
         name: "Pawmi",
         species: "Mouse Pokémon",
-        type: ["Electric"],
+        types: ["Electric"],
         weight: 2.5,
         height: 0.3,
         evolutionStage: 1,
@@ -10529,7 +10529,7 @@ const paldea_region_pokemons = [
     {
         name: "Pawmo",
         species: "Mouse Pokémon",
-        type: ["Electric", "Fighting"],
+        types: ["Electric", "Fighting"],
         weight: 6.5,
         height: 0.4,
         evolutionStage: 2,
@@ -10540,7 +10540,7 @@ const paldea_region_pokemons = [
     {
         name: "Pawmot",
         species: "Hands-On Pokémon",
-        type: ["Electric", "Fighting"],
+        types: ["Electric", "Fighting"],
         weight: 41,
         height: 0.9,
         evolutionStage: 3,
@@ -10551,7 +10551,7 @@ const paldea_region_pokemons = [
     {
         name: "Pecharunt",
         species: "Subjugation Pokémon",
-        type: ["Poison", "Ghost"],
+        types: ["Poison", "Ghost"],
         weight: 0.3,
         height: 0.3,
         evolutionStage: 1,
@@ -10562,7 +10562,7 @@ const paldea_region_pokemons = [
     {
         name: "Poltchageist",
         species: "Matcha Pokémon",
-        type: ["Grass", "Ghost"],
+        types: ["Grass", "Ghost"],
         weight: 1.1,
         height: 0.1,
         evolutionStage: 1,
@@ -10573,7 +10573,7 @@ const paldea_region_pokemons = [
     {
         name: "Quaquaval",
         species: "Dancer Pokémon",
-        type: ["Water", "Fighting"],
+        types: ["Water", "Fighting"],
         weight: 61.9,
         height: 1.8,
         evolutionStage: 3,
@@ -10584,7 +10584,7 @@ const paldea_region_pokemons = [
     {
         name: "Quaxly",
         species: "Duckling Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 6.1,
         height: 0.5,
         evolutionStage: 1,
@@ -10595,7 +10595,7 @@ const paldea_region_pokemons = [
     {
         name: "Quaxwell",
         species: "Practicing Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 21.5,
         height: 1.2,
         evolutionStage: 2,
@@ -10606,7 +10606,7 @@ const paldea_region_pokemons = [
     {
         name: "Rabsca",
         species: "Rolling Pokémon",
-        type: ["Bug", "Psychic"],
+        types: ["Bug", "Psychic"],
         weight: 3.5,
         height: 0.3,
         evolutionStage: 2,
@@ -10617,7 +10617,7 @@ const paldea_region_pokemons = [
     {
         name: "Raging-bolt",
         species: "Paladox Pokémon",
-        type: ["Electric", "Dragon"],
+        types: ["Electric", "Dragon"],
         weight: 480,
         height: 5.2,
         evolutionStage: 1,
@@ -10628,7 +10628,7 @@ const paldea_region_pokemons = [
     {
         name: "Rellor",
         species: "Rolling Pokémon",
-        type: ["Bug"],
+        types: ["Bug"],
         weight: 1,
         height: 0.2,
         evolutionStage: 1,
@@ -10639,7 +10639,7 @@ const paldea_region_pokemons = [
     {
         name: "Revavroom",
         species: "Multi-Cyl Pokémon",
-        type: ["Steel", "Poison"],
+        types: ["Steel", "Poison"],
         weight: 120,
         height: 1.8,
         evolutionStage: 2,
@@ -10650,7 +10650,7 @@ const paldea_region_pokemons = [
     {
         name: "Roaring-moon",
         species: "Paradox Pokémon",
-        type: ["Dragon", "Dark"],
+        types: ["Dragon", "Dark"],
         weight: 380,
         height: 2,
         evolutionStage: 1,
@@ -10661,7 +10661,7 @@ const paldea_region_pokemons = [
     {
         name: "Sandy-shocks",
         species: "Paradox Pokémon",
-        type: ["Electric", "Ground"],
+        types: ["Electric", "Ground"],
         weight: 60,
         height: 2.3,
         evolutionStage: 1,
@@ -10672,7 +10672,7 @@ const paldea_region_pokemons = [
     {
         name: "Scovillain",
         species: "Spicy Pepper Pokémon",
-        type: ["Grass", "Fire"],
+        types: ["Grass", "Fire"],
         weight: 15,
         height: 0.9,
         evolutionStage: 2,
@@ -10683,7 +10683,7 @@ const paldea_region_pokemons = [
     {
         name: "Scream-tail",
         species: "Paradox Pokémon",
-        type: ["Fairy", "Psychic"],
+        types: ["Fairy", "Psychic"],
         weight: 8,
         height: 1.2,
         evolutionStage: 1,
@@ -10694,7 +10694,7 @@ const paldea_region_pokemons = [
     {
         name: "Shroodle",
         species: "Toxic Mouse Pokémon",
-        type: ["Poison", "Normal"],
+        types: ["Poison", "Normal"],
         weight: 0.7,
         height: 0.2,
         evolutionStage: 1,
@@ -10705,7 +10705,7 @@ const paldea_region_pokemons = [
     {
         name: "Sinistcha",
         species: "Matcha Pokémon",
-        type: ["Grass", "Ghost"],
+        types: ["Grass", "Ghost"],
         weight: 2.2,
         height: 0.2,
         evolutionStage: 2,
@@ -10716,7 +10716,7 @@ const paldea_region_pokemons = [
     {
         name: "Skeledirge",
         species: "Singer Pokémon",
-        type: ["Fire", "Ghost"],
+        types: ["Fire", "Ghost"],
         weight: 326.5,
         height: 1.6,
         evolutionStage: 3,
@@ -10727,7 +10727,7 @@ const paldea_region_pokemons = [
     {
         name: "Slither-wing",
         species: "Paradox Pokémon",
-        type: ["Bug", "Fighting"],
+        types: ["Bug", "Fighting"],
         weight: 92,
         height: 3.2,
         evolutionStage: 1,
@@ -10738,7 +10738,7 @@ const paldea_region_pokemons = [
     {
         name: "Smoliv",
         species: "Olive Pokémon",
-        type: ["Grass", "Normal"],
+        types: ["Grass", "Normal"],
         weight: 6.5,
         height: 0.3,
         evolutionStage: 1,
@@ -10749,7 +10749,7 @@ const paldea_region_pokemons = [
     {
         name: "Spidops",
         species: "Trap Pokémon",
-        type: ["Bug"],
+        types: ["Bug"],
         weight: 16.5,
         height: 1,
         evolutionStage: 2,
@@ -10760,7 +10760,7 @@ const paldea_region_pokemons = [
     {
         name: "Sprigatito",
         species: "Grass Cat Pokémon",
-        type: ["Grass"],
+        types: ["Grass"],
         weight: 4.1,
         height: 0.4,
         evolutionStage: 1,
@@ -10771,7 +10771,7 @@ const paldea_region_pokemons = [
     {
         name: "Squawkabilly",
         species: "Parrot Pokémon",
-        type: ["Normal", "Flying"],
+        types: ["Normal", "Flying"],
         weight: 2.4,
         height: 0.6,
         evolutionStage: 1,
@@ -10782,7 +10782,7 @@ const paldea_region_pokemons = [
     {
         name: "Tadbulb",
         species: "EleTadpole Pokémon",
-        type: ["Electric"],
+        types: ["Electric"],
         weight: 0.4,
         height: 0.3,
         evolutionStage: 1,
@@ -10793,7 +10793,7 @@ const paldea_region_pokemons = [
     {
         name: "Tandemaus",
         species: "Couple Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 1.8,
         height: 0.3,
         evolutionStage: 1,
@@ -10804,7 +10804,7 @@ const paldea_region_pokemons = [
     {
         name: "Tarountula",
         species: "String Ball Pokémon",
-        type: ["Bug"],
+        types: ["Bug"],
         weight: 4,
         height: 0.3,
         evolutionStage: 1,
@@ -10815,7 +10815,7 @@ const paldea_region_pokemons = [
     {
         name: "Terapagos",
         species: "Tera Pokémon",
-        type: ["Normal"],
+        types: ["Normal"],
         weight: 6.5,
         height: 0.2,
         evolutionStage: 1,
@@ -10826,7 +10826,7 @@ const paldea_region_pokemons = [
     {
         name: "Ting-lu",
         species: "Ruinous Pokémon",
-        type: ["Dark", "Ground"],
+        types: ["Dark", "Ground"],
         weight: 699.7,
         height: 2.7,
         evolutionStage: 1,
@@ -10837,7 +10837,7 @@ const paldea_region_pokemons = [
     {
         name: "Tinkatink",
         species: "Metalsmith Pokémon",
-        type: ["Fairy", "Steel"],
+        types: ["Fairy", "Steel"],
         weight: 8.9,
         height: 0.4,
         evolutionStage: 1,
@@ -10848,7 +10848,7 @@ const paldea_region_pokemons = [
     {
         name: "Tinkaton",
         species: "Hammer Pokémon",
-        type: ["Fairy", "Steel"],
+        types: ["Fairy", "Steel"],
         weight: 112.8,
         height: 0.7,
         evolutionStage: 3,
@@ -10859,7 +10859,7 @@ const paldea_region_pokemons = [
     {
         name: "Tinkatuff",
         species: "Hammer Pokémon",
-        type: ["Fairy", "Steel"],
+        types: ["Fairy", "Steel"],
         weight: 59.1,
         height: 0.7,
         evolutionStage: 2,
@@ -10870,7 +10870,7 @@ const paldea_region_pokemons = [
     {
         name: "Toedscool",
         species: "Woodear Pokémon",
-        type: ["Ground", "Grass"],
+        types: ["Ground", "Grass"],
         weight: 33,
         height: 0.9,
         evolutionStage: 1,
@@ -10881,7 +10881,7 @@ const paldea_region_pokemons = [
     {
         name: "Toedscruel",
         species: "Woodear Pokémon",
-        type: ["Ground", "Grass"],
+        types: ["Ground", "Grass"],
         weight: 58,
         height: 1.9,
         evolutionStage: 2,
@@ -10892,7 +10892,7 @@ const paldea_region_pokemons = [
     {
         name: "Varoom",
         species: "Single-Cyl Pokémon",
-        type: ["Steel", "Poison"],
+        types: ["Steel", "Poison"],
         weight: 35,
         height: 1,
         evolutionStage: 1,
@@ -10903,7 +10903,7 @@ const paldea_region_pokemons = [
     {
         name: "Veluza",
         species: "Jettison Pokémon",
-        type: ["Water", "Psychic"],
+        types: ["Water", "Psychic"],
         weight: 90,
         height: 2.5,
         evolutionStage: 1,
@@ -10914,7 +10914,7 @@ const paldea_region_pokemons = [
     {
         name: "Walking-wake",
         species: "Paradox Pokémon",
-        type: ["Water", "Dragon"],
+        types: ["Water", "Dragon"],
         weight: 280,
         height: 3.5,
         evolutionStage: 1,
@@ -10925,7 +10925,7 @@ const paldea_region_pokemons = [
     {
         name: "Wattrel",
         species: "Storm Petrel Pokémon",
-        type: ["Electric", "Flying"],
+        types: ["Electric", "Flying"],
         weight: 3.6,
         height: 0.4,
         evolutionStage: 1,
@@ -10936,7 +10936,7 @@ const paldea_region_pokemons = [
     {
         name: "Wiglett",
         species: "Garden Eel Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 1.8,
         height: 1.2,
         evolutionStage: 1,
@@ -10947,7 +10947,7 @@ const paldea_region_pokemons = [
     {
         name: "Wo-chien",
         species: "Ruinous Pokémon",
-        type: ["Dark", "Grass"],
+        types: ["Dark", "Grass"],
         weight: 74.2,
         height: 1.5,
         evolutionStage: 1,
@@ -10958,7 +10958,7 @@ const paldea_region_pokemons = [
     {
         name: "Wugtrio",
         species: "Garden Eel Pokémon",
-        type: ["Water"],
+        types: ["Water"],
         weight: 5.4,
         height: 1.2,
         evolutionStage: 2,
