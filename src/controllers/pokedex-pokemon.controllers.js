@@ -2,6 +2,7 @@ import async_handler from "../utils/async-handler.util.js";
 import pokemons from "../constants/pokedex-pokemon.constants.js";
 import pokedex_pokemon_model from "../models/pokedex-pokemon.model.js";
 
+// optimized util functions to make usable ones
 const fetch_pokemons = (region_pokemons, region_name) =>
     async_handler(async (req, res) => {
         try {
@@ -85,6 +86,7 @@ const delete_pokemons = (region_pokemons, region_name) =>
         }
     });
 
+// region names here to make usable functions
 const region_names = [
     "all",
     "kanto",
@@ -98,8 +100,10 @@ const region_names = [
     "paldea",
 ];
 
+// empty object to fill with generated functions
 let controller_functions = {};
 
+// generating functions based on the region names
 region_names.forEach((region) => {
     controller_functions[`fetch_${region}_pokemons`] = fetch_pokemons(
         pokemons[region],
@@ -115,4 +119,5 @@ region_names.forEach((region) => {
     );
 });
 
+// exporting the controller functions object
 export default controller_functions;
