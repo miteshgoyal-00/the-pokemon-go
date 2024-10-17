@@ -13,23 +13,14 @@ const fetch_pokemons = (region_pokemons, region_name) =>
                 .select("-_id -__v");
 
             if (pokemons)
-                res.status(200).json({
-                    success: true,
-                    [`${region_name}_pokemons`]: "fetched",
+                res.success(200, `${region_name} pokemons fetched`, {
                     pokemons_count: pokemons.length,
                     pokemons: pokemons,
                 });
-            else
-                res.status(500).json({
-                    success: false,
-                    [`${region_name}_pokemons`]: "not fetched",
-                });
+            else res.failure(500, `${region_name} pokemons not fetched`);
         } catch (error) {
             console.log("ERROR CAUGHT: ", error.message);
-            res.status(400).json({
-                success: false,
-                error: error.message,
-            });
+            res.failure(400, error.message);
         }
     });
 
@@ -40,22 +31,13 @@ const create_pokemons = (region_pokemons, region_name) =>
                 await pokedex_pokemon_model.insertMany(region_pokemons);
 
             if (result)
-                res.status(200).json({
-                    success: true,
-                    [`${region_name}_pokemons_creation`]: "successful",
+                res.success(200, `${region_name} pokemons created`, {
                     creations_count: result.length,
                 });
-            else
-                res.status(500).json({
-                    success: false,
-                    [`${region_name}_pokemons_creation`]: "failed",
-                });
+            else res.failure(500, `${region_name} pokemons creation failed`);
         } catch (error) {
             console.log("ERROR CAUGHT: ", error.message);
-            res.status(400).json({
-                success: false,
-                error: error.message,
-            });
+            res.failure(400, error.message);
         }
     });
 
@@ -67,22 +49,14 @@ const delete_pokemons = (region_pokemons, region_name) =>
             });
 
             if (result)
-                res.status(200).json({
-                    success: true,
-                    [`${region_name}_pokemons_deletion`]: "successful",
+                res.success(200, `${region_name} pokemons deleted`, {
                     deletions_count: result.deletedCount,
                 });
             else
-                res.status(500).json({
-                    success: false,
-                    [`${region_name}_pokemons_deletion`]: "failed",
-                });
+               res.failure(500, `${region_name} pokemons deletion failed`);
         } catch (error) {
             console.log("ERROR CAUGHT: ", error.message);
-            res.status(400).json({
-                success: false,
-                error: error.message,
-            });
+            res.failure(400, error.message);
         }
     });
 

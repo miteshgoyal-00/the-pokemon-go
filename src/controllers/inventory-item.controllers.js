@@ -28,17 +28,12 @@ const create_inventory_item = async_handler(async (req, res) => {
             category,
         });
 
-        res.status(200).json({
-            success: true,
-            new_item_creation: "successful",
+        res.success(200, "new item creation successful", {
             item: new_item,
         });
     } catch (error) {
         console.log("ERROR CAUGHT: ", error.message);
-        res.status(400).json({
-            success: false,
-            error: error.message,
-        });
+        res.failure(400, error.message);
     }
 });
 
@@ -48,17 +43,12 @@ const create_default_items = async_handler(async (req, res) => {
             default_inventory_items
         );
 
-        res.status(200).json({
-            success: true,
-            default_items_creations: "successful",
-            creations_count: result.length,
+        res.success(200, "default items creation successful", {
+            creation_count: result.length,
         });
     } catch (error) {
         console.log("ERROR CAUGHT: ", error.message);
-        res.status(400).json({
-            success: false,
-            error: error.message,
-        });
+        res.failure(400, error.message);
     }
 });
 
@@ -68,26 +58,19 @@ const delete_default_items = async_handler(async (req, res) => {
             name: { $in: default_inventory_items.map((item) => item.name) },
         });
 
-        res.status(200).json({
-            success: true,
-            default_items_deletions: "successful",
-            deletions_count: result.deletedCount,
+        res.success(200, "default items deletion successful", {
+            deletion_count: result.deletedCount,
         });
     } catch (error) {
         console.log("ERROR CAUGHT: ", error.message);
-        res.status(400).json({
-            success: false,
-            error: error.message,
-        });
+        res.failure(400, error.message);
     }
 });
 
 const all_inventory_items = async_handler(async (req, res) => {
     const items = await inventory_item_model.find().select("-_id -__v");
 
-    res.status(200).json({
-        success: true,
-        all_inventory_items: "fetched",
+    res.success(200, "all inventory items fetched", {
         items_count: items.length,
         items: items,
     });

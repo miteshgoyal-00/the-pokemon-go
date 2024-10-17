@@ -5,13 +5,6 @@ import pokedex_pokemon_model from "../models/pokedex-pokemon.model.js";
 
 const router = Router();
 
-const json_response = (req, deleted) => ({
-    success: true,
-    deleted_all: true,
-    from_model: req.path.split("/").pop(),
-    deleted_count: deleted.deletedCount,
-});
-
 const routes_and_models = {
     trainees: trainee_model,
     "inventory-items": inventory_item_model,
@@ -21,7 +14,10 @@ const routes_and_models = {
 Object.entries(routes_and_models).forEach(([route, model]) => {
     router.route(`/${route}`).delete(async (req, res) => {
         const deleted = await model.deleteMany();
-        res.json(json_response(req, deleted));
+        res.success(200, "all data deleted", {
+            from_model: req.path.split("/").pop(),
+            deleted_count: deleted.deletedCount,
+        });
     });
 });
 

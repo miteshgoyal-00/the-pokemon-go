@@ -29,7 +29,7 @@ const is_logged_in = async_handler(async (req, res, next) => {
         next();
     } catch (error) {
         console.log("ERROR CAUGHT: ", error.message);
-        res.status(400).json({ error: error.message });
+        res.failure(400, error.message);
     }
 });
 

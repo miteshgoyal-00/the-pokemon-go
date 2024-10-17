@@ -67,21 +67,17 @@ const fetch_trainee_info = async_handler(async (req, res) => {
 
         const trainee = await trainee_model.findOne({ name: name });
         if (trainee)
-            res.status(200).json({
-                success: true,
-                trainee: "fetched",
-                name: name,
+            res.success(200, "trainee fetched", {
+                name,
                 info: trainee,
             });
         else
-            res.status(500).json({
-                success: false,
-                trainee: "not fetched",
+            res.failure(500, "trainee not fetched", {
                 name: name,
             });
     } catch (error) {
         console.log("ERROR CAUGHT: ", error.message);
-        res.status(400).json({ success: false, error: error.message });
+        res.failure(400, error.message);
     }
 });
 
@@ -91,21 +87,18 @@ const delete_trainee_account = async_handler(async (req, res) => {
 
         const trainee = await trainee_model.findOneAndDelete({ name: name });
         if (trainee)
-            res.status(200).json({
-                success: true,
-                trainee: "deleted",
-                name: name,
+            res.success(200, "trainee deleted", {
+                name,
                 info: trainee,
             });
         else
-            res.status(500).json({
-                success: false,
-                trainee: "not deleted",
-                name: name,
+            res.failure(500, "trainee not deleted", {
+                name,
+                info: trainee,
             });
     } catch (error) {
         console.log("ERROR CAUGHT: ", error.message);
-        res.status(400).json({ success: false, error: error.message });
+        res.failure(400, error.message);
     }
 });
 
@@ -166,17 +159,14 @@ const register_trainee = async_handler(async (req, res) => {
 
         const created_trainee = await trainee_model.findById(new_trainee._id);
 
-        res.status(200)
-            .cookie("access_token", access_token, cookie_options)
+        res.cookie("access_token", access_token, cookie_options)
             .cookie("refresh_token", refresh_token, cookie_options)
-            .json({
-                success: true,
-                registeration: "successful",
+            .success(200, "registeration successful", {
                 trainee: created_trainee,
             });
     } catch (error) {
         console.log("ERROR CAUGHT: ", error.message);
-        res.status(400).json({ error: error.message });
+        res.failure(400, error.message);
     }
 });
 
@@ -206,17 +196,14 @@ const login_trainee = async_handler(async (req, res) => {
 
         // console.log(access_token, refresh_token);
 
-        res.status(200)
-            .cookie("access_token", access_token, cookie_options)
+        res.cookie("access_token", access_token, cookie_options)
             .cookie("refresh_token", refresh_token, cookie_options)
-            .json({
-                success: true,
-                login: "successful",
+            .success(200, "login successful", {
                 trainee: existing_trainee,
             });
     } catch (error) {
         console.log("ERROR CAUGHT: ", error.message);
-        res.status(400).json({ error: error.message });
+        res.failure(400, error.message);
     }
 });
 
@@ -233,12 +220,9 @@ const logout_trainee = async_handler(async (req, res, next) => {
         }
     );
 
-    res.status(200)
-        .clearCookie("access_token", cookie_options)
+    res.clearCookie("access_token", cookie_options)
         .clearCookie("refresh_token", cookie_options)
-        .json({
-            success: true,
-            logout: "successful",
+        .success(200, "logout successful", {
             linkedIds: [
                 trainee.linkedPlatforms.googleId,
                 trainee.linkedPlatforms.facebookId,
