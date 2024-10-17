@@ -198,7 +198,7 @@ async function processGenerations() {
                         speciesName.charAt(0).toUpperCase() +
                         speciesName.slice(1),
                     species: pokemonData.species,
-                    type: pokemonData.types,
+                    types: pokemonData.types,
                     weight: pokemonData.weight,
                     height: pokemonData.height,
                     evolutionStage: pokemonData.evolutionStage,
